@@ -1,0 +1,935 @@
+species,prevalence,kept
+Faecalibacterium prausnitzii,0.9413965087281796,True
+Streptococcus salivarius,0.8403990024937655,True
+Anaerostipes hadrus,0.8298004987531172,True
+Bacteroides stercoris,0.5629675810473815,True
+Collinsella aerofaciens,0.8347880299251871,True
+Bifidobacterium longum,0.7793017456359103,True
+Phocaeicola plebeius,0.3428927680798005,True
+Phocaeicola vulgatus,0.8572319201995012,True
+Dorea longicatena,0.763715710723192,True
+Eubacterium sp. CAG:251,0.20511221945137156,True
+Fusicatenibacter saccharivorans,0.8428927680798005,True
+Coprococcus comes,0.672069825436409,True
+[Ruminococcus] torques,0.6253117206982544,True
+Anaerobutyricum hallii,0.7930174563591023,True
+Holdemanella biformis,0.27743142144638405,True
+Bacteroides uniformis,0.9233167082294265,True
+Blautia wexlerae,0.8684538653366584,True
+Gemmiger formicilis,0.706359102244389,True
+Dorea formicigenerans,0.7468827930174564,True
+Streptococcus parasanguinis,0.7743142144638404,True
+Coprococcus eutactus,0.2387780548628429,True
+[Ruminococcus] lactaris,0.35972568578553615,True
+Coprococcus catus,0.6034912718204489,True
+Roseburia intestinalis,0.5972568578553616,True
+Roseburia inulinivorans,0.7955112219451371,True
+Phascolarctobacterium succinatutens,0.29925187032418954,True
+[Eubacterium] rectale,0.7655860349127181,True
+Blautia obeum,0.7917705735660848,True
+Agathobaculum butyriciproducens,0.8553615960099751,True
+Bacteroides xylanisolvens,0.6982543640897756,True
+Bacteroides ovatus,0.7836658354114713,True
+Bacteroides thetaiotaomicron,0.8017456359102244,True
+Streptococcus thermophilus,0.42768079800498754,True
+Eubacterium ramulus,0.6103491271820449,True
+Bifidobacterium adolescentis,0.5716957605985037,True
+Eubacterium sp. CAG:274,0.25124688279301743,True
+Lactococcus lactis,0.16708229426433915,True
+Eubacterium ventriosum,0.5317955112219451,True
+Flavonifractor plautii,0.8559850374064838,True
+Lacticaseibacillus rhamnosus,0.04488778054862843,False
+Gemella sanguinis,0.46633416458852867,True
+Streptococcus infantis,0.3179551122194514,True
+Lactobacillus delbrueckii,0.08416458852867831,False
+Hafnia paralvei,0.023067331670822942,False
+Latilactobacillus curvatus,0.021820448877805487,False
+Streptococcus mitis,0.4669576059850374,True
+Rothia mucilaginosa,0.3871571072319202,True
+Oscillibacter sp. 57_20,0.5280548628428927,True
+Roseburia hominis,0.7013715710723192,True
+Haemophilus parainfluenzae,0.4669576059850374,True
+Roseburia sp. CAG:471,0.36034912718204487,True
+Schaalia odontolytica,0.4339152119700748,True
+Alistipes finegoldii,0.6527431421446384,True
+Alistipes putredinis,0.7119700748129676,True
+Streptococcus australis,0.2880299251870324,True
+Streptococcus sanguinis,0.27493765586034913,True
+Veillonella atypica,0.3765586034912718,True
+Ruminococcus bromii,0.621571072319202,True
+Haemophilus sp. HMSC71H05,0.18204488778054864,True
+Firmicutes bacterium CAG:83,0.6514962593516209,True
+Veillonella dispar,0.33665835411471323,True
+Veillonella parvula,0.48129675810473815,True
+Enterococcus faecium,0.09850374064837905,False
+Lachnospira eligens,0.655860349127182,True
+Actinomyces sp. S6-Spd3,0.18391521197007482,True
+Gemella haemolysans,0.24376558603491272,True
+Allisonella histaminiformans,0.2281795511221945,True
+Limosilactobacillus fermentum,0.07481296758104738,False
+Leuconostoc mesenteroides,0.04738154613466334,False
+Holdemania filiformis,0.4270573566084788,True
+Rothia dentocariosa,0.10037406483790523,True
+Veillonella infantium,0.26433915211970077,True
+Streptococcus mutans,0.15835411471321695,True
+Streptococcus oralis,0.3983790523690773,True
+Alistipes onderdonkii,0.1527431421446384,True
+Collinsella intestinalis,0.442643391521197,True
+Enorma massiliensis,0.3322942643391521,True
+[Ruminococcus] gnavus,0.6963840399002493,True
+genus:Streptococcus,0.2942643391521197,True
+Gemella morbillorum,0.192643391521197,True
+Actinomyces sp. HPA0247,0.13029925187032418,True
+Actinomyces sp. oral taxon 181,0.2194513715710723,True
+Actinomyces sp. HMSC035G02,0.243142144638404,True
+Streptococcus sp. F0442,0.09164588528678304,False
+Streptococcus cristatus,0.08728179551122195,False
+Bacteroides eggerthii,0.3054862842892768,True
+Roseburia faecis,0.6708229426433915,True
+Actinobaculum sp. oral taxon 183,0.029925187032418952,False
+Veillonella tobetsuensis,0.04800498753117207,False
+Veillonella rogosae,0.06670822942643391,False
+Clostridium sp. CAG:299,0.11034912718204488,True
+Phocaeicola coprocola,0.18079800498753118,True
+Actinomyces johnsonii,0.02369077306733167,False
+Adlercreutzia equolifaciens,0.5766832917705735,True
+Streptococcus sp. HMSC034E03,0.01059850374064838,False
+Granulicatella adiacens,0.043640897755610975,False
+Tractidigestivibacter scatoligenes,0.23129675810473815,True
+[Eubacterium] brachy,0.09102244389027432,False
+Gordonibacter pamelaeae,0.7300498753117207,True
+Eubacterium sp. OM08-24,0.08354114713216958,False
+Cardiobacterium valvarum,0.004987531172069825,False
+Eubacterium sp. CAG:180,0.39027431421446385,True
+Parabacteroides merdae,0.6913965087281796,True
+Roseburia sp. CAG:182,0.06920199501246883,False
+Phocaeicola dorei,0.6408977556109726,True
+[Eubacterium] siraeum,0.4532418952618454,True
+Barnesiella intestinihominis,0.536783042394015,True
+Methanobrevibacter smithii,0.279925187032419,True
+Firmicutes bacterium CAG:145,0.3559850374064838,True
+[Bacteroides] pectinophilus,0.031795511221945134,False
+Bacteroides cellulosilyticus,0.47506234413965087,True
+Adlercreutzia equolifaciens_1,0.5879052369077307,True
+Ruminococcus bicirculans,0.4800498753117207,True
+Firmicutes bacterium CAG:110,0.3229426433915212,True
+Parabacteroides distasonis,0.8354114713216958,True
+Ruthenibacterium lactatiformans,0.8865336658354115,True
+Anaeromassilibacillus sp. An250,0.35972568578553615,True
+Roseburia sp. CAG:303,0.09226932668329177,False
+Odoribacter splanchnicus,0.722568578553616,True
+Oscillibacter sp. CAG:241,0.4912718204488778,True
+Firmicutes bacterium CAG:95,0.20885286783042395,True
+Alistipes shahii,0.6396508728179551,True
+Actinomyces sp. ICM47,0.32231920199501246,True
+Eggerthella lenta,0.6670822942643392,True
+Escherichia coli,0.706359102244389,True
+Enterococcus faecalis,0.10660847880299251,True
+Butyricimonas virosa,0.5336658354114713,True
+Bacteroides sp. CAG:144,0.18017456359102244,True
+Adlercreutzia caecimuris,0.34600997506234416,True
+Intestinibacter bartlettii,0.3802992518703242,True
+Massilimicrobiota timonensis,0.09725685785536159,False
+Lactiplantibacillus plantarum,0.019326683291770574,False
+Leuconostoc pseudomesenteroides,0.024314214463840397,False
+[Clostridium] leptum,0.6290523690773068,True
+Erysipelatoclostridium ramosum,0.4625935162094763,True
+Slackia isoflavoniconvertens,0.3697007481296758,True
+Lentilactobacillus otakiensis,0.0024937655860349127,False
+Romboutsia ilealis,0.1502493765586035,True
+Roseburia sp. CAG:309,0.12718204488778054,True
+Phascolarctobacterium sp. CAG:266,0.09788029925187032,False
+[Clostridium] innocuum,0.4233167082294264,True
+Streptococcus vestibularis,0.27057356608478805,True
+Clostridium sp. CAG:58,0.4021197007481297,True
+Lactococcus petauri,0.02057356608478803,False
+Actinomyces graevenitzii,0.13092269326683292,True
+Aeriscardovia aeriphila,0.0928927680798005,False
+Bifidobacterium animalis,0.09912718204488778,False
+Enterococcus pseudoavium,0.003117206982543641,False
+Bilophila wadsworthia,0.6396508728179551,True
+Akkermansia muciniphila,0.5149625935162094,True
+Bacteroides intestinalis,0.23067331670822944,True
+Dialister sp. CAG:357,0.08229426433915212,False
+Bifidobacterium pseudocatenulatum,0.4251870324189526,True
+Eubacterium sp. CAG:38,0.523067331670823,True
+Bacteroides fragilis,0.5187032418952618,True
+Clostridium sp. CAG:253,0.08790523690773068,False
+Ruminococcus obeum CAG:39,0.046758104738154616,False
+Clostridium sp. CAG:167,0.11845386533665836,True
+Bifidobacterium bifidum,0.22007481296758105,True
+Bifidobacterium catenulatum,0.09725685785536159,False
+Blautia sp. CAG:257,0.3248129675810474,True
+Lactobacillus gasseri,0.0529925187032419,False
+Intestinimonas butyriciproducens,0.4476309226932668,True
+Lactobacillus acidophilus,0.01059850374064838,False
+Parasutterella excrementihominis,0.41209476309226933,True
+Alistipes indistinctus,0.38154613466334164,True
+Eisenbergiella massiliensis,0.24064837905236908,True
+Proteobacteria bacterium CAG:139,0.29301745635910226,True
+[Clostridium] spiroforme,0.2743142144638404,True
+Christensenella hongkongensis,0.14962593516209477,True
+Enterocloster citroniae,0.5056109725685786,True
+Lawsonibacter asaccharolyticus,0.7182044887780549,True
+Hungatella hathewayi,0.4307980049875312,True
+Eisenbergiella tayi,0.321072319201995,True
+Turicibacter sanguinis,0.23753117206982544,True
+Coprobacter fastidiosus,0.29301745635910226,True
+Bacteroides sp. D2,0.023067331670822942,False
+Sellimonas intestinalis,0.2699501246882793,True
+Coprobacillus cateniformis,0.1483790523690773,True
+[Clostridium] scindens,0.14027431421446385,True
+[Eubacterium] sulci,0.25498753117206985,True
+Dielma fastidiosa,0.17581047381546136,True
+Clostridium bolteae CAG:59,0.2213216957605985,True
+Streptococcus gordonii,0.293640897755611,True
+Alistipes inops,0.2344139650872818,True
+Bacteroides finegoldii,0.26683291770573564,True
+Monoglobus pectinilyticus,0.14900249376558602,True
+Haemophilus sputorum,0.02805486284289277,False
+Propionibacterium freudenreichii,0.048628428927680795,False
+Paraprevotella xylaniphila,0.3048628428927681,True
+Blautia hydrogenotrophica,0.18079800498753118,True
+Dialister invisus,0.22942643391521197,True
+Enterocloster clostridioformis,0.27618453865336656,True
+Paraprevotella clara,0.14588528678304238,True
+Bacteroides nordii,0.18017456359102244,True
+Ruminococcaceae bacterium D16,0.18703241895261846,True
+Enterocloster lavalensis,0.28241895261845384,True
+Bifidobacterium dentium,0.27556109725685785,True
+Bacteroides faecichinchillae,0.022443890274314215,False
+Enterocloster bolteae,0.6047381546134664,True
+Streptococcus sp. A12,0.20199501246882792,True
+Lachnoclostridium sp. An14,0.026184538653366583,False
+Lachnoclostridium sp. An138,0.09788029925187032,False
+Actinomyces naeslundii,0.07044887780548628,False
+Anaerotruncus colihominis,0.41271820448877805,True
+Bacteroides faecis,0.1327930174563591,True
+Actinomyces sp. oral taxon 448,0.038029925187032416,False
+Enterococcus italicus,0.0012468827930174563,False
+Actinomyces oris,0.15835411471321695,True
+Bacteroides caccae,0.6165835411471322,True
+Firmicutes bacterium CAG:170,0.1527431421446384,True
+Denitrobacterium detoxificans,0.07543640897755612,False
+Desulfovibrio piger,0.19201995012468828,True
+Firmicutes bacterium CAG:238,0.11097256857855362,True
+Mogibacterium diversum,0.38403990024937656,True
+Solobacterium moorei,0.17144638403990026,True
+Lancefieldella rimae,0.08478802992518704,False
+Clostridium disporicum,0.19638403990024939,True
+Dorea sp. CAG:317,0.15399002493765587,True
+Anaeromassilibacillus sp. An172,0.004987531172069825,False
+Blautia coccoides,0.10536159600997506,True
+[Clostridium] symbiosum,0.4164588528678304,True
+Anaeroglobus geminatus,0.02119700748129676,False
+Saccharomyces cerevisiae,0.02805486284289277,False
+Clostridium paraputrificum,0.06982543640897755,False
+Enterococcus avium,0.03428927680798005,False
+Terrisporobacter othiniensis,0.009351620947630923,False
+Lachnospira pectinoschiza,0.4389027431421446,True
+Prevotella copri,0.4557356608478803,True
+Phocaeicola massiliensis,0.3385286783042394,True
+Enterocloster asparagiformis,0.27805486284289277,True
+Limosilactobacillus pontis,0.004364089775561097,False
+Anaerofilum sp. An201,0.02743142144638404,False
+Bacteroides clarus,0.18329177057356608,True
+Abiotrophia sp. HMSC24B09,0.031795511221945134,False
+Streptococcus sp. M334,0.016209476309226933,False
+Enterocloster aldenensis,0.2412718204488778,True
+Clostridium sp. 7_2_43FAA,0.00685785536159601,False
+Lactococcus garvieae,0.01807980049875312,False
+Propionibacterium acidifaciens,0.02493765586034913,False
+Megamonas funiformis CAG:377,0.033042394014962596,False
+Amedibacillus dolichus,0.07668329177057356,False
+Harryflintia acetispora,0.16022443890274315,True
+Eubacterium dolichum CAG:375,0.07855361596009976,False
+Megamonas hypermegale,0.14962593516209477,True
+Megasphaera sp. DISK 18,0.02805486284289277,False
+Blautia producta,0.13653366583541146,True
+Megamonas funiformis,0.15211970074812967,True
+Streptococcus sp. NLAE-zl-C503,0.006234413965087282,False
+Bifidobacterium breve,0.08977556109725686,False
+Actinomyces massiliensis,0.013092269326683292,False
+Phascolarctobacterium faecium,0.35224438902743144,True
+Arachnia propionica,0.01059850374064838,False
+Acidaminococcus intestini,0.17206982543640897,True
+Lactonifactor longoviformis,0.08229426433915212,False
+Rikenella microfusus,0.00685785536159601,False
+Clostridium sp. D5,0.02119700748129676,False
+Lacrimispora saccharolytica,0.2082294264339152,True
+Faecalicatena orotica,0.009351620947630923,False
+Firmicutes bacterium CAG:94,0.29301745635910226,True
+Anaerofustis stercorihominis,0.02805486284289277,False
+[Clostridium] methylpentosum,0.07356608478802992,False
+Anaerotignum lactatifermentans,0.2076059850374065,True
+Lancefieldella parvula,0.11658354114713217,True
+Eubacteriaceae bacterium CHKCI005,0.08104738154613467,False
+Veillonella sp. T11011-6,0.18329177057356608,True
+Cronobacter sakazakii,0.003740648379052369,False
+Fusobacterium varium,0.051745635910224436,False
+Fusobacterium nucleatum,0.11346633416458853,True
+Pediococcus acidilactici,0.01371571072319202,False
+Olsenella uli,0.04488778054862843,False
+Streptococcus sobrinus,0.0442643391521197,False
+Parvimonas sp. KA00067,0.014962593516209476,False
+Prevotella sp. CAG:1320,0.008104738154613466,False
+Clostridium butyricum,0.012468827930174564,False
+Parascardovia denticolens,0.029301745635910224,False
+Citrobacter braakii,0.029925187032418952,False
+Tyzzerella nexilis,0.16770573566084787,True
+Peptococcus niger,0.007481296758104738,False
+Bifidobacterium angulatum,0.016209476309226933,False
+Anaerococcus vaginalis,0.028678304239401497,False
+Limosilactobacillus gastricus,0.0024937655860349127,False
+Actinomyces sp. oral taxon 180,0.023067331670822942,False
+Catenibacterium mitsuokai,0.14276807980049874,True
+Streptococcus sp. HPH0090,0.02493765586034913,False
+Scardovia wiggsiae,0.06483790523690773,False
+Bacteroides salyersiae,0.19576059850374064,True
+Mogibacterium timidum,0.05610972568578554,False
+Clostridium sp. CAG:590,0.009351620947630923,False
+Clostridium sp. CAG:964,0.017456359102244388,False
+Treponema berlinense,0.004364089775561097,False
+Firmicutes bacterium CAG:555,0.011845386533665835,False
+Prevotella sp. CAG:1092,0.03054862842892768,False
+Bacteroides sp. CAG:633,0.014962593516209476,False
+Prevotella sp. CAG:279,0.14276807980049874,True
+Clostridium sp. CAG:632,0.014339152119700748,False
+Atopobium deltae,0.023067331670822942,False
+Lactobacillus rogosae,0.256857855361596,True
+Ruminococcus callidus,0.15087281795511223,True
+Firmicutes bacterium CAG:534,0.016209476309226933,False
+Bacteroides sp. CAG:598,0.01807980049875312,False
+Bacteroides galacturonicus,0.15773067331670823,True
+Parabacteroides sp. CAG:409,0.06109725685785536,False
+Prevotella sp. CAG:520,0.08291770573566085,False
+Butyrivibrio sp. CAG:318,0.05922693266832918,False
+Prevotella stercorea,0.13528678304239403,True
+Butyrivibrio crossotus,0.09351620947630923,False
+Clostridium sp. CAG:411,0.011221945137157107,False
+Bacteroides sp. CAG:530,0.02805486284289277,False
+Bacteroides faecis CAG:32,0.07231920199501247,False
+Butyricimonas synergistica,0.3472568578553616,True
+Parvimonas micra,0.2524937655860349,True
+Mitsuokella jalaludinii,0.06172069825436409,False
+Sharpea azabuensis,0.02805486284289277,False
+Fretibacterium fastidiosum,0.09663341645885287,False
+Fusobacterium equinum,0.00685785536159601,False
+Fusobacterium gonidiaformans,0.016209476309226933,False
+Coprobacter secundus,0.20199501246882792,True
+Enterococcus durans,0.03054862842892768,False
+Methanosphaera stadtmanae,0.03678304239401496,False
+Prevotella sp. CAG:873,0.022443890274314215,False
+Ruminococcus sp. CAG:488,0.03054862842892768,False
+Clostridium sp. CAG:413,0.02680798004987531,False
+Prevotella sp. CAG:617,0.00997506234413965,False
+Bacteroides sp. CAG:443,0.02743142144638404,False
+Blastocystis sp. subtype 1,0.018703241895261846,False
+Cloacibacillus porcorum,0.0928927680798005,False
+Schaalia cardiffensis,0.025561097256857856,False
+Phocaeicola coprophilus,0.05798004987531172,False
+Parabacteroides goldsteinii,0.2892768079800499,True
+Peptostreptococcus stomatis,0.15399002493765587,True
+Eubacterium limosum,0.06608478802992519,False
+Ruminococcus sp. CAG:563,0.014339152119700748,False
+Ruminococcus sp. CAG:624,0.00685785536159601,False
+Eubacterium callanderi,0.03678304239401496,False
+[Butyribacterium] methylotrophicum,0.012468827930174564,False
+Anaerotruncus sp. CAG:528,0.022443890274314215,False
+Ruminococcus sp. CAG:330,0.049251870324189526,False
+Tetragenococcus halophilus,0.0006234413965087282,False
+Clostridium sp. CAG:242,0.25124688279301743,True
+Latilactobacillus sakei,0.03678304239401496,False
+Weissella viridescens,0.004364089775561097,False
+Eubacterium sp. An11,0.003117206982543641,False
+Firmicutes bacterium CAG:424,0.02680798004987531,False
+Lachnoclostridium sp. An118,0.03615960099750624,False
+Corynebacterium durum,0.04239401496259352,False
+Streptococcus lutetiensis,0.03366583541147132,False
+Lactobacillus paragasseri,0.0816708229426434,False
+Lactobacillus crispatus,0.033042394014962596,False
+Ligilactobacillus salivarius,0.09663341645885287,False
+Christensenella minuta,0.15399002493765587,True
+Streptococcus agalactiae,0.022443890274314215,False
+Limosilactobacillus antri,0.0018703241895261845,False
+Pauljensenia hongkongensis,0.003740648379052369,False
+Streptococcus milleri,0.05922693266832918,False
+Actinomyces sp. oral taxon 414,0.0199501246882793,False
+Actinomyces sp. oral taxon 897,0.00685785536159601,False
+Streptococcus pseudopneumoniae,0.011845386533665835,False
+[Clostridium] hylemonae,0.03428927680798005,False
+Alloscardovia omnicolens,0.07793017456359103,False
+[Eubacterium] infirmum,0.03865336658354115,False
+Pseudoflavonifractor capillosus,0.08665835411471322,False
+Staphylococcus equorum,0.004364089775561097,False
+Faecalitalea cylindroides,0.1371571072319202,True
+Corynebacterium casei,0.008728179551122194,False
+Clostridiales bacterium 1_7_47FAA,0.046134663341645885,False
+Desulfovibrio sp. An276,0.0018703241895261845,False
+Prevotella sp. 885,0.0399002493765586,False
+Desulfovibrionaceae bacterium,0.11034912718204488,True
+Schaalia turicensis,0.040523690773067333,False
+Prevotella timonensis,0.021820448877805487,False
+Ruminococcaceae bacterium D5,0.16895261845386533,True
+Parabacteroides johnsonii,0.14276807980049874,True
+Prevotella bivia,0.033042394014962596,False
+Ruminococcus sp. CAG:403,0.04488778054862843,False
+Campylobacter hominis,0.007481296758104738,False
+Streptococcus downei,0.01683291770573566,False
+Alcaligenes aquatilis,0.0012468827930174563,False
+Stenotrophomonas maltophilia,0.003117206982543641,False
+Dialister succinatiphilus,0.043640897755610975,False
+Pseudoflavonifractor sp. An184,0.11845386533665836,True
+Proteus vulgaris,0.004987531172069825,False
+Flavonifractor sp. An10,0.048628428927680795,False
+Leuconostoc suionicum,0.0006234413965087282,False
+Klebsiella oxytoca,0.05049875311720698,False
+Haemophilus pittmaniae,0.02119700748129676,False
+Neisseria subflava,0.01683291770573566,False
+Turicimonas muris,0.24002493765586036,True
+Odoribacter laneus,0.03428927680798005,False
+Clostridiales bacterium CHKCI006,0.014339152119700748,False
+Fusobacterium sp. CAG:439,0.01807980049875312,False
+Alistipes timonensis,0.04800498753117207,False
+Candidatus Gastranaerophilales bacterium,0.024314214463840397,False
+Ligilactobacillus animalis,0.004987531172069825,False
+Klebsiella pneumoniae,0.24501246882793018,True
+Klebsiella variicola,0.2013715710723192,True
+Klebsiella quasipneumoniae,0.15648379052369077,True
+genus:Enterobacter,0.06920199501246883,False
+Finegoldia magna,0.015586034912718205,False
+Lactobacillus amylovorus,0.01371571072319202,False
+Limosilactobacillus mucosae,0.05049875311720698,False
+Bifidobacterium pseudolongum,0.01059850374064838,False
+Acidaminococcus fermentans,0.0442643391521197,False
+Prevotella disiens,0.0199501246882793,False
+Peptostreptococcus anaerobius,0.04239401496259352,False
+Klebsiella michiganensis,0.040523690773067333,False
+Porphyromonas uenonis,0.03927680798004988,False
+Megasphaera elsdenii,0.12905236907730674,True
+Faecalicoccus pleomorphus,0.07231920199501247,False
+Oribacterium sinus,0.08042394014962594,False
+Citrobacter sp. MGH106,0.003740648379052369,False
+Megasphaera hexanoica,0.004364089775561097,False
+Lachnoanaerobaculum saburreum,0.02057356608478803,False
+Megasphaera micronuciformis,0.12406483790523691,True
+Ligilactobacillus ruminis,0.03615960099750624,False
+Bacillus aerius,0.0018703241895261845,False
+Blautia hansenii,0.07231920199501247,False
+Rothia aeria,0.008104738154613466,False
+Lactobacillus helveticus,0.003117206982543641,False
+Raoultella planticola,0.025561097256857856,False
+Schaalia georgiae,0.0018703241895261845,False
+Oribacterium parvum,0.04488778054862843,False
+Fusobacterium periodonticum,0.05922693266832918,False
+Dialister pneumosintes,0.1041147132169576,True
+Peptostreptococcus sp. MV1,0.004987531172069825,False
+Parvimonas sp. oral taxon 393,0.008104738154613466,False
+Abiotrophia defectiva,0.02680798004987531,False
+Campylobacter ureolyticus,0.019326683291770574,False
+Prevotella intermedia,0.040523690773067333,False
+Stomatobaculum longum,0.023067331670822942,False
+Bifidobacterium pullorum,0.014339152119700748,False
+Bifidobacterium pullorum_1,0.01059850374064838,False
+Bifidobacterium pullorum_2,0.009351620947630923,False
+Muribaculum intestinale,0.0018703241895261845,False
+Streptococcus parauberis,0.0006234413965087282,False
+Enterococcus casseliflavus,0.01807980049875312,False
+Actinomyces viscosus,0.02057356608478803,False
+Enterococcus devriesei,0.0018703241895261845,False
+Fructilactobacillus sanfranciscensis,0.043640897755610975,False
+Oxalobacter formigenes,0.06109725685785536,False
+Leuconostoc lactis,0.007481296758104738,False
+Streptococcus sp. HMSC071D03,0.0024937655860349127,False
+Lactobacillus johnsonii,0.008104738154613466,False
+Lachnospiraceae bacterium oral taxon 096,0.031795511221945134,False
+Citrobacter freundii,0.05673316708229426,False
+Citrobacter youngae,0.06608478802992519,False
+Alcaligenes faecalis,0.0006234413965087282,False
+Rhodococcus qingshengii,0.0012468827930174563,False
+Anaerostipes caccae,0.05486284289276808,False
+Streptococcus infantarius,0.007481296758104738,False
+Corynebacterium argentoratense,0.017456359102244388,False
+Prevotella sp. CAG:891,0.01807980049875312,False
+Clostridium celatum,0.025561097256857856,False
+Mitsuokella multacida,0.08977556109725686,False
+Weissella cibaria,0.012468827930174564,False
+Leuconostoc carnosum,0.007481296758104738,False
+Staphylococcus succinus,0.0006234413965087282,False
+Escherichia marmotae,0.006234413965087282,False
+Victivallis vadensis,0.09538653366583541,False
+Alistipes sp. An31A,0.0199501246882793,False
+Staphylococcus sp. NAM3COL9,0.0006234413965087282,False
+Staphylococcus aureus,0.01059850374064838,False
+Porphyromonas asaccharolytica,0.06920199501246883,False
+Streptococcus viridans,0.022443890274314215,False
+Lachnoanaerobaculum umeaense,0.0024937655860349127,False
+Cardiobacterium hominis,0.0012468827930174563,False
+Mogibacterium pumilum,0.02119700748129676,False
+Campylobacter gracilis,0.021820448877805487,False
+[Eubacterium] minutum,0.0006234413965087282,False
+Staphylococcus carnosus,0.0006234413965087282,False
+Pediococcus pentosaceus,0.00685785536159601,False
+Blautia sp. An249,0.011221945137157107,False
+Erysipelothrix larvae,0.01683291770573566,False
+Limosilactobacillus vaginalis,0.023067331670822942,False
+Scardovia inopinata,0.00685785536159601,False
+Firmicutes bacterium CAG:791,0.009351620947630923,False
+Bacteroides fluxus,0.011845386533665835,False
+[Eubacterium] saphenum,0.01807980049875312,False
+Brachyspira sp. CAG:700,0.04738154613466334,False
+Rhodococcus erythropolis,0.0018703241895261845,False
+Limosilactobacillus oris,0.019326683291770574,False
+Lactobacillus ultunensis,0.0012468827930174563,False
+Enterococcus gallinarum,0.021820448877805487,False
+Corynebacterium kroppenstedtii,0.0006234413965087282,False
+Clostridium perfringens,0.060473815461346635,False
+Blautia argi,0.016209476309226933,False
+Clostridium sp. CAG:510,0.02493765586034913,False
+Streptococcus peroris,0.007481296758104738,False
+Lachnospiraceae bacterium 2_1_46FAA,0.01807980049875312,False
+Enterococcus dispar,0.005610972568578554,False
+Companilactobacillus mindensis,0.0012468827930174563,False
+Prevotella sp. CAG:1031,0.023067331670822942,False
+Hafnia alvei,0.03428927680798005,False
+Lachnoclostridium sp. An131,0.08042394014962594,False
+Staphylococcus saprophyticus,0.0006234413965087282,False
+Levilactobacillus brevis,0.004364089775561097,False
+Levilactobacillus senmaizukei,0.0006234413965087282,False
+Fusobacterium necrophorum,0.01371571072319202,False
+Butyricicoccus pullicaecorum,0.04987531172069826,False
+Prevotella melaninogenica,0.028678304239401497,False
+Prevotella histicola,0.024314214463840397,False
+Limosilactobacillus reuteri,0.018703241895261846,False
+Ruminococcus sp. CAG:579,0.02369077306733167,False
+Lentilactobacillus parabuchneri,0.005610972568578554,False
+Candida albicans,0.003117206982543641,False
+Staphylococcus haemolyticus,0.0006234413965087282,False
+Staphylococcus epidermidis,0.0012468827930174563,False
+Lactococcus raffinolactis,0.0024937655860349127,False
+Sanguibacteroides justesenii,0.08291770573566085,False
+Enterococcus raffinosus,0.004987531172069825,False
+Actinomyces sp. oral taxon 170,0.01059850374064838,False
+Prevotella corporis,0.023067331670822942,False
+Fusobacterium naviforme,0.01059850374064838,False
+Fusobacterium sp. oral taxon 370,0.02743142144638404,False
+Morganella morganii,0.02743142144638404,False
+Porphyromonas gingivalis,0.011221945137157107,False
+Leptotrichia sp. oral taxon 215,0.003117206982543641,False
+Oscillibacter sp. PC13,0.06296758104738155,False
+Flavonifractor sp. An100,0.059850374064837904,False
+Gemella asaccharolytica,0.013092269326683292,False
+Eikenella corrodens,0.02805486284289277,False
+Bifidobacterium scardovii,0.003117206982543641,False
+Streptococcus pneumoniae,0.004364089775561097,False
+Gardnerella vaginalis,0.00685785536159601,False
+Subdoligranulum variabile,0.003117206982543641,False
+Bacteroides sp. CAG:462,0.014339152119700748,False
+Bacteroides sp. 43_108,0.012468827930174564,False
+Prevotella denticola,0.015586034912718205,False
+Alloprevotella tannerae,0.02493765586034913,False
+Clostridium sp. chh4-2,0.00997506234413965,False
+Prevotella nigrescens,0.02493765586034913,False
+Slackia exigua,0.0399002493765586,False
+Selenomonas sputigena,0.017456359102244388,False
+Prevotella oris,0.011845386533665835,False
+Pyramidobacter piscolens,0.0399002493765586,False
+Sarcina ventriculi,0.004987531172069825,False
+Lactobacillus iners,0.004987531172069825,False
+Prevotella sp. CAG:5226,0.04551122194513716,False
+Acinetobacter johnsonii,0.003740648379052369,False
+Peptoniphilus harei,0.014339152119700748,False
+Leptotrichia sp. oral taxon 212,0.0018703241895261845,False
+Murimonas intestini,0.009351620947630923,False
+Streptococcus massiliensis,0.0024937655860349127,False
+Streptococcus sp. HMSC070B10,0.003740648379052369,False
+Leptotrichia hofstadii,0.004987531172069825,False
+Prevotella sp. AM42-24,0.03740648379052369,False
+Lactobacillus kalixensis,0.0018703241895261845,False
+Anaerobiospirillum thomasii,0.008728179551122194,False
+Prevotella bergensis,0.0018703241895261845,False
+Porphyromonas sp. HMSC065F10,0.008104738154613466,False
+Enterobacter mori,0.02369077306733167,False
+Peptoniphilus lacrimalis,0.014962593516209476,False
+Prevotella sp. CAG:485,0.01807980049875312,False
+Lentilactobacillus kefiri,0.0006234413965087282,False
+Carnobacterium divergens,0.004364089775561097,False
+Prevotella sp. CAG:1185,0.0529925187032419,False
+[Eubacterium] nodatum,0.023067331670822942,False
+Pediococcus sp.,0.0006234413965087282,False
+Pediococcus parvulus,0.0006234413965087282,False
+Lentilactobacillus buchneri,0.0006234413965087282,False
+Actinomyces radicidentis,0.003117206982543641,False
+Firmicutes bacterium CAG:646,0.02369077306733167,False
+Raoultella ornithinolytica,0.043017456359102244,False
+Citrobacter portucalensis,0.02743142144638404,False
+Chlamydia ibidis,0.0018703241895261845,False
+Streptococcus pasteurianus,0.05049875311720698,False
+Fusobacterium mortiferum,0.12406483790523691,True
+Treponema porcinum,0.0006234413965087282,False
+Prevotella sp. P3-122,0.0006234413965087282,False
+Companilactobacillus versmoldensis,0.0012468827930174563,False
+Citrobacter koseri,0.01807980049875312,False
+Dialister micraerophilus,0.004364089775561097,False
+Prevotella buccalis,0.013092269326683292,False
+Staphylococcus warneri,0.0006234413965087282,False
+Aggregatibacter segnis,0.034912718204488775,False
+Schaalia meyeri,0.0012468827930174563,False
+Enterococcus hirae,0.008728179551122194,False
+Marvinbryantia formatexigens,0.003740648379052369,False
+Alistipes sp. An66,0.008728179551122194,False
+[Kluyvera] intestini,0.0012468827930174563,False
+Corynebacterium variabile,0.00685785536159601,False
+Phytobacter palmae,0.0012468827930174563,False
+Ezakiella coagulans,0.004987531172069825,False
+Veillonella denticariosi,0.009351620947630923,False
+Veillonella rodentium,0.007481296758104738,False
+Desulfovibrio vulgaris,0.0018703241895261845,False
+Selenomonas noxia,0.00685785536159601,False
+Eggerthia catenaformis,0.008728179551122194,False
+Neisseria flavescens,0.046758104738154616,False
+Kingella oralis,0.0012468827930174563,False
+Neisseria sicca,0.008104738154613466,False
+Citrobacter werkmanii,0.008728179551122194,False
+Citrobacter pasteurii,0.011845386533665835,False
+Fusobacterium ulcerans,0.07855361596009976,False
+Staphylococcus xylosus,0.0012468827930174563,False
+Lachnoclostridium sp. An169,0.0006234413965087282,False
+Campylobacter concisus,0.06733167082294264,False
+Campylobacter jejuni,0.0018703241895261845,False
+Brevibacterium aurantiacum,0.0018703241895261845,False
+Brevibacterium linens,0.0018703241895261845,False
+Megasphaera sp. MJR8396C,0.018703241895261846,False
+Streptococcus gallolyticus,0.01059850374064838,False
+Lactobacillus apis,0.0006234413965087282,False
+Anaerostipes sp. 494a,0.0006234413965087282,False
+Lactobacillus kullabergensis,0.0006234413965087282,False
+Lactobacillus kimbladii,0.0006234413965087282,False
+Parabacteroides gordonii,0.05486284289276808,False
+Escherichia fergusonii,0.0006234413965087282,False
+Limosilactobacillus panis,0.0018703241895261845,False
+Aeromonas caviae,0.005610972568578554,False
+Prevotella buccae,0.022443890274314215,False
+Veillonella sp. CAG:933,0.015586034912718205,False
+Klebsiella aerogenes,0.04800498753117207,False
+Citrobacter amalonaticus,0.006234413965087282,False
+Aeromonas media,0.003117206982543641,False
+Weissella confusa,0.015586034912718205,False
+Proteus mirabilis,0.013092269326683292,False
+Kluyvera georgiana,0.00685785536159601,False
+Enterobacter bugandensis,0.009351620947630923,False
+Bacteroides caecimuris,0.0012468827930174563,False
+Leclercia adecarboxylata,0.008104738154613466,False
+Kosakonia pseudosacchari,0.0012468827930174563,False
+Ligilactobacillus agilis,0.0006234413965087282,False
+Bifidobacterium ruminantium,0.006234413965087282,False
+Citrobacter farmeri,0.005610972568578554,False
+Providencia rettgeri,0.0012468827930174563,False
+Porphyromonas endodontalis,0.02057356608478803,False
+Desulfovibrio legallii,0.0006234413965087282,False
+Bifidobacterium catenulatum_1,0.009351620947630923,False
+Acidaminococcus sp. CAG:542,0.032418952618453865,False
+Cetobacterium somerae,0.003117206982543641,False
+Pluralibacter gergoviae,0.0012468827930174563,False
+Alloprevotella sp. oral taxon 473,0.014339152119700748,False
+Streptococcus salivarius CAG:79,0.0006234413965087282,False
+Comamonas kerstersii,0.018703241895261846,False
+Candidatus Gastranaerophilales bacterium HUM_9,0.0006234413965087282,False
+Ligilactobacillus acidipiscis,0.0006234413965087282,False
+Eubacterium sp. CAG:786,0.003740648379052369,False
+Pantoea dispersa,0.0006234413965087282,False
+Treponema succinifaciens,0.0024937655860349127,False
+Prevotella sp. F0091,0.0018703241895261845,False
+Eubacterium coprostanoligenes,0.006234413965087282,False
+Prevotella sp. oral taxon 376,0.003740648379052369,False
+Trueperella bernardiae,0.0006234413965087282,False
+Parvimonas sp. oral taxon 110,0.004364089775561097,False
+Barnesiella sp. An22,0.004364089775561097,False
+Coprobacter sp.,0.0012468827930174563,False
+Bacteroides sp. CAG:927,0.00997506234413965,False
+Candidatus Stoquefichus sp. KLE1796,0.033042394014962596,False
+Bacteroides sp. OM08-11,0.019326683291770574,False
+Lawsonella clevelandensis,0.007481296758104738,False
+Pseudomonas fragi,0.00685785536159601,False
+Desulfovibrio fairfieldensis,0.00685785536159601,False
+Dorea sp. D27,0.003117206982543641,False
+Pyramidobacter sp. C12-8,0.016209476309226933,False
+Citrobacter europaeus,0.008104738154613466,False
+Lachnoclostridium sp. An196,0.0018703241895261845,False
+Ralstonia insidiosa,0.0006234413965087282,False
+Staphylococcus argenteus,0.0006234413965087282,False
+Cutibacterium acnes,0.011845386533665835,False
+Phocaeicola salanitronis,0.0018703241895261845,False
+Rothia kristinae,0.0006234413965087282,False
+Prevotella sp. CAG:755,0.00685785536159601,False
+Bacteroides sp. CAG:661,0.011221945137157107,False
+Prevotella sp. CAG:1124,0.008104738154613466,False
+Jonquetella anthropi,0.0018703241895261845,False
+Proteus hauseri,0.005610972568578554,False
+Porphyromonas somerae,0.008104738154613466,False
+Neisseria mucosa,0.004364089775561097,False
+Proteus penneri,0.0006234413965087282,False
+Selenomonas artemidis,0.0012468827930174563,False
+genus:Pseudomonas,0.02119700748129676,False
+Flavonifractor sp. An306,0.0024937655860349127,False
+Enterococcus gilvus,0.005610972568578554,False
+Enterococcus thailandicus,0.0012468827930174563,False
+Prevotella dentalis,0.0018703241895261845,False
+Prevotella veroralis,0.0024937655860349127,False
+Eikenella longinqua,0.0006234413965087282,False
+Pseudoramibacter alactolyticus,0.0018703241895261845,False
+Alloprevotella rava,0.004987531172069825,False
+Prevotella sp. oral taxon 306,0.009351620947630923,False
+Shuttleworthia satelles,0.003740648379052369,False
+Prevotella baroniae,0.0012468827930174563,False
+Lactiplantibacillus pentosus,0.0018703241895261845,False
+Prevotella oralis,0.003740648379052369,False
+Pasteurella canis,0.0006234413965087282,False
+Oribacterium sp. oral taxon 078,0.0018703241895261845,False
+Comamonas testosteroni,0.0012468827930174563,False
+Facklamia hominis,0.0006234413965087282,False
+Cutibacterium namnetense,0.0006234413965087282,False
+Malassezia restricta,0.0006234413965087282,False
+Tannerella sp. oral taxon 808,0.0012468827930174563,False
+Desulfomicrobium orale,0.0006234413965087282,False
+Bacteroidetes bacterium oral taxon 272,0.0024937655860349127,False
+Enterococcus malodoratus,0.003740648379052369,False
+Bavariicoccus seileri,0.0006234413965087282,False
+Flavobacterium sp. FEMGT703F,0.0024937655860349127,False
+Sediminibacterium sp. FEMGT703S,0.0012468827930174563,False
+Tychonema bourrellyi,0.0006234413965087282,False
+Negativicoccus succinicivorans,0.0024937655860349127,False
+Gleimia europaea,0.0012468827930174563,False
+Peptoniphilus coxii,0.003740648379052369,False
+Fannyhessea vaginae,0.004364089775561097,False
+Actinotignum timonense,0.0018703241895261845,False
+Mageeibacillus indolicus,0.0018703241895261845,False
+Phascolarctobacterium sp.,0.0024937655860349127,False
+Gemmiger sp. An120,0.0018703241895261845,False
+Aggregatibacter aphrophilus,0.01059850374064838,False
+Brachyspira pilosicoli,0.007481296758104738,False
+Veillonella seminalis,0.0006234413965087282,False
+Enhydrobacter aerosaccus,0.0006234413965087282,False
+Moraxella osloensis,0.0012468827930174563,False
+Tepidimonas fonticaldi,0.0006234413965087282,False
+Corynebacterium pyruviciproducens,0.0006234413965087282,False
+Prevotella sp. CAG:1058,0.004987531172069825,False
+Haemophilus parahaemolyticus,0.01683291770573566,False
+Morococcus cerebrosus,0.0018703241895261845,False
+Streptococcus sinensis,0.00685785536159601,False
+Succinatimonas hippei,0.03054862842892768,False
+Clostridium cadaveris,0.003117206982543641,False
+Acetivibrio ethanolgignens,0.0006234413965087282,False
+Haemophilus influenzae,0.0018703241895261845,False
+Campylobacter showae,0.00997506234413965,False
+Atopobium minutum,0.004987531172069825,False
+Carnobacterium maltaromaticum,0.0024937655860349127,False
+Robinsoniella sp. RHS,0.0012468827930174563,False
+Leuconostoc gelidum,0.004364089775561097,False
+Ligilactobacillus murinus,0.0006234413965087282,False
+Lactobacillus intestinalis,0.0006234413965087282,False
+Duncaniella muris,0.0006234413965087282,False
+Macrococcus caseolyticus,0.0012468827930174563,False
+Megamonas rupellensis,0.009351620947630923,False
+Fusobacterium hwasookii,0.004364089775561097,False
+Leuconostoc garlicum,0.007481296758104738,False
+Vagococcus teuberi,0.0006234413965087282,False
+Escherichia albertii,0.0018703241895261845,False
+Lactobacillus kefiranofaciens,0.0018703241895261845,False
+Aeromonas hydrophila,0.004364089775561097,False
+Aeromonas veronii,0.004364089775561097,False
+Filifactor alocis,0.015586034912718205,False
+Peptoanaerobacter stomatis,0.0006234413965087282,False
+Catonella morbi,0.0012468827930174563,False
+Treponema denticola,0.003740648379052369,False
+Tannerella forsythia,0.0012468827930174563,False
+Campylobacter rectus,0.004364089775561097,False
+Clostridium sp. CAG:678,0.003117206982543641,False
+Leuconostoc citreum,0.004364089775561097,False
+Streptococcus sp. oral taxon 058,0.003117206982543641,False
+Candidatus Methanomassiliicoccus intestinalis,0.004364089775561097,False
+Streptococcus sp. HMSC067H01,0.005610972568578554,False
+Lactococcus piscium,0.005610972568578554,False
+Anaerococcus lactolyticus,0.0024937655860349127,False
+Pseudomonas lundensis,0.0024937655860349127,False
+Dellaglioa algida,0.0012468827930174563,False
+Aggregatibacter sp. oral taxon 458,0.007481296758104738,False
+Haemophilus haemolyticus,0.013092269326683292,False
+Paraclostridium bifermentans,0.004364089775561097,False
+Prevotella pallens,0.01683291770573566,False
+Megasphaera stantonii,0.008104738154613466,False
+Helicobacter cinaedi,0.00685785536159601,False
+Aeromonas dhakensis,0.003740648379052369,False
+Selenomonas sp. oral taxon 920,0.0012468827930174563,False
+Moraxella catarrhalis,0.0018703241895261845,False
+Gemmiger sp. An87,0.032418952618453865,False
+Aeromonas allosaccharophila,0.0024937655860349127,False
+Bacteroides heparinolyticus,0.003740648379052369,False
+Prevotella jejuni,0.005610972568578554,False
+Prevotella salivae,0.008728179551122194,False
+Kluyvera cryocrescens,0.006234413965087282,False
+Leptotrichia wadei,0.003740648379052369,False
+Serratia liquefaciens,0.0024937655860349127,False
+Prevotella oulorum,0.0024937655860349127,False
+Selenomonas flueggei,0.0024937655860349127,False
+Eikenella halliae,0.0012468827930174563,False
+Kluyvera ascorbata,0.004987531172069825,False
+Klebsiella grimontii,0.0012468827930174563,False
+Aliarcobacter butzleri,0.004364089775561097,False
+Bacteroides stercorirosoris,0.014962593516209476,False
+Bacteroides oleiciplenus,0.006234413965087282,False
+Sneathia vaginalis,0.0024937655860349127,False
+Treponema vincentii,0.0012468827930174563,False
+Treponema socranskii,0.003117206982543641,False
+Serratia marcescens,0.005610972568578554,False
+Synergistes jonesii,0.003740648379052369,False
+Bacteroidales bacterium KA00251,0.0012468827930174563,False
+Clostridium neonatale,0.00997506234413965,False
+Enterococcus asini,0.0012468827930174563,False
+Dysgonomonas sp. 37-18,0.0018703241895261845,False
+Dysgonomonas gadei,0.0024937655860349127,False
+Enterococcus canis,0.0012468827930174563,False
+Lautropia mirabilis,0.008104738154613466,False
+Tyzzerella sp. An114,0.003740648379052369,False
+Phocaeicola sartorii,0.004364089775561097,False
+Prevotella amnii,0.0012468827930174563,False
+Streptococcus sp. oral taxon 056,0.003117206982543641,False
+Peptoniphilus sp. BV3C26,0.0006234413965087282,False
+Criibacterium bergeronii,0.006234413965087282,False
+Cellulosilyticum lentocellum,0.0012468827930174563,False
+Peptoniphilus sp. HMSC062D09,0.0024937655860349127,False
+Clostridium baratii,0.0012468827930174563,False
+Lactiplantibacillus paraplantarum,0.0006234413965087282,False
+Klebsiella variicola CAG:634,0.0012468827930174563,False
+Flavonifractor sp. An82,0.0018703241895261845,False
+Treponema medium,0.003117206982543641,False
+Prevotella multiformis,0.0018703241895261845,False
+Prevotella multisaccharivorax,0.0018703241895261845,False
+Haemophilus paraphrohaemolyticus,0.00685785536159601,False
+Serratia proteamaculans,0.0006234413965087282,False
+Selenomonas sp. oral taxon 126,0.003740648379052369,False
+Treponema maltophilum,0.0018703241895261845,False
+Treponema sp. OMZ 838,0.0006234413965087282,False
+Selenomonas sp. FOBRC6,0.0006234413965087282,False
+Selenomonas sp. oral taxon 138,0.0006234413965087282,False
+Pseudomonas helleri,0.0006234413965087282,False
+Alistipes sp. CAG:831,0.004364089775561097,False
+Barnesiella viscericola,0.0006234413965087282,False
+Kosakonia cowanii,0.0018703241895261845,False
+Acinetobacter pittii,0.0006234413965087282,False
+Hungatella effluvii,0.0018703241895261845,False
+Bacteroides sp. OM05-12,0.017456359102244388,False
+Roseburia sp. 831b,0.0006234413965087282,False
+Oribacterium asaccharolyticum,0.005610972568578554,False
+Prevotella colorans,0.0018703241895261845,False
+Prevotella sp. S7-1-8,0.0012468827930174563,False
+Parabacteroides acidifaciens,0.007481296758104738,False
+Varibaculum cambriense,0.004987531172069825,False
+Enterococcus mundtii,0.0012468827930174563,False
+Streptococcus macedonicus,0.003117206982543641,False
+Bacteroides pyogenes,0.0012468827930174563,False
+Mitsuokella sp. oral taxon 131,0.0012468827930174563,False
+Desulfovibrio sp. MES5,0.0006234413965087282,False
+Tropheryma whipplei,0.0018703241895261845,False
+Stenotrophomonas rhizophila,0.0006234413965087282,False
+Meiothermus silvanus,0.0018703241895261845,False
+Thermus scotoductus,0.0018703241895261845,False
+Paeniclostridium sordellii,0.0018703241895261845,False
+Streptococcus sp. SK643,0.0006234413965087282,False
+Neisseria perflava,0.004987531172069825,False
+Peptacetobacter hiranonis,0.0024937655860349127,False
+Photobacterium damselae,0.0006234413965087282,False
+Neisseria polysaccharea,0.0006234413965087282,False
+Lachnoclostridium sp. An298,0.0018703241895261845,False
+Gemmiger sp. An50,0.003740648379052369,False
+Gemmiger sp. An194,0.004987531172069825,False
+Dolosigranulum pigrum,0.0006234413965087282,False
+Corynebacterium accolens,0.0012468827930174563,False
+Edwardsiella tarda,0.003117206982543641,False
+Helicobacter pylori,0.0024937655860349127,False
+Centipeda periodontii,0.0006234413965087282,False
+Methanobrevibacter arboriphilus,0.0024937655860349127,False
+Megasphaera cerevisiae,0.003117206982543641,False
+Clostridioides difficile,0.006234413965087282,False
+Escherichia sp. ESNIH1,0.0006234413965087282,False
+Bifidobacterium moukalabense,0.0,False
+Campylobacter upsaliensis,0.0006234413965087282,False
+Veillonellaceae bacterium DNF00626,0.0,False
+Aerococcus christensenii,0.0,False
+Helicobacter equorum,0.0006234413965087282,False
+Atlantibacter hermannii,0.0012468827930174563,False
+Prevotella scopos,0.0006234413965087282,False
+Neisseria sp. oral taxon 014,0.0012468827930174563,False
+Shewanella algae,0.0018703241895261845,False
+Raoultella terrigena,0.0012468827930174563,False
+Lelliottia jeotgali,0.0006234413965087282,False
+Corynebacterium simulans,0.0006234413965087282,False
+Corynebacterium matruchotii,0.003117206982543641,False
+Haemophilus quentini,0.0006234413965087282,False
+Neisseria elongata,0.0012468827930174563,False
+Lactobacillus equicursoris,0.0006234413965087282,False
+Helicobacter pullorum,0.0012468827930174563,False
+Clostridium sp. SY8519,0.0018703241895261845,False
+Ralstonia pickettii,0.00685785536159601,False
+Providencia alcalifaciens,0.0006234413965087282,False
+Campylobacter curvus,0.0012468827930174563,False
+Kluyvera intermedia,0.0006234413965087282,False
+Bifidobacterium merycicum,0.0006234413965087282,False
+Phytobacter ursingii,0.0012468827930174563,False
+Kosakonia sacchari,0.0006234413965087282,False
+Methanosphaera sp. SHI1033,0.003117206982543641,False
+Enterobacter soli,0.0006234413965087282,False
+[Eubacterium] yurii,0.0006234413965087282,False
+Methanobrevibacter oralis,0.0006234413965087282,False
+Selenomonas infelix,0.0006234413965087282,False
+Methanosphaera cuniculi,0.0012468827930174563,False
+Weissella minor,0.0006234413965087282,False
+Porphyromonas canoris,0.0006234413965087282,False
+Peptoniphilus duerdenii,0.0006234413965087282,False
+Bifidobacterium thermacidophilum,0.0006234413965087282,False
+Methanobrevibacter woesei,0.0006234413965087282,False
+Pantoea brenneri,0.0006234413965087282,False
+Salmonella enterica,0.0006234413965087282,False
+Pseudomonas simiae,0.0006234413965087282,False
+Parabacteroides chinchillae,0.0006234413965087282,False
+Anaerococcus tetradius,0.0006234413965087282,False
+Lactococcus plantarum,0.0006234413965087282,False
+Bifidobacterium mongoliense,0.0006234413965087282,False
+Sodalis praecaptivus,0.0006234413965087282,False
+Anaerosporobacter mobilis,0.0006234413965087282,False
+Acinetobacter lwoffii,0.0006234413965087282,False
+Megasphaera vaginalis,0.0006234413965087282,False
+Oenococcus alcoholitolerans,0.0006234413965087282,False
+Latilactobacillus fuchuensis,0.0012468827930174563,False
+Eremococcus coleocola,0.0006234413965087282,False
+Corynebacterium jeikeium,0.0006234413965087282,False
+Corynebacterium aurimucosum,0.0006234413965087282,False
+Corynebacterium amycolatum,0.0012468827930174563,False
+Streptococcus equinus,0.0006234413965087282,False
+Corynebacterium flavescens,0.0006234413965087282,False
+Leucobacter sp. 7(1),0.0006234413965087282,False
+Leucobacter komagatae,0.0006234413965087282,False
+Desulforamulus ruminis,0.0006234413965087282,False
+Schwartzia succinivorans,0.0012468827930174563,False
+Leptotrichia sp. oral taxon 225,0.0006234413965087282,False
+Peptoniphilus grossensis,0.0006234413965087282,False
+Bacillus sp. FJAT-27916,0.0006234413965087282,False
+Corynebacterium urealyticum,0.0006234413965087282,False
+Methanobacterium sp. MB1,0.0006234413965087282,False
+Methanobacterium formicicum,0.0006234413965087282,False
+Methanomassiliicoccales archaeon RumEn M1,0.0006234413965087282,False
+Prevotella sp. CAG:924,0.0018703241895261845,False
+Haemophilus sp. C1,0.0006234413965087282,False
+Ligilactobacillus saerimneri,0.0012468827930174563,False
+Clostridium sp. MSTE9,0.0006234413965087282,False
+Anaerocolumna aminovalerica,0.0006234413965087282,False
+Candida tropicalis,0.0006234413965087282,False
+Weissella hellenica,0.0006234413965087282,False
+Mammaliicoccus vitulinus,0.0006234413965087282,False
+Campylobacter coli,0.0012468827930174563,False
+Corynebacterium striatum,0.0006234413965087282,False
+Corynebacterium pseudodiphtheriticum,0.0006234413965087282,False
+Companilactobacillus crustorum,0.0006234413965087282,False
+Companilactobacillus farciminis,0.0006234413965087282,False
+Klebsiella quasivariicola,0.0006234413965087282,False
+Actinobaculum massiliense,0.0006234413965087282,False
