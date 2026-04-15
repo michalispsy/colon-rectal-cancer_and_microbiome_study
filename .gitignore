@@ -1,0 +1,13 @@
+# Ignore EVERYTHING in data folder
+data/*
+
+# EXCEPT for crc_study_final_data
+!data/crc_study_final_data/
+
+# Ignore R/Python cached files
+.RData
+.Rhistory
+__pycache__/
+
+# Ignore OS files
+.DS_Store
