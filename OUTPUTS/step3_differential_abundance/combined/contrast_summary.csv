@@ -1,0 +1,5 @@
+contrast,n_tested_features,n_significant_fdr_0_05,best_feature,best_fdr,best_mean_diff_clr
+CRC_vs_Control__within_Male,91,51,Romboutsia,1.5650978917212493e-11,-0.5963908808632516
+CRC_vs_Control__within_Female,91,29,Fusobacterium,8.741191617072608e-06,1.2587729102364031
+Male_vs_Female__within_Control,91,2,Slackia,0.007536095873439387,0.5508384082841051
+Male_vs_Female__within_CRC,91,3,Collinsella,0.010293005905034807,0.8926364295119944
