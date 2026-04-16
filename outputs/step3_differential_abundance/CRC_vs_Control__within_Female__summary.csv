@@ -1,0 +1,2 @@
+contrast,n_group1,n_group0,n_features_tested,n_significant_fdr_0_05,top_feature_by_fdr,top_feature_fdr,top_feature_mean_diff
+CRC_vs_Control__within_Female,290,384,91,29,Fusobacterium,8.741191617072608e-06,1.2587729102364031
