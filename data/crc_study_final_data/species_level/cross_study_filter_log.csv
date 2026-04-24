@@ -1,0 +1,191 @@
+species,n_studies_above_threshold,kept_cross,overall_mean
+Faecalibacterium prausnitzii,11,True,4.932526539900249
+Bacteroides stercoris,11,True,2.2683985473815462
+Bifidobacterium longum,11,True,1.575167849127182
+Collinsella aerofaciens,11,True,2.11270292394015
+Dorea longicatena,11,True,1.0321034912718203
+Phocaeicola vulgatus,11,True,6.70549304862843
+Roseburia intestinalis,11,True,0.6916398753117207
+Roseburia inulinivorans,11,True,1.190313908977556
+Agathobaculum butyriciproducens,11,True,0.36228639027431425
+[Eubacterium] rectale,11,True,2.687030436408978
+Coprococcus eutactus,11,True,0.5639685099750624
+Bacteroides uniformis,11,True,5.019594021197007
+Bifidobacterium adolescentis,11,True,1.8374764089775562
+Bacteroides ovatus,11,True,0.9248856920199502
+Roseburia hominis,11,True,0.3199256172069825
+Alistipes putredinis,11,True,2.1429154177057357
+Firmicutes bacterium CAG:83,11,True,0.3477506047381546
+Ruminococcus bromii,11,True,2.6652772506234417
+Oscillibacter sp. 57_20,11,True,0.26760322319201996
+Akkermansia muciniphila,11,True,1.4574925935162095
+Escherichia coli,11,True,2.308962325436409
+Ruminococcus bicirculans,11,True,0.6319285349127183
+Parabacteroides merdae,11,True,0.9946682793017455
+Eubacterium sp. CAG:180,11,True,1.5938016895261846
+[Eubacterium] siraeum,11,True,0.8887968952618454
+Phocaeicola dorei,11,True,2.6081702306733168
+Ruthenibacterium lactatiformans,11,True,0.34338598503740647
+Bacteroides eggerthii,11,True,0.6151614775561097
+Roseburia faecis,11,True,1.5426476558603488
+[Ruminococcus] gnavus,11,True,1.3176032917705736
+Bacteroides caccae,11,True,0.8340167082294264
+Prevotella copri,11,True,6.299643173316708
+Bacteroides fragilis,10,True,0.9787598129675811
+Parabacteroides distasonis,10,True,1.8318523192019949
+Barnesiella intestinihominis,10,True,0.568430355361596
+Phascolarctobacterium succinatutens,10,True,0.5757020261845387
+Flavonifractor plautii,10,True,0.47769230049875316
+Alistipes finegoldii,10,True,0.5407269201995013
+Bacteroides thetaiotaomicron,10,True,1.0558151807980052
+Eubacterium sp. CAG:251,10,True,0.33646780548628424
+[Ruminococcus] lactaris,10,True,0.3513643765586035
+Bacteroides xylanisolvens,10,True,0.40466243142144637
+Fusicatenibacter saccharivorans,10,True,1.3079988341645885
+Lachnospira eligens,10,True,1.448609501246883
+[Ruminococcus] torques,10,True,1.1624359663341648
+Coprococcus comes,10,True,0.6773987032418953
+Anaerostipes hadrus,9,True,1.7492600935162097
+Streptococcus salivarius,9,True,0.5757581546134664
+Phocaeicola plebeius,9,True,2.210805866583541
+Blautia obeum,9,True,0.7095721633416459
+Dorea formicigenerans,9,True,0.39437269950124687
+Blautia wexlerae,9,True,0.8012579862842893
+Holdemanella biformis,9,True,0.20201704488778055
+Anaerobutyricum hallii,9,True,0.7449882356608479
+Bacteroides cellulosilyticus,9,True,0.4386958790523691
+Odoribacter splanchnicus,9,True,0.39510562967581053
+Lachnospira pectinoschiza,9,True,0.8424458852867831
+Bifidobacterium bifidum,9,True,0.3539420947630922
+Clostridium sp. CAG:58,9,True,0.1369524875311721
+Bacteroides intestinalis,9,True,0.17100254987531172
+Oscillibacter sp. CAG:241,9,True,0.28947982543640893
+Bifidobacterium pseudocatenulatum,9,True,0.6041736720698255
+Acidaminococcus intestini,9,True,0.29389162094763094
+Alistipes inops,8,True,0.1944366583541147
+Paraprevotella xylaniphila,8,True,0.1541479114713217
+Phocaeicola massiliensis,8,True,0.3210534351620947
+Phascolarctobacterium faecium,8,True,0.19639714463840396
+Methanobrevibacter smithii,8,True,0.5062858852867831
+Streptococcus parasanguinis,8,True,0.292987493765586
+Gemmiger formicilis,8,True,0.1739708229426434
+Klebsiella pneumoniae,8,True,0.4571853179551123
+Alistipes shahii,8,True,0.1569426059850374
+Eubacterium sp. CAG:38,8,True,0.4171043640897755
+Firmicutes bacterium CAG:110,7,True,0.15488453241895261
+Eubacterium ventriosum,7,True,0.15926120324189527
+Coprococcus catus,7,True,0.17978122817955114
+Bacteroides salyersiae,7,True,0.1605370885286783
+Eubacterium ramulus,7,True,0.13874700124688277
+Parasutterella excrementihominis,6,True,0.14115137780548628
+Bacteroides finegoldii,6,True,0.2495151932668329
+Streptococcus thermophilus,6,True,0.24001003740648377
+Blautia sp. CAG:257,6,True,0.21808582917705735
+Phocaeicola coprocola,6,True,0.4238760847880299
+Erysipelatoclostridium ramosum,6,True,0.21548806109725682
+Slackia isoflavoniconvertens,6,True,0.11461060473815463
+Veillonella parvula,5,True,0.20649648379052368
+Eubacterium sp. CAG:274,5,True,0.11594874688279301
+Dialister invisus,5,True,0.08391486907730673
+Coprobacter fastidiosus,5,True,0.09369524937655861
+Desulfovibrio piger,5,True,0.1235760162094763
+Butyricimonas virosa,5,True,0.0846673940149626
+Eggerthella lenta,5,True,0.17785889650872816
+Proteobacteria bacterium CAG:139,4,True,0.10701802992518704
+Klebsiella variicola,4,True,0.1705189027431422
+Enterocloster bolteae,4,True,0.11910160224438904
+Klebsiella quasipneumoniae,4,True,0.1038355922693267
+Intestinibacter bartlettii,3,True,0.06022087905236908
+Adlercreutzia equolifaciens,3,True,0.09552661471321694
+Firmicutes bacterium CAG:145,3,True,0.06049354738154614
+Gordonibacter pamelaeae,3,True,0.07911374064837906
+Adlercreutzia equolifaciens_1,3,True,0.08848435785536161
+Bacteroides sp. CAG:144,3,True,0.08823161471321694
+Anaerotignum lactatifermentans,3,True,0.08283304239401497
+Megamonas funiformis,3,True,0.19661597256857857
+Lawsonibacter asaccharolyticus,3,True,0.07833670199501247
+Parvimonas micra,3,True,0.0700314650872818
+Veillonella atypica,3,True,0.12551789900249377
+Alistipes onderdonkii,2,False,0.055086764339152126
+Haemophilus parainfluenzae,2,False,0.10255483790523692
+Roseburia sp. CAG:471,2,False,0.049769457605985036
+[Clostridium] symbiosum,2,False,0.0662909975062344
+Enterocloster clostridioformis,2,False,0.09737841022443891
+Firmicutes bacterium CAG:170,2,False,0.04967279925187033
+Dorea sp. CAG:317,2,False,0.05007184538653367
+Collinsella intestinalis,2,False,0.048838123441396514
+Clostridium sp. CAG:242,2,False,0.07277443266832917
+Parabacteroides goldsteinii,2,False,0.06864626558603493
+Bacteroides clarus,2,False,0.06922014962593516
+Sellimonas intestinalis,2,False,0.05624018703241895
+[Clostridium] innocuum,2,False,0.058118491271820456
+Bilophila wadsworthia,2,False,0.05909684538653367
+[Clostridium] leptum,2,False,0.0890815897755611
+Haemophilus sp. HMSC71H05,1,False,0.022100311720698252
+Peptostreptococcus stomatis,1,False,0.0272250187032419
+Tractidigestivibacter scatoligenes,1,False,0.023355667082294265
+Enorma massiliensis,1,False,0.024015168329177057
+Firmicutes bacterium CAG:95,1,False,0.028538372817955113
+Streptococcus mutans,1,False,0.01952502493765586
+Turicibacter sanguinis,1,False,0.04048551745635911
+Hungatella hathewayi,1,False,0.04731434538653367
+Streptococcus vestibularis,1,False,0.03394831047381546
+Bifidobacterium dentium,1,False,0.06393718204488778
+Alistipes indistinctus,1,False,0.05816155860349127
+Intestinimonas butyriciproducens,1,False,0.05320101620947631
+Firmicutes bacterium CAG:94,1,False,0.041455972568578546
+Eisenbergiella massiliensis,1,False,0.031798329177057355
+Gemella sanguinis,0,False,0.015554912718204488
+Lactococcus lactis,0,False,0.017983266832917705
+Streptococcus mitis,0,False,0.03751863466334165
+Streptococcus infantis,0,False,0.013005112219451371
+Streptococcus australis,0,False,0.010760897755610973
+Rothia mucilaginosa,0,False,0.013358715710723192
+Allisonella histaminiformans,0,False,0.010602443890274316
+Gemella haemolysans,0,False,0.005734376558603491
+Actinomyces sp. S6-Spd3,0,False,0.0022325062344139652
+Veillonella dispar,0,False,0.04442218827930175
+Streptococcus sanguinis,0,False,0.00967931421446384
+Schaalia odontolytica,0,False,0.0075065523690773074
+Adlercreutzia caecimuris,0,False,0.004026483790523691
+Romboutsia ilealis,0,False,0.0013900561097256858
+genus:Streptococcus,0,False,0.02447655860349127
+Gemella morbillorum,0,False,0.016885960099750623
+Actinomyces sp. oral taxon 181,0,False,0.0029894389027431416
+Actinomyces sp. HMSC035G02,0,False,0.0028155548628428927
+Holdemania filiformis,0,False,0.01945240024937656
+Streptococcus oralis,0,False,0.03065181421446384
+Veillonella infantium,0,False,0.01399352867830424
+Anaeromassilibacillus sp. An250,0,False,0.02092113466334165
+[Clostridium] spiroforme,0,False,0.018708634663341644
+Actinomyces sp. ICM47,0,False,0.010712001246882792
+Mogibacterium diversum,0,False,0.01036927680798005
+Actinomyces oris,0,False,0.002467936408977556
+Enterocloster lavalensis,0,False,0.01046709476309227
+Ruminococcaceae bacterium D16,0,False,0.009155960099750622
+Streptococcus sp. A12,0,False,0.002737244389027431
+Anaerotruncus colihominis,0,False,0.02314725685785536
+Bacteroides nordii,0,False,0.012248466334164588
+[Eubacterium] sulci,0,False,0.0055609850374064825
+Enterocloster citroniae,0,False,0.018551558603491274
+Eisenbergiella tayi,0,False,0.03424115960099751
+Streptococcus gordonii,0,False,0.02492874064837905
+Clostridium bolteae CAG:59,0,False,0.02185195137157107
+Dielma fastidiosa,0,False,0.007899794264339151
+Blautia hydrogenotrophica,0,False,0.01381069825436409
+Clostridium disporicum,0,False,0.043067387780548624
+Solobacterium moorei,0,False,0.017856203241895265
+Tyzzerella nexilis,0,False,0.023945885286783042
+Veillonella sp. T11011-6,0,False,0.008128011221945137
+Enterocloster aldenensis,0,False,0.005194208229426435
+Enterocloster asparagiformis,0,False,0.011155997506234413
+Lacrimispora saccharolytica,0,False,0.03644349127182045
+Harryflintia acetispora,0,False,0.0041662344139650875
+Coprobacter secundus,0,False,0.017889750623441395
+Butyricimonas synergistica,0,False,0.022827250623441393
+Ruminococcus callidus,0,False,0.01126435162094763
+Bacteroides galacturonicus,0,False,0.020410891521197006
+Lactobacillus rogosae,0,False,0.019184270573566083
+Christensenella minuta,0,False,0.00479677680798005
+Ruminococcaceae bacterium D5,0,False,0.0182215710723192
+Turicimonas muris,0,False,0.010941988778054863

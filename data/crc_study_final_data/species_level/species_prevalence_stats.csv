@@ -1,4 +1,4 @@
-species,prevalence,kept
+species,prevalence,kept_15pct
 Faecalibacterium prausnitzii,0.9413965087281796,True
 Streptococcus salivarius,0.8403990024937655,True
 Anaerostipes hadrus,0.8298004987531172,True
@@ -69,7 +69,7 @@ Allisonella histaminiformans,0.2281795511221945,True
 Limosilactobacillus fermentum,0.07481296758104738,False
 Leuconostoc mesenteroides,0.04738154613466334,False
 Holdemania filiformis,0.4270573566084788,True
-Rothia dentocariosa,0.10037406483790523,True
+Rothia dentocariosa,0.10037406483790523,False
 Veillonella infantium,0.26433915211970077,True
 Streptococcus mutans,0.15835411471321695,True
 Streptococcus oralis,0.3983790523690773,True
@@ -79,7 +79,7 @@ Enorma massiliensis,0.3322942643391521,True
 [Ruminococcus] gnavus,0.6963840399002493,True
 genus:Streptococcus,0.2942643391521197,True
 Gemella morbillorum,0.192643391521197,True
-Actinomyces sp. HPA0247,0.13029925187032418,True
+Actinomyces sp. HPA0247,0.13029925187032418,False
 Actinomyces sp. oral taxon 181,0.2194513715710723,True
 Actinomyces sp. HMSC035G02,0.243142144638404,True
 Streptococcus sp. F0442,0.09164588528678304,False
@@ -89,7 +89,7 @@ Roseburia faecis,0.6708229426433915,True
 Actinobaculum sp. oral taxon 183,0.029925187032418952,False
 Veillonella tobetsuensis,0.04800498753117207,False
 Veillonella rogosae,0.06670822942643391,False
-Clostridium sp. CAG:299,0.11034912718204488,True
+Clostridium sp. CAG:299,0.11034912718204488,False
 Phocaeicola coprocola,0.18079800498753118,True
 Actinomyces johnsonii,0.02369077306733167,False
 Adlercreutzia equolifaciens,0.5766832917705735,True
@@ -124,7 +124,7 @@ Alistipes shahii,0.6396508728179551,True
 Actinomyces sp. ICM47,0.32231920199501246,True
 Eggerthella lenta,0.6670822942643392,True
 Escherichia coli,0.706359102244389,True
-Enterococcus faecalis,0.10660847880299251,True
+Enterococcus faecalis,0.10660847880299251,False
 Butyricimonas virosa,0.5336658354114713,True
 Bacteroides sp. CAG:144,0.18017456359102244,True
 Adlercreutzia caecimuris,0.34600997506234416,True
@@ -137,13 +137,13 @@ Erysipelatoclostridium ramosum,0.4625935162094763,True
 Slackia isoflavoniconvertens,0.3697007481296758,True
 Lentilactobacillus otakiensis,0.0024937655860349127,False
 Romboutsia ilealis,0.1502493765586035,True
-Roseburia sp. CAG:309,0.12718204488778054,True
+Roseburia sp. CAG:309,0.12718204488778054,False
 Phascolarctobacterium sp. CAG:266,0.09788029925187032,False
 [Clostridium] innocuum,0.4233167082294264,True
 Streptococcus vestibularis,0.27057356608478805,True
 Clostridium sp. CAG:58,0.4021197007481297,True
 Lactococcus petauri,0.02057356608478803,False
-Actinomyces graevenitzii,0.13092269326683292,True
+Actinomyces graevenitzii,0.13092269326683292,False
 Aeriscardovia aeriphila,0.0928927680798005,False
 Bifidobacterium animalis,0.09912718204488778,False
 Enterococcus pseudoavium,0.003117206982543641,False
@@ -156,7 +156,7 @@ Eubacterium sp. CAG:38,0.523067331670823,True
 Bacteroides fragilis,0.5187032418952618,True
 Clostridium sp. CAG:253,0.08790523690773068,False
 Ruminococcus obeum CAG:39,0.046758104738154616,False
-Clostridium sp. CAG:167,0.11845386533665836,True
+Clostridium sp. CAG:167,0.11845386533665836,False
 Bifidobacterium bifidum,0.22007481296758105,True
 Bifidobacterium catenulatum,0.09725685785536159,False
 Blautia sp. CAG:257,0.3248129675810474,True
@@ -168,7 +168,7 @@ Alistipes indistinctus,0.38154613466334164,True
 Eisenbergiella massiliensis,0.24064837905236908,True
 Proteobacteria bacterium CAG:139,0.29301745635910226,True
 [Clostridium] spiroforme,0.2743142144638404,True
-Christensenella hongkongensis,0.14962593516209477,True
+Christensenella hongkongensis,0.14962593516209477,False
 Enterocloster citroniae,0.5056109725685786,True
 Lawsonibacter asaccharolyticus,0.7182044887780549,True
 Hungatella hathewayi,0.4307980049875312,True
@@ -177,22 +177,22 @@ Turicibacter sanguinis,0.23753117206982544,True
 Coprobacter fastidiosus,0.29301745635910226,True
 Bacteroides sp. D2,0.023067331670822942,False
 Sellimonas intestinalis,0.2699501246882793,True
-Coprobacillus cateniformis,0.1483790523690773,True
-[Clostridium] scindens,0.14027431421446385,True
+Coprobacillus cateniformis,0.1483790523690773,False
+[Clostridium] scindens,0.14027431421446385,False
 [Eubacterium] sulci,0.25498753117206985,True
 Dielma fastidiosa,0.17581047381546136,True
 Clostridium bolteae CAG:59,0.2213216957605985,True
 Streptococcus gordonii,0.293640897755611,True
 Alistipes inops,0.2344139650872818,True
 Bacteroides finegoldii,0.26683291770573564,True
-Monoglobus pectinilyticus,0.14900249376558602,True
+Monoglobus pectinilyticus,0.14900249376558602,False
 Haemophilus sputorum,0.02805486284289277,False
 Propionibacterium freudenreichii,0.048628428927680795,False
 Paraprevotella xylaniphila,0.3048628428927681,True
 Blautia hydrogenotrophica,0.18079800498753118,True
 Dialister invisus,0.22942643391521197,True
 Enterocloster clostridioformis,0.27618453865336656,True
-Paraprevotella clara,0.14588528678304238,True
+Paraprevotella clara,0.14588528678304238,False
 Bacteroides nordii,0.18017456359102244,True
 Ruminococcaceae bacterium D16,0.18703241895261846,True
 Enterocloster lavalensis,0.28241895261845384,True
@@ -204,7 +204,7 @@ Lachnoclostridium sp. An14,0.026184538653366583,False
 Lachnoclostridium sp. An138,0.09788029925187032,False
 Actinomyces naeslundii,0.07044887780548628,False
 Anaerotruncus colihominis,0.41271820448877805,True
-Bacteroides faecis,0.1327930174563591,True
+Bacteroides faecis,0.1327930174563591,False
 Actinomyces sp. oral taxon 448,0.038029925187032416,False
 Enterococcus italicus,0.0012468827930174563,False
 Actinomyces oris,0.15835411471321695,True
@@ -212,14 +212,14 @@ Bacteroides caccae,0.6165835411471322,True
 Firmicutes bacterium CAG:170,0.1527431421446384,True
 Denitrobacterium detoxificans,0.07543640897755612,False
 Desulfovibrio piger,0.19201995012468828,True
-Firmicutes bacterium CAG:238,0.11097256857855362,True
+Firmicutes bacterium CAG:238,0.11097256857855362,False
 Mogibacterium diversum,0.38403990024937656,True
 Solobacterium moorei,0.17144638403990026,True
 Lancefieldella rimae,0.08478802992518704,False
 Clostridium disporicum,0.19638403990024939,True
 Dorea sp. CAG:317,0.15399002493765587,True
 Anaeromassilibacillus sp. An172,0.004987531172069825,False
-Blautia coccoides,0.10536159600997506,True
+Blautia coccoides,0.10536159600997506,False
 [Clostridium] symbiosum,0.4164588528678304,True
 Anaeroglobus geminatus,0.02119700748129676,False
 Saccharomyces cerevisiae,0.02805486284289277,False
@@ -243,9 +243,9 @@ Megamonas funiformis CAG:377,0.033042394014962596,False
 Amedibacillus dolichus,0.07668329177057356,False
 Harryflintia acetispora,0.16022443890274315,True
 Eubacterium dolichum CAG:375,0.07855361596009976,False
-Megamonas hypermegale,0.14962593516209477,True
+Megamonas hypermegale,0.14962593516209477,False
 Megasphaera sp. DISK 18,0.02805486284289277,False
-Blautia producta,0.13653366583541146,True
+Blautia producta,0.13653366583541146,False
 Megamonas funiformis,0.15211970074812967,True
 Streptococcus sp. NLAE-zl-C503,0.006234413965087282,False
 Bifidobacterium breve,0.08977556109725686,False
@@ -262,12 +262,12 @@ Firmicutes bacterium CAG:94,0.29301745635910226,True
 Anaerofustis stercorihominis,0.02805486284289277,False
 [Clostridium] methylpentosum,0.07356608478802992,False
 Anaerotignum lactatifermentans,0.2076059850374065,True
-Lancefieldella parvula,0.11658354114713217,True
+Lancefieldella parvula,0.11658354114713217,False
 Eubacteriaceae bacterium CHKCI005,0.08104738154613467,False
 Veillonella sp. T11011-6,0.18329177057356608,True
 Cronobacter sakazakii,0.003740648379052369,False
 Fusobacterium varium,0.051745635910224436,False
-Fusobacterium nucleatum,0.11346633416458853,True
+Fusobacterium nucleatum,0.11346633416458853,False
 Pediococcus acidilactici,0.01371571072319202,False
 Olsenella uli,0.04488778054862843,False
 Streptococcus sobrinus,0.0442643391521197,False
@@ -282,7 +282,7 @@ Bifidobacterium angulatum,0.016209476309226933,False
 Anaerococcus vaginalis,0.028678304239401497,False
 Limosilactobacillus gastricus,0.0024937655860349127,False
 Actinomyces sp. oral taxon 180,0.023067331670822942,False
-Catenibacterium mitsuokai,0.14276807980049874,True
+Catenibacterium mitsuokai,0.14276807980049874,False
 Streptococcus sp. HPH0090,0.02493765586034913,False
 Scardovia wiggsiae,0.06483790523690773,False
 Bacteroides salyersiae,0.19576059850374064,True
@@ -293,7 +293,7 @@ Treponema berlinense,0.004364089775561097,False
 Firmicutes bacterium CAG:555,0.011845386533665835,False
 Prevotella sp. CAG:1092,0.03054862842892768,False
 Bacteroides sp. CAG:633,0.014962593516209476,False
-Prevotella sp. CAG:279,0.14276807980049874,True
+Prevotella sp. CAG:279,0.14276807980049874,False
 Clostridium sp. CAG:632,0.014339152119700748,False
 Atopobium deltae,0.023067331670822942,False
 Lactobacillus rogosae,0.256857855361596,True
@@ -304,7 +304,7 @@ Bacteroides galacturonicus,0.15773067331670823,True
 Parabacteroides sp. CAG:409,0.06109725685785536,False
 Prevotella sp. CAG:520,0.08291770573566085,False
 Butyrivibrio sp. CAG:318,0.05922693266832918,False
-Prevotella stercorea,0.13528678304239403,True
+Prevotella stercorea,0.13528678304239403,False
 Butyrivibrio crossotus,0.09351620947630923,False
 Clostridium sp. CAG:411,0.011221945137157107,False
 Bacteroides sp. CAG:530,0.02805486284289277,False
@@ -362,16 +362,16 @@ Alloscardovia omnicolens,0.07793017456359103,False
 [Eubacterium] infirmum,0.03865336658354115,False
 Pseudoflavonifractor capillosus,0.08665835411471322,False
 Staphylococcus equorum,0.004364089775561097,False
-Faecalitalea cylindroides,0.1371571072319202,True
+Faecalitalea cylindroides,0.1371571072319202,False
 Corynebacterium casei,0.008728179551122194,False
 Clostridiales bacterium 1_7_47FAA,0.046134663341645885,False
 Desulfovibrio sp. An276,0.0018703241895261845,False
 Prevotella sp. 885,0.0399002493765586,False
-Desulfovibrionaceae bacterium,0.11034912718204488,True
+Desulfovibrionaceae bacterium,0.11034912718204488,False
 Schaalia turicensis,0.040523690773067333,False
 Prevotella timonensis,0.021820448877805487,False
 Ruminococcaceae bacterium D5,0.16895261845386533,True
-Parabacteroides johnsonii,0.14276807980049874,True
+Parabacteroides johnsonii,0.14276807980049874,False
 Prevotella bivia,0.033042394014962596,False
 Ruminococcus sp. CAG:403,0.04488778054862843,False
 Campylobacter hominis,0.007481296758104738,False
@@ -379,7 +379,7 @@ Streptococcus downei,0.01683291770573566,False
 Alcaligenes aquatilis,0.0012468827930174563,False
 Stenotrophomonas maltophilia,0.003117206982543641,False
 Dialister succinatiphilus,0.043640897755610975,False
-Pseudoflavonifractor sp. An184,0.11845386533665836,True
+Pseudoflavonifractor sp. An184,0.11845386533665836,False
 Proteus vulgaris,0.004987531172069825,False
 Flavonifractor sp. An10,0.048628428927680795,False
 Leuconostoc suionicum,0.0006234413965087282,False
@@ -406,13 +406,13 @@ Prevotella disiens,0.0199501246882793,False
 Peptostreptococcus anaerobius,0.04239401496259352,False
 Klebsiella michiganensis,0.040523690773067333,False
 Porphyromonas uenonis,0.03927680798004988,False
-Megasphaera elsdenii,0.12905236907730674,True
+Megasphaera elsdenii,0.12905236907730674,False
 Faecalicoccus pleomorphus,0.07231920199501247,False
 Oribacterium sinus,0.08042394014962594,False
 Citrobacter sp. MGH106,0.003740648379052369,False
 Megasphaera hexanoica,0.004364089775561097,False
 Lachnoanaerobaculum saburreum,0.02057356608478803,False
-Megasphaera micronuciformis,0.12406483790523691,True
+Megasphaera micronuciformis,0.12406483790523691,False
 Ligilactobacillus ruminis,0.03615960099750624,False
 Bacillus aerius,0.0018703241895261845,False
 Blautia hansenii,0.07231920199501247,False
@@ -422,7 +422,7 @@ Raoultella planticola,0.025561097256857856,False
 Schaalia georgiae,0.0018703241895261845,False
 Oribacterium parvum,0.04488778054862843,False
 Fusobacterium periodonticum,0.05922693266832918,False
-Dialister pneumosintes,0.1041147132169576,True
+Dialister pneumosintes,0.1041147132169576,False
 Peptostreptococcus sp. MV1,0.004987531172069825,False
 Parvimonas sp. oral taxon 393,0.008104738154613466,False
 Abiotrophia defectiva,0.02680798004987531,False
@@ -565,7 +565,7 @@ Raoultella ornithinolytica,0.043017456359102244,False
 Citrobacter portucalensis,0.02743142144638404,False
 Chlamydia ibidis,0.0018703241895261845,False
 Streptococcus pasteurianus,0.05049875311720698,False
-Fusobacterium mortiferum,0.12406483790523691,True
+Fusobacterium mortiferum,0.12406483790523691,False
 Treponema porcinum,0.0006234413965087282,False
 Prevotella sp. P3-122,0.0006234413965087282,False
 Companilactobacillus versmoldensis,0.0012468827930174563,False
