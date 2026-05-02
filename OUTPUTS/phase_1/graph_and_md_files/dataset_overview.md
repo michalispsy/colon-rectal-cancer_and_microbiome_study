@@ -1,4 +1,4 @@
-# Περιγραφή & Στατιστική Ανάλυση Dataset — CRC Microbiome Study
+# Περιγραφή & Στατιστική Ανάλυση Dataset — CRC Microbiome Study (Post-Gupta Removal)
 
 > **Πηγή Δεδομένων:** curatedMetagenomicData (Bioconductor)  
 > **Pipeline:** MetaPhlAn3 + HUMAnN3 (runDate: 2021-03-31)  
@@ -10,12 +10,12 @@
 
 | Μέτρο | Τιμή |
 |---|---|
-| **Μελέτες** | 11 |
-| **Σύνολο δειγμάτων** | 1,604 |
+| **Μελέτες** | 10 |
+| **Σύνολο δειγμάτων** | 1,544 |
 | **Metadata πεδία / άτομο** | 6 |
 | **Αρχικά βακτήρια (species)** | 934 |
 | **Βακτήρια μετά filtering** | 107 |
-| **Χώρες** | 9 |
+| **Χώρες** | 8 |
 | **Ήπειροι** | 3 (Ευρώπη, Ασία, Β. Αμερική) |
 
 ![Samples per Study](figures/fig1_samples_per_study.png)
@@ -24,16 +24,14 @@
 
 ## 2. Metadata ανά Άτομο (6 πεδία)
 
-Κάθε δείγμα (ασθενής) συνοδεύεται από 6 μεταβλητές:
-
 | Πεδίο | Τύπος | Μοναδικές Τιμές | Κενά | Περιγραφή |
 |---|---|---|---|---|
-| `Sample` | string | 1,604 | 0 | Μοναδικό αναγνωριστικό δείγματος |
-| `Study` | string | 11 | 0 | Μελέτη προέλευσης |
+| `Sample` | string | 1,544 | 0 | Μοναδικό αναγνωριστικό δείγματος |
+| `Study` | string | 10 | 0 | Μελέτη προέλευσης |
 | `Condition` | string | 3 | 0 | CRC / Control / Adenoma |
 | `Gender` | string | 2 | 0 | Male / Female |
-| `Age` | float | 70 | 1 | Ηλικία σε έτη (21–90) |
-| `BMI` | float | 1,002 | 17 | Δείκτης Μάζας Σώματος |
+| `Age` | float | 66 | 1 | Ηλικία σε έτη |
+| `BMI` | float | 964 | 17 | Δείκτης Μάζας Σώματος |
 
 ---
 
@@ -41,19 +39,18 @@
 
 | Μελέτη | Δείγματα | % Dataset | Χώρα | Ήπειρος |
 |---|---|---|---|---|
-| YachidaS_2019 | 576 | 35.9% | 🇯🇵 Ιαπωνία | Ασία |
-| ZellerG_2014 | 156 | 9.7% | 🇫🇷 Γαλλία | Ευρώπη |
-| FengQ_2015 | 154 | 9.6% | 🇦🇹 Αυστρία | Ευρώπη |
-| YuJ_2015 | 128 | 8.0% | 🇨🇳 Κίνα | Ασία |
-| WirbelJ_2018 | 125 | 7.8% | 🇩🇪 Γερμανία | Ευρώπη |
-| VogtmannE_2016 | 104 | 6.5% | 🇺🇸 ΗΠΑ | Β. Αμερική |
-| HanniganGD_2017 | 81 | 5.1% | 🇨🇦🇺🇸 Καναδάς / ΗΠΑ | Β. Αμερική |
-| ThomasAM_2018a | 80 | 5.0% | 🇮🇹 Ιταλία | Ευρώπη |
-| ThomasAM_2019_c | 80 | 5.0% | 🇯🇵 Ιαπωνία | Ασία |
-| GuptaA_2019 | 60 | 3.7% | 🇮🇳 Ινδία | Ασία |
-| ThomasAM_2018b | 60 | 3.7% | 🇮🇹 Ιταλία | Ευρώπη |
+| YachidaS_2019 | 576 | 37.3% | 🇯🇵 Japan (JPN) | Ασία |
+| ZellerG_2014 | 156 | 10.1% | 🇫🇷 France (FRA) | Ευρώπη |
+| FengQ_2015 | 154 | 10.0% | 🇦🇹 Austria (AUT) | Ευρώπη |
+| YuJ_2015 | 128 | 8.3% | 🇨🇳 China (CHN) | Ασία |
+| WirbelJ_2018 | 125 | 8.1% | 🇩🇪 Germany (DEU) | Ευρώπη |
+| VogtmannE_2016 | 104 | 6.7% | 🇺🇸 USA | Β. Αμερική |
+| HanniganGD_2017 | 81 | 5.2% | 🇺🇸 USA (87%) + 🇨🇦 Canada (13%) | Β. Αμερική |
+| ThomasAM_2018a | 80 | 5.2% | 🇮🇹 Italy (ITA) | Ευρώπη |
+| ThomasAM_2019_c | 80 | 5.2% | 🇯🇵 Japan (JPN) | Ασία |
+| ThomasAM_2018b | 60 | 3.9% | 🇮🇹 Italy (ITA) | Ευρώπη |
 
-> **Σημείωση:** Η μελέτη YachidaS_2019 αντιπροσωπεύει το 35.9% του συνολικού dataset. Η Ασία (Ιαπωνία + Κίνα + Ινδία) συνεισφέρει 844 δείγματα (52.6%).
+> **Σημείωση:** Η μελέτη YachidaS_2019 αντιπροσωπεύει το 37.3% του συνολικού dataset. Η Ασία (Ιαπωνία + Κίνα) συνεισφέρει 784 δείγματα (50.8%).
 
 ---
 
@@ -61,9 +58,9 @@
 
 | Condition | Δείγματα | % |
 |---|---|---|
-| **CRC** (Καρκίνος Παχέος Εντέρου) | 701 | 43.7% |
-| **Control** (Υγιείς Μάρτυρες) | 694 | 43.3% |
-| **Adenoma** (Αδένωμα) | 209 | 13.0% |
+| **CRC** | 671 | 43.5% |
+| **Control** | 664 | 43.0% |
+| **Adenoma** | 209 | 13.5% |
 
 ![Condition Distribution & Study × Condition](figures/fig2_condition_distribution.png)
 
@@ -72,7 +69,6 @@
 | Study | Adenoma | CRC | Control | Σύνολο |
 |---|---|---|---|---|
 | FengQ_2015 | 47 | 46 | 61 | 154 |
-| GuptaA_2019 | – | 30 | 30 | 60 |
 | HanniganGD_2017 | 26 | 27 | 28 | 81 |
 | ThomasAM_2018a | 27 | 29 | 24 | 80 |
 | ThomasAM_2018b | – | 32 | 28 | 60 |
@@ -83,7 +79,7 @@
 | YuJ_2015 | – | 74 | 54 | 128 |
 | ZellerG_2014 | 42 | 53 | 61 | 156 |
 
-> **Σημείωση:** Δείγματα Adenoma υπάρχουν μόνο σε 5 από τις 11 μελέτες (FengQ, Hannigan, ThomasAM_2018a, Yachida, Zeller).
+> **Σημείωση:** Δείγματα Adenoma υπάρχουν μόνο σε 5 από τις 10 μελέτες.
 
 ---
 
@@ -91,8 +87,8 @@
 
 | Φύλο | Δείγματα | % |
 |---|---|---|
-| **Male** | 959 | 59.8% |
-| **Female** | 645 | 40.2% |
+| **Male** | 929 | 60.2% |
+| **Female** | 615 | 39.8% |
 
 ![Gender Distribution & Study × Gender](figures/fig3_gender_distribution.png)
 
@@ -101,95 +97,32 @@
 | Condition | Female | Male | % Female |
 |---|---|---|---|
 | Adenoma | 77 | 132 | 36.8% |
-| CRC | 257 | 444 | 36.7% |
-| Control | 311 | 383 | 44.8% |
+| CRC | 245 | 426 | 36.5% |
+| Control | 293 | 371 | 44.1% |
 
 ![Condition × Gender](figures/fig5_condition_gender.png)
-
-> **Σημείωση:** Σε όλες τις κατηγορίες υπερτερούν οι άνδρες (αναμενόμενο επιδημιολογικά για CRC). Η ομάδα Control είναι πιο ισορροπημένη (44.8% Female).
 
 ---
 
 ## 6. Ηλικία & BMI
 
-### Ηλικία
-
-| Μέτρο | Τιμή |
-|---|---|
-| Mean | 62.0 |
-| Median | 64.0 |
-| Std | 11.4 |
-| Min | 21 |
-| Max | 90 |
-| Missing | 1 |
+| Μέτρο | Ηλικία | BMI |
+|---|---|---|
+| Mean | 62.5 | 24.5 |
+| Median | 64.0 | 23.9 |
+| Missing | 1 | 17 |
 
 ![Age Distribution per Study](figures/fig4_age_distribution.png)
-
-### BMI
-
-| Μέτρο | Τιμή |
-|---|---|
-| Mean | 24.4 |
-| Median | 23.7 |
-| Missing | 17 |
-
 ![BMI Distribution](figures/fig7_bmi_distribution.png)
 
 ---
 
-## 7. Filtering (Prevalence & Cross-Study) — Τι καταλήξαμε
-
-### Pipeline Φιλτραρίσματος
-
-| Στάδιο | Species | Αφαιρέθηκαν |
-|---|---|---|
-| Πριν (αρχικά) | 934 | – |
-| Μετά Prevalence Filter (≥ 15%) | 190 | 744 (79.7%) |
-| Μετά Cross-Study Filter (≥ 0.1% σε ≥ 3 studies) | **107** | 83 (43.7%) |
-| **Συνολικά αφαιρέθηκαν** | | **827 (88.5%)** |
-
-![Filtering Pipeline](figures/fig6_filtering_funnel.png)
-
-### Φίλτρο 1: Prevalence Filtering
-- **Κριτήριο:** Αφαίρεση species που δεν ανιχνεύθηκαν σε τουλάχιστον 15% του συνόλου των δειγμάτων (≥ 241 / 1,604 samples).
-- **Αποτέλεσμα:** 934 → 190 species.
-- **Στόχος:** Εξάλειψη εξαιρετικά σπάνιων ειδών που εισάγουν στατιστικό θόρυβο λόγω πληθώρας μηδενικών τιμών.
-
-### Φίλτρο 2: Cross-Study Abundance Filtering
-- **Κριτήριο:** Διατήρηση μόνο ειδών με μέση σχετική αφθονία ≥ 0.1% (1E-03) σε τουλάχιστον 3 διαφορετικές κλινικές μελέτες.
-- **Αποτέλεσμα:** 190 → 107 species.
-- **Στόχος:** Αντιμετώπιση batch effect — εξασφάλιση ότι ένα μικρόβιο δεν αποτελεί τεχνητό εύρημα ενός μόνο εργαστηρίου.
-
-### Μετασχηματισμός CLR
-Μετά την τελική επιλογή (107 species) εφαρμόστηκε ο **CLR (Centered Log-Ratio) μετασχηματισμός** με pseudocount ίσο με τη μισή ελάχιστη μη-μηδενική τιμή.
-
-### Sparsity Τελικού Πίνακα
+## 7. Filtering & Sparsity
 
 | Μέτρο | Τιμή |
 |---|---|
-| Κελιά πίνακα | 171,628 |
-| Μηδενικά (zeros) | 81,562 |
-| **Sparsity** | **47.52%** |
+| Κελιά πίνακα | 165,208 |
+| Μηδενικά (zeros) | 77,079 |
+| **Sparsity** | **46.66%** |
 
 ![Sparsity per Species](figures/fig8_sparsity.png)
-
----
-
-## 8. Δομή Αρχείων
-
-```
-data/crc_study_final_data/species_level/
-├── metadata.csv                     (1604 × 6)   — Sample, Study, Condition, Gender, Age, BMI
-├── species_filtered_crossstudy.csv  (1604 × 108) — Raw abundances, 107 species + Sample ID
-├── species_clr_crossstudy.csv       (1604 × 108) — CLR-transformed, 107 species + Sample ID
-├── species_prevalence_stats.csv     (934 × 3)    — Log 1ου φίλτρου: species, prevalence, kept
-└── cross_study_filter_log.csv       (190 × 4)    — Log 2ου φίλτρου: αποφάσεις διατήρησης
-```
-
-| Αρχείο | Γραμμές | Στήλες | Σκοπός |
-|---|---|---|---|
-| `metadata.csv` | 1,604 | 6 | Κλινικά / δημογραφικά δεδομένα |
-| `species_filtered_crossstudy.csv` | 1,604 | 108 | Σχετικές αφθονίες (%) μετά filtering |
-| `species_clr_crossstudy.csv` | 1,604 | 108 | CLR-transformed τιμές για ML ανάλυση |
-| `species_prevalence_stats.csv` | 934 | 3 | Prevalence κάθε species & αν κρατήθηκε |
-| `cross_study_filter_log.csv` | 190 | 4 | Cross-study αποφάσεις & αριθμός μελετών |
