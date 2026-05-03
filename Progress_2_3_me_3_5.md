@@ -37,8 +37,7 @@ In the PCA space explaining 80% variance:
 **Interpretation:**  
 Adenoma was closer to **Control** than to **CRC** in global PCA centroid space. However, this is exploratory and Adenoma exists only in 5 studies, so we should not merge Adenoma with either group based only on this.
 
-image:
-	OUTPUTS/phase_2/step2_3_pca_centroids_PC12.png
+![PCA centroid distances](OUTPUTS/phase_2/2.3/step2_3_pca_centroids_PC12.png)
 
 ---
 
@@ -67,8 +66,7 @@ Unsupervised clusters align much more with **study/batch** than with disease con
 
 This is weak evidence only, because the CRC/control composition of the two clusters was almost balanced.
 
-image:
-	OUTPUTS/phase_2/step2_4_adenoma_k2_assignment.png
+![Adenoma k=2 assignment](OUTPUTS/phase_2/2.4/step2_4_adenoma_k2_assignment.png)
 
 ---
 
@@ -95,11 +93,10 @@ Tested rCLR abundance differences using a study-blocked Wilcoxon-style test, equ
 **Important signal:**  
 The strongest rCLR signal is **CRC vs Control**, especially in males. Adenoma vs Control was not significant after FDR in the blocked test.
 
-Top CRC vs Control rCLR species included: `[Ruminococcus] torques`, `Parvimonas micra`, `Collinsella aerofaciens`, `Ruthenibacterium lactatiformans`, `Faecalibacterium prausnitzii`, `Roseburia faecis`.
+Top CRC vs Control rCLR species included: `[Ruminococcus] torques`, `Parvimonas micra`, `Collinsella aerofaciens`, `Ruthenibacterium lactatiformans`, `Faecalibacterium prausnitzii`, 
+`Roseburia faecis`.
 
-image:
-	OUTPUTS/phase_3/step3_1_blocked_wilcoxon_summary.png
-
+![Blocked Wilcoxon summary](OUTPUTS/phase_3/3.1/step3_1_blocked_wilcoxon_summary.png)
 ---
 
 ## Step 3.2 — PA features, Cochran-Mantel-Haenszel test
@@ -125,8 +122,7 @@ Presence/absence also shows the strongest disease signal for **CRC vs Control**,
 
 Top PA species included `Parvimonas micra`, which was much more prevalent in CRC than Control.
 
-image:
-	OUTPUTS/phase_3/step3_2_cmh_summary.png
+![CMH summary](OUTPUTS/phase_3/3.2/step3_2_cmh_summary.png)
 
 ---
 
@@ -162,7 +158,7 @@ Computed per-study standardized mean differences for each rCLR species and combi
 **Interpretation:**  
 The most reproducible meta-analytic signal is **CRC vs Control**, particularly in males. Adenoma-related contrasts were not significant after FDR in the random-effects analysis.
 
-OUTPUTS/phase_3/step3_3_meta_analysis_summary.png
+![Meta-analysis summary](OUTPUTS/phase_3/3.3/step3_3_meta_analysis_summary.png)
 
 ---
 
@@ -185,8 +181,7 @@ Step 3.4 uses simple visualization statistics and should not be treated as the m
 **Use:**  
 This step is mainly useful for communicating patterns and for selecting candidate species to compare with SHAP features in Phase 5.
 
-image:
-	OUTPUTS/phase_3/step3_4_heatmap_top_species_condition_by_sex.png
+![Heatmap by condition and sex](OUTPUTS/phase_3/3.4/step3_4_heatmap_top_species_condition_by_sex.png)
 
 ---
 
@@ -214,10 +209,9 @@ using Jonckheere-Terpstra trend tests, plus pairwise checks and biomarker catego
 **Interpretation:**  
 There is some evidence for ordered microbiome shifts across Control → Adenoma → CRC, but most robust formal evidence from Steps 3.1–3.3 still points to CRC vs Control as the clearest signal. Adenoma findings should remain exploratory because Adenoma samples come from fewer studies.
 
-images:
+![Biomarker overlap](OUTPUTS/phase_3/3.5/step3_5_biomarker_overlap.png)
 
-	OUTPUTS/phase_3/step3_5_biomarker_overlap.png
-	OUTPUTS/phase_3/step3_5_effect_size_gradient_top_species.png
+![Effect-size gradient](OUTPUTS/phase_3/3.5/step3_5_effect_size_gradient_top_species.png)
 
 ---
 
