@@ -1,0 +1,201 @@
+STEP 3.1 — rCLR FEATURES: BLOCKED WILCOXON / VAN ELTEREN TEST
+==============================================================================
+
+INPUTS
+------------------------------------------------------------------------------
+X_explore path: /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/data/crc_study_final_data/species_level/X_explore.csv
+Metadata path:  /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/data/crc_study_final_data/species_level/metadata.csv
+Merged samples: 1544
+rCLR features tested: 107
+Blocking variable: Study
+FDR method: Benjamini-Hochberg, separately within each comparison
+FDR threshold: 0.05
+Minimum per group per study block: 2
+Minimum contributing study blocks required: 2
+
+SAMPLE COUNTS
+------------------------------------------------------------------------------
+Condition counts:
+  CRC: 671
+  Control: 664
+  Adenoma: 209
+Sex counts:
+  Male: 929
+  Female: 615
+Number of studies: 10
+
+INTERPRETATION OF EFFECT DIRECTION
+------------------------------------------------------------------------------
+median_difference_a_minus_b = median(group_a) - median(group_b)
+Positive value means the rCLR feature is higher in group_a.
+Negative value means the rCLR feature is higher in group_b.
+For condition comparisons, group_a is the disease/advanced group where applicable.
+
+COMPARISON SUMMARY
+------------------------------------------------------------------------------
+Adenoma_vs_Control:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 0
+  Minimum raw p-value: 1.0371e-03
+  Minimum adjusted q-value: 1.1097e-01
+  Median contributing study blocks: 5.0
+
+  Top species by FDR-adjusted q-value:
+    - Phascolarctobacterium succinatutens | q=1.1097e-01, p=1.0371e-03, median_diff=0.0000, no_median_difference, blocks=5
+    - Bacteroides caccae | q=5.3988e-01, p=1.4007e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Oscillibacter sp. CAG:241 | q=5.3988e-01, p=2.3817e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - [Ruminococcus] torques | q=5.3988e-01, p=2.9032e-02, median_diff=0.5006, higher_in_Adenoma, blocks=5
+    - Bacteroides fragilis | q=5.3988e-01, p=3.1876e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Anaerostipes hadrus | q=5.3988e-01, p=3.5870e-02, median_diff=0.0403, higher_in_Adenoma, blocks=5
+    - Klebsiella pneumoniae | q=5.3988e-01, p=3.8107e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Streptococcus thermophilus | q=5.3988e-01, p=4.0365e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Parabacteroides distasonis | q=7.0656e-01, p=6.4680e-02, median_diff=-0.4722, higher_in_Control, blocks=5
+    - Bifidobacterium longum | q=7.0656e-01, p=6.6034e-02, median_diff=-0.5083, higher_in_Control, blocks=5
+
+CRC_vs_Adenoma:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 1
+  Minimum raw p-value: 1.4215e-04
+  Minimum adjusted q-value: 1.5210e-02
+  Median contributing study blocks: 5.0
+
+  Top species by FDR-adjusted q-value:
+    - Streptococcus thermophilus | q=1.5210e-02, p=1.4215e-04, median_diff=0.0000, no_median_difference, blocks=5
+    - Paraprevotella xylaniphila | q=2.5738e-01, p=5.3228e-03, median_diff=0.0000, no_median_difference, blocks=5
+    - Flavonifractor plautii | q=2.5738e-01, p=9.4428e-03, median_diff=0.0000, no_median_difference, blocks=5
+    - Clostridium sp. CAG:58 | q=2.5738e-01, p=9.7906e-03, median_diff=0.0000, no_median_difference, blocks=5
+    - Alistipes finegoldii | q=2.5738e-01, p=1.3830e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Bacteroides intestinalis | q=2.5738e-01, p=1.4433e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Parvimonas micra | q=2.9687e-01, p=2.3473e-02, median_diff=0.0000, no_median_difference, blocks=4
+    - Ruthenibacterium lactatiformans | q=2.9687e-01, p=2.6194e-02, median_diff=0.2900, higher_in_CRC, blocks=5
+    - Phocaeicola plebeius | q=2.9687e-01, p=2.6684e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Roseburia faecis | q=2.9687e-01, p=2.7745e-02, median_diff=-0.0701, higher_in_Adenoma, blocks=5
+
+CRC_vs_Control_Female:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 0
+  Minimum raw p-value: 3.0115e-03
+  Minimum adjusted q-value: 1.8567e-01
+  Median contributing study blocks: 10.0
+
+  Top species by FDR-adjusted q-value:
+    - Paraprevotella xylaniphila | q=1.8567e-01, p=3.0115e-03, median_diff=0.0000, no_median_difference, blocks=9
+    - Dorea formicigenerans | q=1.8567e-01, p=3.8161e-03, median_diff=0.0332, higher_in_CRC, blocks=10
+    - [Ruminococcus] torques | q=1.8567e-01, p=5.2056e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Streptococcus thermophilus | q=2.9794e-01, p=1.1138e-02, median_diff=0.0000, no_median_difference, blocks=10
+    - Ruthenibacterium lactatiformans | q=3.0091e-01, p=1.4061e-02, median_diff=0.6281, higher_in_CRC, blocks=10
+    - Collinsella aerofaciens | q=6.5606e-01, p=3.6789e-02, median_diff=0.1013, higher_in_CRC, blocks=10
+    - Methanobrevibacter smithii | q=6.9520e-01, p=5.9087e-02, median_diff=0.0000, no_median_difference, blocks=9
+    - Lachnospira pectinoschiza | q=6.9520e-01, p=6.1736e-02, median_diff=0.0000, no_median_difference, blocks=10
+    - Anaerostipes hadrus | q=6.9520e-01, p=6.3605e-02, median_diff=-0.4105, higher_in_Control, blocks=10
+    - Bacteroides stercoris | q=6.9520e-01, p=6.7826e-02, median_diff=0.0000, no_median_difference, blocks=10
+
+CRC_vs_Control_Male:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 9
+  Minimum raw p-value: 3.2125e-05
+  Minimum adjusted q-value: 3.4373e-03
+  Median contributing study blocks: 10.0
+
+  Top species by FDR-adjusted q-value:
+    - Roseburia intestinalis | q=3.4373e-03, p=3.2125e-05, median_diff=0.0000, no_median_difference, blocks=10
+    - Roseburia faecis | q=8.0565e-03, p=1.5059e-04, median_diff=-0.8684, higher_in_Control, blocks=10
+    - Faecalibacterium prausnitzii | q=1.1757e-02, p=3.4968e-04, median_diff=-0.3132, higher_in_Control, blocks=10
+    - Odoribacter splanchnicus | q=1.1757e-02, p=5.6453e-04, median_diff=0.0359, higher_in_CRC, blocks=10
+    - Lachnospira eligens | q=1.1757e-02, p=6.0132e-04, median_diff=-0.7830, higher_in_Control, blocks=10
+    - Parvimonas micra | q=1.1757e-02, p=6.5925e-04, median_diff=0.0000, no_median_difference, blocks=9
+    - Eubacterium ventriosum | q=2.6597e-02, p=1.7400e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Fusicatenibacter saccharivorans | q=4.0244e-02, p=3.2691e-03, median_diff=-0.4788, higher_in_Control, blocks=10
+    - Lachnospira pectinoschiza | q=4.0244e-02, p=3.3850e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Bacteroides caccae | q=7.5312e-02, p=7.0385e-03, median_diff=0.0786, higher_in_CRC, blocks=10
+
+CRC_vs_Control_all:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 15
+  Minimum raw p-value: 1.1705e-04
+  Minimum adjusted q-value: 1.2485e-02
+  Median contributing study blocks: 10.0
+
+  Top species by FDR-adjusted q-value:
+    - [Ruminococcus] torques | q=1.2485e-02, p=1.1705e-04, median_diff=0.2739, higher_in_CRC, blocks=10
+    - Parvimonas micra | q=1.2485e-02, p=2.7693e-04, median_diff=0.0000, no_median_difference, blocks=9
+    - Collinsella aerofaciens | q=1.2485e-02, p=3.9877e-04, median_diff=0.3728, higher_in_CRC, blocks=10
+    - Lachnospira pectinoschiza | q=1.2485e-02, p=4.9870e-04, median_diff=0.0000, no_median_difference, blocks=10
+    - Ruthenibacterium lactatiformans | q=1.2485e-02, p=5.8616e-04, median_diff=0.4942, higher_in_CRC, blocks=10
+    - Paraprevotella xylaniphila | q=1.2485e-02, p=7.0053e-04, median_diff=0.0000, no_median_difference, blocks=10
+    - Faecalibacterium prausnitzii | q=1.2485e-02, p=8.1679e-04, median_diff=-0.3024, higher_in_Control, blocks=10
+    - Roseburia intestinalis | q=1.3718e-02, p=1.0257e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Eubacterium ventriosum | q=2.0015e-02, p=1.6835e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Roseburia faecis | q=2.0733e-02, p=1.9376e-03, median_diff=-0.5743, higher_in_Control, blocks=10
+
+Male_vs_Female_within_Adenoma:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 0
+  Minimum raw p-value: 1.8703e-02
+  Minimum adjusted q-value: 6.9322e-01
+  Median contributing study blocks: 5.0
+
+  Top species by FDR-adjusted q-value:
+    - Anaerotignum lactatifermentans | q=6.9322e-01, p=1.8703e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Holdemanella biformis | q=6.9322e-01, p=2.7727e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Roseburia faecis | q=6.9322e-01, p=3.8695e-02, median_diff=-0.8442, higher_in_Female, blocks=5
+    - Bacteroides salyersiae | q=6.9322e-01, p=3.9152e-02, median_diff=0.0000, no_median_difference, blocks=4
+    - Bacteroides uniformis | q=6.9322e-01, p=4.7964e-02, median_diff=-0.1249, higher_in_Female, blocks=5
+    - Coprococcus catus | q=6.9322e-01, p=4.9340e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Barnesiella intestinihominis | q=6.9322e-01, p=5.0863e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - [Eubacterium] rectale | q=6.9322e-01, p=5.8208e-02, median_diff=0.5177, higher_in_Male, blocks=5
+    - Bifidobacterium pseudocatenulatum | q=6.9322e-01, p=5.8308e-02, median_diff=0.0000, no_median_difference, blocks=5
+    - Parabacteroides distasonis | q=7.2233e-01, p=6.9411e-02, median_diff=1.0143, higher_in_Male, blocks=5
+
+Male_vs_Female_within_CRC:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 4
+  Minimum raw p-value: 3.1175e-05
+  Minimum adjusted q-value: 2.0726e-03
+  Median contributing study blocks: 10.0
+
+  Top species by FDR-adjusted q-value:
+    - Prevotella copri | q=2.0726e-03, p=3.1175e-05, median_diff=0.0000, no_median_difference, blocks=10
+    - Phascolarctobacterium succinatutens | q=2.0726e-03, p=3.8741e-05, median_diff=0.0000, no_median_difference, blocks=10
+    - Collinsella aerofaciens | q=4.9875e-03, p=1.7008e-04, median_diff=0.4916, higher_in_Male, blocks=10
+    - Bacteroides xylanisolvens | q=4.9875e-03, p=1.8645e-04, median_diff=0.0000, no_median_difference, blocks=10
+    - Fusicatenibacter saccharivorans | q=1.0775e-01, p=5.5386e-03, median_diff=-0.1236, higher_in_Female, blocks=10
+    - Parabacteroides distasonis | q=1.0775e-01, p=6.0420e-03, median_diff=0.1758, higher_in_Male, blocks=10
+    - Bacteroides stercoris | q=1.3300e-01, p=8.7011e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Roseburia intestinalis | q=1.3637e-01, p=1.0196e-02, median_diff=0.0000, no_median_difference, blocks=10
+    - Streptococcus salivarius | q=1.5130e-01, p=1.2726e-02, median_diff=0.8812, higher_in_Male, blocks=10
+    - Phocaeicola plebeius | q=2.0056e-01, p=1.8744e-02, median_diff=0.0000, no_median_difference, blocks=10
+
+Male_vs_Female_within_Control:
+  Tested features: 107 / 107
+  Significant species at FDR < 0.05: 5
+  Minimum raw p-value: 3.3190e-05
+  Minimum adjusted q-value: 3.5514e-03
+  Median contributing study blocks: 10.0
+
+  Top species by FDR-adjusted q-value:
+    - Collinsella aerofaciens | q=3.5514e-03, p=3.3190e-05, median_diff=0.2509, higher_in_Male, blocks=10
+    - Phascolarctobacterium succinatutens | q=3.9070e-03, p=7.3029e-05, median_diff=0.0000, no_median_difference, blocks=10
+    - Dorea formicigenerans | q=1.5103e-02, p=4.2345e-04, median_diff=0.0493, higher_in_Male, blocks=10
+    - Coprobacter fastidiosus | q=2.8027e-02, p=1.2258e-03, median_diff=0.0000, no_median_difference, blocks=9
+    - Roseburia inulinivorans | q=2.8027e-02, p=1.3097e-03, median_diff=0.8140, higher_in_Male, blocks=10
+    - [Eubacterium] siraeum | q=7.7801e-02, p=4.3627e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Odoribacter splanchnicus | q=8.4255e-02, p=6.2361e-03, median_diff=0.0000, no_median_difference, blocks=10
+    - Parabacteroides distasonis | q=8.4255e-02, p=6.2995e-03, median_diff=0.4284, higher_in_Male, blocks=10
+    - [Ruminococcus] torques | q=9.4882e-02, p=8.9660e-03, median_diff=0.2715, higher_in_Male, blocks=10
+    - Parasutterella excrementihominis | q=9.4882e-02, p=9.0041e-03, median_diff=0.0000, no_median_difference, blocks=10
+
+FILES WRITTEN
+------------------------------------------------------------------------------
+step3_1_blocked_wilcoxon_all_results.csv
+step3_1_blocked_wilcoxon_significant_results.csv
+step3_1_blocked_wilcoxon_summary.png
+step3_1_final_report.txt
+
+IMPORTANT NOTES
+------------------------------------------------------------------------------
+1. This script does not merge Adenoma with CRC or Control.
+2. Adenoma is analyzed as a separate biological/clinical condition.
+3. The blocked Wilcoxon test controls for study by comparing groups within study blocks.
+4. Features with too few valid study blocks are not interpretable; check n_blocks.
+5. These results should later be compared with SHAP features in Phase 5.

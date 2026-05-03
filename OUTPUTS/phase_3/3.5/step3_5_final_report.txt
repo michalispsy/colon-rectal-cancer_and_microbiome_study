@@ -1,0 +1,98 @@
+STEP 3.5 — ADENOMA-CARCINOMA SEQUENCE ANALYSIS
+========================================================================
+
+INPUTS
+X_explore: /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/data/crc_study_final_data/species_level/X_explore.csv
+metadata:  /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/data/crc_study_final_data/species_level/metadata.csv
+
+DATA SUMMARY
+Samples included: 1544
+rCLR species tested: 107
+Condition column: Condition
+Study column: Study
+Sex column: Gender
+Number of studies: 10
+Number of studies containing Adenoma: 5
+
+Condition counts:
+  Control: 664
+  Adenoma: 209
+  CRC: 671
+
+METHODS
+For each rCLR species, the script computed mean and median abundance in Control, Adenoma, and CRC.
+It then tested the ordered trend Control < Adenoma < CRC using a Jonckheere-Terpstra test.
+The reverse ordered trend Control > Adenoma > CRC was also tested to detect decreasing sequence markers.
+Pairwise Mann-Whitney tests and Cliff's delta were computed for CRC vs Control, Adenoma vs Control, and CRC vs Adenoma.
+All p-values were corrected with Benjamini-Hochberg FDR correction.
+
+KEY FINDINGS
+Ordered increasing markers, FDR < 0.05: 13
+Ordered decreasing markers, FDR < 0.05: 11
+EARLY markers: 2
+LATE markers: 24
+PROGRESSION markers: 13
+
+CATEGORY DEFINITIONS
+EARLY: significant in Adenoma vs Control and CRC vs Control.
+LATE: significant in CRC vs Control but not Adenoma vs Control.
+PROGRESSION: significant in CRC vs Adenoma.
+ORDERED_INCREASING: significant Jonckheere-Terpstra trend Control < Adenoma < CRC and monotonic group means.
+ORDERED_DECREASING: significant Jonckheere-Terpstra trend Control > Adenoma > CRC and monotonic group means.
+
+TOP ORDERED INCREASING SPECIES
+  Alistipes finegoldii | q=0 | means: Control=-0.5942, Adenoma=-0.4961, CRC=-0.3413 | adenoma_position=0.388
+  Bacteroides cellulosilyticus | q=0 | means: Control=-0.3954, Adenoma=-0.2703, CRC=-0.2130 | adenoma_position=0.686
+  Bacteroides fragilis | q=0 | means: Control=-0.1071, Adenoma=-0.0538, CRC=0.2352 | adenoma_position=0.156
+  Bacteroides salyersiae | q=0 | means: Control=-0.0248, Adenoma=-0.0184, CRC=-0.0124 | adenoma_position=0.514
+  Butyricimonas virosa | q=0 | means: Control=-0.9230, Adenoma=-0.7609, CRC=-0.6956 | adenoma_position=0.713
+  Coprobacter fastidiosus | q=0 | means: Control=-0.3058, Adenoma=-0.2710, CRC=-0.2398 | adenoma_position=0.527
+  Dorea formicigenerans | q=0 | means: Control=0.1450, Adenoma=0.1827, CRC=0.3038 | adenoma_position=0.237
+  Eubacterium sp. CAG:180 | q=0 | means: Control=0.3838, Adenoma=0.4243, CRC=0.5351 | adenoma_position=0.268
+  Phascolarctobacterium succinatutens | q=0 | means: Control=0.4342, Adenoma=0.5028, CRC=0.5130 | adenoma_position=0.870
+  Ruminococcus bromii | q=0 | means: Control=0.7846, Adenoma=0.8454, CRC=0.8779 | adenoma_position=0.652
+
+TOP ORDERED DECREASING SPECIES
+  Anaerostipes hadrus | q=0 | means: Control=0.9595, Adenoma=0.9581, CRC=0.5427 | adenoma_position=0.003
+  Bacteroides stercoris | q=0 | means: Control=0.6664, Adenoma=0.6197, CRC=0.5855 | adenoma_position=0.578
+  Bifidobacterium longum | q=0 | means: Control=0.6304, Adenoma=0.4499, CRC=0.3670 | adenoma_position=0.686
+  Coprococcus comes | q=0 | means: Control=0.6387, Adenoma=0.5950, CRC=0.4202 | adenoma_position=0.200
+  Eubacterium sp. CAG:251 | q=0 | means: Control=0.2425, Adenoma=0.1588, CRC=0.0333 | adenoma_position=0.400
+  Eubacterium ventriosum | q=0 | means: Control=-0.2624, Adenoma=-0.4203, CRC=-0.5443 | adenoma_position=0.560
+  Faecalibacterium prausnitzii | q=0 | means: Control=2.4829, Adenoma=2.2611, CRC=2.1180 | adenoma_position=0.608
+  Fusicatenibacter saccharivorans | q=0 | means: Control=1.0065, Adenoma=0.9931, CRC=0.7487 | adenoma_position=0.052
+  Roseburia faecis | q=0 | means: Control=0.8251, Adenoma=0.7784, CRC=0.4926 | adenoma_position=0.141
+  Roseburia inulinivorans | q=0 | means: Control=0.5903, Adenoma=0.5044, CRC=0.4646 | adenoma_position=0.684
+
+TOP SPECIES BY BEST TREND Q-VALUE
+  Acidaminococcus intestini | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=0.1118, Adenoma=0.0938, CRC=0.1214
+  Adlercreutzia equolifaciens | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-1.0356, Adenoma=-0.8082, CRC=-1.1488
+  Adlercreutzia equolifaciens_1 | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-1.0656, Adenoma=-0.9777, CRC=-1.1219
+  Agathobaculum butyriciproducens | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=0.0134, Adenoma=0.1140, CRC=-0.1321
+  Akkermansia muciniphila | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-0.0440, Adenoma=0.2691, CRC=0.1690
+  Alistipes finegoldii | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-0.5942, Adenoma=-0.4961, CRC=-0.3413
+  Alistipes inops | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-0.0780, Adenoma=-0.0443, CRC=-0.0706
+  Alistipes putredinis | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=0.9007, Adenoma=0.8479, CRC=1.0548
+  Alistipes shahii | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-0.7842, Adenoma=-0.5704, CRC=-0.6655
+  Anaerobutyricum hallii | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-0.0884, Adenoma=0.1901, CRC=-0.1882
+  Anaerostipes hadrus | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=0.9595, Adenoma=0.9581, CRC=0.5427
+  Anaerotignum lactatifermentans | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-0.2017, Adenoma=-0.3189, CRC=-0.2471
+  Bacteroides caccae | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=0.3583, Adenoma=0.3433, CRC=0.5745
+  Bacteroides cellulosilyticus | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=-0.3954, Adenoma=-0.2703, CRC=-0.2130
+  Bacteroides eggerthii | direction=increasing_Control_to_Adenoma_to_CRC | best_q=0 | means: Control=0.0318, Adenoma=-0.1311, CRC=-0.0029
+
+OUTPUT FILES
+  step3_5_sequence_analysis_all_results.csv
+  step3_5_biomarker_categories.csv
+  step3_5_biomarker_overlap.png
+  step3_5_effect_size_gradient_top_species.png
+  step3_5_heatmap_ordered_sequence_top_species.png
+  step3_5_adenoma_position_top_species.png
+  step3_5_final_report.txt
+
+INTERPRETATION GUIDANCE
+If many ORDERED_INCREASING or ORDERED_DECREASING markers are found, this supports a gradual microbiome shift across Control -> Adenoma -> CRC.
+If LATE markers dominate, the microbiome signal appears stronger at the carcinoma stage than at the adenoma stage.
+If EARLY markers dominate, adenoma already carries CRC-relevant microbial changes.
+If PROGRESSION markers are rare, CRC and Adenoma may be hard to separate at species-level rCLR abundance.
+Because Adenoma samples usually occur in fewer cohorts, interpret sequence findings as exploratory unless replicated by study-blocked or LODO analyses.
