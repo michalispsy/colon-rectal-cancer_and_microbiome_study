@@ -178,6 +178,10 @@ Step 3.4 uses simple visualization statistics and should not be treated as the m
 | Adenoma vs Control | **4** | **9** |
 | CRC vs Adenoma | **13** | **15** |
 
+This suggests that Adenoma has some differences from Control in the simple visualization statistics.
+
+However, because Step 3.3 found no FDR-significant Adenoma vs Control rCLR species in random-effects meta-analysis, these Adenoma findings should be treated cautiously.
+
 **Use:**  
 This step is mainly useful for communicating patterns and for selecting candidate species to compare with SHAP features in Phase 5.
 
