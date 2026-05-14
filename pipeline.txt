@@ -1,0 +1,487 @@
+══════════════════════════════════════════════════════════════
+ΦΑΣΗ 1 │ ΠΡΟΕΤΟΙΜΑΣΙΑ ΔΕΔΟΜΕΝΩΝ
+══════════════════════════════════════════════════════════════
+
+ΒΗΜΑ 1.1 │ Επαλήθευση ομοιογένειας pipeline
+         │ • Όλες οι 12 CRC μελέτες με ίδιο MetaPhlAn3 runDate
+         │ • Ίδια έκδοση HUMAnN3 αν χρησιμοποιείς functional data
+         │
+ΒΗΜΑ 1.2 │ Αποκλεισμός προβληματικών μελετών
+         │ • Έλεγχος αν cases/controls αλληλουχίστηκαν χωριστά
+         │ • Έλεγχος sequencing_platform, country ανά condition
+         │
+ΒΗΜΑ 1.3 │ Έλεγχος κατανομών μεταβλητών ανά μελέτη
+         │ • Sex distribution ανά study
+         │ • Age distribution ανά study
+         │ • Country/ethnicity ανά study
+         │ → Σημείωση μελετών με extreme imbalance
+         │
+ΒΗΜΑ 1.4 │ Prevalence filtering
+         │ • Species παρόντα σε >10% τουλάχιστον μιας ομάδας
+         │   (CRC ή control)
+         │ → 1.604 δείγματα × 107 species, 47.5% sparsity
+         │
+ΒΗΜΑ 1.5 │ Hurdle Encoding Strategy (ορισμός, όχι εκτέλεση)
+         │ • Uniform treatment — κανένα threshold, κανένα split
+         │ • Για κάθε species × δείγμα δημιουργούνται 2 features:
+         │
+         │     PA_i   = 1 αν x_i > 0, αλλιώς 0
+         │
+         │     rCLR_i = log(x_i / geomean_nonzero_του_δείγματος)
+         │              όταν x_i > 0
+         │            = 0 όταν x_i = 0
+         │
+         │ • Ο geometric mean υπολογίζεται ΑΝΑ ΔΕΙΓΜΑ
+         │   μόνο από τα non-zero species αυτού του δείγματος
+         │ • Καμία χρήση pseudocount
+         │ → Τελικός χώρος: 214 features (107 PA + 107 rCLR)
+
+
+══════════════════════════════════════════════════════════════
+ΦΑΣΗ 2 │ EXPLORATORY DATA ANALYSIS
+══════════════════════════════════════════════════════════════
+⚠ Σκοπός: Κατανόηση δομής δεδομένων
+  ΔΕΝ τροφοδοτεί το ML pipeline
+
+ΒΗΜΑ 2.0 │ Υπολογισμός X_explore (μία φορά, σε όλο το dataset)
+         │ • Εφαρμογή Hurdle encoding (PA + rCLR) στα 107 species
+         │ → X_explore: 1.604 × 214
+         │
+ΒΗΜΑ 2.1 │ Dimensionality Reduction & Visualization
+         │ • PCA, t-SNE, UMAP πάνω στο X_explore
+         │ • Τρεις χρωματισμοί ξεχωριστά:
+         │     - study_name      → batch effect
+         │     - study_condition → CRC signal
+         │     - sex             → sex variation
+         │
+ΒΗΜΑ 2.2 │ PERMANOVA
+         │
+         │  2.2a │ Global PERMANOVA
+         │       │ adonis2(distance ~ study + condition + sex + age_bin)
+         │       │ → R² ανά παράγοντα
+         │       │
+         │  2.2b │ Per-study PERMANOVA                         ← ΥΠΑΡΧΕΙ ΗΔΗ
+         │       │ Condition effect εντός κάθε μελέτης
+         │       │
+         │  2.2c │ Pairwise PERMANOVA μεταξύ conditions        ← ΝΕΟ
+         │       │ • CRC vs Control      → R², p
+         │       │ • Adenoma vs Control   → R², p
+         │       │ • CRC vs Adenoma       → R², p
+         │       │
+         │       │ ΕΡΜΗΝΕΙΑ:
+         │       │   R²(CRC-Ctrl) > R²(Ade-Ctrl) > R²(CRC-Ade)
+         │       │   → progressive sequence, adenoma ενδιάμεσο
+         │       │
+         │       │   R²(CRC-Ade) ≈ 0, μη σημαντικό
+         │       │   → adenoma σχεδόν ταυτόσημο με CRC
+         │       │
+         │       │   R²(Ade-Ctrl) ≈ 0, μη σημαντικό
+         │       │   → adenoma σχεδόν ταυτόσημο με control
+         │       │
+ΒΗΜΑ 2.3 │ Centroid Distances στο PCA space                   ← ΝΕΟ
+         │ • Euclidean distance μεταξύ κεντροειδών:
+         │     d(Adenoma, CRC)
+         │     d(Adenoma, Control)
+         │     d(CRC, Control)
+         │ • Ποσοτικοποίηση: πόσο κοντά είναι το adenoma
+         │   στο CRC vs στο Control
+         │
+ΒΗΜΑ 2.4 │ Unsupervised Clustering
+         │ • K-Means (k=2, k=3, k=αριθμός_μελετών)
+         │ • DBSCAN
+         │ • Αξιολόγηση:
+         │     - Silhouette score
+         │     - ARI vs study, sex, condition
+         │     - ΝΕΟ: Αν k=2, πού πέφτουν τα Adenoma;
+         │       Με τα CRC ή με τα Control;
+
+══════════════════════════════════════════════════════════════
+ΦΑΣΗ 3 │ DIFFERENTIAL ABUNDANCE ANALYSIS
+══════════════════════════════════════════════════════════════
+Χρησιμοποιεί το X_explore από τη Φάση 2
+
+ΒΗΜΑ 3.1 │ rCLR features (continuous) — Blocked Wilcoxon
+         │ • coin::wilcox_test(abundance ~ condition | study)
+         │ • 5 συγκρίσεις:
+         │     - CRC vs Control (συνολικά)
+         │     - CRC vs Control (stratified ανά sex)
+         │     - Male vs Female (stratified ανά condition)
+         │     - Adenoma vs Control
+         │     - CRC vs Adenoma         
+         │ • FDR correction (Benjamini-Hochberg)
+         │
+ΒΗΜΑ 3.2 │ PA features (binary) — Cochran-Mantel-Haenszel
+         │ • mantelhaen.test(presence, condition, study)
+         │ • Ίδιες τρεις συγκρίσεις
+         │ • FDR correction
+         │
+ΒΗΜΑ 3.3 │ Random Effects Meta-Analysis
+         │ • Per-species SMD ανά μελέτη (metafor::escalc)
+         │ • REML random effects model (metafor::rma)
+         │ • I² και Cochran's Q για κάθε species
+         │ • Sex-stratified meta-analysis ξεχωριστά
+         │
+ΒΗΜΑ 3.4 │ Visualization
+         │ • Volcano plots (log2FC vs -log10 p-adj)
+         │ • Forest plots για top species
+         │ • Heatmap: species × condition, split by sex
+         │ → Αποθήκευση λίστας top differentially abundant species
+         │   (σύγκριση με SHAP στη Φάση 5)
+         |
+ΒΗΜΑ 3.5 │ Adenoma-Carcinoma Sequence Analysis
+         │   • Venn/Upset: shared vs unique biomarkers
+         │   • Effect size gradient: Control → Adenoma → CRC
+         │   • Trend test: Jonckheere-Terpstra
+         │     (ordered: Control < Adenoma < CRC)
+
+
+══════════════════════════════════════════════════════════════
+ΦΑΣΗ 4 │ ML PIPELINE — ΠΟΛΛΑΠΛΑ ΜΟΝΤΕΛΑ με LODO + FAIRNESS
+══════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+4.0 │ ΟΡΙΣΜΟΣ ΜΟΝΤΕΛΩΝ
+────────────────────────────────────────────────────────────
+
+  Model A │ Universal CRC vs Control
+          │ • Train: όλα τα CRC + Control δείγματα (M+F)
+          │ • Target: CRC=1, Control=0
+          │ • Σκοπός: γενικός classifier
+          │
+          │ ΤΕΚΜΗΡΙΩΣΗ:
+          │   Standard approach στη βιβλιογραφία CRC microbiome
+          │   Thomas et al. 2019 Nat Med, Wirbel et al. 2019 Nat Med
+
+  Model B │ Male-Only CRC vs Control
+          │ • Train: μόνο Male δείγματα (CRC + Control)
+          │ • Target: CRC=1, Control=0
+          │ • Σκοπός: sex-specific classifier
+          │
+  Model C │ Female-Only CRC vs Control
+          │ • Train: μόνο Female δείγματα (CRC + Control)
+          │ • Target: CRC=1, Control=0
+          │ • Σκοπός: sex-specific classifier
+          │
+          │ ΤΕΚΜΗΡΙΩΣΗ Models B+C:
+          │   • CRC εμφανίζεται νωρίτερα στους άνδρες
+          │     και με διαφορετική εντόπιση ανά φύλο
+          │     (Kim et al. 2015, Cancer Res Treat)
+          │   • Gut microbiome παρουσιάζει sex-specific
+          │     σύνθεση (Valeri & Bhatt 2020, Gastroenterology)
+          │   • Sex-stratified models μπορούν να αποκαλύψουν
+          │     biomarkers αόρατα στο universal model
+          │   • Precision medicine: διαφορετικό screening
+          │     ανά φύλο
+
+  Model D │ Adenoma vs Control
+          │ • Train: μόνο Adenoma + Control δείγματα
+          │ • Target: Adenoma=1, Control=0
+          │ • Σκοπός: πρώιμη ανίχνευση (early detection)
+          │
+          │ ΤΕΚΜΗΡΙΩΣΗ:
+          │   • Adenoma είναι ο κύριος πρόδρομος του CRC
+          │   • Πρώιμη ανίχνευση adenoma μειώνει CRC mortality
+          │     κατά 50% (Zauber et al. 2012, NEJM)
+          │   • Microbiome changes ξεκινούν στο adenoma στάδιο
+          │     (Wirbel et al. 2019, Nat Med)
+          │   • Non-invasive screening εναλλακτική στην
+          │     κολονοσκόπηση
+
+  Model E │ CRC vs Adenoma
+          │ • Train: μόνο CRC + Adenoma δείγματα
+          │ • Target: CRC=1, Adenoma=0
+          │ • Σκοπός: διάκριση σταδίου (progression)
+          │
+          │ ΤΕΚΜΗΡΙΩΣΗ:
+          │   • Κλινική αξία: αν ανιχνευθεί νεόπλασμα, πόσο
+          │     προχωρημένο είναι;
+          │   • Adenoma-carcinoma sequence υποστηρίζεται
+          │     μικροβιολογικά (Zorron Cheng Tao Pu et al.
+          │     2020, Gut Microbes)
+          │   • Strain-level differences μεταξύ adenoma/CRC
+          │     (Frontiers Microbiol 2025, multi-cohort study)
+
+  Model F │ Any Neoplasia vs Control
+          │ • Train: (CRC + Adenoma) vs Control
+          │ • Target: Neoplasia=1, Control=0
+          │ • Σκοπός: γενικός screening classifier
+          │
+          │ ΤΕΚΜΗΡΙΩΣΗ:
+          │   • Κλινικά πιο ρεαλιστικό: ο γιατρός θέλει να
+          │     ξέρει "υπάρχει κάτι;" όχι "τι ακριβώς;"
+          │   • Αυξάνει το sample size → πιο σταθερό μοντέλο
+          │   • Topçuoğlu et al. 2020 mBio: framework για
+          │     ML classification σε microbiome-CRC
+
+
+────────────────────────────────────────────────────────────
+4.1 │ LODO LOOP — ΚΟΙΝΟ ΓΙΑ ΟΛΑ ΤΑ ΜΟΝΤΕΛΑ
+────────────────────────────────────────────────────────────
+
+  Για κάθε Model (A–F) × κάθε held-out study:
+
+  ┌─ 4.1a │ Train/Test Split
+  │       │ • Train: N-1 studies
+  │       │ • Test: 1 held-out study
+  │       │ • Φιλτράρισμα δειγμάτων ανάλογα με το Model:
+  │       │     Model A: CRC + Control (M+F)
+  │       │     Model B: CRC + Control (μόνο M)
+  │       │     Model C: CRC + Control (μόνο F)
+  │       │     Model D: Adenoma + Control
+  │       │     Model E: CRC + Adenoma
+  │       │     Model F: (CRC+Adenoma) + Control
+  │       │
+  │       │ ⚠ ΠΡΟΣΟΧΗ ΣΤΟ SAMPLE SIZE:
+  │       │   Models B, C, D, E θα έχουν μικρότερα
+  │       │   train/test sets. Μελέτες χωρίς Adenoma
+  │       │   (π.χ. GuptaA_2019, ThomasAM_2018b κλπ)
+  │       │   δεν συμμετέχουν στα Models D, E.
+  │       │   Αν ένα test fold έχει <10 δείγματα
+  │       │   στο target class → skip αυτό το fold
+  │       │
+  ├─ 4.1b │ Hurdle Encoding
+  │       │ • PA + rCLR ανά δείγμα
+  │       │ • Ήδη υπολογισμένο (Βήμα 1.5, μία φορά)
+  │       │
+  ├─ 4.1c │ Batch Correction — ΜΟΝΟ rCLR features, ΜΟΝΟ train
+  │       │ • MMUPHin adjust_batch:
+  │       │     batch = study_name
+  │       │     covariates = [target_variable, sex, age]
+  │       │ • PA features: ΔΕΝ batch-corrected
+  │       │ • Test set: ΔΕΝ batch-corrected
+  │       │
+  │       │ ⚠ ΓΙΑ MODELS B, C:
+  │       │   sex δεν είναι covariate (σταθερό)
+  │       │   covariates = [target_variable, age]
+  │       │
+  ├─ 4.1d │ Συνένωση Features
+  │       │ Models A, D, E, F:
+  │       │   X = [PA | rCLR_corrected | sex | age]
+  │       │ Models B, C:
+  │       │   X = [PA | rCLR_corrected | age]
+  │       │   (sex αφαιρείται — σταθερό)
+  │       │
+  ├─ 4.1e │ Frozen Z-score Normalization
+  │       │ scaler.fit(X_train) → transform(X_test)
+  │       │
+  ├─ 4.1f │ Model Training
+  │       │ • Random Forest ή LASSO logistic regression
+  │       │ • Hyperparameter tuning: inner 5-fold CV στο train
+  │       │
+  └─ 4.1g │ Evaluation στο test
+          │
+          │ Models A, B, C, D, F:
+          │   • AUC, AUPRC, F1
+          │   • Confusion matrix
+          │
+          │ Model A (Universal) — επιπλέον:
+          │   • Sex-stratified AUC: AUC_male, AUC_female
+          │   • Fairness metrics:
+          │       - Equal Opportunity: |TPR_M − TPR_F|
+          │       - Predictive Parity: PPV_M vs PPV_F
+          │       - Demographic Parity: P(ŷ=1|M) vs P(ŷ=1|F)
+          │
+          │ Model A (Universal) — Adenoma scoring:
+          │   • Πέρασε τα Adenoma δείγματα του test set
+          │     στο CRC vs Control μοντέλο
+          │   • Κατέγραψε predicted P(CRC) για κάθε adenoma
+          │   • Αν P(CRC) > 0.5 → "CRC-like" adenoma
+          │
+          │ Model E (CRC vs Adenoma) — επιπλέον:
+          │   • Ποια features διαχωρίζουν τα δύο στάδια;
+
+
+────────────────────────────────────────────────────────────
+4.2 │ AGGREGATION
+────────────────────────────────────────────────────────────
+
+  4.2a │ Per-Model Summary
+       │
+       │ Για κάθε Model (A–F):
+       │   • Median AUC ± IQR σε όλα τα LODO folds
+       │   • Per-fold breakdown table
+       │
+  4.2b │ Cross-Model Comparison
+       │
+       │ ┌──────────┬────────────┬────────────┬──────────┐
+       │ │ Model    │ Median AUC │ IQR        │ N folds  │
+       │ ├──────────┼────────────┼────────────┼──────────┤
+       │ │ A Univ.  │            │            │ 11       │
+       │ │ B Male   │            │            │ 11       │
+       │ │ C Female │            │            │ 11       │
+       │ │ D Ade/C  │            │            │ ≤7*      │
+       │ │ E CRC/A  │            │            │ ≤7*      │
+       │ │ F Neo/C  │            │            │ 11       │
+       │ └──────────┴────────────┴────────────┴──────────┘
+       │ *μόνο μελέτες που περιέχουν Adenoma
+       │
+  4.2c │ Fairness Summary (Model A)
+       │   • Median AUC_male vs AUC_female
+       │   • Median fairness gaps ± IQR
+       │
+  4.2d │ Adenoma Positioning Summary (Model A)
+       │   • Distribution of P(CRC) για Adenoma δείγματα
+       │   • % Adenoma classified as "CRC-like" (P>0.5)
+       │   • Σύγκριση P(CRC): Control vs Adenoma vs CRC
+       │
+  4.2e │ Sex-Specific Comparison
+       │   • AUC(Model B male-only) vs AUC(Model A on males)
+       │   • AUC(Model C female-only) vs AUC(Model A on females)
+       │   • Αν B >> A_males → sex-specific model ωφέλιμο
+       │   • Αν B ≈ A_males → universal model αρκεί
+
+
+══════════════════════════════════════════════════════════════
+ΦΑΣΗ 5 │ INTERPRETABILITY & VALIDATION
+══════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+5.1 │ SHAP ANALYSIS — ΑΝΑ MODEL
+────────────────────────────────────────────────────────────
+
+  5.1a │ Model A (Universal) SHAP
+       │ • Top features ανά LODO fold
+       │ • Consensus ranking (stability score)
+       │ • Διάκριση: σημαντικό λόγω PA ή λόγω rCLR;
+       │
+  5.1b │ Models B vs C (Male vs Female) SHAP
+       │ • Top features ανά φύλο
+       │ • Overlap analysis:
+       │     shared_features = top_B ∩ top_C
+       │     male_specific   = top_B − top_C
+       │     female_specific = top_C − top_B
+       │ • Αν low overlap → τα φύλα χρησιμοποιούν
+       │   διαφορετικά βιολογικά μονοπάτια
+       │
+  5.1c │ Model D (Adenoma vs Control) SHAP
+       │ • Top features για early detection
+       │ • Σύγκριση με top features Model A:
+       │     early_markers = top_D ∩ top_A  (εμφανίζονται νωρίς)
+       │     late_markers  = top_A − top_D  (μόνο στο CRC)
+       │
+  5.1d │ Model E (CRC vs Adenoma) SHAP
+       │ • Ποια features οδηγούν τη μετάβαση;
+       │ • Σύγκριση με Model D:
+       │     progression_markers = top_E (αλλάζουν στη μετάβαση)
+
+
+────────────────────────────────────────────────────────────
+5.2 │ CROSS-VALIDATION ΜΕ ΦΑΣΗ 3
+────────────────────────────────────────────────────────────
+
+       │ • Επικάλυψη SHAP features (Model A) με
+       │   differentially abundant species (Φάση 3)
+       │ • Αν δεν επικαλύπτονται → red flag
+       │ • Ίδιος έλεγχος για Models D, E
+
+
+────────────────────────────────────────────────────────────
+5.3 │ ADENOMA-CARCINOMA SEQUENCE ANALYSIS
+────────────────────────────────────────────────────────────
+
+  5.3a │ Predicted Probability Gradient
+       │ • Box/violin plot: P(CRC) distribution per group
+       │     Control → Adenoma → CRC
+       │ • Jonckheere-Terpstra trend test
+       │     H₀: δεν υπάρχει ordered trend
+       │ • Αν Control < Adenoma < CRC:
+       │     → progressive dysbiosis confirmed
+       │
+  5.3b │ SHAP Comparison: CRC vs Adenoma Samples
+       │ • Πέρασε CRC + Adenoma δείγματα στο Model A
+       │ • Σύγκρινε SHAP values:
+       │     Ποια features "σπρώχνουν" τα adenoma
+       │     προς CRC score;
+       │
+  5.3c │ Biomarker Timeline
+       │ • Κατηγοριοποίηση species σε:
+       │     EARLY:  significant σε Model D (Ade vs Ctrl)
+       │             + significant σε Model A (CRC vs Ctrl)
+       │     LATE:   significant μόνο σε Model A
+       │     PROGRESSION: significant σε Model E (CRC vs Ade)
+       │ → Μοριακό timeline της adenoma-carcinoma sequence
+
+
+────────────────────────────────────────────────────────────
+5.4 │ FAIRNESS & SUBGROUP ANALYSIS
+────────────────────────────────────────────────────────────
+
+  5.4a │ Sex Fairness (Model A)
+       │ • AUC gap, TPR gap, PPV gap
+       │ • Σύγκριση: universal vs sex-specific models
+       │
+  5.4b │ Subgroup Performance Breakdown
+       │ • AUC × {sex, age_group, country, study}
+       │ • Εντοπισμός subgroups αποτυχίας
+       │
+  5.4c │ Clinical Recommendation
+       │ • Αν AUC(B) >> AUC(A on males):
+       │     → recommend sex-specific screening
+       │ • Αν AUC(B) ≈ AUC(A on males):
+       │     → universal model αρκεί, απλούστερο κλινικά
+
+
+────────────────────────────────────────────────────────────
+5.5 │ LIMITATIONS REPORTING
+────────────────────────────────────────────────────────────
+
+       │ • Strain-level πληροφορία χάνεται (MetaPhlAn3)
+       │ • rCLR zero-sum constraint artifacts
+       │ • Variable AUC across cohorts (transportability)
+       │ • Sex/country imbalance μεταξύ μελετών
+       │ • Batch correction μόνο στο train
+       │ • Models B, C: μικρότερα sample sizes
+       │   → ευρύτερα confidence intervals
+       │ • Models D, E: λιγότερα LODO folds
+       │   (μόνο μελέτες με Adenoma)
+       │ • Adenoma scoring βασίζεται σε CRC model
+       │   → assumes linear progression
+
+══════════════════════════════════════════════════════════════
+ΕΞΑΡΤΗΣΕΙΣ ΜΕΤΑΞΥ ΦΑΣΕΩΝ
+══════════════════════════════════════════════════════════════
+
+  Φάση 1 ──────────┬──────────────────────────┐
+  (data prep)      │                          │
+                   ▼                          ▼
+              Φάση 2 + 3                   Φάση 4
+              (exploratory)               (ML pipeline)
+                   │                          │
+                   │         ┌────────────────┘
+                   ▼         ▼
+                   Φάση 5
+                   (interpretation)
+
+  Φάση 4 εξαρτάται ΜΟΝΟ από Φάση 1
+  Φάσεις 2 & 3 είναι παράλληλες, ανεξάρτητες του ML
+
+
+══════════════════════════════════════════════════════════════
+ΣΥΝΟΠΤΙΚΗ ΛΙΣΤΑ ΒΗΜΑΤΩΝ
+══════════════════════════════════════════════════════════════
+
+  1.1  Pipeline ομοιογένεια
+  1.2  Αποκλεισμός μελετών
+  1.3  Έλεγχος κατανομών
+  1.4  Prevalence filtering
+  1.5  Ορισμός Hurdle strategy (PA + rCLR per sample)
+  ─────────────────────────────────────────────────
+  2.0  Υπολογισμός X_explore
+  2.1  PCA / t-SNE / UMAP (3 χρωματισμοί)
+  2.2  PERMANOVA
+  2.3  Unsupervised clustering + ARI
+  ─────────────────────────────────────────────────
+  3.1  Blocked Wilcoxon (rCLR features)
+  3.2  Cochran-Mantel-Haenszel (PA features)
+  3.3  Random effects meta-analysis + I² + Q
+  3.4  Volcano + Forest + Heatmaps
+  ─────────────────────────────────────────────────
+  4.1  LODO loop (a: split → b: hurdle → c: batch correct
+       → d: concatenate → e: frozen norm → f: train → g: evaluate)
+  4.2  Aggregation metrics
+  ─────────────────────────────────────────────────
+  5.1  SHAP analysis (PA vs rCLR importance)
+  5.2  Cross-check με Φάση 3
+  5.3  Sex-stratified SHAP
+  5.4  Subgroup breakdown
+  5.5  Limitations
