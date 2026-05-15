@@ -1,0 +1,216 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.025415539489529917,-0.012178726085593027,1
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,0.019548519335166846,-0.004012280344032321,2
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.017590009223302297,0.008482794239574192,3
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.016980112388486925,0.007539549369567845,4
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Parvimonas micra,PA,Parvimonas micra,0.016089041112209133,-0.003466687186244968,5
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,0.010573060484413156,0.008680336199397749,6
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.009065808407543915,6.14137036561994e-06,7
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Butyricimonas virosa,rCLR,Butyricimonas virosa,0.008538738884921912,6.575769409218904e-05,8
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_[Ruminococcus] gnavus,PA,[Ruminococcus] gnavus,0.008294690911945568,0.0027079427123084484,9
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.008246394029801932,-0.004621756197115586,10
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,0.0077901771914256615,0.0030260271877993405,11
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Veillonella parvula,rCLR,Veillonella parvula,0.007607112974482218,-0.0006462265695595046,12
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.007427097914536437,0.001832502876212414,13
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Parabacteroides merdae,rCLR,Parabacteroides merdae,0.00690644865568294,0.003056361814928904,14
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,Age,covariate,Age,0.00632236374266431,-0.0032891737718367736,15
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.006254316986422277,-0.00454875852741787,16
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.0058787174804613455,0.003430110143648289,17
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Paraprevotella xylaniphila,rCLR,Paraprevotella xylaniphila,0.005782534382642455,-0.004567728411514648,18
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Streptococcus salivarius,rCLR,Streptococcus salivarius,0.005483082902729532,0.0008484143424001746,19
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Parasutterella excrementihominis,rCLR,Parasutterella excrementihominis,0.005433335502512838,-0.0014257413104051975,20
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Phocaeicola plebeius,rCLR,Phocaeicola plebeius,0.005367993323418447,-0.0038505224783416596,21
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.0050859987064956706,-0.0027535321771357184,22
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Faecalibacterium prausnitzii,rCLR,Faecalibacterium prausnitzii,0.004643744081981396,0.0015443248324291472,23
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Prevotella copri,rCLR,Prevotella copri,0.004544194406567881,0.004234560174179501,24
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Erysipelatoclostridium ramosum,rCLR,Erysipelatoclostridium ramosum,0.004531459529837374,0.0014215830600836166,25
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.004512515826913947,-0.001455767147611846,26
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Adlercreutzia equolifaciens,rCLR,Adlercreutzia equolifaciens,0.004421251091540503,0.0009263386634774556,27
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Firmicutes bacterium CAG:110,rCLR,Firmicutes bacterium CAG:110,0.004389414485599376,0.002312477183938939,28
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Alistipes putredinis,rCLR,Alistipes putredinis,0.004373931628869187,0.0008907004607673205,29
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides fragilis,PA,Bacteroides fragilis,0.004348918407567615,-0.0011929136315893631,30
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Veillonella atypica,rCLR,Veillonella atypica,0.004321030594269852,-0.001908705774457327,31
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Firmicutes bacterium CAG:83,rCLR,Firmicutes bacterium CAG:83,0.004145001672140307,-0.0023239376759955147,32
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Escherichia coli,PA,Escherichia coli,0.003989693433710509,-0.001362601861654758,33
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Megamonas funiformis,rCLR,Megamonas funiformis,0.003975420901631588,-0.0024174660784298976,34
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Phocaeicola dorei,rCLR,Phocaeicola dorei,0.0038311716030691263,0.0021361119378552305,35
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Odoribacter splanchnicus,rCLR,Odoribacter splanchnicus,0.003816473309090831,-0.00040142839785278637,36
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,0.0037978847248555984,0.0015718851352608302,37
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Barnesiella intestinihominis,rCLR,Barnesiella intestinihominis,0.003753873835256016,-0.0006183669075334628,38
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Phocaeicola vulgatus,rCLR,Phocaeicola vulgatus,0.0037501079435758285,0.0015585367636570602,39
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Holdemanella biformis,rCLR,Holdemanella biformis,0.003642832451608255,-0.0011667178954050204,40
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides xylanisolvens,rCLR,Bacteroides xylanisolvens,0.0033507244195673824,0.0005301245900403125,41
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Proteobacteria bacterium CAG:139,rCLR,Proteobacteria bacterium CAG:139,0.0032804561224968275,-0.0016016634842384594,42
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Clostridium sp. CAG:58,rCLR,Clostridium sp. CAG:58,0.0032472117370848813,-0.0006899565048672952,43
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides sp. CAG:144,rCLR,Bacteroides sp. CAG:144,0.0031268848071989105,0.0003394184358716682,44
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_[Ruminococcus] gnavus,rCLR,[Ruminococcus] gnavus,0.00306609199477648,0.0008597285179564545,45
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Firmicutes bacterium CAG:110,PA,Firmicutes bacterium CAG:110,0.0030383299486474,0.0015119148756654957,46
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Adlercreutzia equolifaciens_1,rCLR,Adlercreutzia equolifaciens_1,0.0030080785592022105,-0.0006715736059119701,47
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Lawsonibacter asaccharolyticus,rCLR,Lawsonibacter asaccharolyticus,0.002977707689571987,-0.0007439590284342388,48
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides eggerthii,rCLR,Bacteroides eggerthii,0.0027888258403287996,-0.0014670728300636804,49
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,0.0027644876670665157,0.0009390481404840877,50
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides uniformis,rCLR,Bacteroides uniformis,0.002730946618916303,-0.00017390279305506498,51
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Coprobacter fastidiosus,rCLR,Coprobacter fastidiosus,0.002730394294664409,-0.0021768486647048414,52
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bifidobacterium longum,rCLR,Bifidobacterium longum,0.0027211586938853897,0.0006618171888413473,53
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Oscillibacter sp. CAG:241,rCLR,Oscillibacter sp. CAG:241,0.0026640937045324256,-0.0007089126007154755,54
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Roseburia inulinivorans,rCLR,Roseburia inulinivorans,0.002552167710425424,0.0013702340330346344,55
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Roseburia faecis,rCLR,Roseburia faecis,0.0025239469182969146,0.00075075369285503,56
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides salyersiae,rCLR,Bacteroides salyersiae,0.0024986651205601107,0.0019902043361100896,57
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Escherichia coli,rCLR,Escherichia coli,0.0024472136194010597,-0.0010254498119193394,58
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Streptococcus thermophilus,rCLR,Streptococcus thermophilus,0.002306064620795098,-0.0001022201491824252,59
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Blautia sp. CAG:257,rCLR,Blautia sp. CAG:257,0.0022506796447357732,0.00013348945032203653,60
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Coprococcus catus,rCLR,Coprococcus catus,0.002234296068276808,-0.001297473447921387,61
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Dorea longicatena,rCLR,Dorea longicatena,0.00216664513788066,-0.0010841700638568434,62
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Oscillibacter sp. 57_20,rCLR,Oscillibacter sp. 57_20,0.0021486560820646802,-0.00114209650242602,63
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_[Eubacterium] rectale,rCLR,[Eubacterium] rectale,0.0021306440500657047,-0.0004923288811709345,64
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Coprococcus comes,rCLR,Coprococcus comes,0.002126808873305343,-0.0005259224072976876,65
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Phascolarctobacterium faecium,rCLR,Phascolarctobacterium faecium,0.0020524048202791227,-0.0004108684419604115,66
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Eubacterium ramulus,rCLR,Eubacterium ramulus,0.0020222672313118997,-0.0006074083465733586,67
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides cellulosilyticus,rCLR,Bacteroides cellulosilyticus,0.0018411101327940134,-0.000316857750894557,68
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Roseburia intestinalis,PA,Roseburia intestinalis,0.0018114938957803392,0.0005836115663699272,69
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Flavonifractor plautii,PA,Flavonifractor plautii,0.0017923525999406313,0.0011987761655413598,70
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides ovatus,rCLR,Bacteroides ovatus,0.0017829303050149803,-0.00044995399291005507,71
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,0.0016945456249107085,-0.0005363642563927616,72
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Gordonibacter pamelaeae,rCLR,Gordonibacter pamelaeae,0.00165222444640489,-0.00026452167356003645,73
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Gemmiger formicilis,rCLR,Gemmiger formicilis,0.001636227908596551,-0.00012850315134483483,74
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Erysipelatoclostridium ramosum,PA,Erysipelatoclostridium ramosum,0.0015750484193836926,0.00013735013739685147,75
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides finegoldii,rCLR,Bacteroides finegoldii,0.0015630042771349565,-0.0009969297022382282,76
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Eubacterium sp. CAG:274,rCLR,Eubacterium sp. CAG:274,0.0015543080244375038,-0.0010914078361515217,77
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Enterocloster bolteae,rCLR,Enterocloster bolteae,0.001535715223070964,-0.00024572115229488375,78
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bifidobacterium adolescentis,rCLR,Bifidobacterium adolescentis,0.00153182024452285,0.0005642117867636305,79
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Phocaeicola massiliensis,rCLR,Phocaeicola massiliensis,0.0015095990384776101,-0.0008169165568795411,80
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Lachnospira eligens,PA,Lachnospira eligens,0.0014812692998402441,0.00047964856899127407,81
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.0014564841269346486,-0.001159627440316726,82
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Alistipes shahii,rCLR,Alistipes shahii,0.0014409053376068762,-0.0009587475972588008,83
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Anaerotignum lactatifermentans,rCLR,Anaerotignum lactatifermentans,0.0014159201047118561,-0.0005524369381440499,84
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Eubacterium sp. CAG:38,rCLR,Eubacterium sp. CAG:38,0.0013598906038716154,-0.0006349546083175288,85
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Gemmiger formicilis,PA,Gemmiger formicilis,0.0013574692406867967,0.0003421873493006747,86
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Blautia obeum,rCLR,Blautia obeum,0.0013355523915511982,-0.0002638791469348848,87
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Klebsiella quasipneumoniae,rCLR,Klebsiella quasipneumoniae,0.0012895066427304697,-0.00025238014461293894,88
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides stercoris,rCLR,Bacteroides stercoris,0.0012697358189087305,-0.00047738918151278526,89
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Ruminococcus bromii,rCLR,Ruminococcus bromii,0.0012404808486608631,0.0006251930259399971,90
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Klebsiella pneumoniae,rCLR,Klebsiella pneumoniae,0.0012378335324736175,0.00018787579141253408,91
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Slackia isoflavoniconvertens,rCLR,Slackia isoflavoniconvertens,0.001200287883490084,-0.001004071677082387,92
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Methanobrevibacter smithii,rCLR,Methanobrevibacter smithii,0.0011655755046936678,-0.0007981799095386836,93
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bacteroides intestinalis,rCLR,Bacteroides intestinalis,0.0011524736669603687,-0.00038382008713077037,94
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_[Ruminococcus] lactaris,rCLR,[Ruminococcus] lactaris,0.0011300657084997402,0.000559635484244882,95
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides caccae,PA,Bacteroides caccae,0.0011206388178418888,-0.0005604887503306294,96
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Eggerthella lenta,rCLR,Eggerthella lenta,0.0011150313076224512,-0.00020326079917489773,97
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Acidaminococcus intestini,rCLR,Acidaminococcus intestini,0.0011020179887791706,-0.0007662018559398919,98
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Streptococcus parasanguinis,rCLR,Streptococcus parasanguinis,0.0011009927492074043,-0.0003216432654901726,99
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_[Ruminococcus] lactaris,PA,[Ruminococcus] lactaris,0.0010922281311444594,0.0005444674503018081,100
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Agathobaculum butyriciproducens,rCLR,Agathobaculum butyriciproducens,0.001081132516609024,-0.0003499177475528246,101
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,0.0010756052807791457,0.00010833617538377888,102
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Oscillibacter sp. CAG:241,PA,Oscillibacter sp. CAG:241,0.0010590787855796994,0.0005164724885042318,103
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Intestinibacter bartlettii,rCLR,Intestinibacter bartlettii,0.0010435862967722467,0.0006987533199437847,104
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides thetaiotaomicron,PA,Bacteroides thetaiotaomicron,0.0010364877914631429,0.00023166050610085547,105
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Phocaeicola coprocola,rCLR,Phocaeicola coprocola,0.00102888579278637,-0.00028136237521656903,106
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Roseburia hominis,rCLR,Roseburia hominis,0.001022166518697095,-0.00021726995355906002,107
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bifidobacterium pseudocatenulatum,rCLR,Bifidobacterium pseudocatenulatum,0.0010221277731472472,-3.626333574651993e-05,108
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Eubacterium sp. CAG:180,rCLR,Eubacterium sp. CAG:180,0.0010096304379950134,0.0007307650474526516,109
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,0.0009733509884517364,-0.0004431031980898532,110
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Collinsella aerofaciens,rCLR,Collinsella aerofaciens,0.0009697195815866488,-1.7005372822232675e-05,111
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_[Eubacterium] siraeum,rCLR,[Eubacterium] siraeum,0.0009473160253761893,-0.000246393480997925,112
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Klebsiella variicola,rCLR,Klebsiella variicola,0.0008602347363653323,-8.836663527020389e-05,113
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Desulfovibrio piger,rCLR,Desulfovibrio piger,0.0008546649010019787,0.0004261304960851464,114
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Alistipes shahii,PA,Alistipes shahii,0.0008495159306649071,-0.0003534881240453241,115
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Phocaeicola massiliensis,PA,Phocaeicola massiliensis,0.0008486932205047894,1.5832067028635613e-05,116
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Megamonas funiformis,PA,Megamonas funiformis,0.0008208097281067341,5.818278080037478e-05,117
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Ruminococcus bicirculans,rCLR,Ruminococcus bicirculans,0.0008207741055358689,-0.00013203272793912223,118
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Bifidobacterium bifidum,rCLR,Bifidobacterium bifidum,0.0008201356888363176,0.00010773290523797231,119
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Blautia wexlerae,rCLR,Blautia wexlerae,0.0008138779652700621,-9.645648891838611e-05,120
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides eggerthii,PA,Bacteroides eggerthii,0.0007962872060489302,-0.0003404296877412339,121
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Coprococcus eutactus,rCLR,Coprococcus eutactus,0.0007770913102527045,0.00020799535051753323,122
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Alistipes inops,rCLR,Alistipes inops,0.0007590268976193528,0.0003866157178552673,123
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Anaerotignum lactatifermentans,PA,Anaerotignum lactatifermentans,0.0007573449863410802,0.00024211334108954682,124
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides sp. CAG:144,PA,Bacteroides sp. CAG:144,0.0007530798594170917,-0.00020000071104394698,125
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Coprococcus eutactus,PA,Coprococcus eutactus,0.0007509031398554559,0.00045704800762819066,126
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Eubacterium sp. CAG:38,PA,Eubacterium sp. CAG:38,0.0007507881941256933,1.1226481348885683e-05,127
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Proteobacteria bacterium CAG:139,PA,Proteobacteria bacterium CAG:139,0.0007212055501274789,-1.0951972110986108e-05,128
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Ruminococcus bicirculans,PA,Ruminococcus bicirculans,0.0007185451087837424,0.00010628248401155676,129
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Firmicutes bacterium CAG:145,rCLR,Firmicutes bacterium CAG:145,0.0007171208230470874,-0.0001365655093498797,130
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Dialister invisus,rCLR,Dialister invisus,0.0007154559547877691,1.2285569163900743e-05,131
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Adlercreutzia equolifaciens,PA,Adlercreutzia equolifaciens,0.0007054817450071369,0.00031278372533357767,132
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,rCLR_Phascolarctobacterium succinatutens,rCLR,Phascolarctobacterium succinatutens,0.0006824767484811722,0.0003407132975025067,133
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides xylanisolvens,PA,Bacteroides xylanisolvens,0.0006806361554901055,-5.9415168228606406e-05,134
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Adlercreutzia equolifaciens_1,PA,Adlercreutzia equolifaciens_1,0.0006609865340308008,0.00024345142980953263,135
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_[Eubacterium] siraeum,PA,[Eubacterium] siraeum,0.0006276816443045742,0.00026485389114615053,136
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Holdemanella biformis,PA,Holdemanella biformis,0.0006107311700099157,-0.00016538520454013498,137
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Eubacterium sp. CAG:251,PA,Eubacterium sp. CAG:251,0.000595621911242494,0.00012402170928785201,138
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Parasutterella excrementihominis,PA,Parasutterella excrementihominis,0.0005852071771994555,8.245861724788006e-05,139
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Eubacterium sp. CAG:180,PA,Eubacterium sp. CAG:180,0.0005716130855592044,-0.00021801693003680763,140
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Streptococcus salivarius,PA,Streptococcus salivarius,0.0005598904142572866,-7.262427610226295e-05,141
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bifidobacterium pseudocatenulatum,PA,Bifidobacterium pseudocatenulatum,0.0005545438688444703,9.20542020696588e-05,142
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Eggerthella lenta,PA,Eggerthella lenta,0.0005442272737285016,0.00013121083731797379,143
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Slackia isoflavoniconvertens,PA,Slackia isoflavoniconvertens,0.0005261917988715243,-0.00033454864165837725,144
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides intestinalis,PA,Bacteroides intestinalis,0.0005207962811696608,0.00012131001294864583,145
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Butyricimonas virosa,PA,Butyricimonas virosa,0.0004834936069332461,-0.00020764195994467776,146
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Methanobrevibacter smithii,PA,Methanobrevibacter smithii,0.0004720176720762082,-0.0002651303399971943,147
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_[Ruminococcus] torques,PA,[Ruminococcus] torques,0.00046827212738131567,0.00017976472179984337,148
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Phocaeicola dorei,PA,Phocaeicola dorei,0.0004649263570438379,-0.00010840505810724401,149
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Roseburia hominis,PA,Roseburia hominis,0.000462821200720797,5.013692121108207e-05,150
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Blautia obeum,PA,Blautia obeum,0.00045925271266632905,-0.0002185796316840212,151
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides stercoris,PA,Bacteroides stercoris,0.00044489725586809297,-0.00014584185705595639,152
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Collinsella aerofaciens,PA,Collinsella aerofaciens,0.0004286779908236042,9.339344890712473e-05,153
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Parabacteroides merdae,PA,Parabacteroides merdae,0.00041816701082042344,2.2524313702149415e-05,154
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Phocaeicola plebeius,PA,Phocaeicola plebeius,0.0004151976855319175,9.055858744548043e-05,155
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides cellulosilyticus,PA,Bacteroides cellulosilyticus,0.0004109041756348997,7.458788107747762e-05,156
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Anaerobutyricum hallii,PA,Anaerobutyricum hallii,0.0004010013447242648,0.000209337161207235,157
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Enterocloster bolteae,PA,Enterocloster bolteae,0.0004001806648064461,9.620182007635698e-05,158
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Veillonella atypica,PA,Veillonella atypica,0.0003962683157520026,-0.00024075175393419116,159
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides uniformis,PA,Bacteroides uniformis,0.00038683687573419793,2.7282934071990742e-05,160
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Eubacterium ramulus,PA,Eubacterium ramulus,0.0003674364716767993,7.57680985463781e-05,161
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Akkermansia muciniphila,PA,Akkermansia muciniphila,0.0003617739935306143,0.00010614251574521767,162
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Phocaeicola coprocola,PA,Phocaeicola coprocola,0.00035795213868611883,-0.0002049913723531986,163
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Blautia wexlerae,PA,Blautia wexlerae,0.0003565122143400068,1.607839068747712e-05,164
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bifidobacterium adolescentis,PA,Bifidobacterium adolescentis,0.00035417714872408226,-0.0001246870629707266,165
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Phocaeicola vulgatus,PA,Phocaeicola vulgatus,0.00033856438862523753,-0.00025900084748038606,166
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Blautia sp. CAG:257,PA,Blautia sp. CAG:257,0.0003305688432995838,0.00015215164461489984,167
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Coprococcus catus,PA,Coprococcus catus,0.00032303941616459086,-0.00017804941853923406,168
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Coprococcus comes,PA,Coprococcus comes,0.00032025458228281275,4.9161460030142166e-05,169
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Ruminococcus bromii,PA,Ruminococcus bromii,0.00031725892921467255,7.031188104845598e-05,170
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Alistipes inops,PA,Alistipes inops,0.00031559584429019885,-0.00015665405073620993,171
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Phascolarctobacterium faecium,PA,Phascolarctobacterium faecium,0.00031096321503745256,5.248724777915985e-05,172
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Faecalibacterium prausnitzii,PA,Faecalibacterium prausnitzii,0.00029302770413029396,-0.0001502785844352635,173
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Coprobacter fastidiosus,PA,Coprobacter fastidiosus,0.0002903276058509531,6.677090035861561e-05,174
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Ruthenibacterium lactatiformans,PA,Ruthenibacterium lactatiformans,0.0002769043449968189,-6.416238679765227e-05,175
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Firmicutes bacterium CAG:83,PA,Firmicutes bacterium CAG:83,0.0002746125933502279,-0.00016140168573252391,176
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides ovatus,PA,Bacteroides ovatus,0.0002745089940763414,-0.0001010228064403016,177
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Alistipes finegoldii,PA,Alistipes finegoldii,0.0002702323299851671,-0.00010573898339532245,178
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_[Eubacterium] rectale,PA,[Eubacterium] rectale,0.00026547415348243355,-0.00018312545094135798,179
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Roseburia faecis,PA,Roseburia faecis,0.00025918414840249627,-0.000182138021659821,180
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Dorea longicatena,PA,Dorea longicatena,0.0002585170047000397,-8.91266514061257e-05,181
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Fusicatenibacter saccharivorans,PA,Fusicatenibacter saccharivorans,0.0002543044884514829,5.424261262197749e-05,182
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides finegoldii,PA,Bacteroides finegoldii,0.000251272385569532,-4.3613044674248354e-05,183
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Alistipes putredinis,PA,Alistipes putredinis,0.00024735164777341123,-5.090513212781748e-05,184
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Gordonibacter pamelaeae,PA,Gordonibacter pamelaeae,0.00024565942933295587,8.16848329672421e-05,185
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Veillonella parvula,PA,Veillonella parvula,0.0002456543456842119,-8.54839614954963e-05,186
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Barnesiella intestinihominis,PA,Barnesiella intestinihominis,0.00023902253600601348,-0.00010584820653218504,187
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Streptococcus thermophilus,PA,Streptococcus thermophilus,0.0002354907078072741,-3.0047420798406583e-05,188
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Roseburia inulinivorans,PA,Roseburia inulinivorans,0.00023447652844205924,-8.382950046657256e-05,189
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Paraprevotella xylaniphila,PA,Paraprevotella xylaniphila,0.0002323187178402661,-8.085343747062494e-05,190
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Dorea formicigenerans,PA,Dorea formicigenerans,0.00022558855631644946,-0.00016217464526234321,191
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Intestinibacter bartlettii,PA,Intestinibacter bartlettii,0.00022296567947971825,-8.415136305614103e-05,192
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Klebsiella pneumoniae,PA,Klebsiella pneumoniae,0.0002223039048174767,-2.5460046736302393e-06,193
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bifidobacterium longum,PA,Bifidobacterium longum,0.00021680202642095417,-6.48402365649691e-05,194
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Lachnospira pectinoschiza,PA,Lachnospira pectinoschiza,0.0002148275363746292,-4.867404337878732e-05,195
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Odoribacter splanchnicus,PA,Odoribacter splanchnicus,0.00020268660009192002,-9.457425955480394e-06,196
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Eubacterium sp. CAG:274,PA,Eubacterium sp. CAG:274,0.00020189165369707455,-3.956474301583019e-05,197
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Parabacteroides distasonis,PA,Parabacteroides distasonis,0.00019523505544116052,-3.3695793170393563e-05,198
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Klebsiella quasipneumoniae,PA,Klebsiella quasipneumoniae,0.00018584883760303225,2.683316515194608e-05,199
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bifidobacterium bifidum,PA,Bifidobacterium bifidum,0.00018558230789683186,-5.420930590787886e-05,200
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Bacteroides salyersiae,PA,Bacteroides salyersiae,0.00018530929312781684,-3.22511339155725e-05,201
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Streptococcus parasanguinis,PA,Streptococcus parasanguinis,0.0001849640241262562,-5.9511612903251805e-05,202
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Prevotella copri,PA,Prevotella copri,0.0001833320879228699,-6.101128525119055e-06,203
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Desulfovibrio piger,PA,Desulfovibrio piger,0.0001721019319874038,8.489848914960718e-05,204
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Acidaminococcus intestini,PA,Acidaminococcus intestini,0.00016791721012347665,-2.5367950145519154e-05,205
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Oscillibacter sp. 57_20,PA,Oscillibacter sp. 57_20,0.0001591563578990153,-9.707745029453174e-05,206
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Clostridium sp. CAG:58,PA,Clostridium sp. CAG:58,0.00014954318590231514,-1.9046201172714687e-05,207
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Phascolarctobacterium succinatutens,PA,Phascolarctobacterium succinatutens,0.00014471876584988447,3.4431830330849185e-05,208
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Dialister invisus,PA,Dialister invisus,0.00013494380076847255,4.4753475613280086e-05,209
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Eubacterium ventriosum,PA,Eubacterium ventriosum,0.00013451752373388128,-3.214505173302119e-06,210
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Klebsiella variicola,PA,Klebsiella variicola,0.00013116310214749357,-4.205686625442985e-05,211
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Lawsonibacter asaccharolyticus,PA,Lawsonibacter asaccharolyticus,0.00012894165781715902,-8.628371257735796e-05,212
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Anaerostipes hadrus,PA,Anaerostipes hadrus,0.00011264744423464604,2.6979025318379722e-06,213
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Agathobaculum butyriciproducens,PA,Agathobaculum butyriciproducens,0.0001105915429644987,4.155575502802063e-05,214
+OnlyFemale,RandomForest,YachidaS_2019,0.6291349170775437,PA_Firmicutes bacterium CAG:145,PA,Firmicutes bacterium CAG:145,9.891314453182593e-05,1.983721831192212e-05,215

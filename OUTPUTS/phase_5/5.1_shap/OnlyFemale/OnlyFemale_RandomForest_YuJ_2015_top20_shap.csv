@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.02782921934916151,0.016658706990430597,1
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.014929213484186219,0.0006520674830041302,2
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,PA_Parvimonas micra,PA,Parvimonas micra,0.01410838128830144,0.004013789288192905,3
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,0.01248070450089208,0.0034666552557227046,4
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.009882065865312352,0.002959396535541712,5
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Desulfovibrio piger,rCLR,Desulfovibrio piger,0.009214526250730416,-0.006012414243404638,6
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,0.008517461825038099,0.002405232843883991,7
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.008296935529394556,-0.000979507281260362,8
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Coprococcus comes,rCLR,Coprococcus comes,0.007758934717625796,0.0013288046586778987,9
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.007219073145989756,0.0033209144199084005,10
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.006602905417637107,0.0007593170459075282,11
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.006432040762490748,0.0038480959074659363,12
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Bifidobacterium adolescentis,rCLR,Bifidobacterium adolescentis,0.006359223532290015,-0.002270787045281242,13
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,0.006328729974138512,-0.0005862909961656855,14
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Parabacteroides merdae,rCLR,Parabacteroides merdae,0.005704194530645543,-0.0010262628847874454,15
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Ruminococcus bromii,rCLR,Ruminococcus bromii,0.0055883715310843865,0.0004976694939073468,16
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Veillonella parvula,rCLR,Veillonella parvula,0.005479425233758959,-0.0001879588915556811,17
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.005013325539333451,-0.0035057722838064457,18
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Adlercreutzia equolifaciens,rCLR,Adlercreutzia equolifaciens,0.004681010594706981,-0.0006415628042639847,19
+OnlyFemale,RandomForest,YuJ_2015,0.8699633699633699,rCLR_Bacteroides sp. CAG:144,rCLR,Bacteroides sp. CAG:144,0.004456117044062943,-0.004436275352053775,20

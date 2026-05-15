@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.028468085332414853,0.018692988440827014,1
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.016161386561519872,0.01253585112485323,2
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,PA_Parvimonas micra,PA,Parvimonas micra,0.010692577521344001,0.0007561439695323517,3
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.009005257874997157,0.0034764099405119276,4
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Dorea longicatena,rCLR,Dorea longicatena,0.008900595925889626,0.0075331407276068236,5
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,0.008544835889598139,-0.0030833813191573174,6
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.008238871732562263,-0.007633659612890348,7
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,0.008150627757729074,-0.008150627757729074,8
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Coprococcus catus,rCLR,Coprococcus catus,0.007926480271371467,0.005179064951145178,9
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Ruminococcus bromii,rCLR,Ruminococcus bromii,0.007208355605208871,0.004002354706964663,10
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Paraprevotella xylaniphila,rCLR,Paraprevotella xylaniphila,0.007140365257806368,0.007140365257806368,11
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.006906792022911909,-0.005961927414221545,12
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Blautia obeum,rCLR,Blautia obeum,0.006718809823893218,0.004628138565862303,13
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,0.006497392790374679,-0.0029131476967110617,14
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.005878576804642605,-0.003955175131001644,15
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Bacteroides finegoldii,rCLR,Bacteroides finegoldii,0.005790561276548721,0.004432971868526833,16
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,Age,covariate,Age,0.0053076329807211645,0.0031272597365551076,17
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Bacteroides stercoris,rCLR,Bacteroides stercoris,0.0052117470478303335,0.004112845352678668,18
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.00506071927429467,0.0010042166493418275,19
+OnlyFemale,RandomForest,FengQ_2015,0.5988888888888888,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,0.004805071460566473,-0.0008724121661768103,20

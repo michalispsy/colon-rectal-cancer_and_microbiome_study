@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.039699801572140626,0.03177828059991731,1
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Coprococcus comes,rCLR,Coprococcus comes,0.022062306389879417,0.018549993662084676,2
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.020468694232086485,0.019537543713129282,3
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,PA_Parvimonas micra,PA,Parvimonas micra,0.014002134347101234,-0.0076168743212349935,4
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,0.012169568229659944,0.005187839446978968,5
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,0.011882828224126729,0.00299198064145127,6
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,Age,covariate,Age,0.010709891583942133,0.00942988564501388,7
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,0.00934369491565339,0.005584405932943875,8
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.00816783277999876,0.005044571244357426,9
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.007090937743961371,0.0027585390673653307,10
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.006860978551624652,-0.005808637880426674,11
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.006372025279849572,-0.006372025279849572,12
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Parabacteroides merdae,rCLR,Parabacteroides merdae,0.005814356910739158,-7.303856801419449e-05,13
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.005799313093547865,-0.0029675599786684664,14
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.005723610213140746,-0.002943899471165014,15
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Streptococcus salivarius,rCLR,Streptococcus salivarius,0.004691389905861967,0.0013698305884677592,16
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Eubacterium sp. CAG:180,rCLR,Eubacterium sp. CAG:180,0.004633133804848447,-0.004372088204236299,17
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.004520340516360387,1.105331044406045e-05,18
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Adlercreutzia equolifaciens,rCLR,Adlercreutzia equolifaciens,0.004320294681526301,-0.00010772583095517777,19
+OnlyFemale,RandomForest,ThomasAM_2018a,0.7424242424242424,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.004238252468066922,0.0020433305938491308,20

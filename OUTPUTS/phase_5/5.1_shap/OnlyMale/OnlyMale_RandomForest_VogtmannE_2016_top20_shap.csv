@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,PA_Parvimonas micra,PA,Parvimonas micra,0.02853654575494459,-0.012268274861629175,1
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,0.01717680411590713,-0.005674495028569732,2
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Odoribacter splanchnicus,rCLR,Odoribacter splanchnicus,0.017052232606600975,0.014904988195059348,3
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Roseburia faecis,rCLR,Roseburia faecis,0.012772611990929569,-0.003521926872334537,4
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.012321634110822044,-0.006386554993445206,5
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.012180985002406603,-0.0020359059490811684,6
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,0.011179951797110845,0.006540319753166324,7
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,0.010499646906994061,-0.0032593307354802847,8
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.010244815342784078,0.00917156187801864,9
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,0.009864839714320082,-0.0043931685702085135,10
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Firmicutes bacterium CAG:145,rCLR,Firmicutes bacterium CAG:145,0.00857834276000009,-0.004522209705041665,11
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.00803605421636313,0.004518604774200882,12
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Eubacterium sp. CAG:38,rCLR,Eubacterium sp. CAG:38,0.007234619098932291,-0.004499359196309993,13
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.006879895037348246,0.0034433665498631635,14
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Oscillibacter sp. 57_20,rCLR,Oscillibacter sp. 57_20,0.006508021226131247,0.0037742083612395095,15
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Butyricimonas virosa,rCLR,Butyricimonas virosa,0.006098426076661308,0.0013823045673821525,16
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.005999079972633328,0.0017570800742821764,17
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Bacteroides cellulosilyticus,rCLR,Bacteroides cellulosilyticus,0.005684769348659153,0.0031817598483192336,18
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Alistipes putredinis,rCLR,Alistipes putredinis,0.005484219980926881,0.004750037345645118,19
+OnlyMale,RandomForest,VogtmannE_2016,0.6552227903579255,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,0.005463434229708339,-0.0015986359148900003,20

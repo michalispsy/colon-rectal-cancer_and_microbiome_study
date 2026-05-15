@@ -1,0 +1,10 @@
+DisplayModel,Top_N,N_SHAP_species,N_overlap_any_formal_Phase3,Percent_overlap_any_formal_Phase3,N_overlap_Phase3_1_BlockedWilcoxon,N_overlap_Phase3_2_CMH,N_overlap_Phase3_3_MetaAnalysis,N_supported_by_2plus_formal_tests,RedFlag_No_Overlap
+All,10,10,4,40.0,2,2,1,1,False
+All,20,20,9,45.0,4,5,2,2,False
+All,50,50,20,40.0,12,12,5,8,False
+OnlyMale,10,10,10,100.0,8,3,7,8,False
+OnlyMale,20,20,14,70.0,8,7,7,8,False
+OnlyMale,50,50,23,46.0,9,15,7,8,False
+OnlyFemale,10,10,1,10.0,0,1,0,0,False
+OnlyFemale,20,20,1,5.0,0,1,0,0,False
+OnlyFemale,50,50,1,2.0,0,1,0,0,False

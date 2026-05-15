@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,PA_Parvimonas micra,PA,Parvimonas micra,0.051006814345415506,0.03005749563632633,1
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.02374058487647965,0.010814133907383184,2
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.012422600995594495,0.0018710784543352814,3
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Roseburia faecis,rCLR,Roseburia faecis,0.011600486312486837,-0.004268173542459542,4
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,0.010703496729398777,-0.00372396681337096,5
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Methanobrevibacter smithii,rCLR,Methanobrevibacter smithii,0.010697289991916884,0.008326655716298521,6
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Odoribacter splanchnicus,rCLR,Odoribacter splanchnicus,0.009780468892284308,0.00584837886025507,7
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.009502527744380243,0.0042901162791290385,8
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,0.00936418982014159,-0.00011054033662978574,9
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,0.008933038950442684,-0.001034480730999608,10
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,0.008862181420827963,0.003260462317810978,11
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,0.008858268611382123,0.007072689131155301,12
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Firmicutes bacterium CAG:145,rCLR,Firmicutes bacterium CAG:145,0.008687551168741986,-0.00424580289614296,13
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,0.008532842568141259,-0.002751859607089007,14
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Bifidobacterium pseudocatenulatum,rCLR,Bifidobacterium pseudocatenulatum,0.006963261414054892,0.0047528000996675795,15
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.00673575252739487,-0.0017552203840477938,16
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Coprococcus catus,rCLR,Coprococcus catus,0.006409968289390017,0.0024663160080494817,17
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Phocaeicola coprocola,rCLR,Phocaeicola coprocola,0.006390210818084428,-0.0034150497908288064,18
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.0060282652676263435,0.0030952318461877457,19
+OnlyMale,RandomForest,ZellerG_2014,0.769088669950739,rCLR_Dorea longicatena,rCLR,Dorea longicatena,0.005781779294640982,0.004351776435371326,20

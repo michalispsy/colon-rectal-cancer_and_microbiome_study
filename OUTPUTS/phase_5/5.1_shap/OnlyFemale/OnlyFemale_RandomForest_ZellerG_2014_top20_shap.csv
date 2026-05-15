@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,PA_Parvimonas micra,PA,Parvimonas micra,0.02793561833781438,0.010292607566022807,1
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.01795560924265186,-0.002467445880988501,2
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.017026373624312325,0.00654316018545674,3
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.012807451386604168,0.001389085599517872,4
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.009971830954686395,0.0039282489342837255,5
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Bacteroides sp. CAG:144,rCLR,Bacteroides sp. CAG:144,0.009427336690264167,0.00815523887072702,6
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.009177920965735421,-0.004646617603121494,7
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.00901262743667269,-0.0011950198551941987,8
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,0.008140165928622751,0.002857433868971731,9
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.007905237817811134,0.000498962973405601,10
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Ruminococcus bromii,rCLR,Ruminococcus bromii,0.006680224037280436,0.004055428999061465,11
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Adlercreutzia equolifaciens,rCLR,Adlercreutzia equolifaciens,0.005840623206871668,-0.0027504319255766164,12
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Eubacterium sp. CAG:180,rCLR,Eubacterium sp. CAG:180,0.005740075887650109,-0.0025193834511534592,13
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Dorea longicatena,rCLR,Dorea longicatena,0.005662577160230316,0.00233523071707891,14
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.0049092130300098305,-0.001466804550472693,15
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,0.00469711706403907,-0.0005394314620818961,16
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,0.004657779113410969,-0.0021782022489740278,17
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.004431174983645242,-0.002034997229673522,18
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.004377531825383563,-0.0014441457045715762,19
+OnlyFemale,RandomForest,ZellerG_2014,0.6767676767676767,rCLR_Coprococcus comes,rCLR,Coprococcus comes,0.004270673755385557,-0.002281520526010983,20

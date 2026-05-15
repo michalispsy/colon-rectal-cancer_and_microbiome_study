@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+All,LASSO,ThomasAM_2018b,0.703125,PA_Parvimonas micra,PA,Parvimonas micra,1.0815252890545943,-0.23222935654546492,1
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Streptococcus salivarius,rCLR,Streptococcus salivarius,0.5106291335975309,-0.28852643328638844,2
+All,LASSO,ThomasAM_2018b,0.703125,PA_Firmicutes bacterium CAG:110,PA,Firmicutes bacterium CAG:110,0.4860254495759475,-0.21787347739611443,3
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Streptococcus thermophilus,rCLR,Streptococcus thermophilus,0.3787977107766554,-0.019811929561128608,4
+All,LASSO,ThomasAM_2018b,0.703125,PA_Veillonella parvula,PA,Veillonella parvula,0.35604433972997745,-0.08157350101630213,5
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.3481238043770256,0.1314120617215015,6
+All,LASSO,ThomasAM_2018b,0.703125,PA_Streptococcus salivarius,PA,Streptococcus salivarius,0.3367375691064533,-0.09007383535769344,7
+All,LASSO,ThomasAM_2018b,0.703125,PA_Streptococcus thermophilus,PA,Streptococcus thermophilus,0.30463555186936836,-0.2687960751788543,8
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.27739327102697714,-0.1357025541674911,9
+All,LASSO,ThomasAM_2018b,0.703125,PA_Phocaeicola plebeius,PA,Phocaeicola plebeius,0.26848774933523534,-0.08384287417140077,10
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Veillonella parvula,rCLR,Veillonella parvula,0.2668839965434788,-0.030710210191751654,11
+All,LASSO,ThomasAM_2018b,0.703125,PA_Streptococcus parasanguinis,PA,Streptococcus parasanguinis,0.26568165092762625,0.06834254686241188,12
+All,LASSO,ThomasAM_2018b,0.703125,PA_Parabacteroides merdae,PA,Parabacteroides merdae,0.26209452828322954,-0.022917645557357123,13
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Coprococcus comes,rCLR,Coprococcus comes,0.252225976121146,-0.19737661872856346,14
+All,LASSO,ThomasAM_2018b,0.703125,PA_Gemmiger formicilis,PA,Gemmiger formicilis,0.24533898414853456,-0.20444915345711212,15
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.22723018641856166,0.014236640707611294,16
+All,LASSO,ThomasAM_2018b,0.703125,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.22499599549081228,0.15623266030359362,17
+All,LASSO,ThomasAM_2018b,0.703125,PA_Bacteroides intestinalis,PA,Bacteroides intestinalis,0.21537357713343006,0.0426260204743247,18
+All,LASSO,ThomasAM_2018b,0.703125,PA_Methanobrevibacter smithii,PA,Methanobrevibacter smithii,0.21311318221178113,0.12823029930336086,19
+All,LASSO,ThomasAM_2018b,0.703125,PA_Eubacterium sp. CAG:180,PA,Eubacterium sp. CAG:180,0.2102107996525121,-0.007785585172315262,20

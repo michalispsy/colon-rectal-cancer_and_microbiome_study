@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.024879987685238858,0.00701469092211,1
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.015163928030235746,-0.011685337894575857,2
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,PA_Parvimonas micra,PA,Parvimonas micra,0.012767873824303838,-0.012767873824303838,3
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.010687052753021328,-0.009423805774360246,4
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.010328970438156929,-0.004453239932764787,5
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,0.008585760972143686,-0.006083510521854716,6
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.008464665542606954,-0.008464665542606954,7
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.008442810266895593,0.003810437310698324,8
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Coprococcus comes,rCLR,Coprococcus comes,0.007965281094671959,0.0017672096716119573,9
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.007504426479733185,-0.004188109554605493,10
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Eubacterium sp. CAG:180,rCLR,Eubacterium sp. CAG:180,0.007470259056913145,-0.007470259056913145,11
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,0.006746298295316409,-0.003516820363587926,12
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,PA_Flavonifractor plautii,PA,Flavonifractor plautii,0.0058441015645223525,-0.005364837834423596,13
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.005737944561505751,-0.005737944561505751,14
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Adlercreutzia equolifaciens,rCLR,Adlercreutzia equolifaciens,0.005720099076338089,-0.002340054631237678,15
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Coprococcus catus,rCLR,Coprococcus catus,0.005687390480221872,0.0014233242027046015,16
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Bacteroides finegoldii,rCLR,Bacteroides finegoldii,0.005352902914660351,0.003938850397347054,17
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Dorea longicatena,rCLR,Dorea longicatena,0.0053243706683394594,0.0004886345130327622,18
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.005165283579599867,0.004352105099500798,19
+OnlyFemale,RandomForest,HanniganGD_2017,0.5504201680672269,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,0.004730777977577878,0.0006579914373471144,20

@@ -1,0 +1,2 @@
+Top_N,N_Male_Top,N_Female_Top,N_Shared,N_Male_Specific,N_Female_Specific,Jaccard_Index,Overlap_Percent_of_Male,Overlap_Percent_of_Female
+20,20,20,8,12,12,0.25,40.0,40.0

@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,PA_Parvimonas micra,PA,Parvimonas micra,0.03578406261920317,0.014271688552683823,1
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Roseburia faecis,rCLR,Roseburia faecis,0.014366111973322144,-0.005026251642470169,2
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.013837099706329917,0.005506099568728878,3
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.012779765421240954,0.009564830651753727,4
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,0.012690060078961216,-0.004139545645647633,5
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Odoribacter splanchnicus,rCLR,Odoribacter splanchnicus,0.011446564881701019,-0.008009393322278877,6
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,0.009178845941511542,0.004378488652975189,7
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Bifidobacterium pseudocatenulatum,rCLR,Bifidobacterium pseudocatenulatum,0.008189608239049276,-0.002870037888070668,8
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,0.008024576651228717,0.002662478496721497,9
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.006885334908297175,0.002133344599267432,10
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,0.006584069776407597,0.0011969923135155991,11
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Butyricimonas virosa,rCLR,Butyricimonas virosa,0.006456545146319782,0.0017584424548720437,12
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Firmicutes bacterium CAG:145,rCLR,Firmicutes bacterium CAG:145,0.006138478086374911,-0.0037572580734493394,13
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,0.006081200803723657,-0.0016791157184951134,14
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.0059979504324743915,0.0018364030530779746,15
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Phocaeicola coprocola,rCLR,Phocaeicola coprocola,0.005705384762699378,6.751852240516956e-06,16
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.0054508111830902884,-2.349950622337624e-06,17
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,0.005423126782658314,0.0026537695314627083,18
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.005287027114877514,-0.000586493027175293,19
+OnlyMale,RandomForest,YuJ_2015,0.8289141414141414,rCLR_Escherichia coli,rCLR,Escherichia coli,0.004504148576588255,0.003287854832140612,20

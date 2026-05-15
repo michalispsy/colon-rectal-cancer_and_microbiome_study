@@ -1,0 +1,216 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Parvimonas micra,PA,Parvimonas micra,0.037589836458986906,0.0038724010544858513,1
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.021347584433095326,-0.0008598979924300096,2
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,0.015777280115053697,-0.010013835483781297,3
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Paraprevotella xylaniphila,rCLR,Paraprevotella xylaniphila,0.013528681986877232,0.004143361112204418,4
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,0.012073703979219473,9.568433223599472e-05,5
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Odoribacter splanchnicus,rCLR,Odoribacter splanchnicus,0.010785385803596257,-0.0011274549807501143,6
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,0.010102970285656657,-0.004720268613038713,7
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.009820397679745753,-0.007646667877475488,8
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Firmicutes bacterium CAG:145,rCLR,Firmicutes bacterium CAG:145,0.009469938625484004,0.00025009231394692254,9
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.009468632911418204,-0.004966549021699359,10
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Roseburia faecis,rCLR,Roseburia faecis,0.009245147333128808,-0.0035246554891648018,11
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,0.007358731144898811,-0.0019109243595798143,12
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bifidobacterium pseudocatenulatum,rCLR,Bifidobacterium pseudocatenulatum,0.007241699240684483,0.004482968757615295,13
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,0.007163164089453803,0.007108270160331074,14
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Methanobrevibacter smithii,rCLR,Methanobrevibacter smithii,0.007108332144225966,0.004999713237352938,15
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,0.006148516920469275,0.000815489273296181,16
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Coprococcus catus,rCLR,Coprococcus catus,0.005866726269138928,0.0036630007595220546,17
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.005605931118425559,-0.0016343697286178725,18
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Butyricimonas virosa,rCLR,Butyricimonas virosa,0.005540826054908419,-0.0033023458693085075,19
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.005103969832234969,-0.0021000658327897967,20
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Eubacterium sp. CAG:38,rCLR,Eubacterium sp. CAG:38,0.005022039212861742,0.0011866357760901372,21
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.004716568656037856,0.004182913140924025,22
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bifidobacterium bifidum,rCLR,Bifidobacterium bifidum,0.004516654090982179,-0.0009288920663935161,23
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Faecalibacterium prausnitzii,rCLR,Faecalibacterium prausnitzii,0.0041956664887795375,-0.0016307461458418188,24
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.004163784661146124,0.002007578413372595,25
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Blautia obeum,rCLR,Blautia obeum,0.004143330774417941,0.0032985518665415623,26
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Phocaeicola plebeius,rCLR,Phocaeicola plebeius,0.004026474740030845,-0.0012019514551676153,27
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Escherichia coli,rCLR,Escherichia coli,0.003955274191513815,-0.0003346864827862882,28
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Phocaeicola coprocola,rCLR,Phocaeicola coprocola,0.003942068248415507,-0.0008976181122752507,29
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.00386123504955752,-0.0008243043731112005,30
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Oscillibacter sp. CAG:241,rCLR,Oscillibacter sp. CAG:241,0.0037309845768705684,0.0018357224995821603,31
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,0.003685520620089642,-0.0018242969110208885,32
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides salyersiae,rCLR,Bacteroides salyersiae,0.0036112460231730124,-0.0015086902947187865,33
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Veillonella atypica,rCLR,Veillonella atypica,0.003481213275958308,-0.0015066412583489702,34
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.003467314345528828,0.000842590238780473,35
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_[Eubacterium] siraeum,rCLR,[Eubacterium] siraeum,0.0033859856667290346,0.0004349167119911383,36
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Collinsella aerofaciens,rCLR,Collinsella aerofaciens,0.0033522786318724404,0.0019489937138087827,37
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Acidaminococcus intestini,rCLR,Acidaminococcus intestini,0.003251251713918918,-0.0016653319892861844,38
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Dorea longicatena,rCLR,Dorea longicatena,0.0031248677072141357,0.002943314721192355,39
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.0031043930845444903,-0.002721664101284545,40
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.0031010797353803,0.0013799713272710096,41
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Enterocloster bolteae,rCLR,Enterocloster bolteae,0.0030941303285024905,-0.0008785852155728647,42
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Adlercreutzia equolifaciens_1,rCLR,Adlercreutzia equolifaciens_1,0.00309026857697076,-0.0002442461886876851,43
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_[Eubacterium] rectale,rCLR,[Eubacterium] rectale,0.0026977414555976104,-2.0408328721807568e-05,44
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,Age,covariate,Age,0.0026651569781767095,-0.0017584093409405844,45
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Prevotella copri,rCLR,Prevotella copri,0.002597219227379523,0.001709468188829651,46
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Clostridium sp. CAG:58,rCLR,Clostridium sp. CAG:58,0.0025854038804889387,-0.001541713749487732,47
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Streptococcus thermophilus,rCLR,Streptococcus thermophilus,0.0025541473709002477,-0.00043349117971561965,48
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Roseburia hominis,rCLR,Roseburia hominis,0.002550188781260585,0.001732896009543406,49
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Streptococcus salivarius,PA,Streptococcus salivarius,0.002486165067685547,-0.0015491835276011487,50
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Alistipes putredinis,rCLR,Alistipes putredinis,0.0023735666471061973,-0.0002140475366060545,51
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides cellulosilyticus,rCLR,Bacteroides cellulosilyticus,0.0023594962511653606,-0.001108780929477471,52
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Erysipelatoclostridium ramosum,rCLR,Erysipelatoclostridium ramosum,0.0023561906902649457,-0.0007762138795276995,53
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Lawsonibacter asaccharolyticus,rCLR,Lawsonibacter asaccharolyticus,0.002337697215338373,0.0007594280271354394,54
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides sp. CAG:144,rCLR,Bacteroides sp. CAG:144,0.0023279589087924603,0.001876493896990845,55
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Parabacteroides merdae,rCLR,Parabacteroides merdae,0.0022839088412851317,-0.00023792902839124468,56
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Gemmiger formicilis,rCLR,Gemmiger formicilis,0.002260871915154807,-0.0005978021600877702,57
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Agathobaculum butyriciproducens,rCLR,Agathobaculum butyriciproducens,0.0022302018104548003,0.0013608858488901626,58
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Eubacterium sp. CAG:274,rCLR,Eubacterium sp. CAG:274,0.002181956204254297,-0.0005684549627889555,59
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bifidobacterium longum,rCLR,Bifidobacterium longum,0.002110807590534231,-0.0012152641539582567,60
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Ruminococcus bicirculans,rCLR,Ruminococcus bicirculans,0.002098741394617222,-0.0007968201600722452,61
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Desulfovibrio piger,rCLR,Desulfovibrio piger,0.0020147854952424567,-0.0019176481066366302,62
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Alistipes shahii,rCLR,Alistipes shahii,0.001995926135137475,-0.0013305636884941333,63
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Coprococcus comes,rCLR,Coprococcus comes,0.0019935340746390223,-0.001091299586612266,64
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Blautia sp. CAG:257,rCLR,Blautia sp. CAG:257,0.0019865422264279376,-0.0008633303257919053,65
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Proteobacteria bacterium CAG:139,rCLR,Proteobacteria bacterium CAG:139,0.00196235912874525,-0.0009892790214414012,66
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Oscillibacter sp. 57_20,rCLR,Oscillibacter sp. 57_20,0.0018948445853740469,-0.000592022519511006,67
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides uniformis,rCLR,Bacteroides uniformis,0.0018824821957601524,0.00015162607844207836,68
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Coprococcus eutactus,rCLR,Coprococcus eutactus,0.0018412668976184605,-0.0011849380325683727,69
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Klebsiella variicola,rCLR,Klebsiella variicola,0.0018345036829780764,-0.0013313429689688827,70
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Firmicutes bacterium CAG:110,rCLR,Firmicutes bacterium CAG:110,0.0017938209102588854,0.00041366309211383955,71
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Roseburia inulinivorans,rCLR,Roseburia inulinivorans,0.0017841521051425197,0.0006058261226439533,72
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides xylanisolvens,rCLR,Bacteroides xylanisolvens,0.0017486731606543595,0.0007438198685236618,73
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Firmicutes bacterium CAG:83,rCLR,Firmicutes bacterium CAG:83,0.0017058771325745169,0.0007083529808560065,74
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_[Ruminococcus] gnavus,rCLR,[Ruminococcus] gnavus,0.0016942130432591462,-0.00010420315973969131,75
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Adlercreutzia equolifaciens,rCLR,Adlercreutzia equolifaciens,0.001629224452149644,-0.00012268682667190156,76
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Eubacterium sp. CAG:274,PA,Eubacterium sp. CAG:274,0.0016280798948287473,-0.00014869644793616467,77
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides ovatus,rCLR,Bacteroides ovatus,0.0016213437276634652,0.0009222967439149002,78
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Streptococcus parasanguinis,rCLR,Streptococcus parasanguinis,0.0016161568855684288,0.0006370288363268051,79
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Phocaeicola vulgatus,rCLR,Phocaeicola vulgatus,0.0016130657431048401,-0.0006495215009031711,80
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Veillonella parvula,rCLR,Veillonella parvula,0.001568711548890751,-0.0007604786528393588,81
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Phascolarctobacterium succinatutens,rCLR,Phascolarctobacterium succinatutens,0.0015421545796118388,2.248760561603052e-05,82
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Alistipes inops,rCLR,Alistipes inops,0.001522805433683044,0.0009552568209004919,83
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bifidobacterium adolescentis,rCLR,Bifidobacterium adolescentis,0.0014779746822038758,-7.44410167418233e-05,84
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Phascolarctobacterium faecium,rCLR,Phascolarctobacterium faecium,0.0014477908717806293,0.0003738665661282098,85
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Methanobrevibacter smithii,PA,Methanobrevibacter smithii,0.0014086180704878442,0.0007534815399051027,86
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Slackia isoflavoniconvertens,rCLR,Slackia isoflavoniconvertens,0.0013752867372504908,6.470290601317805e-05,87
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Blautia wexlerae,rCLR,Blautia wexlerae,0.0013680551512296375,0.00020315100005533382,88
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Holdemanella biformis,rCLR,Holdemanella biformis,0.00135927245710097,0.0005217775577911366,89
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Ruminococcus bromii,rCLR,Ruminococcus bromii,0.0013227056552240165,0.00046277483702020315,90
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Coprobacter fastidiosus,rCLR,Coprobacter fastidiosus,0.0012964651393085425,-0.00020705660528905068,91
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Megamonas funiformis,rCLR,Megamonas funiformis,0.0012858405746765228,-0.0011404966564679186,92
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Phocaeicola dorei,rCLR,Phocaeicola dorei,0.0012748567463368582,0.00041191502923336665,93
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Akkermansia muciniphila,PA,Akkermansia muciniphila,0.0012693610150258865,0.00020492098861317235,94
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Roseburia intestinalis,PA,Roseburia intestinalis,0.0012127579394169102,0.0002058534814049924,95
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bifidobacterium bifidum,PA,Bifidobacterium bifidum,0.0011950394059361507,-0.000619263216793814,96
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Streptococcus salivarius,rCLR,Streptococcus salivarius,0.0011931943203357127,-0.00016869185203899055,97
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Collinsella aerofaciens,PA,Collinsella aerofaciens,0.0011405714232719227,0.0006576038594557748,98
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Anaerotignum lactatifermentans,PA,Anaerotignum lactatifermentans,0.0011331884980485742,-0.0004669267724639908,99
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Eggerthella lenta,rCLR,Eggerthella lenta,0.001124316097130439,-0.00037846616604446343,100
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Eubacterium ramulus,rCLR,Eubacterium ramulus,0.0011170331157106892,6.51165892516709e-05,101
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Klebsiella pneumoniae,rCLR,Klebsiella pneumoniae,0.0011158944303575394,-6.458459201531498e-05,102
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Intestinibacter bartlettii,rCLR,Intestinibacter bartlettii,0.0010793879002241045,0.0007720707910654462,103
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides eggerthii,rCLR,Bacteroides eggerthii,0.0010627182751011773,0.0006041846540974979,104
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Eubacterium sp. CAG:180,rCLR,Eubacterium sp. CAG:180,0.001059479308056896,-0.00032427229515396015,105
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides intestinalis,rCLR,Bacteroides intestinalis,0.0009954851052836218,0.0004658059585594229,106
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides fragilis,PA,Bacteroides fragilis,0.0009253774316872315,-8.481239016038036e-05,107
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Dialister invisus,rCLR,Dialister invisus,0.0009038785620647103,0.0003995315325143549,108
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Barnesiella intestinihominis,rCLR,Barnesiella intestinihominis,0.0009009128780453344,4.639032598845831e-05,109
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_[Ruminococcus] lactaris,rCLR,[Ruminococcus] lactaris,0.0008798766912552983,-3.61684849422968e-05,110
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Phocaeicola massiliensis,rCLR,Phocaeicola massiliensis,0.0008766990794183379,-4.982372570475528e-05,111
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides finegoldii,rCLR,Bacteroides finegoldii,0.0008721531430461868,-0.00044015827794047186,112
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Parasutterella excrementihominis,rCLR,Parasutterella excrementihominis,0.0008488824816509421,2.661418133765884e-05,113
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,0.0008459933739937412,0.00012813164056641263,114
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Gordonibacter pamelaeae,rCLR,Gordonibacter pamelaeae,0.0008325966072600207,0.00020392512068799745,115
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Enterocloster bolteae,PA,Enterocloster bolteae,0.0008308170872007098,-0.0004547636916283353,116
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Firmicutes bacterium CAG:145,PA,Firmicutes bacterium CAG:145,0.0008204090170103761,0.0006425467817928433,117
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Bacteroides stercoris,rCLR,Bacteroides stercoris,0.0008185440863210213,0.00024933709821563693,118
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Parabacteroides merdae,PA,Parabacteroides merdae,0.0007989244384117485,0.0002416426756818763,119
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides cellulosilyticus,PA,Bacteroides cellulosilyticus,0.0007868237807064912,0.0001303028789622247,120
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Klebsiella quasipneumoniae,rCLR,Klebsiella quasipneumoniae,0.0007780690350206535,0.00044855049770328183,121
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides salyersiae,PA,Bacteroides salyersiae,0.000773852550293333,1.4667098844153144e-05,122
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Streptococcus thermophilus,PA,Streptococcus thermophilus,0.000760651572259554,-0.0006004539565817655,123
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides sp. CAG:144,PA,Bacteroides sp. CAG:144,0.0007452243371972338,0.0003849385500925848,124
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bifidobacterium pseudocatenulatum,PA,Bifidobacterium pseudocatenulatum,0.0007402592769347182,0.00017040526923546023,125
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,rCLR_Anaerotignum lactatifermentans,rCLR,Anaerotignum lactatifermentans,0.0007145064459959444,0.0003102275729517018,126
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Phascolarctobacterium faecium,PA,Phascolarctobacterium faecium,0.0006732867972201006,0.0001394919218993495,127
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Phocaeicola coprocola,PA,Phocaeicola coprocola,0.0006276154894642338,-2.67915766822965e-05,128
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Phascolarctobacterium succinatutens,PA,Phascolarctobacterium succinatutens,0.0006189209075218941,0.00014029157242693226,129
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Blautia sp. CAG:257,PA,Blautia sp. CAG:257,0.0005950393704788543,0.00029668099219274876,130
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Eubacterium sp. CAG:38,PA,Eubacterium sp. CAG:38,0.0005872851156839181,-6.204789017384628e-05,131
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Eubacterium sp. CAG:180,PA,Eubacterium sp. CAG:180,0.0005813992911779201,4.226985531973811e-05,132
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Ruminococcus bicirculans,PA,Ruminococcus bicirculans,0.0005563704574122005,-0.00017008826216771813,133
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Klebsiella pneumoniae,PA,Klebsiella pneumoniae,0.0005500509398010706,-0.0002911413381578914,134
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides caccae,PA,Bacteroides caccae,0.0005437250334108193,4.630157191396353e-05,135
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Eubacterium sp. CAG:251,PA,Eubacterium sp. CAG:251,0.0005406169438743111,-0.0002815926355344489,136
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Escherichia coli,PA,Escherichia coli,0.0005331331346041441,0.00013295505368003554,137
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Desulfovibrio piger,PA,Desulfovibrio piger,0.000510151602540299,3.712809611112644e-05,138
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_[Ruminococcus] lactaris,PA,[Ruminococcus] lactaris,0.0004691801121295694,-9.299818971517649e-05,139
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides stercoris,PA,Bacteroides stercoris,0.00045657188777785716,0.00010692216271900546,140
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Eubacterium ventriosum,PA,Eubacterium ventriosum,0.00045436649495166157,4.108881561645316e-05,141
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Holdemanella biformis,PA,Holdemanella biformis,0.0004423898025725784,6.238700590618817e-05,142
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Coprobacter fastidiosus,PA,Coprobacter fastidiosus,0.00043816719284580144,0.00011433612443842746,143
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Clostridium sp. CAG:58,PA,Clostridium sp. CAG:58,0.0004204666047453978,0.00012641533486287376,144
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Firmicutes bacterium CAG:110,PA,Firmicutes bacterium CAG:110,0.0004126737425544893,3.018651786555252e-06,145
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Phocaeicola plebeius,PA,Phocaeicola plebeius,0.00040493298976428127,7.612264233313026e-05,146
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Butyricimonas virosa,PA,Butyricimonas virosa,0.00040016298028114263,0.00020044509164530622,147
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides thetaiotaomicron,PA,Bacteroides thetaiotaomicron,0.00039243471587214275,-0.0001743918887070712,148
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Prevotella copri,PA,Prevotella copri,0.0003910146937174082,-8.363093918140156e-06,149
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Coprococcus catus,PA,Coprococcus catus,0.00038661544464109715,0.00016832677489593767,150
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Veillonella atypica,PA,Veillonella atypica,0.0003818466246932194,-0.0001435780787229289,151
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Alistipes inops,PA,Alistipes inops,0.00038168938332381653,0.00019891633437125886,152
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Parabacteroides distasonis,PA,Parabacteroides distasonis,0.00037970880393514293,1.1700061104471504e-05,153
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Megamonas funiformis,PA,Megamonas funiformis,0.00035049141072271504,-0.00019417445745302118,154
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Lachnospira eligens,PA,Lachnospira eligens,0.0003432707539794193,2.0565850531561505e-05,155
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Paraprevotella xylaniphila,PA,Paraprevotella xylaniphila,0.0003369522810384224,7.562333229372425e-05,156
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Oscillibacter sp. CAG:241,PA,Oscillibacter sp. CAG:241,0.0003315428027213064,7.215279351969781e-05,157
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides eggerthii,PA,Bacteroides eggerthii,0.00032935600921653465,0.00013329846789786876,158
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Eubacterium ramulus,PA,Eubacterium ramulus,0.0003278753931221116,-1.3038759804164414e-05,159
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Veillonella parvula,PA,Veillonella parvula,0.0003095791234162339,-0.00010744410910731275,160
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Adlercreutzia equolifaciens,PA,Adlercreutzia equolifaciens,0.00030879313770617537,-7.202000233481704e-05,161
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Lawsonibacter asaccharolyticus,PA,Lawsonibacter asaccharolyticus,0.00030052585538353375,3.420101627568371e-05,162
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Acidaminococcus intestini,PA,Acidaminococcus intestini,0.0002986604523833137,1.2485683048434767e-05,163
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_[Ruminococcus] gnavus,PA,[Ruminococcus] gnavus,0.0002907577039526742,9.80754141701548e-05,164
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides ovatus,PA,Bacteroides ovatus,0.0002786902022779114,2.2223193749877155e-05,165
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Intestinibacter bartlettii,PA,Intestinibacter bartlettii,0.00027615026940762486,0.0001357685526775949,166
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Phocaeicola massiliensis,PA,Phocaeicola massiliensis,0.0002729689846149156,-0.00013321208324495621,167
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Adlercreutzia equolifaciens_1,PA,Adlercreutzia equolifaciens_1,0.0002712243378997986,-8.466661340145225e-05,168
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Alistipes finegoldii,PA,Alistipes finegoldii,0.0002671993284641065,0.000124483937022038,169
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Roseburia inulinivorans,PA,Roseburia inulinivorans,0.0002599453273151267,4.766452165462436e-05,170
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Fusicatenibacter saccharivorans,PA,Fusicatenibacter saccharivorans,0.00025906444372280615,-0.00025906444372280615,171
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Coprococcus eutactus,PA,Coprococcus eutactus,0.0002492475698222698,-0.00010087587339167934,172
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides intestinalis,PA,Bacteroides intestinalis,0.00024718137113026787,-4.16069018171351e-05,173
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Anaerobutyricum hallii,PA,Anaerobutyricum hallii,0.0002434943616858691,-0.00010255700714439757,174
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Dorea longicatena,PA,Dorea longicatena,0.00024150883331679215,0.00012558434657369198,175
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Alistipes putredinis,PA,Alistipes putredinis,0.00023981945471256342,0.00012292304604986202,176
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Streptococcus parasanguinis,PA,Streptococcus parasanguinis,0.00023381592847259344,7.770889636107381e-05,177
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Phocaeicola dorei,PA,Phocaeicola dorei,0.00022838476707308348,5.2044002285634354e-05,178
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_[Eubacterium] siraeum,PA,[Eubacterium] siraeum,0.00022515134980797012,0.0001093130660418555,179
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Dorea formicigenerans,PA,Dorea formicigenerans,0.00022428537021828974,0.00017797202768498436,180
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Barnesiella intestinihominis,PA,Barnesiella intestinihominis,0.00022137294426479408,2.0283530048005103e-05,181
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Anaerostipes hadrus,PA,Anaerostipes hadrus,0.00022097486499077232,-0.000155656071117966,182
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Slackia isoflavoniconvertens,PA,Slackia isoflavoniconvertens,0.0002197753714594626,9.569004935882481e-05,183
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Alistipes shahii,PA,Alistipes shahii,0.00021783884265104587,0.00014676524598169124,184
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Oscillibacter sp. 57_20,PA,Oscillibacter sp. 57_20,0.00021579450499116144,-1.115327973149005e-05,185
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bifidobacterium longum,PA,Bifidobacterium longum,0.00021563853693002546,-4.537971641875519e-05,186
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Ruminococcus bromii,PA,Ruminococcus bromii,0.0002116269504367569,4.747569501120621e-05,187
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Firmicutes bacterium CAG:83,PA,Firmicutes bacterium CAG:83,0.00020500885431283858,4.5699250181194796e-05,188
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Proteobacteria bacterium CAG:139,PA,Proteobacteria bacterium CAG:139,0.00020086212664606647,-4.391111415635182e-05,189
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Coprococcus comes,PA,Coprococcus comes,0.0001997618830235909,4.041717559429297e-05,190
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Parasutterella excrementihominis,PA,Parasutterella excrementihominis,0.00019913183444786027,6.25683873587092e-05,191
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_[Ruminococcus] torques,PA,[Ruminococcus] torques,0.0001973945963529676,-1.2689563039073676e-05,192
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bifidobacterium adolescentis,PA,Bifidobacterium adolescentis,0.00019720285458847643,5.202508638633191e-06,193
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Roseburia hominis,PA,Roseburia hominis,0.00019632139192470857,0.00010432975187906066,194
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Flavonifractor plautii,PA,Flavonifractor plautii,0.00018328240900167836,-7.360720648696749e-05,195
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Erysipelatoclostridium ramosum,PA,Erysipelatoclostridium ramosum,0.00018101795492114948,6.488487449348041e-05,196
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Odoribacter splanchnicus,PA,Odoribacter splanchnicus,0.0001694083028901878,-6.084137027642712e-05,197
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Eggerthella lenta,PA,Eggerthella lenta,0.00016599296578599329,6.636816556353773e-05,198
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Gemmiger formicilis,PA,Gemmiger formicilis,0.00016037103812231469,8.958887529427294e-05,199
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Lachnospira pectinoschiza,PA,Lachnospira pectinoschiza,0.00015943016757566847,0.00013393657595885938,200
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_[Eubacterium] rectale,PA,[Eubacterium] rectale,0.0001586524928465545,4.678662781555943e-05,201
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Agathobaculum butyriciproducens,PA,Agathobaculum butyriciproducens,0.0001534981168510349,-4.816900653439923e-05,202
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides finegoldii,PA,Bacteroides finegoldii,0.00014622226071696575,9.651148336726426e-07,203
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Roseburia faecis,PA,Roseburia faecis,0.00014043581116619872,-4.2954080068330644e-05,204
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Blautia wexlerae,PA,Blautia wexlerae,0.00013779114758933093,-7.101289950651348e-05,205
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Gordonibacter pamelaeae,PA,Gordonibacter pamelaeae,0.00013386713404398232,-5.856570485025487e-05,206
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides xylanisolvens,PA,Bacteroides xylanisolvens,0.00013004284252843198,-2.2433781387234365e-06,207
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Klebsiella quasipneumoniae,PA,Klebsiella quasipneumoniae,0.00012223572879629298,-5.955877006562327e-05,208
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Faecalibacterium prausnitzii,PA,Faecalibacterium prausnitzii,0.00010137941074042093,-0.00010126496511346339,209
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Blautia obeum,PA,Blautia obeum,9.339733232410628e-05,-3.488681869229849e-05,210
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Ruthenibacterium lactatiformans,PA,Ruthenibacterium lactatiformans,9.184218423762531e-05,-1.633849190475306e-05,211
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Dialister invisus,PA,Dialister invisus,9.084819605655961e-05,-3.962192932142066e-06,212
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Klebsiella variicola,PA,Klebsiella variicola,9.000777057945458e-05,-3.932688875391469e-05,213
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Bacteroides uniformis,PA,Bacteroides uniformis,6.573987075121701e-05,1.7493821874287702e-05,214
+OnlyMale,RandomForest,ThomasAM_2018b,0.8586956521739131,PA_Phocaeicola vulgatus,PA,Phocaeicola vulgatus,5.402894786483341e-05,5.764961456453831e-06,215

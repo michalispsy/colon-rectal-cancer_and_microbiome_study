@@ -1,0 +1,33 @@
+Category,Feature,Feature_Type,Species,Male_Rank,Female_Rank,Male_ConsensusScore,Female_ConsensusScore,Male_Stability,Female_Stability
+shared,Age,covariate,Age,16.0,17.0,0.3782844323850224,0.40070934946068926,0.5,0.5
+shared,PA_Parvimonas micra,PA,Parvimonas micra,1.0,2.0,1.0,0.8952321866891191,1.0,1.0
+shared,rCLR_Anaerobutyricum hallii,rCLR,Anaerobutyricum hallii,19.0,7.0,0.3725002228015824,0.713065973897961,0.5,0.9
+shared,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,13.0,15.0,0.5894972516130925,0.46753235310173463,0.8,0.6
+shared,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,15.0,16.0,0.3899165930775441,0.46191960976512547,0.5,0.6
+shared,rCLR_Paraprevotella xylaniphila,rCLR,Paraprevotella xylaniphila,20.0,20.0,0.32223328807959134,0.3308676271735928,0.4,0.4
+shared,rCLR_Parvimonas micra,rCLR,Parvimonas micra,2.0,11.0,0.8153218129036119,0.6177298208326691,1.0,0.8
+shared,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,3.0,1.0,0.7674812233396815,1.0,1.0,1.0
+male_specific,rCLR_Akkermansia muciniphila,rCLR,Akkermansia muciniphila,8.0,,0.7491864115489899,,1.0,
+male_specific,rCLR_Bifidobacterium pseudocatenulatum,rCLR,Bifidobacterium pseudocatenulatum,14.0,,0.4499596295312321,,0.6,
+male_specific,rCLR_Butyricimonas virosa,rCLR,Butyricimonas virosa,18.0,,0.3733097192602608,,0.5,
+male_specific,rCLR_Eubacterium sp. CAG:38,rCLR,Eubacterium sp. CAG:38,17.0,,0.3737969705930873,,0.5,
+male_specific,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,10.0,,0.6732577156982238,,0.9,
+male_specific,rCLR_Firmicutes bacterium CAG:145,rCLR,Firmicutes bacterium CAG:145,12.0,,0.593649684461403,,0.8,
+male_specific,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,6.0,,0.7596573751087006,,1.0,
+male_specific,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,7.0,,0.7539891729692937,,1.0,
+male_specific,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,11.0,,0.6657511857795058,,0.9,
+male_specific,rCLR_Odoribacter splanchnicus,rCLR,Odoribacter splanchnicus,5.0,,0.7612423116013509,,1.0,
+male_specific,rCLR_Roseburia faecis,rCLR,Roseburia faecis,9.0,,0.7007962156653071,,0.9,
+male_specific,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,4.0,,0.7616804224675787,,1.0,
+female_specific,rCLR_Adlercreutzia equolifaciens,rCLR,Adlercreutzia equolifaciens,,14.0,,0.5336892111263541,,0.7
+female_specific,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,,13.0,,0.5417353884174002,,0.7
+female_specific,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,,3.0,,0.8543149986369958,,1.0
+female_specific,rCLR_Bacteroides fragilis,rCLR,Bacteroides fragilis,,4.0,,0.819097111977376,,1.0
+female_specific,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,,6.0,,0.7978476903556522,,1.0
+female_specific,rCLR_Coprococcus comes,rCLR,Coprococcus comes,,12.0,,0.5607454865804115,,0.7
+female_specific,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,,5.0,,0.8082774646955875,,1.0
+female_specific,rCLR_Eubacterium sp. CAG:180,rCLR,Eubacterium sp. CAG:180,,18.0,,0.3859343973367654,,0.5
+female_specific,rCLR_Flavonifractor plautii,rCLR,Flavonifractor plautii,,9.0,,0.6833969179204316,,0.9
+female_specific,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,,8.0,,0.705026161744554,,0.9
+female_specific,rCLR_Parabacteroides merdae,rCLR,Parabacteroides merdae,,19.0,,0.33109086373517366,,0.4
+female_specific,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,,10.0,,0.6278896096252545,,0.8
