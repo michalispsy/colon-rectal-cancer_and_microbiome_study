@@ -1,0 +1,40 @@
+Species_key,Arrangements,N_Arrangements,In_All,In_OnlyMale,In_OnlyFemale,Specificity
+anaerostipes hadrus,All;OnlyMale;OnlyFemale,3,True,True,True,shared
+anaerotignum lactatifermentans,All;OnlyMale;OnlyFemale,3,True,True,True,shared
+parvimonas micra,All;OnlyMale;OnlyFemale,3,True,True,True,shared
+ruthenibacterium lactatiformans,All;OnlyMale;OnlyFemale,3,True,True,True,shared
+akkermansia muciniphila,OnlyMale;OnlyFemale,2,False,True,True,shared
+bacteroides thetaiotaomicron,All;OnlyFemale,2,True,False,True,shared
+dorea formicigenerans,All;OnlyFemale,2,True,False,True,shared
+eubacterium ventriosum,All;OnlyMale,2,True,True,False,shared
+flavonifractor plautii,All;OnlyFemale,2,True,False,True,shared
+lachnospira eligens,All;OnlyMale,2,True,True,False,shared
+lachnospira pectinoschiza,All;OnlyMale,2,True,True,False,shared
+methanobrevibacter smithii,All;OnlyMale,2,True,True,False,shared
+odoribacter splanchnicus,All;OnlyMale,2,True,True,False,shared
+paraprevotella xylaniphila,All;OnlyMale,2,True,True,False,shared
+phocaeicola plebeius,All;OnlyFemale,2,True,False,True,shared
+roseburia intestinalis,All;OnlyMale,2,True,True,False,shared
+streptococcus salivarius,All;OnlyMale,2,True,True,False,shared
+[ruminococcus] gnavus,OnlyFemale,1,False,False,True,OnlyFemale_specific
+[ruminococcus] torques,All,1,True,False,False,All_specific
+acidaminococcus intestini,OnlyFemale,1,False,False,True,OnlyFemale_specific
+adlercreutzia equolifaciens,OnlyFemale,1,False,False,True,OnlyFemale_specific
+adlercreutzia equolifaciens 1,OnlyFemale,1,False,False,True,OnlyFemale_specific
+agathobaculum butyriciproducens,OnlyFemale,1,False,False,True,OnlyFemale_specific
+alistipes finegoldii,OnlyFemale,1,False,False,True,OnlyFemale_specific
+alistipes inops,OnlyFemale,1,False,False,True,OnlyFemale_specific
+alistipes putredinis,OnlyFemale,1,False,False,True,OnlyFemale_specific
+alistipes shahii,OnlyFemale,1,False,False,True,OnlyFemale_specific
+anaerobutyricum hallii,OnlyFemale,1,False,False,True,OnlyFemale_specific
+bacteroides caccae,OnlyMale,1,False,True,False,OnlyMale_specific
+bacteroides fragilis,OnlyFemale,1,False,False,True,OnlyFemale_specific
+bacteroides salyersiae,OnlyMale,1,False,True,False,OnlyMale_specific
+bifidobacterium bifidum,OnlyMale,1,False,True,False,OnlyMale_specific
+bifidobacterium pseudocatenulatum,OnlyMale,1,False,True,False,OnlyMale_specific
+collinsella aerofaciens,OnlyMale,1,False,True,False,OnlyMale_specific
+eubacterium sp. cag:38,All,1,True,False,False,All_specific
+fusicatenibacter saccharivorans,OnlyMale,1,False,True,False,OnlyMale_specific
+parabacteroides distasonis,All,1,True,False,False,All_specific
+roseburia faecis,OnlyMale,1,False,True,False,OnlyMale_specific
+streptococcus thermophilus,All,1,True,False,False,All_specific

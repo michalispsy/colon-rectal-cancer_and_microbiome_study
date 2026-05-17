@@ -4,7 +4,7 @@ STEP 5.1 — SHAP ANALYSIS PER MODEL
 ===================================
 
 Implements:
-  5.1a All Universal SHAP
+  5.1a All Universal SHAP (Random Forest by default)
        - Top features per LODO fold
        - Consensus ranking / stability score
        - PA vs rCLR contribution split
@@ -33,6 +33,7 @@ Run from repository root, e.g.:
 
 Notes:
   - Requires: pandas, numpy, scikit-learn, matplotlib, shap
+  - Default algorithms: All=RandomForest, OnlyMale=RandomForest, OnlyFemale=RandomForest
   - If shap is missing: pip install shap
 """
 
@@ -67,10 +68,10 @@ import matplotlib.pyplot as plt
 
 RANDOM_STATE = 42
 
-# Use the best/most useful Phase 4 algorithm choices by default.
-# All can also be changed to RandomForest if you prefer a purely non-linear SHAP analysis.
+# Use Random Forest for all three implemented Phase 5.1 models by default.
+# This keeps All, OnlyMale, and OnlyFemale directly comparable in SHAP analysis.
 DEFAULT_MODEL_ALGORITHMS = {
-    "All": "LASSO",
+    "All": "RandomForest",
     "OnlyMale": "RandomForest",
     "OnlyFemale": "RandomForest",
 }
@@ -560,19 +561,19 @@ def main() -> None:
         "--model-a-algorithm",
         choices=["LASSO", "RandomForest"],
         default=DEFAULT_MODEL_ALGORITHMS["All"],
-        help="Algorithm to use for All SHAP",
+        help="Algorithm to use for All SHAP. Default: RandomForest.",
     )
     parser.add_argument(
         "--model-b-algorithm",
         choices=["LASSO", "RandomForest"],
         default=DEFAULT_MODEL_ALGORITHMS["OnlyMale"],
-        help="Algorithm to use for OnlyMale SHAP",
+        help="Algorithm to use for OnlyMale SHAP. Default: RandomForest.",
     )
     parser.add_argument(
         "--model-c-algorithm",
         choices=["LASSO", "RandomForest"],
         default=DEFAULT_MODEL_ALGORITHMS["OnlyFemale"],
-        help="Algorithm to use for OnlyFemale SHAP",
+        help="Algorithm to use for OnlyFemale SHAP. Default: RandomForest.",
     )
     args = parser.parse_args()
 

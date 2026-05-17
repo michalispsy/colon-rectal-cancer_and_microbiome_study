@@ -6,39 +6,39 @@
 - PA vs rCLR contribution split.
 - OnlyMale vs OnlyFemale overlap analysis.
 
-## All (LASSO)
+## All (RandomForest)
 Top 20 consensus features:
 
-|   ConsensusRank | Feature                         | Feature_Type   | Species                      |   StabilityScore |   MeanAbsSHAP_Mean |   ConsensusScore |
-|----------------:|:--------------------------------|:---------------|:-----------------------------|-----------------:|-------------------:|-----------------:|
-|               1 | PA_Parvimonas micra             | PA             | Parvimonas micra             |              1   |           0.990638 |         1        |
-|               2 | PA_Streptococcus salivarius     | PA             | Streptococcus salivarius     |              1   |           0.525569 |         0.835688 |
-|               3 | rCLR_Streptococcus salivarius   | rCLR           | Streptococcus salivarius     |              1   |           0.455255 |         0.810845 |
-|               4 | PA_Firmicutes bacterium CAG:110 | PA             | Firmicutes bacterium CAG:110 |              1   |           0.401476 |         0.791845 |
-|               5 | PA_Veillonella parvula          | PA             | Veillonella parvula          |              1   |           0.357311 |         0.776241 |
-|               6 | rCLR_Parvimonas micra           | rCLR           | Parvimonas micra             |              0.9 |           0.336142 |         0.703762 |
-|               7 | PA_Klebsiella variicola         | PA             | Klebsiella variicola         |              0.9 |           0.306876 |         0.693422 |
-|               8 | rCLR_Dorea formicigenerans      | rCLR           | Dorea formicigenerans        |              0.9 |           0.302506 |         0.691878 |
-|               9 | rCLR_Anaerostipes hadrus        | rCLR           | Anaerostipes hadrus          |              0.8 |           0.278138 |         0.618268 |
-|              10 | rCLR_Veillonella parvula        | rCLR           | Veillonella parvula          |              0.8 |           0.260939 |         0.612192 |
-|              11 | PA_Klebsiella pneumoniae        | PA             | Klebsiella pneumoniae        |              0.7 |           0.273187 |         0.551519 |
-|              12 | PA_Streptococcus parasanguinis  | PA             | Streptococcus parasanguinis  |              0.7 |           0.264664 |         0.548508 |
-|              13 | PA_Phocaeicola plebeius         | PA             | Phocaeicola plebeius         |              0.6 |           0.212542 |         0.465093 |
-|              14 | rCLR_[Ruminococcus] torques     | rCLR           | [Ruminococcus] torques       |              0.5 |           0.237346 |         0.408856 |
-|              15 | PA_Parabacteroides merdae       | PA             | Parabacteroides merdae       |              0.5 |           0.219144 |         0.402425 |
-|              16 | PA_Methanobrevibacter smithii   | PA             | Methanobrevibacter smithii   |              0.5 |           0.217022 |         0.401676 |
-|              17 | PA_Bacteroides intestinalis     | PA             | Bacteroides intestinalis     |              0.5 |           0.216169 |         0.401374 |
-|              18 | rCLR_Streptococcus thermophilus | rCLR           | Streptococcus thermophilus   |              0.4 |           0.222763 |         0.338704 |
-|              19 | Age                             | covariate      | Age                          |              0.4 |           0.207419 |         0.333283 |
-|              20 | PA_Eggerthella lenta            | PA             | Eggerthella lenta            |              0.4 |           0.195847 |         0.329194 |
+|   ConsensusRank | Feature                              | Feature_Type   | Species                         |   StabilityScore |   MeanAbsSHAP_Mean |   ConsensusScore |
+|----------------:|:-------------------------------------|:---------------|:--------------------------------|-----------------:|-------------------:|-----------------:|
+|               1 | PA_Parvimonas micra                  | PA             | Parvimonas micra                |              1   |         0.035732   |         1        |
+|               2 | rCLR_Ruthenibacterium lactatiformans | rCLR           | Ruthenibacterium lactatiformans |              1   |         0.0155982  |         0.802786 |
+|               3 | rCLR_Parvimonas micra                | rCLR           | Parvimonas micra                |              1   |         0.0139637  |         0.786776 |
+|               4 | rCLR_Anaerostipes hadrus             | rCLR           | Anaerostipes hadrus             |              1   |         0.010678   |         0.754592 |
+|               5 | rCLR_Roseburia intestinalis          | rCLR           | Roseburia intestinalis          |              1   |         0.00924486 |         0.740555 |
+|               6 | rCLR_[Ruminococcus] torques          | rCLR           | [Ruminococcus] torques          |              1   |         0.00728966 |         0.721403 |
+|               7 | rCLR_Lachnospira pectinoschiza       | rCLR           | Lachnospira pectinoschiza       |              0.9 |         0.00932981 |         0.676387 |
+|               8 | rCLR_Eubacterium sp. CAG:251         | rCLR           | Eubacterium sp. CAG:251         |              0.9 |         0.00929491 |         0.676045 |
+|               9 | rCLR_Bacteroides caccae              | rCLR           | Bacteroides caccae              |              0.9 |         0.00803233 |         0.663678 |
+|              10 | rCLR_Dorea formicigenerans           | rCLR           | Dorea formicigenerans           |              0.9 |         0.00749121 |         0.658377 |
+|              11 | rCLR_Parabacteroides distasonis      | rCLR           | Parabacteroides distasonis      |              0.9 |         0.00732896 |         0.656788 |
+|              12 | rCLR_Lachnospira eligens             | rCLR           | Lachnospira eligens             |              0.9 |         0.00683686 |         0.651968 |
+|              13 | rCLR_Eubacterium ventriosum          | rCLR           | Eubacterium ventriosum          |              0.8 |         0.00769537 |         0.595377 |
+|              14 | rCLR_Clostridium sp. CAG:58          | rCLR           | Clostridium sp. CAG:58          |              0.8 |         0.00682689 |         0.58687  |
+|              15 | rCLR_Bacteroides thetaiotaomicron    | rCLR           | Bacteroides thetaiotaomicron    |              0.7 |         0.00574987 |         0.511321 |
+|              16 | rCLR_Odoribacter splanchnicus        | rCLR           | Odoribacter splanchnicus        |              0.6 |         0.00671739 |         0.455798 |
+|              17 | rCLR_Butyricimonas virosa            | rCLR           | Butyricimonas virosa            |              0.6 |         0.00602039 |         0.448971 |
+|              18 | rCLR_Fusicatenibacter saccharivorans | rCLR           | Fusicatenibacter saccharivorans |              0.6 |         0.0053088  |         0.442    |
+|              19 | rCLR_Alistipes finegoldii            | rCLR           | Alistipes finegoldii            |              0.5 |         0.00646132 |         0.38829  |
+|              20 | Age                                  | covariate      | Age                             |              0.5 |         0.0056598  |         0.380439 |
 
 Feature-type split among top features:
 
 | Feature_Type   |   N_Features |   MeanAbsSHAP_Total |   MeanAbsSHAP_Mean |   Percent_TopN |   Percent_SHAP_TopN |
 |:---------------|-------------:|--------------------:|-------------------:|---------------:|--------------------:|
-| PA             |           12 |            4.18045  |           0.348371 |             60 |            64.5036  |
-| rCLR           |            7 |            2.09309  |           0.299013 |             35 |            32.296   |
-| covariate      |            1 |            0.207419 |           0.207419 |              5 |             3.20045 |
+| rCLR           |           18 |           0.149868  |         0.00832603 |             90 |            78.3584  |
+| PA             |            1 |           0.035732  |         0.035732   |              5 |            18.6824  |
+| covariate      |            1 |           0.0056598 |         0.0056598  |              5 |             2.95921 |
 
 ## OnlyMale (RandomForest)
 Top 20 consensus features:

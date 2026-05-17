@@ -19,6 +19,15 @@ Expected inputs
 SHAP directory from Step 5.1, e.g.:
   OUTPUTS/phase_5/5.1_shap
 
+This version expects the rerun Step 5.1 outputs where all three implemented
+models are explained with Random Forest:
+  All_RandomForest_species_level_consensus.csv
+  OnlyMale_RandomForest_species_level_consensus.csv
+  OnlyFemale_RandomForest_species_level_consensus.csv
+
+The loader remains flexible and will find any *species_level_consensus.csv
+inside the All, OnlyMale, and OnlyFemale model folders.
+
 Phase 3 directory, e.g.:
   OUTPUTS/phase_3
 with files like:
