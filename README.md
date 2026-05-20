@@ -316,12 +316,10 @@ Cross-cohort generalizability is bounded by three domain shifts:
 
 ## 👥 Authors
 
-| Name | Student ID |
-|:---|:---:|
-| Παπακώστας Αχιλλέας | 03122201 |
-| Τσάκαλος Θεόδωρος | 03121668 |
-| Τσουρούφλη Ζωή | 03122062 |
-| Ψυχής Μιχάλης | 03122094 |
+- Παπακώστας Αχιλλέας
+- Τσάκαλος Θεόδωρος
+- Τσουρούφλη Ζωή
+- Ψυχής Μιχάλης
 
 **Supervisors:** Prof. K. Nikita, Prof. G. Matsopoulos, Prof. P. Tsanakas, Prof. I. Delis  
 **Academic Advisor:** Theodόrou Glykeria  
