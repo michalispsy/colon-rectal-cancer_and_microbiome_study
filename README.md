@@ -322,7 +322,7 @@ Cross-cohort generalizability is bounded by three domain shifts:
 - Ψυχής Μιχάλης
 
 **Supervisors:** Prof. K. Nikita, Prof. G. Matsopoulos, Prof. P. Tsanakas, Prof. I. Delis  
-**Academic Advisor:** Theodόrou Glykeria  
+**Academic Advisor:** Theodorou Glykeria  
 **Institution:** National Technical University of Athens (NTUA)  
 **Course:** Mobile & Electronic Health Technologies  
 **Submission:** May 2026
