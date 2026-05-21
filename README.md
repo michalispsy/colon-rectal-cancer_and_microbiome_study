@@ -138,7 +138,7 @@ These serve as ground truth for SHAP cross-validation in Phase 5.
 ## 📁 Repository Structure
 
 ```
-health/
+colon-rectal-cancer_and_microbiome_study/
 ├── code/
 │   ├── phase_1/            # Data preparation & Hurdle encoding
 │   │   └── regen_phase1_figures.py
@@ -179,7 +179,7 @@ health/
 │       └── species_level/
 ├── OUTPUTS/
 │   ├── phase_1/ … phase_5/      # All figures, CSV results, reports
-└── pipeline.txt                  # Full methodological specification
+└──
 ```
 
 ---
