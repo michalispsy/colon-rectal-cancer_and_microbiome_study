@@ -1,2 +1,0 @@
-Top_N,N_All_Top,N_OnlyMale_Top,N_OnlyFemale_Top,N_Shared_All_Three,N_Shared_All_OnlyMale,N_Shared_All_OnlyFemale,N_Shared_OnlyMale_OnlyFemale,Jaccard_All_OnlyMale,Jaccard_All_OnlyFemale,Jaccard_OnlyMale_OnlyFemale
-20,20,20,20,4,12,8,5,0.42857142857142855,0.25,0.14285714285714285

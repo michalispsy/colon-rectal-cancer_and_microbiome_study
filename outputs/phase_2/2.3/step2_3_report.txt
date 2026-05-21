@@ -1,0 +1,98 @@
+STEP 2.3 — PCA CENTROID DISTANCES
+==================================
+
+Paths
+-----
+Project root: /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study
+Input X_explore: /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/data/crc_study_final_data/species_level/X_explore.csv
+Input metadata: /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/data/crc_study_final_data/species_level/metadata.csv
+Output figure: /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/OUTPUTS/phase_2/2.3/step2_3_pca_centroids_PC12.png
+Output report: /home/tsak/igeia/colon-rectal-cancer_and_microbiome_study/OUTPUTS/phase_2/2.3/step2_3_report.txt
+
+Input sanity check
+------------------
+Number of merged samples: 1544
+Number of feature columns used: 214
+Number of studies: 10
+
+Condition counts:
+condition   n
+      CRC 671
+  Control 664
+  Adenoma 209
+
+Study counts:
+          study   n
+  YachidaS_2019 576
+   ZellerG_2014 156
+     FengQ_2015 154
+       YuJ_2015 128
+   WirbelJ_2018 125
+ VogtmannE_2016 104
+HanniganGD_2017  81
+ ThomasAM_2018a  80
+ThomasAM_2019_c  80
+ ThomasAM_2018b  60
+
+PCA variance
+------------
+PC1 explained variance: 0.093122
+PC2 explained variance: 0.040734
+PC1 + PC2 cumulative variance: 0.133855
+Number of PCs for >=80% variance: 108
+Cumulative variance at PC80 cutoff: 0.801758
+Number of PCs for >=90% variance: 145
+Cumulative variance at PC90 cutoff: 0.902097
+
+Global centroid distances
+-------------------------
+CRC-likeness definition:
+    d(Adenoma, Control) / [d(Adenoma, Control) + d(Adenoma, CRC)]
+
+Interpretation of CRC-likeness:
+    < 0.5  Adenoma is closer to Control
+    = 0.5  Adenoma is exactly intermediate
+    > 0.5  Adenoma is closer to CRC
+
+  space  n_pcs  d_Adenoma_CRC  d_Adenoma_Control  d_CRC_Control  CRC_likeness Adenoma_closer_to
+PC1_PC2      2         1.4787             0.9404         0.6062        0.3888           Control
+   PC80    108         2.1364             1.6869         1.6115        0.4412           Control
+   PC90    145         2.1731             1.7450         1.6354        0.4454           Control
+
+Bootstrap uncertainty for PC80 distances
+----------------------------------------
+Bootstrap iterations: 1000
+Bootstrap method: resample samples within each condition, recompute condition centroids, recompute distances.
+
+           metric   mean  median     sd  ci_low  ci_high
+     CRC_likeness 0.4550  0.4543 0.0182  0.4194   0.4921
+    d_Adenoma_CRC 2.3591  2.3472 0.1955  2.0173   2.7748
+d_Adenoma_Control 1.9711  1.9583 0.1883  1.6275   2.3518
+    d_CRC_Control 1.7605  1.7539 0.0965  1.5891   1.9574
+
+Per-study PC80 centroid distances
+---------------------------------
+Only studies containing Control, Adenoma, and CRC are included.
+Minimum required samples per condition per study: 3
+
+          Study  n_Control  n_Adenoma  n_CRC  d_Adenoma_CRC  d_Adenoma_Control  d_CRC_Control  CRC_likeness Adenoma_closer_to
+     FengQ_2015         61         47     46         4.4530             2.4707         4.5983        0.3568           Control
+HanniganGD_2017         28         26     27         2.4651             2.6225         2.6015        0.5155               CRC
+ ThomasAM_2018a         24         27     29         3.2722             3.2133         4.2337        0.4955           Control
+  YachidaS_2019        251         67    258         2.0231             1.9039         1.6817        0.4848           Control
+   ZellerG_2014         61         42     53         3.6029             3.0173         3.6434        0.4558           Control
+
+Main conclusion
+---------------
+Primary space: PC80, meaning the PCA coordinates explaining at least 80% cumulative variance.
+
+d(Adenoma, CRC)     = 2.136418
+d(Adenoma, Control) = 1.686916
+CRC-likeness        = 0.441216
+
+Adenoma is closer to Control than to CRC in PC80 centroid space.
+
+Important caution
+-----------------
+This is exploratory geometry in PCA space, not a supervised classifier and not a formal causal or biological proof.
+Because Adenoma samples are available only in a subset of studies, the global centroid result should be interpreted together with the per-study table.

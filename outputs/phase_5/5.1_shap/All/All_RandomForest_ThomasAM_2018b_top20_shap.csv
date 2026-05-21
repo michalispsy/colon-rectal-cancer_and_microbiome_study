@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,PA_Parvimonas micra,PA,Parvimonas micra,0.03744289455387872,0.000995257322394668,1
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.01510037622812551,-0.002048109005120627,2
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.01482790916172979,1.3200098713061382e-05,3
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.013396558359397043,-0.004750588537492133,4
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Alistipes finegoldii,rCLR,Alistipes finegoldii,0.009693136323308694,0.0040441203461653525,5
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,0.009633734759536165,0.0015823624712419612,6
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.008736357256813492,0.008335800980108367,7
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.008522109713112938,-0.008410915768716826,8
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.008416888800523015,-0.002471052960543744,9
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.007755990874579439,0.0022128607101134672,10
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.007432979348739669,0.0030772008296159593,11
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,0.006679947015811078,-0.002281715894336291,12
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,0.006335924053869198,-0.003540936531706355,13
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Butyricimonas virosa,rCLR,Butyricimonas virosa,0.006147167479478705,-0.00362644807735245,14
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.006017714147322693,-0.0033270980059343655,15
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Dorea longicatena,rCLR,Dorea longicatena,0.005938240342555665,0.005033260077168084,16
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Eubacterium ventriosum,rCLR,Eubacterium ventriosum,0.005929213298072469,-0.0003521747571408103,17
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Paraprevotella xylaniphila,rCLR,Paraprevotella xylaniphila,0.005884307166472568,0.003936253283500811,18
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.005747287566006219,-0.0049146119395813165,19
+All,RandomForest,ThomasAM_2018b,0.8180803571428571,rCLR_Blautia obeum,rCLR,Blautia obeum,0.005227719095490722,0.004437222974733707,20

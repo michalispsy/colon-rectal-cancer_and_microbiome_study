@@ -1,0 +1,21 @@
+Model,Algorithm,Study,Fold_AUC,Feature,Feature_Type,Species,MeanAbsSHAP,MeanSignedSHAP,Rank
+All,RandomForest,ThomasAM_2019_c,0.99625,PA_Parvimonas micra,PA,Parvimonas micra,0.047870627708587646,0.018588395339441077,1
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Parvimonas micra,rCLR,Parvimonas micra,0.018610013056421064,0.008487302139685307,2
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Ruthenibacterium lactatiformans,rCLR,Ruthenibacterium lactatiformans,0.010778591760137884,-0.0020692887213861607,3
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Bacteroides caccae,rCLR,Bacteroides caccae,0.010076769905760018,-0.0006398215811170979,4
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Eubacterium sp. CAG:251,rCLR,Eubacterium sp. CAG:251,0.009560554121316156,0.009307195703747839,5
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Clostridium sp. CAG:58,rCLR,Clostridium sp. CAG:58,0.009323852727153348,-0.0018791293230638177,6
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Anaerostipes hadrus,rCLR,Anaerostipes hadrus,0.009245554680710975,0.0036324615339397986,7
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Roseburia intestinalis,rCLR,Roseburia intestinalis,0.00889507312681066,0.0007552217505229178,8
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Lachnospira pectinoschiza,rCLR,Lachnospira pectinoschiza,0.00884950203306198,0.003026797205762905,9
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_[Ruminococcus] torques,rCLR,[Ruminococcus] torques,0.00880369270609065,-0.0029053575535074798,10
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Butyricimonas virosa,rCLR,Butyricimonas virosa,0.00862299073142639,-0.004058749024070031,11
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Parabacteroides distasonis,rCLR,Parabacteroides distasonis,0.008212187144617253,0.002030459166761539,12
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Lachnospira eligens,rCLR,Lachnospira eligens,0.007174837002834824,-0.0009882267062898758,13
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Fusicatenibacter saccharivorans,rCLR,Fusicatenibacter saccharivorans,0.007106524796049668,0.002626803226617035,14
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Bacteroides thetaiotaomicron,rCLR,Bacteroides thetaiotaomicron,0.006658063762542149,0.0030379656438167283,15
+All,RandomForest,ThomasAM_2019_c,0.99625,Age,covariate,Age,0.006650573626199312,-0.0013881972387511073,16
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Roseburia faecis,rCLR,Roseburia faecis,0.006566734858127196,0.0025862133501331824,17
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Faecalibacterium prausnitzii,rCLR,Faecalibacterium prausnitzii,0.006124841471187366,0.0017107719591095195,18
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Bacteroides sp. CAG:144,rCLR,Bacteroides sp. CAG:144,0.005878042158084256,-0.004697594922618473,19
+All,RandomForest,ThomasAM_2019_c,0.99625,rCLR_Dorea formicigenerans,rCLR,Dorea formicigenerans,0.005486578885544974,-0.0017946586186547893,20

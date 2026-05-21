@@ -1,0 +1,110 @@
+STEP 3.4 — VISUALIZATION
+================================================================================
+
+Purpose
+-------
+This script creates visualization-oriented summaries for Phase 3 differential abundance analysis.
+It is self-contained and uses only X_explore.csv and metadata.csv.
+
+Important note
+--------------
+The volcano plots in this script use simple visualization statistics:
+  - rCLR: mean rCLR difference with Mann-Whitney p-values
+  - PA: prevalence difference with Fisher exact p-values
+They are useful for plotting and biological orientation, but the formal evidence should come
+from the blocked Wilcoxon, CMH, and random-effects meta-analysis scripts.
+
+Input summary
+-------------
+Samples after merge: 1544
+rCLR features: 107
+PA features: 107
+
+Condition counts
+----------------
+CRC: 671
+Control: 664
+Adenoma: 209
+
+Sex counts
+----------
+Male: 929
+Female: 615
+
+Study counts
+------------
+YachidaS_2019: 576
+ZellerG_2014: 156
+FengQ_2015: 154
+YuJ_2015: 128
+WirbelJ_2018: 125
+VogtmannE_2016: 104
+HanniganGD_2017: 81
+ThomasAM_2018a: 80
+ThomasAM_2019_c: 80
+ThomasAM_2018b: 60
+
+Visualization summary by comparison
+-----------------------------------
+CRC_vs_Control:
+  rCLR significant at FDR < 0.05: 26
+  PA significant at FDR < 0.05: 18
+  Top rCLR species:
+    Ruthenibacterium lactatiformans | effect=0.5321 | p=9.813e-09 | q=1.050e-06
+    Lachnospira eligens | effect=-0.4476 | p=3.030e-06 | q=1.621e-04
+    Anaerostipes hadrus | effect=-0.4167 | p=1.429e-05 | q=5.095e-04
+    Flavonifractor plautii | effect=0.3327 | p=6.279e-05 | q=7.466e-04
+    Roseburia faecis | effect=-0.3325 | p=6.022e-05 | q=7.466e-04
+  Top PA species:
+    Parvimonas micra | prevalence_difference=0.2833 | p=4.596e-32 | q=4.918e-30
+    Streptococcus salivarius | prevalence_difference=-0.0810 | p=1.097e-05 | q=5.871e-04
+    Roseburia intestinalis | prevalence_difference=-0.1067 | p=7.120e-05 | q=2.540e-03
+    Phocaeicola plebeius | prevalence_difference=0.0937 | p=3.853e-04 | q=7.362e-03
+    Bacteroides fragilis | prevalence_difference=0.0948 | p=5.504e-04 | q=7.362e-03
+
+Adenoma_vs_Control:
+  rCLR significant at FDR < 0.05: 4
+  PA significant at FDR < 0.05: 9
+  Top rCLR species:
+    Lachnospira eligens | effect=-0.5450 | p=8.540e-06 | q=9.137e-04
+    Phocaeicola vulgatus | effect=-0.7146 | p=2.681e-05 | q=1.434e-03
+    Coprococcus catus | effect=0.1925 | p=3.778e-04 | q=1.348e-02
+    Roseburia intestinalis | effect=-0.3639 | p=1.343e-03 | q=3.593e-02
+    Parabacteroides merdae | effect=-0.3557 | p=4.269e-03 | q=9.136e-02
+  Top PA species:
+    Bacteroides thetaiotaomicron | prevalence_difference=-0.1389 | p=5.810e-05 | q=3.553e-03
+    Phascolarctobacterium faecium | prevalence_difference=-0.1476 | p=6.642e-05 | q=3.553e-03
+    Ruminococcus bicirculans | prevalence_difference=-0.1511 | p=1.837e-04 | q=6.550e-03
+    Lachnospira eligens | prevalence_difference=-0.1261 | p=9.737e-04 | q=1.798e-02
+    Parasutterella excrementihominis | prevalence_difference=-0.1292 | p=1.008e-03 | q=1.798e-02
+
+CRC_vs_Adenoma:
+  rCLR significant at FDR < 0.05: 13
+  PA significant at FDR < 0.05: 15
+  Top rCLR species:
+    Parabacteroides distasonis | effect=0.6017 | p=1.838e-07 | q=1.967e-05
+    Phocaeicola vulgatus | effect=0.8620 | p=7.128e-07 | q=3.813e-05
+    Odoribacter splanchnicus | effect=0.4018 | p=2.673e-05 | q=7.149e-04
+    Parabacteroides merdae | effect=0.4412 | p=2.410e-05 | q=7.149e-04
+    Bacteroides thetaiotaomicron | effect=0.4226 | p=4.704e-05 | q=1.007e-03
+  Top PA species:
+    Parvimonas micra | prevalence_difference=0.2770 | p=1.563e-14 | q=1.672e-12
+    Bacteroides thetaiotaomicron | prevalence_difference=0.1781 | p=7.041e-08 | q=3.767e-06
+    Enterocloster bolteae | prevalence_difference=0.2038 | p=1.673e-07 | q=5.966e-06
+    Flavonifractor plautii | prevalence_difference=0.1355 | p=7.974e-07 | q=2.133e-05
+    Phascolarctobacterium faecium | prevalence_difference=0.1796 | p=1.343e-06 | q=2.875e-05
+
+Files written
+-------------
+step3_4_volcano_rclr.png
+step3_4_volcano_pa.png
+step3_4_heatmap_top_species_condition_by_sex.png
+step3_4_forest_top_crc_vs_control_species.png
+step3_4_top_differentially_abundant_species.csv
+step3_4_final_report.txt
+
+Recommended interpretation
+--------------------------
+Use these plots to visually summarize Phase 3 and to select candidate species for comparison
+with SHAP features in Phase 5. Do not use this visualization-only script as the sole
+basis for statistical claims; rely on the formal blocked and meta-analysis scripts for that.

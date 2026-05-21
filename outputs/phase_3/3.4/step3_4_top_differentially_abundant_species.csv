@@ -1,0 +1,643 @@
+comparison,feature_type,feature,species,positive_group,negative_group,effect_name,effect,p_value,q_value,significant_fdr_0_05
+CRC_vs_Control,PA,PA_Parvimonas micra,Parvimonas micra,CRC,Control,prevalence_difference,0.283267196954734,4.5959758644935587e-32,4.917694175008108e-30,True
+CRC_vs_Adenoma,PA,PA_Parvimonas micra,Parvimonas micra,CRC,Adenoma,prevalence_difference,0.2770413365754177,1.563066544744104e-14,1.6724812028761914e-12,True
+CRC_vs_Control,rCLR,rCLR_Ruthenibacterium lactatiformans,Ruthenibacterium lactatiformans,CRC,Control,mean_rCLR_difference,0.5320583831595385,9.813077790684562e-09,1.049999323603248e-06,True
+CRC_vs_Adenoma,PA,PA_Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,CRC,Adenoma,prevalence_difference,0.17813161816613066,7.041252325825775e-08,3.76706999431679e-06,True
+CRC_vs_Adenoma,PA,PA_Enterocloster bolteae,Enterocloster bolteae,CRC,Adenoma,prevalence_difference,0.2037806886814652,1.6725957156442618e-07,5.9655913857978674e-06,True
+CRC_vs_Adenoma,rCLR,rCLR_Parabacteroides distasonis,Parabacteroides distasonis,CRC,Adenoma,mean_rCLR_difference,0.6017152219191749,1.8378817495778206e-07,1.966533472048268e-05,True
+CRC_vs_Adenoma,PA,PA_Flavonifractor plautii,Flavonifractor plautii,CRC,Adenoma,prevalence_difference,0.13546160483175151,7.974497837696916e-07,2.1331781715839252e-05,True
+CRC_vs_Adenoma,PA,PA_Phascolarctobacterium faecium,Phascolarctobacterium faecium,CRC,Adenoma,prevalence_difference,0.17962193113185349,1.3433415754276678e-06,2.8747509714152092e-05,True
+CRC_vs_Adenoma,rCLR,rCLR_Phocaeicola vulgatus,Phocaeicola vulgatus,CRC,Adenoma,mean_rCLR_difference,0.8620097077379096,7.127584957709243e-07,3.813257952374445e-05,True
+CRC_vs_Control,rCLR,rCLR_Lachnospira eligens,Lachnospira eligens,CRC,Control,mean_rCLR_difference,-0.4475651130801693,3.029774206969839e-06,0.00016209292007288642,True
+CRC_vs_Adenoma,PA,PA_Parabacteroides distasonis,Parabacteroides distasonis,CRC,Adenoma,prevalence_difference,0.1265981645619264,2.2788805551267055e-05,0.0004064003656642625,True
+CRC_vs_Control,rCLR,rCLR_Anaerostipes hadrus,Anaerostipes hadrus,CRC,Control,mean_rCLR_difference,-0.4167260405646115,1.4286143057686143e-05,0.0005095391023908058,True
+CRC_vs_Control,PA,PA_Streptococcus salivarius,Streptococcus salivarius,CRC,Control,prevalence_difference,-0.0810245452749897,1.0973750368786852e-05,0.0005870956447300966,True
+CRC_vs_Adenoma,rCLR,rCLR_Parabacteroides merdae,Parabacteroides merdae,CRC,Adenoma,mean_rCLR_difference,0.44117593823350326,2.4096362785619238e-05,0.000714943402234832,True
+CRC_vs_Adenoma,rCLR,rCLR_Odoribacter splanchnicus,Odoribacter splanchnicus,CRC,Adenoma,mean_rCLR_difference,0.4017881631398882,2.6726856158311477e-05,0.000714943402234832,True
+CRC_vs_Adenoma,PA,PA_Bacteroides xylanisolvens,Bacteroides xylanisolvens,CRC,Adenoma,prevalence_difference,0.15099223468507328,4.7249320723745814e-05,0.0007222396167772575,True
+CRC_vs_Control,rCLR,rCLR_Roseburia intestinalis,Roseburia intestinalis,CRC,Control,mean_rCLR_difference,-0.3122052802197276,5.5203956056151774e-05,0.0007465546666896148,True
+CRC_vs_Control,rCLR,rCLR_Flavonifractor plautii,Flavonifractor plautii,CRC,Control,mean_rCLR_difference,0.3326992860494607,6.279431775893956e-05,0.0007465546666896148,True
+CRC_vs_Control,rCLR,rCLR_Roseburia faecis,Roseburia faecis,CRC,Control,mean_rCLR_difference,-0.3325358313543945,6.022027480788797e-05,0.0007465546666896148,True
+CRC_vs_Control,rCLR,rCLR_Parabacteroides distasonis,Parabacteroides distasonis,CRC,Control,mean_rCLR_difference,0.3017508895904364,3.995258124586243e-05,0.0007465546666896148,True
+CRC_vs_Control,rCLR,rCLR_Odoribacter splanchnicus,Odoribacter splanchnicus,CRC,Control,mean_rCLR_difference,0.2477874051487734,6.0546748649049376e-05,0.0007465546666896148,True
+CRC_vs_Control,rCLR,rCLR_Lachnospira pectinoschiza,Lachnospira pectinoschiza,CRC,Control,mean_rCLR_difference,-0.318879477294343,3.6221547190032066e-05,0.0007465546666896148,True
+CRC_vs_Control,rCLR,rCLR_Bacteroides caccae,Bacteroides caccae,CRC,Control,mean_rCLR_difference,0.2162151359006923,7.707246970468533e-05,0.000824675425840133,True
+Adenoma_vs_Control,rCLR,rCLR_Lachnospira eligens,Lachnospira eligens,Adenoma,Control,mean_rCLR_difference,-0.5449882455764028,8.539670361152736e-06,0.0009137447286433429,True
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,CRC,Adenoma,mean_rCLR_difference,0.42261997970754656,4.704407897428714e-05,0.0010067432900497447,True
+CRC_vs_Control,rCLR,rCLR_Faecalibacterium prausnitzii,Faecalibacterium prausnitzii,CRC,Control,mean_rCLR_difference,-0.3648784359093069,0.00014510991682410474,0.001411523736379928,True
+Adenoma_vs_Control,rCLR,rCLR_Phocaeicola vulgatus,Phocaeicola vulgatus,Adenoma,Control,mean_rCLR_difference,-0.7146020515573721,2.6809799123158658e-05,0.0014343242530889882,True
+CRC_vs_Control,rCLR,rCLR_Paraprevotella xylaniphila,Paraprevotella xylaniphila,CRC,Control,mean_rCLR_difference,-0.13196391213081102,0.00025704609932658464,0.0022919943856620465,True
+CRC_vs_Control,rCLR,rCLR_Bacteroides fragilis,Bacteroides fragilis,CRC,Control,mean_rCLR_difference,0.34230667535930404,0.0002806787481682264,0.0023102020041538634,True
+CRC_vs_Control,rCLR,rCLR_Eubacterium ventriosum,Eubacterium ventriosum,CRC,Control,mean_rCLR_difference,-0.2819388612080693,0.00030313567480434495,0.002316822657433208,True
+CRC_vs_Control,PA,PA_Roseburia intestinalis,Roseburia intestinalis,CRC,Control,prevalence_difference,-0.10670102167238249,7.120154795674683e-05,0.00253952187712397,True
+CRC_vs_Control,rCLR,rCLR_Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,CRC,Control,mean_rCLR_difference,0.26431767636593695,0.0003825291433282812,0.002728707889075073,True
+CRC_vs_Control,rCLR,rCLR_Parvimonas micra,Parvimonas micra,CRC,Control,mean_rCLR_difference,-0.2475265329034213,0.0004735612379327133,0.0031669407786750203,True
+Adenoma_vs_Control,PA,PA_Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,Adenoma,Control,prevalence_difference,-0.1388784804288925,5.809528238030229e-05,0.0035532419225477985,True
+Adenoma_vs_Control,PA,PA_Phascolarctobacterium faecium,Phascolarctobacterium faecium,Adenoma,Control,prevalence_difference,-0.14764080244422667,6.64157368700523e-05,0.0035532419225477985,True
+Adenoma_vs_Control,PA,PA_Ruminococcus bicirculans,Ruminococcus bicirculans,Adenoma,Control,prevalence_difference,-0.15106358448146656,0.00018365379251461452,0.006550318599687918,True
+CRC_vs_Adenoma,PA,PA_Bacteroides ovatus,Bacteroides ovatus,CRC,Adenoma,prevalence_difference,0.11695034904698409,0.0005174985093833001,0.006921542563001639,True
+CRC_vs_Adenoma,PA,PA_Bacteroides fragilis,Bacteroides fragilis,CRC,Adenoma,prevalence_difference,0.13805004314063846,0.0006053021815187806,0.007196370380278837,True
+CRC_vs_Control,PA,PA_Phocaeicola plebeius,Phocaeicola plebeius,CRC,Control,prevalence_difference,0.0936652721167831,0.0003852636928222198,0.007361648819878934,True
+CRC_vs_Control,PA,PA_Methanobrevibacter smithii,Methanobrevibacter smithii,CRC,Control,prevalence_difference,0.08703068608263156,0.0003645285166774913,0.007361648819878934,True
+CRC_vs_Control,PA,PA_Escherichia coli,Escherichia coli,CRC,Control,prevalence_difference,0.08699253047959343,0.0005027955341349024,0.007361648819878934,True
+CRC_vs_Control,PA,PA_Bacteroides fragilis,Bacteroides fragilis,CRC,Control,prevalence_difference,0.09480769576068804,0.0005504036500844062,0.007361648819878934,True
+CRC_vs_Control,PA,PA_Anaerotignum lactatifermentans,Anaerotignum lactatifermentans,CRC,Control,prevalence_difference,0.08008187743522524,0.000463647132474222,0.007361648819878934,True
+CRC_vs_Adenoma,PA,PA_Phocaeicola plebeius,Phocaeicola plebeius,CRC,Adenoma,prevalence_difference,0.128166915052161,0.0007635441379240685,0.008169922275787533,True
+CRC_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:251,Eubacterium sp. CAG:251,CRC,Control,mean_rCLR_difference,-0.20924619240069803,0.0013671664746716888,0.008605106634698278,True
+CRC_vs_Control,rCLR,rCLR_Fusicatenibacter saccharivorans,Fusicatenibacter saccharivorans,CRC,Control,mean_rCLR_difference,-0.25783863204908297,0.0015446055266032969,0.009181821741475154,True
+CRC_vs_Control,PA,PA_Enterocloster bolteae,Enterocloster bolteae,CRC,Control,prevalence_difference,0.08763668683676584,0.0009145165340297984,0.010197648200479685,True
+CRC_vs_Control,PA,PA_Megamonas funiformis,Megamonas funiformis,CRC,Control,prevalence_difference,0.06725037257824143,0.0009530512336896901,0.010197648200479685,True
+CRC_vs_Control,rCLR,rCLR_Dorea formicigenerans,Dorea formicigenerans,CRC,Control,mean_rCLR_difference,0.1588399631504235,0.0021066057102288693,0.011863516368131,True
+CRC_vs_Control,PA,PA_Bacteroides caccae,Bacteroides caccae,CRC,Control,prevalence_difference,0.08633490743899597,0.0012658102446747549,0.012312881470927161,True
+CRC_vs_Control,PA,PA_Ruminococcus bicirculans,Ruminococcus bicirculans,CRC,Control,prevalence_difference,-0.08768606467599166,0.0014947305847532394,0.013328014380716385,True
+Adenoma_vs_Control,rCLR,rCLR_Coprococcus catus,Coprococcus catus,Adenoma,Control,mean_rCLR_difference,0.1924557166444661,0.00037784666021270865,0.013476530880919942,True
+CRC_vs_Adenoma,PA,PA_Erysipelatoclostridium ramosum,Erysipelatoclostridium ramosum,CRC,Adenoma,prevalence_difference,0.12628441446387956,0.0015184704370559748,0.014770576069544482,True
+CRC_vs_Adenoma,PA,PA_Prevotella copri,Prevotella copri,CRC,Adenoma,prevalence_difference,0.12369597615499256,0.001904892252388634,0.01698528925046532,True
+CRC_vs_Adenoma,PA,PA_Phocaeicola vulgatus,Phocaeicola vulgatus,CRC,Adenoma,prevalence_difference,0.08832065260020394,0.002170017564665217,0.01786091380147525,True
+Adenoma_vs_Control,PA,PA_Bacteroides xylanisolvens,Bacteroides xylanisolvens,Adenoma,Control,prevalence_difference,-0.12711131607770787,0.0008767186897791878,0.01798104611034726,True
+Adenoma_vs_Control,PA,PA_Lachnospira eligens,Lachnospira eligens,Adenoma,Control,prevalence_difference,-0.12613852539343984,0.0009736537058874816,0.01798104611034726,True
+Adenoma_vs_Control,PA,PA_Parasutterella excrementihominis,Parasutterella excrementihominis,Adenoma,Control,prevalence_difference,-0.1291938087277339,0.0010082829594587248,0.01798104611034726,True
+CRC_vs_Adenoma,PA,PA_Butyricimonas virosa,Butyricimonas virosa,CRC,Adenoma,prevalence_difference,0.12126441289512901,0.002389256854584701,0.018260748817183075,True
+CRC_vs_Control,rCLR,rCLR_[Ruminococcus] torques,[Ruminococcus] torques,CRC,Control,mean_rCLR_difference,0.22013327710124309,0.003514366137035993,0.018801858833142563,True
+CRC_vs_Control,PA,PA_Collinsella aerofaciens,Collinsella aerofaciens,CRC,Control,prevalence_difference,0.06163925448440555,0.0023945292327883774,0.019014707216957766,True
+CRC_vs_Control,PA,PA_Eubacterium sp. CAG:180,Eubacterium sp. CAG:180,CRC,Control,prevalence_difference,0.08127143447111845,0.002487905617172044,0.019014707216957766,True
+CRC_vs_Adenoma,rCLR,rCLR_Gordonibacter pamelaeae,Gordonibacter pamelaeae,CRC,Adenoma,mean_rCLR_difference,-0.40628166129517096,0.0011105269597068987,0.019804397448106362,True
+Adenoma_vs_Control,PA,PA_Bifidobacterium pseudocatenulatum,Bifidobacterium pseudocatenulatum,Adenoma,Control,prevalence_difference,-0.12742116792528962,0.0013325380213531032,0.020368795469254578,True
+CRC_vs_Control,rCLR,rCLR_Alistipes finegoldii,Alistipes finegoldii,CRC,Control,mean_rCLR_difference,0.2528308085734392,0.004094680180017347,0.02086337044104077,True
+CRC_vs_Control,rCLR,rCLR_Coprococcus comes,Coprococcus comes,CRC,Control,mean_rCLR_difference,-0.21849809894380995,0.00458669610583308,0.02230802196927907,True
+CRC_vs_Adenoma,PA,PA_Megamonas funiformis,Megamonas funiformis,CRC,Adenoma,prevalence_difference,0.0869872146835046,0.003170255466724921,0.022614488995971106,True
+CRC_vs_Control,rCLR,rCLR_Bifidobacterium longum,Bifidobacterium longum,CRC,Control,mean_rCLR_difference,-0.26338462914975713,0.005793336588211774,0.026951609345159125,True
+CRC_vs_Control,rCLR,rCLR_Oscillibacter sp. CAG:241,Oscillibacter sp. CAG:241,CRC,Control,mean_rCLR_difference,0.1577569621856888,0.007090850181579069,0.030348838777158414,True
+CRC_vs_Control,rCLR,rCLR_Clostridium sp. CAG:58,Clostridium sp. CAG:58,CRC,Control,mean_rCLR_difference,0.14107325702467838,0.007041015522553569,0.030348838777158414,True
+CRC_vs_Adenoma,rCLR,rCLR_Streptococcus thermophilus,Streptococcus thermophilus,CRC,Adenoma,mean_rCLR_difference,-0.35959844051591616,0.002173649322359398,0.03322578249892223,True
+CRC_vs_Adenoma,rCLR,rCLR_Clostridium sp. CAG:58,Clostridium sp. CAG:58,CRC,Adenoma,mean_rCLR_difference,0.21492263807245002,0.0024900847116102963,0.033304883017787716,True
+CRC_vs_Control,rCLR,rCLR_Butyricimonas virosa,Butyricimonas virosa,CRC,Control,mean_rCLR_difference,0.22744861121455773,0.008522835506747088,0.03507474612392071,True
+Adenoma_vs_Control,rCLR,rCLR_Roseburia intestinalis,Roseburia intestinalis,Adenoma,Control,mean_rCLR_difference,-0.36387547930755726,0.0013431889354132058,0.03593030402230326,True
+CRC_vs_Adenoma,rCLR,rCLR_Intestinibacter bartlettii,Intestinibacter bartlettii,CRC,Adenoma,mean_rCLR_difference,-0.3215604628859829,0.0031802612638563866,0.03780977280362593,True
+CRC_vs_Adenoma,rCLR,rCLR_Oscillibacter sp. 57_20,Oscillibacter sp. 57_20,CRC,Adenoma,mean_rCLR_difference,0.1596643554446724,0.0036599082240019705,0.03916101799682108,True
+Adenoma_vs_Control,PA,PA_Flavonifractor plautii,Flavonifractor plautii,Adenoma,Control,prevalence_difference,-0.08933821410042075,0.0030812662149462895,0.041211935624906625,True
+CRC_vs_Control,PA,PA_Lachnospira eligens,Lachnospira eligens,CRC,Control,prevalence_difference,-0.07138913328425478,0.0064242234736659005,0.04219651895153578,True
+CRC_vs_Control,PA,PA_Roseburia faecis,Roseburia faecis,CRC,Control,prevalence_difference,-0.07149911119889385,0.006002694607129889,0.04219651895153578,True
+CRC_vs_Control,PA,PA_Parabacteroides merdae,Parabacteroides merdae,CRC,Control,prevalence_difference,0.06753990627188333,0.007098479823622841,0.04219651895153578,True
+CRC_vs_Control,PA,PA_Butyricimonas virosa,Butyricimonas virosa,CRC,Control,prevalence_difference,0.07359766936598855,0.007024144114632966,0.04219651895153578,True
+CRC_vs_Adenoma,rCLR,rCLR_Flavonifractor plautii,Flavonifractor plautii,CRC,Adenoma,mean_rCLR_difference,0.33438815789425647,0.004509453546147621,0.043864684494345045,True
+Adenoma_vs_Control,PA,PA_Enterocloster bolteae,Enterocloster bolteae,Adenoma,Control,prevalence_difference,-0.11614400184469936,0.003852933197133354,0.045807094677029876,True
+CRC_vs_Adenoma,rCLR,rCLR_Anaerobutyricum hallii,Anaerobutyricum hallii,CRC,Adenoma,mean_rCLR_difference,-0.37831519470840735,0.005587121034365267,0.0459863038982372,True
+CRC_vs_Adenoma,rCLR,rCLR_Desulfovibrio piger,Desulfovibrio piger,CRC,Adenoma,mean_rCLR_difference,0.10445524599694536,0.005484753147718393,0.0459863038982372,True
+CRC_vs_Adenoma,PA,PA_Bacteroides stercoris,Bacteroides stercoris,CRC,Adenoma,prevalence_difference,0.10534159541924859,0.00789294535333157,0.05103460652618734,False
+CRC_vs_Adenoma,PA,PA_Roseburia intestinalis,Roseburia intestinalis,CRC,Adenoma,prevalence_difference,-0.10557690799278374,0.008108301971450325,0.05103460652618734,False
+CRC_vs_Control,PA,PA_Flavonifractor plautii,Flavonifractor plautii,CRC,Control,prevalence_difference,0.04612339073133076,0.009157401684001254,0.05157063053621759,False
+CRC_vs_Adenoma,rCLR,rCLR_Ruthenibacterium lactatiformans,Ruthenibacterium lactatiformans,CRC,Adenoma,mean_rCLR_difference,0.3247005670171037,0.007142475385755954,0.05458891901970622,False
+CRC_vs_Control,rCLR,rCLR_Collinsella aerofaciens,Collinsella aerofaciens,CRC,Control,mean_rCLR_difference,0.24175293662294495,0.0146034356097494,0.05787287445345133,False
+CRC_vs_Adenoma,PA,PA_Klebsiella pneumoniae,Klebsiella pneumoniae,CRC,Adenoma,prevalence_difference,0.08824221507569222,0.009755406658647896,0.057990472915295826,False
+CRC_vs_Adenoma,PA,PA_[Ruminococcus] gnavus,[Ruminococcus] gnavus,CRC,Adenoma,prevalence_difference,0.0890265903208094,0.01227720646784886,0.06255529009808705,False
+CRC_vs_Adenoma,PA,PA_Adlercreutzia equolifaciens_1,Adlercreutzia equolifaciens_1,CRC,Adenoma,prevalence_difference,-0.0978900305906345,0.012211889435689023,0.06255529009808705,False
+CRC_vs_Adenoma,PA,PA_Bacteroides salyersiae,Bacteroides salyersiae,CRC,Adenoma,prevalence_difference,0.08235940073731274,0.012148650182189295,0.06255529009808705,False
+CRC_vs_Adenoma,rCLR,rCLR_Anaerostipes hadrus,Anaerostipes hadrus,CRC,Adenoma,mean_rCLR_difference,-0.415315640545442,0.009619971388547406,0.06292168895476413,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides uniformis,Bacteroides uniformis,CRC,Adenoma,mean_rCLR_difference,0.3989145604854998,0.0098288616958927,0.06292168895476413,False
+CRC_vs_Adenoma,rCLR,rCLR_Blautia wexlerae,Blautia wexlerae,CRC,Adenoma,mean_rCLR_difference,-0.3846239022310621,0.01058495702042761,0.06292168895476413,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides caccae,Bacteroides caccae,CRC,Adenoma,mean_rCLR_difference,0.23114819969937578,0.010582866204640107,0.06292168895476413,False
+CRC_vs_Adenoma,rCLR,rCLR_Gemmiger formicilis,Gemmiger formicilis,CRC,Adenoma,mean_rCLR_difference,-0.28260764935436183,0.011661815127916138,0.06389477404699152,False
+CRC_vs_Adenoma,rCLR,rCLR_Adlercreutzia equolifaciens,Adlercreutzia equolifaciens,CRC,Adenoma,mean_rCLR_difference,-0.3405384987172272,0.011942948419998415,0.06389477404699152,False
+CRC_vs_Adenoma,rCLR,rCLR_Eubacterium sp. CAG:274,Eubacterium sp. CAG:274,CRC,Adenoma,mean_rCLR_difference,-0.16883146667108703,0.012964805356585745,0.06421604574405378,False
+CRC_vs_Adenoma,rCLR,rCLR_Phascolarctobacterium faecium,Phascolarctobacterium faecium,CRC,Adenoma,mean_rCLR_difference,0.14097445921517326,0.013203299124945635,0.06421604574405378,False
+CRC_vs_Control,PA,PA_Bacteroides salyersiae,Bacteroides salyersiae,CRC,Control,prevalence_difference,0.05625258111432316,0.012466877627900365,0.06669779530926695,False
+Adenoma_vs_Control,PA,PA_Bacteroides ovatus,Bacteroides ovatus,Adenoma,Control,prevalence_difference,-0.09537672219980409,0.006412592298934289,0.06861473759859689,False
+Adenoma_vs_Control,PA,PA_Phocaeicola vulgatus,Phocaeicola vulgatus,Adenoma,Control,prevalence_difference,-0.07799619530754598,0.00777578993533205,0.07563722937095721,False
+CRC_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:274,Eubacterium sp. CAG:274,CRC,Control,mean_rCLR_difference,-0.09234510329332687,0.020704937254629272,0.0785366190221727,False
+CRC_vs_Control,rCLR,rCLR_Parabacteroides merdae,Parabacteroides merdae,CRC,Control,mean_rCLR_difference,0.08551832607571475,0.021285625716289794,0.0785366190221727,False
+CRC_vs_Control,PA,PA_Parabacteroides distasonis,Parabacteroides distasonis,CRC,Control,prevalence_difference,0.04646903560591098,0.0162132808899064,0.08261052643904689,False
+CRC_vs_Control,PA,PA_Holdemanella biformis,Holdemanella biformis,CRC,Control,prevalence_difference,0.05851049503528269,0.017302424306423793,0.0840882251252753,False
+CRC_vs_Control,PA,PA_Prevotella copri,Prevotella copri,CRC,Control,prevalence_difference,0.06564559280340437,0.018075039045619926,0.0840882251252753,False
+CRC_vs_Control,PA,PA_[Ruminococcus] lactaris,[Ruminococcus] lactaris,CRC,Control,prevalence_difference,-0.06233278868080372,0.020258406406737782,0.08522372148347501,False
+CRC_vs_Control,PA,PA_[Ruminococcus] gnavus,[Ruminococcus] gnavus,CRC,Control,prevalence_difference,0.05831522812561718,0.019766132875562323,0.08522372148347501,False
+CRC_vs_Control,PA,PA_Phocaeicola coprocola,Phocaeicola coprocola,CRC,Control,prevalence_difference,0.05046415168872209,0.020708567837106076,0.08522372148347501,False
+Adenoma_vs_Control,PA,PA_Streptococcus salivarius,Streptococcus salivarius,Adenoma,Control,prevalence_difference,-0.06753329105897277,0.009625569680993403,0.08582799632219118,False
+CRC_vs_Adenoma,PA,PA_Parabacteroides merdae,Parabacteroides merdae,CRC,Adenoma,prevalence_difference,0.08549690171778179,0.01792103943682605,0.08716141907910852,False
+CRC_vs_Adenoma,PA,PA_Bifidobacterium pseudocatenulatum,Bifidobacterium pseudocatenulatum,CRC,Adenoma,prevalence_difference,0.09130127853164949,0.019390326302675846,0.08874085676184501,False
+CRC_vs_Adenoma,PA,PA_Bacteroides caccae,Bacteroides caccae,CRC,Adenoma,prevalence_difference,0.0887128402227626,0.020488451147462984,0.08874085676184501,False
+CRC_vs_Adenoma,PA,PA_Anaerotignum lactatifermentans,Anaerotignum lactatifermentans,CRC,Adenoma,prevalence_difference,0.07898658718330848,0.020733845037814256,0.08874085676184501,False
+CRC_vs_Control,PA,PA_Bacteroides stercoris,Bacteroides stercoris,CRC,Control,prevalence_difference,0.0628198337313487,0.022895078386425457,0.09073234767953793,False
+CRC_vs_Control,PA,PA_Phascolarctobacterium succinatutens,Phascolarctobacterium succinatutens,CRC,Control,prevalence_difference,0.05670595945630508,0.028087434378283677,0.09132673097088516,False
+CRC_vs_Control,PA,PA_Streptococcus thermophilus,Streptococcus thermophilus,CRC,Control,prevalence_difference,-0.0601062970211696,0.027767816376289993,0.09132673097088516,False
+CRC_vs_Control,PA,PA_Firmicutes bacterium CAG:110,Firmicutes bacterium CAG:110,CRC,Control,prevalence_difference,-0.05723340455712567,0.025210427916888364,0.09132673097088516,False
+CRC_vs_Control,PA,PA_Clostridium sp. CAG:58,Clostridium sp. CAG:58,CRC,Control,prevalence_difference,0.05999856355376798,0.026800902596968983,0.09132673097088516,False
+CRC_vs_Control,PA,PA_Eubacterium sp. CAG:38,Eubacterium sp. CAG:38,CRC,Control,prevalence_difference,-0.06103325373027135,0.028166188056441215,0.09132673097088516,False
+CRC_vs_Control,PA,PA_Paraprevotella xylaniphila,Paraprevotella xylaniphila,CRC,Control,prevalence_difference,0.058196272422027906,0.02419985774354496,0.09132673097088516,False
+Adenoma_vs_Control,rCLR,rCLR_Parabacteroides merdae,Parabacteroides merdae,Adenoma,Control,mean_rCLR_difference,-0.3556576121577885,0.004268963790210895,0.09135582511051316,False
+Adenoma_vs_Control,PA,PA_Parabacteroides distasonis,Parabacteroides distasonis,Adenoma,Control,prevalence_difference,-0.08012912895601543,0.011205843662433039,0.09223271322156425,False
+Adenoma_vs_Control,rCLR,rCLR_Lachnospira pectinoschiza,Lachnospira pectinoschiza,Adenoma,Control,mean_rCLR_difference,-0.33467086726248063,0.005275978626731661,0.09408828551004796,False
+Adenoma_vs_Control,PA,PA_Proteobacteria bacterium CAG:139,Proteobacteria bacterium CAG:139,Adenoma,Control,prevalence_difference,-0.09333025883438056,0.013140287010753756,0.10042933643933229,False
+CRC_vs_Control,rCLR,rCLR_Bifidobacterium adolescentis,Bifidobacterium adolescentis,CRC,Control,mean_rCLR_difference,-0.1608591898604103,0.028214908554984916,0.10063317384611288,False
+CRC_vs_Adenoma,rCLR,rCLR_Coprococcus catus,Coprococcus catus,CRC,Adenoma,mean_rCLR_difference,-0.12693996019348097,0.021644218601726575,0.10069266914716277,False
+CRC_vs_Control,PA,PA_Alistipes shahii,Alistipes shahii,CRC,Control,prevalence_difference,0.056088736465983224,0.03358237619480084,0.10266612150981971,False
+CRC_vs_Control,PA,PA_Proteobacteria bacterium CAG:139,Proteobacteria bacterium CAG:139,CRC,Control,prevalence_difference,-0.05418993410302908,0.03330294751703306,0.10266612150981971,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides uniformis,Bacteroides uniformis,Adenoma,Control,mean_rCLR_difference,-0.39278163385235754,0.008975015023678678,0.10971275483437475,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides ovatus,Bacteroides ovatus,Adenoma,Control,mean_rCLR_difference,-0.28674469412043674,0.008493795270260432,0.10971275483437475,False
+Adenoma_vs_Control,rCLR,rCLR_Ruminococcus bicirculans,Ruminococcus bicirculans,Adenoma,Control,mean_rCLR_difference,-0.1900996354923899,0.011278881338113292,0.10971275483437475,False
+Adenoma_vs_Control,rCLR,rCLR_Parabacteroides distasonis,Parabacteroides distasonis,Adenoma,Control,mean_rCLR_difference,-0.29996433232873854,0.01024420093983816,0.10971275483437475,False
+Adenoma_vs_Control,rCLR,rCLR_Intestinibacter bartlettii,Intestinibacter bartlettii,Adenoma,Control,mean_rCLR_difference,0.3173310222383821,0.01093868036780022,0.10971275483437475,False
+CRC_vs_Adenoma,PA,PA_Lawsonibacter asaccharolyticus,Lawsonibacter asaccharolyticus,CRC,Adenoma,prevalence_difference,0.07671189897246844,0.02772373029820377,0.11409381315030012,False
+CRC_vs_Control,PA,PA_Bifidobacterium bifidum,Bifidobacterium bifidum,CRC,Control,prevalence_difference,-0.04723888100838525,0.040107534028637634,0.11920850391845075,False
+Adenoma_vs_Control,PA,PA_Slackia isoflavoniconvertens,Slackia isoflavoniconvertens,Adenoma,Control,prevalence_difference,0.09353922868507525,0.016762663417442095,0.11957366571108696,False
+CRC_vs_Control,PA,PA_Eubacterium sp. CAG:251,Eubacterium sp. CAG:251,CRC,Control,prevalence_difference,-0.045638590128023265,0.04345494727320946,0.12566700968198413,False
+CRC_vs_Adenoma,rCLR,rCLR_Phocaeicola plebeius,Phocaeicola plebeius,CRC,Adenoma,mean_rCLR_difference,0.29294869427355524,0.029413840888830697,0.1299377823578968,False
+CRC_vs_Adenoma,rCLR,rCLR_Roseburia faecis,Roseburia faecis,CRC,Adenoma,mean_rCLR_difference,-0.28580559138030087,0.03035929494343383,0.1299377823578968,False
+CRC_vs_Adenoma,PA,PA_Alistipes finegoldii,Alistipes finegoldii,CRC,Adenoma,prevalence_difference,0.08055533767354306,0.034573779321860766,0.13701460694218898,False
+CRC_vs_Adenoma,rCLR,rCLR_Parvimonas micra,Parvimonas micra,CRC,Adenoma,mean_rCLR_difference,-0.25045225742677796,0.03350338141449509,0.13787930043657595,False
+Adenoma_vs_Control,PA,PA_Bifidobacterium longum,Bifidobacterium longum,Adenoma,Control,prevalence_difference,-0.07871678099959645,0.020806910586878072,0.13914621454974713,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides ovatus,Bacteroides ovatus,CRC,Adenoma,mean_rCLR_difference,0.3354886492382577,0.036641769799985485,0.14520997661475732,False
+CRC_vs_Adenoma,rCLR,rCLR_Fusicatenibacter saccharivorans,Fusicatenibacter saccharivorans,CRC,Adenoma,mean_rCLR_difference,-0.24440510355797684,0.03910735025195087,0.1494459456056694,False
+CRC_vs_Adenoma,PA,PA_Escherichia coli,Escherichia coli,CRC,Adenoma,prevalence_difference,0.07349596046748763,0.040106074003486744,0.15326249708475292,False
+CRC_vs_Control,PA,PA_Bacteroides cellulosilyticus,Bacteroides cellulosilyticus,CRC,Control,prevalence_difference,0.053283177419065186,0.05536869320315062,0.155906583493082,False
+CRC_vs_Adenoma,PA,PA_Parasutterella excrementihominis,Parasutterella excrementihominis,CRC,Adenoma,prevalence_difference,0.08118283786963681,0.04236740659816696,0.15632112089668498,False
+CRC_vs_Adenoma,rCLR,rCLR_Agathobaculum butyriciproducens,Agathobaculum butyriciproducens,CRC,Adenoma,mean_rCLR_difference,-0.24612681123346766,0.04524281022464935,0.1613660231345827,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides fragilis,Bacteroides fragilis,CRC,Adenoma,mean_rCLR_difference,0.2890703247403874,0.04511864160756139,0.1613660231345827,False
+CRC_vs_Control,PA,PA_Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,CRC,Control,prevalence_difference,0.03925313773723815,0.05933557014968807,0.16279246169273395,False
+Adenoma_vs_Control,rCLR,rCLR_Gordonibacter pamelaeae,Gordonibacter pamelaeae,Adenoma,Control,mean_rCLR_difference,0.30597951864609607,0.018807071417968408,0.1676963868102183,False
+CRC_vs_Control,PA,PA_Erysipelatoclostridium ramosum,Erysipelatoclostridium ramosum,CRC,Control,prevalence_difference,0.051761442192017004,0.06274011746286115,0.16782981421315357,False
+CRC_vs_Adenoma,PA,PA_Firmicutes bacterium CAG:110,Firmicutes bacterium CAG:110,CRC,Adenoma,prevalence_difference,-0.07271158522237037,0.04794360159878276,0.1709988457023252,False
+CRC_vs_Adenoma,PA,PA_Acidaminococcus intestini,Acidaminococcus intestini,CRC,Adenoma,prevalence_difference,0.05976939367793552,0.050327620642936055,0.17371146479981156,False
+CRC_vs_Adenoma,rCLR,rCLR_Enterocloster bolteae,Enterocloster bolteae,CRC,Adenoma,mean_rCLR_difference,-0.221411335839377,0.05093274625793724,0.1758001241806221,False
+CRC_vs_Control,PA,PA_Ruthenibacterium lactatiformans,Ruthenibacterium lactatiformans,CRC,Control,prevalence_difference,0.02944714775645052,0.07405659627694883,0.19326965369837865,False
+CRC_vs_Control,PA,PA_Firmicutes bacterium CAG:145,Firmicutes bacterium CAG:145,CRC,Control,prevalence_difference,0.04710421417413324,0.07820202701687912,0.19417538880821955,False
+CRC_vs_Control,PA,PA_Parasutterella excrementihominis,Parasutterella excrementihominis,CRC,Control,prevalence_difference,-0.04801097085809708,0.07767436281736236,0.19417538880821955,False
+CRC_vs_Control,PA,PA_Desulfovibrio piger,Desulfovibrio piger,CRC,Control,prevalence_difference,0.03847880344028873,0.0798478234351557,0.19417538880821955,False
+Adenoma_vs_Control,rCLR,rCLR_[Ruminococcus] torques,[Ruminococcus] torques,Adenoma,Control,mean_rCLR_difference,0.3102251484355253,0.025715990817246685,0.19654364410324254,False
+Adenoma_vs_Control,rCLR,rCLR_Prevotella copri,Prevotella copri,Adenoma,Control,mean_rCLR_difference,0.4561099622459176,0.02424183872540184,0.19654364410324254,False
+Adenoma_vs_Control,rCLR,rCLR_Oscillibacter sp. CAG:241,Oscillibacter sp. CAG:241,Adenoma,Control,mean_rCLR_difference,0.2663027053249731,0.02841010504264911,0.20265874930423033,False
+CRC_vs_Control,rCLR,rCLR_Coprococcus eutactus,Coprococcus eutactus,CRC,Control,mean_rCLR_difference,-0.08498829565369978,0.06326940969610952,0.20514626780253692,False
+CRC_vs_Control,rCLR,rCLR_Escherichia coli,Escherichia coli,CRC,Control,mean_rCLR_difference,0.2414941215549466,0.06212643268461953,0.20514626780253692,False
+CRC_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:38,Eubacterium sp. CAG:38,CRC,Control,mean_rCLR_difference,-0.14874680288031447,0.06324358533125048,0.20514626780253692,False
+CRC_vs_Control,rCLR,rCLR_Phascolarctobacterium succinatutens,Phascolarctobacterium succinatutens,CRC,Control,mean_rCLR_difference,0.07874686260444658,0.07028058794756466,0.2112877502496392,False
+CRC_vs_Control,rCLR,rCLR_[Eubacterium] rectale,[Eubacterium] rectale,CRC,Control,mean_rCLR_difference,-0.16671101357833862,0.06897468755517057,0.2112877502496392,False
+CRC_vs_Control,rCLR,rCLR_Veillonella parvula,Veillonella parvula,CRC,Control,mean_rCLR_difference,0.1984789105344581,0.07139292472818903,0.2112877502496392,False
+CRC_vs_Control,rCLR,rCLR_Ruminococcus bicirculans,Ruminococcus bicirculans,CRC,Control,mean_rCLR_difference,-0.09437680809627041,0.07306211924520234,0.2112877502496392,False
+CRC_vs_Control,rCLR,rCLR_Agathobaculum butyriciproducens,Agathobaculum butyriciproducens,CRC,Control,mean_rCLR_difference,-0.14554935490659163,0.08225288463811813,0.23160680674417472,False
+CRC_vs_Adenoma,rCLR,rCLR_Barnesiella intestinihominis,Barnesiella intestinihominis,CRC,Adenoma,mean_rCLR_difference,0.26512360791294476,0.07339590870063775,0.23798067366570425,False
+CRC_vs_Adenoma,rCLR,rCLR_Slackia isoflavoniconvertens,Slackia isoflavoniconvertens,CRC,Adenoma,mean_rCLR_difference,-0.14220572025181205,0.0733170385988697,0.23798067366570425,False
+Adenoma_vs_Control,rCLR,rCLR_Blautia sp. CAG:257,Blautia sp. CAG:257,Adenoma,Control,mean_rCLR_difference,0.2531056612496948,0.03563089315062775,0.2382815979448231,False
+CRC_vs_Adenoma,PA,PA_Eggerthella lenta,Eggerthella lenta,CRC,Adenoma,prevalence_difference,0.06675033335947911,0.07192708893842556,0.2405062036378605,False
+CRC_vs_Control,rCLR,rCLR_Coprococcus catus,Coprococcus catus,CRC,Control,mean_rCLR_difference,0.06551575645098512,0.09687916329931795,0.2410714063494656,False
+CRC_vs_Control,rCLR,rCLR_Streptococcus thermophilus,Streptococcus thermophilus,CRC,Control,mean_rCLR_difference,-0.19250922801598008,0.09619046723489319,0.2410714063494656,False
+CRC_vs_Control,rCLR,rCLR_Firmicutes bacterium CAG:83,Firmicutes bacterium CAG:83,CRC,Control,mean_rCLR_difference,0.13216978165338883,0.09160952800010112,0.2410714063494656,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides cellulosilyticus,Bacteroides cellulosilyticus,CRC,Control,mean_rCLR_difference,0.18237273672237483,0.09044109524562456,0.2410714063494656,False
+CRC_vs_Control,rCLR,rCLR_Desulfovibrio piger,Desulfovibrio piger,CRC,Control,mean_rCLR_difference,0.06622138712162015,0.09607497095182216,0.2410714063494656,False
+Adenoma_vs_Control,rCLR,rCLR_Collinsella aerofaciens,Collinsella aerofaciens,Adenoma,Control,mean_rCLR_difference,0.2754925382184885,0.06265710117474868,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Phocaeicola plebeius,Phocaeicola plebeius,Adenoma,Control,mean_rCLR_difference,-0.2815115629546137,0.05992602251155858,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Anaerobutyricum hallii,Anaerobutyricum hallii,Adenoma,Control,mean_rCLR_difference,0.2785103930426943,0.04787075906500196,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Streptococcus thermophilus,Streptococcus thermophilus,Adenoma,Control,mean_rCLR_difference,0.16708921249993608,0.06951873281508722,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Bifidobacterium adolescentis,Bifidobacterium adolescentis,Adenoma,Control,mean_rCLR_difference,-0.19744579268279216,0.0530518807581609,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Oscillibacter sp. 57_20,Oscillibacter sp. 57_20,Adenoma,Control,mean_rCLR_difference,-0.15897428339106331,0.05357027882608975,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides eggerthii,Bacteroides eggerthii,Adenoma,Control,mean_rCLR_difference,-0.16286270390025456,0.06543514120231918,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Adlercreutzia equolifaciens,Adlercreutzia equolifaciens,Adenoma,Control,mean_rCLR_difference,0.22736549045917298,0.0646640952166047,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Methanobrevibacter smithii,Methanobrevibacter smithii,Adenoma,Control,mean_rCLR_difference,0.179875535562864,0.06017444872410466,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Butyricimonas virosa,Butyricimonas virosa,Adenoma,Control,mean_rCLR_difference,0.16213220482426827,0.0457468736717643,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Akkermansia muciniphila,Akkermansia muciniphila,Adenoma,Control,mean_rCLR_difference,0.31306233215792384,0.07036478466920923,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Desulfovibrio piger,Desulfovibrio piger,Adenoma,Control,mean_rCLR_difference,-0.038233858875325204,0.06339604981607988,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Megamonas funiformis,Megamonas funiformis,Adenoma,Control,mean_rCLR_difference,-0.11608957064795966,0.06046349204798022,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Klebsiella pneumoniae,Klebsiella pneumoniae,Adenoma,Control,mean_rCLR_difference,0.18527945299079285,0.05415148154816087,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Klebsiella variicola,Klebsiella variicola,Adenoma,Control,mean_rCLR_difference,0.10737800230569258,0.07248041605570348,0.2423563911862585,False
+Adenoma_vs_Control,rCLR,rCLR_Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,Adenoma,Control,mean_rCLR_difference,0.12096238649887962,0.06964842768318225,0.2423563911862585,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides eggerthii,Bacteroides eggerthii,CRC,Adenoma,mean_rCLR_difference,0.12816083264077566,0.07723323219467051,0.2430575248479337,False
+CRC_vs_Adenoma,rCLR,rCLR_Streptococcus salivarius,Streptococcus salivarius,CRC,Adenoma,mean_rCLR_difference,-0.26088158983557175,0.07954790436091011,0.2431893076176395,False
+CRC_vs_Adenoma,PA,PA_Bifidobacterium longum,Bifidobacterium longum,CRC,Adenoma,prevalence_difference,0.05992626872695894,0.07526018920282884,0.24402546196068747,False
+CRC_vs_Adenoma,PA,PA_Alistipes shahii,Alistipes shahii,CRC,Adenoma,prevalence_difference,0.06714252098203788,0.07850475827026882,0.24705909220349306,False
+Adenoma_vs_Control,rCLR,rCLR_Gemmiger formicilis,Gemmiger formicilis,Adenoma,Control,mean_rCLR_difference,0.18472911508444773,0.0763937264873322,0.2477008707316529,False
+CRC_vs_Adenoma,rCLR,rCLR_Klebsiella pneumoniae,Klebsiella pneumoniae,CRC,Adenoma,mean_rCLR_difference,-0.15167576204629749,0.08447027189265402,0.25106441923649947,False
+CRC_vs_Control,PA,PA_Adlercreutzia equolifaciens_1,Adlercreutzia equolifaciens_1,CRC,Control,prevalence_difference,-0.04373080997611911,0.10572957902495814,0.2510866892596996,False
+CRC_vs_Control,PA,PA_Slackia isoflavoniconvertens,Slackia isoflavoniconvertens,CRC,Control,prevalence_difference,0.04263327527696481,0.11119640678153309,0.2510866892596996,False
+CRC_vs_Control,PA,PA_Bacteroides finegoldii,Bacteroides finegoldii,CRC,Control,prevalence_difference,0.03905787082757256,0.11178121532736363,0.2510866892596996,False
+CRC_vs_Control,PA,PA_Klebsiella pneumoniae,Klebsiella pneumoniae,CRC,Control,prevalence_difference,0.037866069344441866,0.11263701948098676,0.2510866892596996,False
+CRC_vs_Adenoma,rCLR,rCLR_Eubacterium ventriosum,Eubacterium ventriosum,CRC,Adenoma,mean_rCLR_difference,-0.12401666290739816,0.09108831695250981,0.25750679227037665,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides finegoldii,Bacteroides finegoldii,CRC,Adenoma,mean_rCLR_difference,0.1413391493145565,0.09145101033901226,0.25750679227037665,False
+CRC_vs_Control,rCLR,rCLR_Phascolarctobacterium faecium,Phascolarctobacterium faecium,CRC,Control,mean_rCLR_difference,0.061084585212384954,0.10723362004617355,0.2607726669304675,False
+Adenoma_vs_Control,PA,PA_Methanobrevibacter smithii,Methanobrevibacter smithii,Adenoma,Control,prevalence_difference,0.07251974404796221,0.04255931998480103,0.26787336696315944,False
+CRC_vs_Control,PA,PA_Bacteroides eggerthii,Bacteroides eggerthii,CRC,Control,prevalence_difference,0.04021825004937779,0.12313984628446564,0.2680446790854933,False
+CRC_vs_Control,PA,PA_Akkermansia muciniphila,Akkermansia muciniphila,CRC,Control,prevalence_difference,0.042489630653762656,0.1252545229371464,0.2680446790854933,False
+Adenoma_vs_Control,rCLR,rCLR_Blautia wexlerae,Blautia wexlerae,Adenoma,Control,mean_rCLR_difference,0.25017271718117023,0.08536852374052202,0.2686597658892899,False
+Adenoma_vs_Control,rCLR,rCLR_Coprococcus eutactus,Coprococcus eutactus,Adenoma,Control,mean_rCLR_difference,-0.15443719858352956,0.08921485456313612,0.27274255537873043,False
+Adenoma_vs_Control,PA,PA_Eubacterium ventriosum,Eubacterium ventriosum,Adenoma,Control,prevalence_difference,-0.08097221421571454,0.045968723773773326,0.2732585246552081,False
+Adenoma_vs_Control,PA,PA_Blautia wexlerae,Blautia wexlerae,Adenoma,Control,prevalence_difference,-0.04839453507811142,0.049397139039110693,0.27818388827288654,False
+CRC_vs_Adenoma,rCLR,rCLR_Alistipes putredinis,Alistipes putredinis,CRC,Adenoma,mean_rCLR_difference,0.20687093847831772,0.1085585435882416,0.2978401067677398,False
+Adenoma_vs_Control,rCLR,rCLR_Faecalibacterium prausnitzii,Faecalibacterium prausnitzii,Adenoma,Control,mean_rCLR_difference,-0.22180017680963493,0.10412382994187841,0.3067117578131005,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides thetaiotaomicron,Bacteroides thetaiotaomicron,Adenoma,Control,mean_rCLR_difference,-0.1583023033416096,0.10605920597275437,0.3067117578131005,False
+Adenoma_vs_Control,PA,PA_Anaerobutyricum hallii,Anaerobutyricum hallii,Adenoma,Control,prevalence_difference,-0.058684498760592674,0.05749540706617536,0.3076004278040382,False
+CRC_vs_Control,rCLR,rCLR_Roseburia hominis,Roseburia hominis,CRC,Control,mean_rCLR_difference,-0.06731615283167425,0.12969177285497338,0.3083782154551589,False
+CRC_vs_Control,rCLR,rCLR_Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,CRC,Control,mean_rCLR_difference,0.05824658058064852,0.13335434389246653,0.3101937999237809,False
+CRC_vs_Control,PA,PA_Adlercreutzia equolifaciens,Adlercreutzia equolifaciens,CRC,Control,prevalence_difference,-0.03916560429497429,0.14810420589028814,0.31072843196589867,False
+Adenoma_vs_Control,PA,PA_Roseburia inulinivorans,Roseburia inulinivorans,Adenoma,Control,prevalence_difference,-0.06055081570300336,0.061304707692054275,0.31236208204999083,False
+CRC_vs_Control,rCLR,rCLR_Bifidobacterium bifidum,Bifidobacterium bifidum,CRC,Control,mean_rCLR_difference,-0.05899657461804954,0.13822555208937215,0.31468370369282594,False
+CRC_vs_Adenoma,PA,PA_Bacteroides uniformis,Bacteroides uniformis,CRC,Adenoma,prevalence_difference,0.0312965722801789,0.1157072215966449,0.31745314643182065,False
+CRC_vs_Adenoma,PA,PA_Coprococcus eutactus,Coprococcus eutactus,CRC,Adenoma,prevalence_difference,-0.055141579731743634,0.10986214534489727,0.31745314643182065,False
+CRC_vs_Adenoma,PA,PA_Oscillibacter sp. 57_20,Oscillibacter sp. 57_20,CRC,Adenoma,prevalence_difference,0.06494627029570954,0.11296214204836476,0.31745314643182065,False
+CRC_vs_Adenoma,PA,PA_Eubacterium sp. CAG:180,Eubacterium sp. CAG:180,CRC,Adenoma,prevalence_difference,0.06526002039375639,0.10819074114380439,0.31745314643182065,False
+CRC_vs_Adenoma,PA,PA_Ruminococcus bicirculans,Ruminococcus bicirculans,CRC,Adenoma,prevalence_difference,0.0633775198054749,0.11158433210705189,0.31745314643182065,False
+CRC_vs_Adenoma,PA,PA_Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,CRC,Adenoma,prevalence_difference,0.046121264412895116,0.12015509087525242,0.3214148680913002,False
+CRC_vs_Control,rCLR,rCLR_Blautia obeum,Blautia obeum,CRC,Control,mean_rCLR_difference,0.08196837293125761,0.15127926034799347,0.323737617144706,False
+CRC_vs_Control,rCLR,rCLR_Oscillibacter sp. 57_20,Oscillibacter sp. 57_20,CRC,Control,mean_rCLR_difference,0.0006900720536090711,0.1469216948598482,0.323737617144706,False
+CRC_vs_Control,rCLR,rCLR_Blautia sp. CAG:257,Blautia sp. CAG:257,CRC,Control,mean_rCLR_difference,0.05028313070683027,0.14900718319992234,0.323737617144706,False
+Adenoma_vs_Control,PA,PA_Erysipelatoclostridium ramosum,Erysipelatoclostridium ramosum,Adenoma,Control,prevalence_difference,-0.07452297227186255,0.06660737342716089,0.32395404348664614,False
+CRC_vs_Control,PA,PA_Alistipes finegoldii,Alistipes finegoldii,CRC,Control,prevalence_difference,0.03636902303700651,0.16115150406642403,0.32775205372774613,False
+CRC_vs_Control,PA,PA_Lawsonibacter asaccharolyticus,Lawsonibacter asaccharolyticus,CRC,Control,prevalence_difference,0.03404602014615832,0.16234447521093967,0.32775205372774613,False
+Adenoma_vs_Control,PA,PA_Coprobacter fastidiosus,Coprobacter fastidiosus,Adenoma,Control,prevalence_difference,-0.06870063988009456,0.07047621371430618,0.32786760293177225,False
+CRC_vs_Adenoma,rCLR,rCLR_Adlercreutzia equolifaciens_1,Adlercreutzia equolifaciens_1,CRC,Adenoma,mean_rCLR_difference,-0.14418300372749626,0.12314386888146897,0.3294098492579295,False
+CRC_vs_Adenoma,rCLR,rCLR_Prevotella copri,Prevotella copri,CRC,Adenoma,mean_rCLR_difference,-0.36819390790930145,0.12689976375948286,0.33117743225035773,False
+CRC_vs_Control,PA,PA_Anaerobutyricum hallii,Anaerobutyricum hallii,CRC,Control,prevalence_difference,-0.029662614691253864,0.16770670133138912,0.3323077230084933,False
+Adenoma_vs_Control,rCLR,rCLR_Escherichia coli,Escherichia coli,Adenoma,Control,mean_rCLR_difference,0.3229174986524984,0.11940147834204394,0.33620942585786057,False
+CRC_vs_Adenoma,rCLR,rCLR_Megamonas funiformis,Megamonas funiformis,CRC,Adenoma,mean_rCLR_difference,0.10974885125719612,0.1346780951423144,0.3431084804816105,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides sp. CAG:144,Bacteroides sp. CAG:144,Adenoma,Control,mean_rCLR_difference,-0.0797618910695707,0.13175086365129424,0.3524335602672121,False
+Adenoma_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:38,Eubacterium sp. CAG:38,Adenoma,Control,mean_rCLR_difference,-0.22584050846168638,0.13051124111325824,0.3524335602672121,False
+CRC_vs_Control,PA,PA_Bacteroides sp. CAG:144,Bacteroides sp. CAG:144,CRC,Control,prevalence_difference,0.029474081123300938,0.1845963068703943,0.3566903434448727,False
+CRC_vs_Control,PA,PA_Bifidobacterium pseudocatenulatum,Bifidobacterium pseudocatenulatum,CRC,Control,prevalence_difference,-0.03611988939364014,0.18667905825152215,0.3566903434448727,False
+Adenoma_vs_Control,rCLR,rCLR_Blautia obeum,Blautia obeum,Adenoma,Control,mean_rCLR_difference,0.22686856524949173,0.14018551661911638,0.35713929233917746,False
+Adenoma_vs_Control,rCLR,rCLR_Roseburia hominis,Roseburia hominis,Adenoma,Control,mean_rCLR_difference,-0.10474296312085296,0.1398245972029273,0.35713929233917746,False
+Adenoma_vs_Control,rCLR,rCLR_Odoribacter splanchnicus,Odoribacter splanchnicus,Adenoma,Control,mean_rCLR_difference,-0.1540007579911148,0.14468588442318236,0.3600323170530352,False
+Adenoma_vs_Control,PA,PA_Oscillibacter sp. 57_20,Oscillibacter sp. 57_20,Adenoma,Control,prevalence_difference,-0.07052372168098231,0.08098148846243328,0.36104246939501505,False
+Adenoma_vs_Control,PA,PA_Bifidobacterium adolescentis,Bifidobacterium adolescentis,Adenoma,Control,prevalence_difference,-0.06732432120827814,0.0924912474648912,0.36816274642755753,False
+Adenoma_vs_Control,PA,PA_Eubacterium sp. CAG:274,Eubacterium sp. CAG:274,Adenoma,Control,prevalence_difference,-0.061530812244192074,0.0884627682339883,0.36816274642755753,False
+Adenoma_vs_Control,PA,PA_Bacteroides intestinalis,Bacteroides intestinalis,Adenoma,Control,prevalence_difference,-0.05710641609500203,0.09290087993966403,0.36816274642755753,False
+CRC_vs_Adenoma,rCLR,rCLR_Coprococcus comes,Coprococcus comes,CRC,Adenoma,mean_rCLR_difference,-0.1748030432603785,0.15311267403963635,0.3810013051683975,False
+CRC_vs_Adenoma,PA,PA_Adlercreutzia equolifaciens,Adlercreutzia equolifaciens,CRC,Adenoma,prevalence_difference,-0.05929876853086513,0.14762261874556942,0.38365846372558265,False
+CRC_vs_Adenoma,PA,PA_Clostridium sp. CAG:58,Clostridium sp. CAG:58,CRC,Adenoma,prevalence_difference,0.05922033100635343,0.1505949109950885,0.38365846372558265,False
+CRC_vs_Adenoma,PA,PA_Odoribacter splanchnicus,Odoribacter splanchnicus,CRC,Adenoma,prevalence_difference,0.051690328653227646,0.15431636443491087,0.3839965347566387,False
+CRC_vs_Control,rCLR,rCLR_Phocaeicola vulgatus,Phocaeicola vulgatus,CRC,Control,mean_rCLR_difference,0.14740765618053753,0.1841286840139521,0.38630919979397793,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides intestinalis,Bacteroides intestinalis,Adenoma,Control,mean_rCLR_difference,0.09665784718403359,0.1636621692484348,0.38915226910183387,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides finegoldii,Bacteroides finegoldii,Adenoma,Control,mean_rCLR_difference,-0.12501654275483987,0.16066872427606493,0.38915226910183387,False
+Adenoma_vs_Control,rCLR,rCLR_Streptococcus salivarius,Streptococcus salivarius,Adenoma,Control,mean_rCLR_difference,0.13949133423180793,0.168478802356533,0.3918963446119355,False
+CRC_vs_Adenoma,rCLR,rCLR_Alistipes finegoldii,Alistipes finegoldii,CRC,Adenoma,mean_rCLR_difference,0.1547745412208419,0.16166574395969702,0.3931416955383541,False
+CRC_vs_Adenoma,PA,PA_Collinsella aerofaciens,Collinsella aerofaciens,CRC,Adenoma,prevalence_difference,0.03961094987842184,0.17293112710725372,0.3936942680952372,False
+CRC_vs_Adenoma,PA,PA_Blautia wexlerae,Blautia wexlerae,CRC,Adenoma,prevalence_difference,0.034434073260647846,0.16970671233813284,0.3936942680952372,False
+CRC_vs_Adenoma,PA,PA_Lachnospira eligens,Lachnospira eligens,CRC,Adenoma,prevalence_difference,0.05474939210918506,0.1664875601532082,0.3936942680952372,False
+CRC_vs_Adenoma,PA,PA_Phocaeicola coprocola,Phocaeicola coprocola,CRC,Adenoma,prevalence_difference,0.045650639265824744,0.1677723976715843,0.3936942680952372,False
+Adenoma_vs_Control,rCLR,rCLR_Bifidobacterium longum,Bifidobacterium longum,Adenoma,Control,mean_rCLR_difference,-0.1805618550544889,0.18062144093156318,0.39441824856484203,False
+Adenoma_vs_Control,rCLR,rCLR_Lawsonibacter asaccharolyticus,Lawsonibacter asaccharolyticus,Adenoma,Control,mean_rCLR_difference,0.1927867095855289,0.17349503751881745,0.39441824856484203,False
+Adenoma_vs_Control,rCLR,rCLR_Phascolarctobacterium faecium,Phascolarctobacterium faecium,Adenoma,Control,mean_rCLR_difference,-0.0798898740027883,0.17922053378220848,0.39441824856484203,False
+CRC_vs_Control,rCLR,rCLR_Alistipes shahii,Alistipes shahii,CRC,Control,mean_rCLR_difference,0.11869332688479062,0.19714807497681064,0.4056700773561296,False
+Adenoma_vs_Control,rCLR,rCLR_Streptococcus parasanguinis,Streptococcus parasanguinis,Adenoma,Control,mean_rCLR_difference,0.08377024566061775,0.19723678979552894,0.40729370265832326,False
+Adenoma_vs_Control,rCLR,rCLR_Barnesiella intestinihominis,Barnesiella intestinihominis,Adenoma,Control,mean_rCLR_difference,-0.1824530393444662,0.19924420433660905,0.40729370265832326,False
+Adenoma_vs_Control,rCLR,rCLR_Alistipes shahii,Alistipes shahii,Adenoma,Control,mean_rCLR_difference,0.21384927422207567,0.2131630593351972,0.40729370265832326,False
+Adenoma_vs_Control,rCLR,rCLR_Clostridium sp. CAG:58,Clostridium sp. CAG:58,Adenoma,Control,mean_rCLR_difference,-0.07384938104777164,0.20727401520493405,0.40729370265832326,False
+Adenoma_vs_Control,rCLR,rCLR_Paraprevotella xylaniphila,Paraprevotella xylaniphila,Adenoma,Control,mean_rCLR_difference,-0.13270342669375468,0.20776388524616674,0.40729370265832326,False
+Adenoma_vs_Control,rCLR,rCLR_Enterocloster bolteae,Enterocloster bolteae,Adenoma,Control,mean_rCLR_difference,0.19607438401002875,0.2011982552141255,0.40729370265832326,False
+Adenoma_vs_Control,rCLR,rCLR_Acidaminococcus intestini,Acidaminococcus intestini,Adenoma,Control,mean_rCLR_difference,-0.018060410565899063,0.2111427988564183,0.40729370265832326,False
+Adenoma_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:251,Eubacterium sp. CAG:251,Adenoma,Control,mean_rCLR_difference,-0.08373455973339752,0.22276954841216068,0.4109714082776068,False
+Adenoma_vs_Control,rCLR,rCLR_Anaerotignum lactatifermentans,Anaerotignum lactatifermentans,Adenoma,Control,mean_rCLR_difference,-0.11720947245248836,0.22001799557819823,0.4109714082776068,False
+CRC_vs_Adenoma,rCLR,rCLR_[Ruminococcus] gnavus,[Ruminococcus] gnavus,CRC,Adenoma,mean_rCLR_difference,0.17937252612225407,0.1780605727749658,0.417016338445734,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides intestinalis,Bacteroides intestinalis,CRC,Adenoma,mean_rCLR_difference,-0.09442062519551445,0.17927805204209124,0.417016338445734,False
+Adenoma_vs_Control,rCLR,rCLR_Slackia isoflavoniconvertens,Slackia isoflavoniconvertens,Adenoma,Control,mean_rCLR_difference,0.1805049372505682,0.2332904947914256,0.4230861515708905,False
+CRC_vs_Adenoma,PA,PA_Coprobacter fastidiosus,Coprobacter fastidiosus,CRC,Adenoma,prevalence_difference,0.04894501529531731,0.1910863043742827,0.42596322016767185,False
+CRC_vs_Adenoma,PA,PA_Slackia isoflavoniconvertens,Slackia isoflavoniconvertens,CRC,Adenoma,prevalence_difference,-0.05090595340811044,0.19584821721377654,0.42766855595661407,False
+CRC_vs_Adenoma,PA,PA_Eubacterium ventriosum,Eubacterium ventriosum,CRC,Adenoma,prevalence_difference,0.05114126598164559,0.20468063137626782,0.43801655114521315,False
+CRC_vs_Adenoma,PA,PA_Roseburia inulinivorans,Roseburia inulinivorans,CRC,Adenoma,prevalence_difference,0.043140638481449445,0.2105413814801187,0.44172407487005294,False
+CRC_vs_Control,rCLR,rCLR_[Ruminococcus] gnavus,[Ruminococcus] gnavus,CRC,Control,mean_rCLR_difference,0.10391623804742528,0.2216630501373691,0.4432524846590147,False
+CRC_vs_Control,rCLR,rCLR_Gordonibacter pamelaeae,Gordonibacter pamelaeae,CRC,Control,mean_rCLR_difference,-0.10030214264907489,0.22369751562230644,0.4432524846590147,False
+CRC_vs_Control,PA,PA_Phascolarctobacterium faecium,Phascolarctobacterium faecium,CRC,Control,prevalence_difference,0.031981128687626814,0.2364348933577095,0.44383392261885823,False
+CRC_vs_Adenoma,rCLR,rCLR_Dorea formicigenerans,Dorea formicigenerans,CRC,Adenoma,mean_rCLR_difference,0.1211335234635029,0.19648406360286585,0.4473147830958861,False
+CRC_vs_Control,rCLR,rCLR_Roseburia inulinivorans,Roseburia inulinivorans,CRC,Control,mean_rCLR_difference,-0.12573286275919449,0.2301245615588059,0.44769687430531335,False
+CRC_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:180,Eubacterium sp. CAG:180,CRC,Control,mean_rCLR_difference,0.15129963725574402,0.2350344109578253,0.4490836066515591,False
+CRC_vs_Control,rCLR,rCLR_Anaerobutyricum hallii,Anaerobutyricum hallii,CRC,Control,mean_rCLR_difference,-0.09980480166571304,0.24568621510680944,0.4503304253599365,False
+CRC_vs_Control,rCLR,rCLR_Gemmiger formicilis,Gemmiger formicilis,CRC,Control,mean_rCLR_difference,-0.09787853426991411,0.24831303828258178,0.4503304253599365,False
+CRC_vs_Control,rCLR,rCLR_[Eubacterium] siraeum,[Eubacterium] siraeum,CRC,Control,mean_rCLR_difference,0.055263772940349454,0.24169586801470722,0.4503304253599365,False
+Adenoma_vs_Control,rCLR,rCLR_Phocaeicola coprocola,Phocaeicola coprocola,Adenoma,Control,mean_rCLR_difference,-0.11274886681810195,0.2533075322380023,0.45173176582443747,False
+Adenoma_vs_Control,rCLR,rCLR_Ruthenibacterium lactatiformans,Ruthenibacterium lactatiformans,Adenoma,Control,mean_rCLR_difference,0.20735781614243476,0.2576811006166222,0.4519979961635832,False
+CRC_vs_Control,rCLR,rCLR_Blautia wexlerae,Blautia wexlerae,CRC,Control,mean_rCLR_difference,-0.13445118504989184,0.26502228019568175,0.4659358702771435,False
+CRC_vs_Control,rCLR,rCLR_Alistipes putredinis,Alistipes putredinis,CRC,Control,mean_rCLR_difference,0.15406927019342465,0.2656269914664089,0.4659358702771435,False
+CRC_vs_Adenoma,rCLR,rCLR_Firmicutes bacterium CAG:83,Firmicutes bacterium CAG:83,CRC,Adenoma,mean_rCLR_difference,0.2464712000837972,0.2124684638201726,0.47017017951070633,False
+CRC_vs_Adenoma,rCLR,rCLR_Klebsiella variicola,Klebsiella variicola,CRC,Adenoma,mean_rCLR_difference,-0.07320590050792422,0.21531157753294028,0.47017017951070633,False
+CRC_vs_Control,PA,PA_Faecalibacterium prausnitzii,Faecalibacterium prausnitzii,CRC,Control,prevalence_difference,-0.014431795737345765,0.2695132711947239,0.4706921621862158,False
+CRC_vs_Control,PA,PA_Anaerostipes hadrus,Anaerostipes hadrus,CRC,Control,prevalence_difference,-0.021003537248846404,0.27098112093169424,0.4706921621862158,False
+CRC_vs_Control,PA,PA_Coprococcus eutactus,Coprococcus eutactus,CRC,Control,prevalence_difference,-0.026390210618928767,0.2695418804146853,0.4706921621862158,False
+CRC_vs_Control,PA,PA_Eubacterium sp. CAG:274,Eubacterium sp. CAG:274,CRC,Control,prevalence_difference,-0.028273301851220067,0.2656859848408244,0.4706921621862158,False
+CRC_vs_Control,PA,PA_Bacteroides intestinalis,Bacteroides intestinalis,CRC,Control,prevalence_difference,-0.02643734401091699,0.27273751453780726,0.4706921621862158,False
+CRC_vs_Adenoma,rCLR,rCLR_Ruminococcus bicirculans,Ruminococcus bicirculans,CRC,Adenoma,mean_rCLR_difference,0.09572282739611948,0.22327769980161827,0.4778142775754631,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides sp. CAG:144,Bacteroides sp. CAG:144,CRC,Control,mean_rCLR_difference,-0.044279874500348745,0.2789313424484836,0.4813815103546411,False
+CRC_vs_Control,rCLR,rCLR_[Ruminococcus] lactaris,[Ruminococcus] lactaris,CRC,Control,mean_rCLR_difference,-0.02024610197086149,0.2841377016470744,0.4825830805751899,False
+CRC_vs_Adenoma,PA,PA_Veillonella parvula,Veillonella parvula,CRC,Adenoma,prevalence_difference,0.04918032786885246,0.2348002892608595,0.48314674905599936,False
+CRC_vs_Adenoma,rCLR,rCLR_Paraprevotella xylaniphila,Paraprevotella xylaniphila,CRC,Adenoma,mean_rCLR_difference,0.0007395145629436606,0.23537433443849254,0.48432795740228274,False
+CRC_vs_Adenoma,rCLR,rCLR_Acidaminococcus intestini,Acidaminococcus intestini,CRC,Adenoma,mean_rCLR_difference,0.02764396023999381,0.23321135760889167,0.48432795740228274,False
+CRC_vs_Adenoma,PA,PA_Firmicutes bacterium CAG:83,Firmicutes bacterium CAG:83,CRC,Adenoma,prevalence_difference,-0.04729782728057097,0.24084120741871312,0.4862265885623076,False
+CRC_vs_Adenoma,PA,PA_Gemmiger formicilis,Gemmiger formicilis,CRC,Adenoma,prevalence_difference,-0.043297513530473064,0.2524883416097522,0.48769482995751884,False
+CRC_vs_Adenoma,PA,PA_Bifidobacterium adolescentis,Bifidobacterium adolescentis,CRC,Adenoma,prevalence_difference,0.04627813946191861,0.2643579452106177,0.48769482995751884,False
+CRC_vs_Adenoma,PA,PA_Alistipes putredinis,Alistipes putredinis,CRC,Adenoma,prevalence_difference,0.04125813789316801,0.25206898925617677,0.48769482995751884,False
+CRC_vs_Adenoma,PA,PA_Intestinibacter bartlettii,Intestinibacter bartlettii,CRC,Adenoma,prevalence_difference,0.04533688916777784,0.25583862854189926,0.48769482995751884,False
+CRC_vs_Adenoma,PA,PA_Dialister invisus,Dialister invisus,CRC,Adenoma,prevalence_difference,-0.039610949878421814,0.26076658237129013,0.48769482995751884,False
+CRC_vs_Adenoma,rCLR,rCLR_Lawsonibacter asaccharolyticus,Lawsonibacter asaccharolyticus,CRC,Adenoma,mean_rCLR_difference,-0.1179805684314168,0.2439725581072255,0.4925483720277949,False
+CRC_vs_Adenoma,PA,PA_Klebsiella variicola,Klebsiella variicola,CRC,Adenoma,prevalence_difference,0.03521844850576514,0.2728519147524606,0.49483313353412356,False
+CRC_vs_Adenoma,rCLR,rCLR_Lachnospira eligens,Lachnospira eligens,CRC,Adenoma,mean_rCLR_difference,0.09742313249623358,0.25660551632812667,0.49756399713876,False
+CRC_vs_Adenoma,rCLR,rCLR_Methanobrevibacter smithii,Methanobrevibacter smithii,CRC,Adenoma,mean_rCLR_difference,-0.15393919887781643,0.2604073256053323,0.49756399713876,False
+CRC_vs_Adenoma,rCLR,rCLR_Erysipelatoclostridium ramosum,Erysipelatoclostridium ramosum,CRC,Adenoma,mean_rCLR_difference,-0.1814543721137215,0.2546837562623304,0.49756399713876,False
+CRC_vs_Control,PA,PA_Fusicatenibacter saccharivorans,Fusicatenibacter saccharivorans,CRC,Control,prevalence_difference,-0.019560357675111772,0.298902609616962,0.4997278004533584,False
+CRC_vs_Control,PA,PA_Eubacterium ventriosum,Eubacterium ventriosum,CRC,Control,prevalence_difference,-0.029830948234068955,0.294961839690977,0.4997278004533584,False
+CRC_vs_Adenoma,rCLR,rCLR_Eggerthella lenta,Eggerthella lenta,CRC,Adenoma,mean_rCLR_difference,-0.13367977549493693,0.26991089363643983,0.5025124751028249,False
+CRC_vs_Adenoma,rCLR,rCLR_Akkermansia muciniphila,Akkermansia muciniphila,CRC,Adenoma,mean_rCLR_difference,-0.10014267175412725,0.2748878388092346,0.5025124751028249,False
+CRC_vs_Adenoma,rCLR,rCLR_Blautia sp. CAG:257,Blautia sp. CAG:257,CRC,Adenoma,mean_rCLR_difference,-0.2028225305428645,0.27708631804735206,0.5025124751028249,False
+CRC_vs_Control,rCLR,rCLR_Adlercreutzia equolifaciens,Adlercreutzia equolifaciens,CRC,Control,mean_rCLR_difference,-0.11317300825805421,0.3070784833229874,0.5054984263932254,False
+CRC_vs_Control,rCLR,rCLR_Slackia isoflavoniconvertens,Slackia isoflavoniconvertens,CRC,Control,mean_rCLR_difference,0.03829921699875616,0.3029576895879148,0.5054984263932254,False
+Adenoma_vs_Control,rCLR,rCLR_Phascolarctobacterium succinatutens,Phascolarctobacterium succinatutens,Adenoma,Control,mean_rCLR_difference,0.06854314959481894,0.2996420597663628,0.5089158792857273,False
+Adenoma_vs_Control,rCLR,rCLR_Phocaeicola massiliensis,Phocaeicola massiliensis,Adenoma,Control,mean_rCLR_difference,-0.16253651008209913,0.2950202283320511,0.5089158792857273,False
+CRC_vs_Control,PA,PA_Coprococcus catus,Coprococcus catus,CRC,Control,prevalence_difference,0.027977034815865554,0.3106974240986845,0.5114557596701422,False
+CRC_vs_Adenoma,PA,PA_Proteobacteria bacterium CAG:139,Proteobacteria bacterium CAG:139,CRC,Adenoma,prevalence_difference,0.039140324731351483,0.2872633844654467,0.51228636896338,False
+CRC_vs_Control,PA,PA_Acidaminococcus intestini,Acidaminococcus intestini,CRC,Control,prevalence_difference,0.022053938556012426,0.3215686842715049,0.5213310487431974,False
+Adenoma_vs_Control,PA,PA_Alistipes inops,Alistipes inops,Adenoma,Control,prevalence_difference,0.05160834726465671,0.1365442442495537,0.5217940762393659,False
+CRC_vs_Control,rCLR,rCLR_Proteobacteria bacterium CAG:139,Proteobacteria bacterium CAG:139,CRC,Control,mean_rCLR_difference,-0.08437071077878178,0.3242810255107279,0.5257283292370892,False
+Adenoma_vs_Control,PA,PA_Prevotella copri,Prevotella copri,Adenoma,Control,prevalence_difference,-0.058050383351588186,0.14665256389771944,0.5262295222177429,False
+Adenoma_vs_Control,PA,PA_Klebsiella pneumoniae,Klebsiella pneumoniae,Adenoma,Control,prevalence_difference,-0.05037614573125035,0.1475409875376849,0.5262295222177429,False
+CRC_vs_Control,PA,PA_Bacteroides ovatus,Bacteroides ovatus,CRC,Control,prevalence_difference,0.021573626847180005,0.3385110642993545,0.5326571158828078,False
+CRC_vs_Control,PA,PA_Alistipes inops,Alistipes inops,CRC,Control,prevalence_difference,0.02297865081787656,0.3350946266265489,0.5326571158828078,False
+Adenoma_vs_Control,PA,PA_Bacteroides uniformis,Bacteroides uniformis,Adenoma,Control,prevalence_difference,-0.02916210295728372,0.15851628046354937,0.5438092653623517,False
+Adenoma_vs_Control,PA,PA_Adlercreutzia equolifaciens_1,Adlercreutzia equolifaciens_1,Adenoma,Control,prevalence_difference,0.05415922061451539,0.16263454665042293,0.5438092653623517,False
+CRC_vs_Adenoma,PA,PA_Phascolarctobacterium succinatutens,Phascolarctobacterium succinatutens,CRC,Adenoma,prevalence_difference,0.038669699584281125,0.3117000346521659,0.5467525197997009,False
+CRC_vs_Adenoma,PA,PA_Roseburia faecis,Roseburia faecis,CRC,Adenoma,prevalence_difference,-0.040081575025492144,0.31953155512188525,0.5514496193232536,False
+CRC_vs_Control,PA,PA_Bacteroides xylanisolvens,Bacteroides xylanisolvens,CRC,Control,prevalence_difference,0.02388091860736541,0.35904044836910387,0.5567728692100596,False
+CRC_vs_Adenoma,PA,PA_Streptococcus parasanguinis,Streptococcus parasanguinis,CRC,Adenoma,prevalence_difference,0.0314534473292023,0.3283279616344454,0.5576363792838993,False
+CRC_vs_Control,rCLR,rCLR_Adlercreutzia equolifaciens_1,Adlercreutzia equolifaciens_1,CRC,Control,mean_rCLR_difference,-0.05624439427896477,0.3495644816616169,0.5582596945939255,False
+CRC_vs_Control,rCLR,rCLR_Akkermansia muciniphila,Akkermansia muciniphila,CRC,Control,mean_rCLR_difference,0.21291966040379656,0.36318006396590397,0.5631922731065467,False
+CRC_vs_Control,rCLR,rCLR_Anaerotignum lactatifermentans,Anaerotignum lactatifermentans,CRC,Control,mean_rCLR_difference,-0.045428581215416236,0.36232574724409805,0.5631922731065467,False
+CRC_vs_Adenoma,PA,PA_Bacteroides cellulosilyticus,Bacteroides cellulosilyticus,CRC,Adenoma,prevalence_difference,0.03866969958428107,0.3424468165452037,0.5639327335440126,False
+CRC_vs_Adenoma,PA,PA_Oscillibacter sp. CAG:241,Oscillibacter sp. CAG:241,CRC,Adenoma,prevalence_difference,0.03843438701074592,0.34257595962954035,0.5639327335440126,False
+CRC_vs_Adenoma,rCLR,rCLR_Eubacterium sp. CAG:251,Eubacterium sp. CAG:251,CRC,Adenoma,mean_rCLR_difference,-0.1255116326673005,0.3170478101423059,0.5654019280871122,False
+Adenoma_vs_Control,PA,PA_Eggerthella lenta,Eggerthella lenta,Adenoma,Control,prevalence_difference,-0.05011673488211221,0.17540113746934977,0.5687249002794068,False
+Adenoma_vs_Control,rCLR,rCLR_Alistipes putredinis,Alistipes putredinis,Adenoma,Control,mean_rCLR_difference,-0.05280166828489308,0.3546438276371815,0.570312061666208,False
+Adenoma_vs_Control,rCLR,rCLR_Adlercreutzia equolifaciens_1,Adlercreutzia equolifaciens_1,Adenoma,Control,mean_rCLR_difference,0.08793860944853149,0.35680784886784267,0.570312061666208,False
+Adenoma_vs_Control,rCLR,rCLR_Eggerthella lenta,Eggerthella lenta,Adenoma,Control,mean_rCLR_difference,0.09031458722590391,0.3571112909498685,0.570312061666208,False
+Adenoma_vs_Control,rCLR,rCLR_Bifidobacterium pseudocatenulatum,Bifidobacterium pseudocatenulatum,Adenoma,Control,mean_rCLR_difference,-0.10822680940900091,0.352161255282473,0.570312061666208,False
+CRC_vs_Adenoma,rCLR,rCLR_Streptococcus parasanguinis,Streptococcus parasanguinis,CRC,Adenoma,mean_rCLR_difference,-0.11543201535425052,0.33171695960661085,0.5724792689985059,False
+CRC_vs_Adenoma,rCLR,rCLR_Phocaeicola massiliensis,Phocaeicola massiliensis,CRC,Adenoma,mean_rCLR_difference,0.13717046150092335,0.32814327322372483,0.5724792689985059,False
+CRC_vs_Adenoma,PA,PA_Anaerobutyricum hallii,Anaerobutyricum hallii,CRC,Adenoma,prevalence_difference,0.02902188406933881,0.36706059193674734,0.5731736270047225,False
+CRC_vs_Adenoma,PA,PA_Eubacterium sp. CAG:274,Eubacterium sp. CAG:274,CRC,Adenoma,prevalence_difference,0.033257510392972006,0.3580284476460624,0.5731736270047225,False
+CRC_vs_Adenoma,PA,PA_Bacteroides sp. CAG:144,Bacteroides sp. CAG:144,CRC,Adenoma,prevalence_difference,0.03192407247627263,0.369616637975008,0.5731736270047225,False
+CRC_vs_Adenoma,PA,PA_Phocaeicola massiliensis,Phocaeicola massiliensis,CRC,Adenoma,prevalence_difference,0.03561063612832377,0.36124964679914806,0.5731736270047225,False
+CRC_vs_Control,PA,PA_Veillonella parvula,Veillonella parvula,CRC,Control,prevalence_difference,0.024810119763704563,0.38120177593314875,0.5771288591779864,False
+CRC_vs_Control,PA,PA_Phocaeicola dorei,Phocaeicola dorei,CRC,Control,prevalence_difference,-0.023369184637207496,0.38729878316415123,0.5771288591779864,False
+CRC_vs_Control,PA,PA_Odoribacter splanchnicus,Odoribacter splanchnicus,CRC,Control,prevalence_difference,0.022312049988328808,0.38834839122257026,0.5771288591779864,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides stercoris,Bacteroides stercoris,Adenoma,Control,mean_rCLR_difference,-0.046769991661552046,0.3679495222003236,0.5789793952269798,False
+CRC_vs_Control,PA,PA_Gemmiger formicilis,Gemmiger formicilis,CRC,Control,prevalence_difference,-0.021017003932271572,0.3951326833939833,0.5791670838788522,False
+CRC_vs_Adenoma,PA,PA_Bacteroides intestinalis,Bacteroides intestinalis,CRC,Adenoma,prevalence_difference,0.030669072084085036,0.3857324043681878,0.5813150319351563,False
+CRC_vs_Adenoma,PA,PA_Eubacterium sp. CAG:38,Eubacterium sp. CAG:38,CRC,Adenoma,prevalence_difference,-0.0369440740450232,0.383517295293285,0.5813150319351563,False
+Adenoma_vs_Control,PA,PA_Firmicutes bacterium CAG:145,Firmicutes bacterium CAG:145,Adenoma,Control,prevalence_difference,0.05047702772813745,0.18561581429108487,0.5841438861513554,False
+Adenoma_vs_Control,rCLR,rCLR_Dialister invisus,Dialister invisus,Adenoma,Control,mean_rCLR_difference,0.07367894356763866,0.3770795480367174,0.584746545506214,False
+CRC_vs_Control,rCLR,rCLR_Enterocloster bolteae,Enterocloster bolteae,CRC,Control,mean_rCLR_difference,-0.025336951829348253,0.38449325741960094,0.5877254077699615,False
+CRC_vs_Control,PA,PA_Blautia wexlerae,Blautia wexlerae,CRC,Control,prevalence_difference,-0.013960461817463576,0.4070717665296022,0.588603770522533,False
+CRC_vs_Control,rCLR,rCLR_Prevotella copri,Prevotella copri,CRC,Control,mean_rCLR_difference,0.08791605433661612,0.39078744200360294,0.5889331872448664,False
+CRC_vs_Control,rCLR,rCLR_Phocaeicola coprocola,Phocaeicola coprocola,CRC,Control,mean_rCLR_difference,-0.04957366962124862,0.39708947369316294,0.5895484535538235,False
+CRC_vs_Control,rCLR,rCLR_Methanobrevibacter smithii,Methanobrevibacter smithii,CRC,Control,mean_rCLR_difference,0.025936336685047554,0.40221530008812256,0.5895484535538235,False
+Adenoma_vs_Control,rCLR,rCLR_[Ruminococcus] lactaris,[Ruminococcus] lactaris,Adenoma,Control,mean_rCLR_difference,-0.024792849528131045,0.3951775219709418,0.5955492232519828,False
+Adenoma_vs_Control,rCLR,rCLR_Erysipelatoclostridium ramosum,Erysipelatoclostridium ramosum,Adenoma,Control,mean_rCLR_difference,0.06925758547316074,0.3919832575417094,0.5955492232519828,False
+CRC_vs_Control,PA,PA_Bifidobacterium longum,Bifidobacterium longum,CRC,Control,prevalence_difference,-0.018790512272637505,0.4188564036430988,0.5975684691974876,False
+CRC_vs_Adenoma,PA,PA_Gordonibacter pamelaeae,Gordonibacter pamelaeae,CRC,Adenoma,prevalence_difference,0.03066907208408509,0.40370407567740746,0.5999491124650361,False
+CRC_vs_Adenoma,rCLR,rCLR_Parasutterella excrementihominis,Parasutterella excrementihominis,CRC,Adenoma,mean_rCLR_difference,-0.08520021543098938,0.35430474520291344,0.6017556783605038,False
+CRC_vs_Control,PA,PA_Ruminococcus bromii,Ruminococcus bromii,CRC,Control,prevalence_difference,-0.021580360188892644,0.4278862674755498,0.6024188239458399,False
+CRC_vs_Control,rCLR,rCLR_Phocaeicola dorei,Phocaeicola dorei,CRC,Control,mean_rCLR_difference,-0.04959884820966565,0.4315606165716601,0.6047528238814505,False
+CRC_vs_Control,rCLR,rCLR_Barnesiella intestinihominis,Barnesiella intestinihominis,CRC,Control,mean_rCLR_difference,0.08267056856847854,0.4408478529229265,0.6047528238814505,False
+CRC_vs_Control,rCLR,rCLR_Parasutterella excrementihominis,Parasutterella excrementihominis,CRC,Control,mean_rCLR_difference,-0.06568866076723678,0.4272313904234307,0.6047528238814505,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides salyersiae,Bacteroides salyersiae,CRC,Control,mean_rCLR_difference,0.012431203746769327,0.4375453556452231,0.6047528238814505,False
+CRC_vs_Control,rCLR,rCLR_Klebsiella variicola,Klebsiella variicola,CRC,Control,mean_rCLR_difference,0.03417210179776836,0.4370052876260613,0.6047528238814505,False
+CRC_vs_Adenoma,PA,PA_Alistipes inops,Alistipes inops,CRC,Adenoma,prevalence_difference,-0.02862969644678015,0.41469373705430346,0.6078387652713764,False
+CRC_vs_Control,PA,PA_Bifidobacterium adolescentis,Bifidobacterium adolescentis,CRC,Control,prevalence_difference,-0.021046181746359527,0.4384524922908144,0.6079787462537927,False
+CRC_vs_Control,PA,PA_Coprobacter fastidiosus,Coprobacter fastidiosus,CRC,Control,prevalence_difference,-0.019755624584777254,0.44319945988594234,0.6079787462537927,False
+CRC_vs_Control,PA,PA_Roseburia inulinivorans,Roseburia inulinivorans,CRC,Control,prevalence_difference,-0.017410177221553913,0.4492801652422346,0.6085187048217607,False
+Adenoma_vs_Control,PA,PA_Faecalibacterium prausnitzii,Faecalibacterium prausnitzii,Adenoma,Control,prevalence_difference,-0.0218049230414481,0.20789651856536057,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Anaerostipes hadrus,Anaerostipes hadrus,Adenoma,Control,prevalence_difference,-0.03316135354816396,0.24915916624555423,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Eubacterium sp. CAG:251,Eubacterium sp. CAG:251,Adenoma,Control,prevalence_difference,-0.04054015103476105,0.2523052315255249,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_[Eubacterium] rectale,[Eubacterium] rectale,Adenoma,Control,prevalence_difference,0.040006917622643634,0.25936483939553145,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Alistipes finegoldii,Alistipes finegoldii,Adenoma,Control,prevalence_difference,-0.04418631463653655,0.2467766374380691,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Ruminococcus bromii,Ruminococcus bromii,Adenoma,Control,prevalence_difference,-0.046758805557156835,0.25040777955961224,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Butyricimonas virosa,Butyricimonas virosa,Adenoma,Control,prevalence_difference,-0.047666743529140465,0.235134050243001,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Intestinibacter bartlettii,Intestinibacter bartlettii,Adenoma,Control,prevalence_difference,-0.04804144808900673,0.2236157200265687,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Lawsonibacter asaccharolyticus,Lawsonibacter asaccharolyticus,Adenoma,Control,prevalence_difference,-0.04266587882631012,0.2476338948871617,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Acidaminococcus intestini,Acidaminococcus intestini,Adenoma,Control,prevalence_difference,-0.03771545512192309,0.23692921510686477,0.6167119514515971,False
+Adenoma_vs_Control,PA,PA_Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,Adenoma,Control,prevalence_difference,-0.0342638496570012,0.2542246127698082,0.6167119514515971,False
+Adenoma_vs_Control,rCLR,rCLR_Holdemanella biformis,Holdemanella biformis,Adenoma,Control,mean_rCLR_difference,-0.05925437012425942,0.42174095140375634,0.6190352763984995,False
+Adenoma_vs_Control,rCLR,rCLR_Eubacterium ventriosum,Eubacterium ventriosum,Adenoma,Control,mean_rCLR_difference,-0.15792219830067117,0.4223324782905651,0.6190352763984995,False
+CRC_vs_Adenoma,PA,PA_Dorea longicatena,Dorea longicatena,CRC,Adenoma,prevalence_difference,0.024629382696682134,0.44634122347163574,0.6232465561349224,False
+CRC_vs_Adenoma,PA,PA_Coprococcus comes,Coprococcus comes,CRC,Adenoma,prevalence_difference,-0.03004157188799128,0.44333026558311683,0.6232465561349224,False
+CRC_vs_Adenoma,PA,PA_[Eubacterium] rectale,[Eubacterium] rectale,CRC,Adenoma,prevalence_difference,-0.027060945956545512,0.44622679505187046,0.6232465561349224,False
+CRC_vs_Adenoma,PA,PA_Paraprevotella xylaniphila,Paraprevotella xylaniphila,CRC,Adenoma,prevalence_difference,0.030590634559573338,0.4485045310503647,0.6232465561349224,False
+Adenoma_vs_Control,rCLR,rCLR_Dorea longicatena,Dorea longicatena,Adenoma,Control,mean_rCLR_difference,0.09510147114847989,0.4369474265878114,0.623378328598611,False
+Adenoma_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:274,Eubacterium sp. CAG:274,Adenoma,Control,mean_rCLR_difference,0.07648636337776016,0.4359679446159178,0.623378328598611,False
+Adenoma_vs_Control,rCLR,rCLR_Roseburia inulinivorans,Roseburia inulinivorans,Adenoma,Control,mean_rCLR_difference,-0.08594389371201294,0.4496422115546921,0.6248274887837929,False
+Adenoma_vs_Control,rCLR,rCLR_Agathobaculum butyriciproducens,Agathobaculum butyriciproducens,Adenoma,Control,mean_rCLR_difference,0.10057745632687604,0.44425938803437526,0.6248274887837929,False
+CRC_vs_Control,PA,PA_Dialister invisus,Dialister invisus,CRC,Control,prevalence_difference,-0.01741691056326647,0.4760027518778014,0.6366536806365594,False
+CRC_vs_Adenoma,rCLR,rCLR_Faecalibacterium prausnitzii,Faecalibacterium prausnitzii,CRC,Adenoma,mean_rCLR_difference,-0.14307825909967198,0.38999180154034685,0.6368993553624833,False
+CRC_vs_Adenoma,rCLR,rCLR_[Eubacterium] rectale,[Eubacterium] rectale,CRC,Adenoma,mean_rCLR_difference,-0.10662294235881042,0.39663882879141155,0.6368993553624833,False
+CRC_vs_Adenoma,rCLR,rCLR_Veillonella parvula,Veillonella parvula,CRC,Adenoma,mean_rCLR_difference,0.08223216593459726,0.3967036172094168,0.6368993553624833,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides cellulosilyticus,Bacteroides cellulosilyticus,CRC,Adenoma,mean_rCLR_difference,0.05726252904909171,0.3988061384045456,0.6368993553624833,False
+Adenoma_vs_Control,PA,PA_Firmicutes bacterium CAG:83,Firmicutes bacterium CAG:83,Adenoma,Control,prevalence_difference,0.04193808727733905,0.2750621986567815,0.6398185925277309,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides xylanisolvens,Bacteroides xylanisolvens,Adenoma,Control,mean_rCLR_difference,-0.06856283118590906,0.48200021002880933,0.6466443617055493,False
+Adenoma_vs_Control,rCLR,rCLR_Eubacterium ramulus,Eubacterium ramulus,Adenoma,Control,mean_rCLR_difference,-0.011654196920497573,0.47463595808936754,0.6466443617055493,False
+Adenoma_vs_Control,rCLR,rCLR_Roseburia faecis,Roseburia faecis,Adenoma,Control,mean_rCLR_difference,-0.046730239974093646,0.4834724199667658,0.6466443617055493,False
+CRC_vs_Control,PA,PA_Eubacterium ramulus,Eubacterium ramulus,CRC,Control,prevalence_difference,-0.018615445388109775,0.4960521289614051,0.6552787382576586,False
+CRC_vs_Control,PA,PA_Eggerthella lenta,Eggerthella lenta,CRC,Control,prevalence_difference,0.016633598477366895,0.5119775724314065,0.6680682957336647,False
+Adenoma_vs_Control,PA,PA_Bacteroides stercoris,Bacteroides stercoris,Adenoma,Control,prevalence_difference,-0.042521761687899895,0.3012943594382565,0.668382539739353,False
+Adenoma_vs_Control,PA,PA_Blautia obeum,Blautia obeum,Adenoma,Control,prevalence_difference,-0.031042831613535493,0.30608172380587195,0.668382539739353,False
+Adenoma_vs_Control,PA,PA_Bacteroides fragilis,Bacteroides fragilis,Adenoma,Control,prevalence_difference,-0.04324234737995042,0.3019044037872841,0.668382539739353,False
+CRC_vs_Adenoma,rCLR,rCLR_Bifidobacterium bifidum,Bifidobacterium bifidum,CRC,Adenoma,mean_rCLR_difference,-0.11099536078709117,0.4248004981192247,0.6684360779228977,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides stercoris,Bacteroides stercoris,CRC,Adenoma,mean_rCLR_difference,-0.0341438944270257,0.43470037637237247,0.671682872999031,False
+CRC_vs_Adenoma,rCLR,rCLR_Bifidobacterium pseudocatenulatum,Bifidobacterium pseudocatenulatum,CRC,Adenoma,mean_rCLR_difference,0.061427186317340614,0.43941870196198285,0.671682872999031,False
+CRC_vs_Adenoma,PA,PA_Bacteroides eggerthii,Bacteroides eggerthii,CRC,Adenoma,prevalence_difference,0.026433445760451757,0.4983965216207875,0.6836977924797983,False
+CRC_vs_Adenoma,PA,PA_[Ruminococcus] lactaris,[Ruminococcus] lactaris,CRC,Adenoma,prevalence_difference,-0.027139383481057322,0.5059506342426223,0.6852749096703872,False
+CRC_vs_Adenoma,PA,PA_Dorea formicigenerans,Dorea formicigenerans,CRC,Adenoma,prevalence_difference,0.021413444191701325,0.519020579837103,0.6856197783033336,False
+CRC_vs_Adenoma,PA,PA_Ruminococcus bromii,Ruminococcus bromii,CRC,Adenoma,prevalence_difference,0.02517844536826419,0.5165425634224313,0.6856197783033336,False
+CRC_vs_Control,PA,PA_Roseburia hominis,Roseburia hominis,CRC,Control,prevalence_difference,-0.015024329808054904,0.5436097984733883,0.6951037590917508,False
+CRC_vs_Control,PA,PA_[Eubacterium] siraeum,[Eubacterium] siraeum,CRC,Control,prevalence_difference,0.017672777548345397,0.5456889323710941,0.6951037590917508,False
+CRC_vs_Adenoma,PA,PA_Holdemanella biformis,Holdemanella biformis,CRC,Adenoma,prevalence_difference,0.024707820221193832,0.5457802175659687,0.695220039042365,False
+CRC_vs_Adenoma,PA,PA_Blautia obeum,Blautia obeum,CRC,Adenoma,prevalence_difference,0.02094281904463091,0.5444556176340898,0.695220039042365,False
+CRC_vs_Adenoma,PA,PA_Roseburia hominis,Roseburia hominis,CRC,Adenoma,prevalence_difference,0.021884069338771628,0.5440391120024288,0.695220039042365,False
+CRC_vs_Adenoma,PA,PA_Bifidobacterium bifidum,Bifidobacterium bifidum,CRC,Adenoma,prevalence_difference,-0.020080006275001977,0.5526201332284071,0.695651226534583,False
+Adenoma_vs_Control,PA,PA_Streptococcus parasanguinis,Streptococcus parasanguinis,Adenoma,Control,prevalence_difference,-0.03086989104744331,0.3290227801427493,0.6981522112759984,False
+Adenoma_vs_Control,PA,PA_Roseburia hominis,Roseburia hominis,Adenoma,Control,prevalence_difference,-0.03690839914682653,0.33276413808482164,0.6981522112759984,False
+Adenoma_vs_Control,PA,PA_Streptococcus thermophilus,Streptococcus thermophilus,Adenoma,Control,prevalence_difference,-0.040496915893238006,0.3401535222383065,0.6999312861442076,False
+CRC_vs_Adenoma,PA,PA_Ruthenibacterium lactatiformans,Ruthenibacterium lactatiformans,CRC,Adenoma,prevalence_difference,0.011922503725782407,0.5656291189111855,0.7037478572499634,False
+Adenoma_vs_Control,rCLR,rCLR_Dorea formicigenerans,Dorea formicigenerans,Adenoma,Control,mean_rCLR_difference,0.03770643968692061,0.5343078857260909,0.7058141206505152,False
+Adenoma_vs_Control,PA,PA_Coprococcus comes,Coprococcus comes,Adenoma,Control,prevalence_difference,0.03795324840029979,0.3499811981658316,0.7065658151649808,False
+Adenoma_vs_Control,PA,PA_Phocaeicola plebeius,Phocaeicola plebeius,Adenoma,Control,prevalence_difference,-0.034501642935377885,0.3864020610769616,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_Holdemanella biformis,Holdemanella biformis,Adenoma,Control,prevalence_difference,0.03380267481408886,0.3638208521324524,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_Dorea formicigenerans,Dorea formicigenerans,Adenoma,Control,prevalence_difference,-0.02795151899463888,0.4029754015618555,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_[Ruminococcus] lactaris,[Ruminococcus] lactaris,Adenoma,Control,prevalence_difference,-0.0351934051997464,0.3735037753290356,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_Alistipes putredinis,Alistipes putredinis,Adenoma,Control,prevalence_difference,-0.03239032685766985,0.3808491744174477,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_Roseburia faecis,Roseburia faecis,Adenoma,Control,prevalence_difference,-0.031417536173401706,0.38658274614681776,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_Desulfovibrio piger,Desulfovibrio piger,Adenoma,Control,prevalence_difference,0.027497550008647037,0.40387435906579616,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_Bacteroides salyersiae,Bacteroides salyersiae,Adenoma,Control,prevalence_difference,-0.02610681962298958,0.4038143798618111,0.7084353511481999,False
+Adenoma_vs_Control,PA,PA_Coprococcus eutactus,Coprococcus eutactus,Adenoma,Control,prevalence_difference,0.028751369112814867,0.41113294816410384,0.7095358944122437,False
+Adenoma_vs_Control,PA,PA_Klebsiella variicola,Klebsiella variicola,Adenoma,Control,prevalence_difference,-0.028319017697584575,0.41779196652527195,0.7095831812413349,False
+CRC_vs_Control,PA,PA_Blautia sp. CAG:257,Blautia sp. CAG:257,CRC,Control,prevalence_difference,-0.015551774908875438,0.563713463048515,0.7096157711316601,False
+Adenoma_vs_Control,PA,PA_[Eubacterium] siraeum,[Eubacterium] siraeum,Adenoma,Control,prevalence_difference,0.034458407793854895,0.42602345587748935,0.7100071465702574,False
+Adenoma_vs_Control,PA,PA_Odoribacter splanchnicus,Odoribacter splanchnicus,Adenoma,Control,prevalence_difference,-0.029378278664898838,0.4313127525894087,0.7100071465702574,False
+CRC_vs_Adenoma,rCLR,rCLR_Roseburia intestinalis,Roseburia intestinalis,CRC,Adenoma,mean_rCLR_difference,0.051670199087829605,0.4927146694833311,0.7100095578405444,False
+CRC_vs_Adenoma,rCLR,rCLR_Eubacterium sp. CAG:180,Eubacterium sp. CAG:180,CRC,Adenoma,mean_rCLR_difference,0.11076224596289819,0.49767025082281147,0.7100095578405444,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides sp. CAG:144,Bacteroides sp. CAG:144,CRC,Adenoma,mean_rCLR_difference,0.03548201656922195,0.4925115868249582,0.7100095578405444,False
+CRC_vs_Adenoma,rCLR,rCLR_Dialister invisus,Dialister invisus,CRC,Adenoma,mean_rCLR_difference,-0.03308526438155021,0.47316522457408805,0.7100095578405444,False
+CRC_vs_Adenoma,rCLR,rCLR_Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,CRC,Adenoma,mean_rCLR_difference,-0.0627158059182311,0.4948824480406936,0.7100095578405444,False
+CRC_vs_Adenoma,PA,PA_Akkermansia muciniphila,Akkermansia muciniphila,CRC,Adenoma,prevalence_difference,0.024237195074123474,0.5784218788336606,0.7113924256919734,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides xylanisolvens,Bacteroides xylanisolvens,CRC,Control,mean_rCLR_difference,-0.01824622278178384,0.5253296962417926,0.7115224999730609,False
+Adenoma_vs_Control,PA,PA_[Ruminococcus] gnavus,[Ruminococcus] gnavus,Adenoma,Control,prevalence_difference,-0.030711362195192216,0.44093704774442355,0.7148524864947473,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides fragilis,Bacteroides fragilis,Adenoma,Control,mean_rCLR_difference,0.053236350618916656,0.5492990512033525,0.7167682741312039,False
+Adenoma_vs_Control,PA,PA_Bifidobacterium bifidum,Bifidobacterium bifidum,Adenoma,Control,prevalence_difference,-0.02715887473338327,0.45560747477423114,0.716911761777099,False
+Adenoma_vs_Control,PA,PA_Phocaeicola massiliensis,Phocaeicola massiliensis,Adenoma,Control,prevalence_difference,-0.03032945177840546,0.452745566560872,0.716911761777099,False
+Adenoma_vs_Control,PA,PA_Bacteroides finegoldii,Bacteroides finegoldii,Adenoma,Control,prevalence_difference,0.026272554332161135,0.47112581912293794,0.7241397999936017,False
+Adenoma_vs_Control,PA,PA_Lachnospira pectinoschiza,Lachnospira pectinoschiza,Adenoma,Control,prevalence_difference,-0.0302213639245979,0.4737363177528235,0.7241397999936017,False
+CRC_vs_Control,PA,PA_Barnesiella intestinihominis,Barnesiella intestinihominis,CRC,Control,prevalence_difference,0.015192663350869995,0.582556353254565,0.7248084860260285,False
+Adenoma_vs_Control,PA,PA_Paraprevotella xylaniphila,Paraprevotella xylaniphila,Adenoma,Control,prevalence_difference,0.02760563786245457,0.48229564586144935,0.726839917002466,False
+CRC_vs_Control,rCLR,rCLR_Streptococcus salivarius,Streptococcus salivarius,CRC,Control,mean_rCLR_difference,-0.12139025560376382,0.5470426582900451,0.7316695554629353,False
+CRC_vs_Control,PA,PA_Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,CRC,Control,prevalence_difference,0.011857414755893914,0.5966803972073329,0.7338483046113174,False
+Adenoma_vs_Control,rCLR,rCLR_Alistipes finegoldii,Alistipes finegoldii,Adenoma,Control,mean_rCLR_difference,0.09805626735259731,0.5693387270645682,0.7339667927217928,False
+CRC_vs_Control,PA,PA_[Eubacterium] rectale,[Eubacterium] rectale,CRC,Control,prevalence_difference,0.012945971666098122,0.6054203792846966,0.7361361429938925,False
+CRC_vs_Control,PA,PA_Phocaeicola vulgatus,Phocaeicola vulgatus,CRC,Control,prevalence_difference,0.010324457292657963,0.6223953782890395,0.7399589497436359,False
+CRC_vs_Control,PA,PA_Lachnospira pectinoschiza,Lachnospira pectinoschiza,CRC,Control,prevalence_difference,-0.013749483777135363,0.6211474542039365,0.7399589497436359,False
+Adenoma_vs_Control,PA,PA_Blautia sp. CAG:257,Blautia sp. CAG:257,Adenoma,Control,prevalence_difference,-0.027317403585634392,0.5037887996827133,0.7486861328618101,False
+Adenoma_vs_Control,PA,PA_Ruthenibacterium lactatiformans,Ruthenibacterium lactatiformans,Adenoma,Control,prevalence_difference,0.017524644030668113,0.5183662550485248,0.7499683869880308,False
+Adenoma_vs_Control,PA,PA_Oscillibacter sp. CAG:241,Oscillibacter sp. CAG:241,Adenoma,Control,prevalence_difference,-0.027115639591860252,0.5256787759261898,0.7499683869880308,False
+Adenoma_vs_Control,PA,PA_Dialister invisus,Dialister invisus,Adenoma,Control,prevalence_difference,0.022194039315155345,0.520276955444803,0.7499683869880308,False
+CRC_vs_Control,PA,PA_Dorea longicatena,Dorea longicatena,CRC,Control,prevalence_difference,0.011298547393747915,0.6440458750983111,0.7513066478707047,False
+CRC_vs_Control,PA,PA_Veillonella atypica,Veillonella atypica,CRC,Control,prevalence_difference,0.012449948826602997,0.6528787384530235,0.7513066478707047,False
+CRC_vs_Control,PA,PA_Gordonibacter pamelaeae,Gordonibacter pamelaeae,CRC,Control,prevalence_difference,0.011487080961700813,0.6530048434764069,0.7513066478707047,False
+CRC_vs_Adenoma,rCLR,rCLR_Holdemanella biformis,Holdemanella biformis,CRC,Adenoma,mean_rCLR_difference,0.02491124544023432,0.5371732241719269,0.7543010425257479,False
+CRC_vs_Adenoma,rCLR,rCLR_Eubacterium ramulus,Eubacterium ramulus,CRC,Adenoma,mean_rCLR_difference,0.015188901012824663,0.542814768920398,0.7543010425257479,False
+Adenoma_vs_Control,PA,PA_Collinsella aerofaciens,Collinsella aerofaciens,Adenoma,Control,prevalence_difference,0.022028304605983706,0.5434876035389076,0.7552360205021184,False
+Adenoma_vs_Control,PA,PA_Megamonas funiformis,Megamonas funiformis,Adenoma,Control,prevalence_difference,-0.019736842105263164,0.5420260440838081,0.7552360205021184,False
+CRC_vs_Control,rCLR,rCLR_Phocaeicola plebeius,Phocaeicola plebeius,CRC,Control,mean_rCLR_difference,0.011437131318941529,0.588481425459749,0.7586447292071463,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides ovatus,Bacteroides ovatus,CRC,Control,mean_rCLR_difference,0.04874395511782095,0.5822828470716295,0.7586447292071463,False
+CRC_vs_Control,rCLR,rCLR_Erysipelatoclostridium ramosum,Erysipelatoclostridium ramosum,CRC,Control,mean_rCLR_difference,-0.11219678664056076,0.5869812054782333,0.7586447292071463,False
+CRC_vs_Control,PA,PA_Blautia obeum,Blautia obeum,CRC,Control,prevalence_difference,-0.010100012568904582,0.6690229959519249,0.7615474528388932,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides finegoldii,Bacteroides finegoldii,CRC,Control,mean_rCLR_difference,0.016322606559716627,0.6011973355220004,0.7658108916768338,False
+CRC_vs_Adenoma,PA,PA_Streptococcus thermophilus,Streptococcus thermophilus,CRC,Adenoma,prevalence_difference,-0.01960938112793159,0.6307756049319846,0.7669657923604812,False
+Adenoma_vs_Control,PA,PA_Coprococcus catus,Coprococcus catus,Adenoma,Control,prevalence_difference,0.022878595722603423,0.5702967820992412,0.7696862268213781,False
+Adenoma_vs_Control,PA,PA_Veillonella parvula,Veillonella parvula,Adenoma,Control,prevalence_difference,-0.024370208105147895,0.5783628228826814,0.7696862268213781,False
+Adenoma_vs_Control,PA,PA_Gordonibacter pamelaeae,Gordonibacter pamelaeae,Adenoma,Control,prevalence_difference,-0.01918199112238428,0.5826596670330059,0.7696862268213781,False
+Adenoma_vs_Control,PA,PA_Eubacterium sp. CAG:38,Eubacterium sp. CAG:38,Adenoma,Control,prevalence_difference,-0.024089179685248152,0.5762523357344438,0.7696862268213781,False
+Adenoma_vs_Control,PA,PA_Gemmiger formicilis,Gemmiger formicilis,Adenoma,Control,prevalence_difference,0.022280509598201492,0.5901823968373624,0.770116054409729,False
+CRC_vs_Control,rCLR,rCLR_Intestinibacter bartlettii,Intestinibacter bartlettii,CRC,Control,mean_rCLR_difference,-0.0042294406476007795,0.6124194300486658,0.7709279884142028,False
+Adenoma_vs_Control,rCLR,rCLR_[Ruminococcus] gnavus,[Ruminococcus] gnavus,Adenoma,Control,mean_rCLR_difference,-0.07545628807482878,0.6056279821827737,0.7714546915899617,False
+CRC_vs_Adenoma,rCLR,rCLR_Bifidobacterium longum,Bifidobacterium longum,CRC,Adenoma,mean_rCLR_difference,-0.08282277409526823,0.5724148394972468,0.7787917832195175,False
+CRC_vs_Adenoma,rCLR,rCLR_Blautia obeum,Blautia obeum,CRC,Adenoma,mean_rCLR_difference,-0.14490019231823412,0.5749958025639428,0.7787917832195175,False
+CRC_vs_Adenoma,PA,PA_Fusicatenibacter saccharivorans,Fusicatenibacter saccharivorans,CRC,Adenoma,prevalence_difference,-0.015373754804298367,0.6492535816928462,0.7805632948442084,False
+CRC_vs_Adenoma,rCLR,rCLR_Coprococcus eutactus,Coprococcus eutactus,CRC,Adenoma,mean_rCLR_difference,0.06944890292982979,0.5850626537066288,0.782521299332616,False
+CRC_vs_Adenoma,PA,PA_Anaerostipes hadrus,Anaerostipes hadrus,CRC,Adenoma,prevalence_difference,0.012157816299317559,0.6613685720446351,0.7862937467641773,False
+CRC_vs_Adenoma,PA,PA_Veillonella atypica,Veillonella atypica,CRC,Adenoma,prevalence_difference,0.0172562553925798,0.6846415140510843,0.7876473727197301,False
+CRC_vs_Adenoma,PA,PA_[Eubacterium] siraeum,[Eubacterium] siraeum,CRC,Adenoma,prevalence_difference,-0.016785630245509497,0.6919518975294825,0.7876473727197301,False
+CRC_vs_Adenoma,PA,PA_Barnesiella intestinihominis,Barnesiella intestinihominis,CRC,Adenoma,prevalence_difference,0.018197505686720516,0.6903751071345248,0.7876473727197301,False
+CRC_vs_Adenoma,PA,PA_Lachnospira pectinoschiza,Lachnospira pectinoschiza,CRC,Adenoma,prevalence_difference,0.016471880147462536,0.6908104878277854,0.7876473727197301,False
+CRC_vs_Adenoma,rCLR,rCLR_Dorea longicatena,Dorea longicatena,CRC,Adenoma,mean_rCLR_difference,-0.06884081595328073,0.5986097214851874,0.787836095476114,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides salyersiae,Bacteroides salyersiae,CRC,Adenoma,mean_rCLR_difference,0.006038884679717799,0.6037622413929098,0.787836095476114,False
+CRC_vs_Control,PA,PA_Oscillibacter sp. CAG:241,Oscillibacter sp. CAG:241,CRC,Control,prevalence_difference,0.011318747418885666,0.701656853142431,0.7902871924867381,False
+CRC_vs_Adenoma,rCLR,rCLR_Bifidobacterium adolescentis,Bifidobacterium adolescentis,CRC,Adenoma,mean_rCLR_difference,0.03658660282238185,0.641379941520924,0.8042659408977536,False
+CRC_vs_Adenoma,rCLR,rCLR_Phocaeicola coprocola,Phocaeicola coprocola,CRC,Adenoma,mean_rCLR_difference,0.06317519719685333,0.6371492971014395,0.8042659408977536,False
+CRC_vs_Adenoma,rCLR,rCLR_Proteobacteria bacterium CAG:139,Proteobacteria bacterium CAG:139,CRC,Adenoma,mean_rCLR_difference,-0.12370140009104996,0.6312078143281619,0.8042659408977536,False
+CRC_vs_Adenoma,rCLR,rCLR_Anaerotignum lactatifermentans,Anaerotignum lactatifermentans,CRC,Adenoma,mean_rCLR_difference,0.07178089123707213,0.6464193543664187,0.8042659408977536,False
+Adenoma_vs_Control,PA,PA_Adlercreutzia equolifaciens,Adlercreutzia equolifaciens,Adenoma,Control,prevalence_difference,0.020133164235890844,0.6252700417506089,0.8060710176784958,False
+CRC_vs_Adenoma,rCLR,rCLR_Collinsella aerofaciens,Collinsella aerofaciens,CRC,Adenoma,mean_rCLR_difference,-0.03373960159554357,0.6858601780876996,0.8097859414540772,False
+CRC_vs_Adenoma,rCLR,rCLR_Roseburia hominis,Roseburia hominis,CRC,Adenoma,mean_rCLR_difference,0.037426810289178714,0.6886964548815049,0.8097859414540772,False
+CRC_vs_Adenoma,rCLR,rCLR_[Eubacterium] siraeum,[Eubacterium] siraeum,CRC,Adenoma,mean_rCLR_difference,0.1379330614694526,0.6867613787678865,0.8097859414540772,False
+CRC_vs_Adenoma,rCLR,rCLR_Alistipes shahii,Alistipes shahii,CRC,Adenoma,mean_rCLR_difference,-0.09515594733728505,0.6796626306861226,0.8097859414540772,False
+CRC_vs_Adenoma,rCLR,rCLR_Coprobacter fastidiosus,Coprobacter fastidiosus,CRC,Adenoma,mean_rCLR_difference,0.031187037601937917,0.6793290572367909,0.8097859414540772,False
+CRC_vs_Control,rCLR,rCLR_Dorea longicatena,Dorea longicatena,CRC,Control,mean_rCLR_difference,0.026260655195199156,0.6553765738307886,0.815410388370865,False
+CRC_vs_Adenoma,PA,PA_Faecalibacterium prausnitzii,Faecalibacterium prausnitzii,CRC,Adenoma,prevalence_difference,0.007373127304102334,0.7413470844258145,0.8196802577516272,False
+CRC_vs_Adenoma,PA,PA_Streptococcus salivarius,Streptococcus salivarius,CRC,Adenoma,prevalence_difference,-0.013491254216016935,0.7507351893426119,0.8196802577516272,False
+CRC_vs_Adenoma,PA,PA_Eubacterium ramulus,Eubacterium ramulus,CRC,Adenoma,prevalence_difference,-0.01341281669150518,0.7439779477142697,0.8196802577516272,False
+CRC_vs_Adenoma,PA,PA_Methanobrevibacter smithii,Methanobrevibacter smithii,CRC,Adenoma,prevalence_difference,0.01451094203466935,0.7328425159769982,0.8196802577516272,False
+Adenoma_vs_Control,rCLR,rCLR_Coprobacter fastidiosus,Coprobacter fastidiosus,Adenoma,Control,mean_rCLR_difference,0.0347964283755523,0.6514922598389291,0.8201137859148873,False
+Adenoma_vs_Control,rCLR,rCLR_[Eubacterium] siraeum,[Eubacterium] siraeum,Adenoma,Control,mean_rCLR_difference,-0.08266928852910314,0.6615611814376234,0.8231051908584385,False
+Adenoma_vs_Control,PA,PA_[Ruminococcus] torques,[Ruminococcus] torques,Adenoma,Control,prevalence_difference,0.016681558770968996,0.6806619215161374,0.8276230182071216,False
+Adenoma_vs_Control,PA,PA_Phascolarctobacterium succinatutens,Phascolarctobacterium succinatutens,Adenoma,Control,prevalence_difference,0.018036259872023952,0.6598240704611208,0.8276230182071216,False
+Adenoma_vs_Control,PA,PA_Eubacterium sp. CAG:180,Eubacterium sp. CAG:180,Adenoma,Control,prevalence_difference,0.016011414077362063,0.6795002320407568,0.8276230182071216,False
+Adenoma_vs_Control,PA,PA_Parabacteroides merdae,Parabacteroides merdae,Adenoma,Control,prevalence_difference,-0.01795699544589846,0.6746202032999675,0.8276230182071216,False
+Adenoma_vs_Control,PA,PA_Firmicutes bacterium CAG:110,Firmicutes bacterium CAG:110,Adenoma,Control,prevalence_difference,0.0154781806652447,0.6779841699532189,0.8276230182071216,False
+Adenoma_vs_Control,rCLR,rCLR_Veillonella parvula,Veillonella parvula,Adenoma,Control,mean_rCLR_difference,0.11624674459986084,0.6730548938017181,0.8277801567446419,False
+CRC_vs_Adenoma,PA,PA_Desulfovibrio piger,Desulfovibrio piger,CRC,Adenoma,prevalence_difference,0.010981253431641691,0.7690354740360379,0.8311797547662227,False
+Adenoma_vs_Control,PA,PA_Akkermansia muciniphila,Akkermansia muciniphila,Adenoma,Control,prevalence_difference,0.01825243557963918,0.6917757406417291,0.8316854409962361,False
+CRC_vs_Adenoma,PA,PA_[Ruminococcus] torques,[Ruminococcus] torques,CRC,Adenoma,prevalence_difference,-0.009883128088477466,0.8047991557597298,0.8360534919057387,False
+CRC_vs_Adenoma,PA,PA_Phocaeicola dorei,Phocaeicola dorei,CRC,Adenoma,prevalence_difference,-0.010196878186524372,0.8041302232716155,0.8360534919057387,False
+CRC_vs_Adenoma,PA,PA_Blautia sp. CAG:257,Blautia sp. CAG:257,CRC,Adenoma,prevalence_difference,0.011765628676758955,0.8005961031737143,0.8360534919057387,False
+CRC_vs_Adenoma,PA,PA_Bacteroides finegoldii,Bacteroides finegoldii,CRC,Adenoma,prevalence_difference,0.012785316495411425,0.793897621380808,0.8360534919057387,False
+Adenoma_vs_Control,PA,PA_Dorea longicatena,Dorea longicatena,Adenoma,Control,prevalence_difference,-0.013330835302934219,0.7061618070523683,0.8395479261622601,False
+CRC_vs_Control,PA,PA_Alistipes putredinis,Alistipes putredinis,CRC,Control,prevalence_difference,0.008867811035498163,0.7590473906613137,0.8460215708412558,False
+Adenoma_vs_Control,PA,PA_Bacteroides eggerthii,Bacteroides eggerthii,Adenoma,Control,prevalence_difference,0.013784804288926034,0.7271123323663369,0.8486966415947104,False
+Adenoma_vs_Control,PA,PA_Phocaeicola dorei,Phocaeicola dorei,Adenoma,Control,prevalence_difference,-0.013172306450683124,0.7371294442784695,0.8486966415947104,False
+Adenoma_vs_Control,PA,PA_Escherichia coli,Escherichia coli,Adenoma,Control,prevalence_difference,0.013496570012105802,0.7376522211991408,0.8486966415947104,False
+CRC_vs_Control,PA,PA_Coprococcus comes,Coprococcus comes,CRC,Control,prevalence_difference,0.007911676512308508,0.7705186713784644,0.8499535859535639,False
+Adenoma_vs_Control,PA,PA_Bacteroides cellulosilyticus,Bacteroides cellulosilyticus,Adenoma,Control,prevalence_difference,0.014613477834784117,0.7506648941278725,0.8544802518264081,False
+CRC_vs_Control,PA,PA_Klebsiella variicola,Klebsiella variicola,CRC,Control,prevalence_difference,0.006899430808180562,0.7841415054031908,0.8561545007973614,False
+CRC_vs_Control,PA,PA_Dorea formicigenerans,Dorea formicigenerans,CRC,Control,prevalence_difference,-0.006538074802937555,0.7960692451393392,0.8603980730293868,False
+CRC_vs_Control,rCLR,rCLR_Lawsonibacter asaccharolyticus,Lawsonibacter asaccharolyticus,CRC,Control,mean_rCLR_difference,0.0748061411541121,0.7077441685122806,0.8704439773656785,False
+CRC_vs_Adenoma,rCLR,rCLR_Phocaeicola dorei,Phocaeicola dorei,CRC,Adenoma,mean_rCLR_difference,-0.08497204788467339,0.7516505731030454,0.8742022969785419,False
+CRC_vs_Control,PA,PA_[Ruminococcus] torques,[Ruminococcus] torques,CRC,Control,prevalence_difference,0.00679843068249153,0.8199314533878901,0.8773266551250424,False
+CRC_vs_Control,rCLR,rCLR_Veillonella atypica,Veillonella atypica,CRC,Control,mean_rCLR_difference,0.0978027867613398,0.7228412742715096,0.87890927667104,False
+Adenoma_vs_Control,rCLR,rCLR_[Eubacterium] rectale,[Eubacterium] rectale,Adenoma,Control,mean_rCLR_difference,-0.060088071219528194,0.7328372785484212,0.891063509144103,False
+CRC_vs_Control,rCLR,rCLR_Bifidobacterium pseudocatenulatum,Bifidobacterium pseudocatenulatum,CRC,Control,mean_rCLR_difference,-0.046799623091660296,0.7411961356518896,0.8911009720758672,False
+Adenoma_vs_Control,rCLR,rCLR_Coprococcus comes,Coprococcus comes,Adenoma,Control,mean_rCLR_difference,-0.04369505568343146,0.7435021863886182,0.8938734150964286,False
+CRC_vs_Adenoma,rCLR,rCLR_[Ruminococcus] torques,[Ruminococcus] torques,CRC,Adenoma,mean_rCLR_difference,-0.0900918713342822,0.8004288666093341,0.8942974617817265,False
+CRC_vs_Adenoma,rCLR,rCLR_Veillonella atypica,Veillonella atypica,CRC,Adenoma,mean_rCLR_difference,0.03616505625761324,0.7894024556993448,0.8942974617817265,False
+CRC_vs_Adenoma,rCLR,rCLR_Oscillibacter sp. CAG:241,Oscillibacter sp. CAG:241,CRC,Adenoma,mean_rCLR_difference,-0.10854574313928428,0.8023603395424836,0.8942974617817265,False
+CRC_vs_Adenoma,rCLR,rCLR_Escherichia coli,Escherichia coli,CRC,Adenoma,mean_rCLR_difference,-0.08142337709755179,0.7958541377918165,0.8942974617817265,False
+CRC_vs_Control,PA,PA_Agathobaculum butyriciproducens,Agathobaculum butyriciproducens,CRC,Control,prevalence_difference,-0.00319833731348651,0.8682962052016131,0.8943975549687218,False
+CRC_vs_Control,PA,PA_Oscillibacter sp. 57_20,Oscillibacter sp. 57_20,CRC,Control,prevalence_difference,-0.005577451385272769,0.8693209880069819,0.8943975549687218,False
+CRC_vs_Control,PA,PA_Firmicutes bacterium CAG:83,Firmicutes bacterium CAG:83,CRC,Control,prevalence_difference,-0.0053597400032319165,0.8630182512064062,0.8943975549687218,False
+CRC_vs_Control,PA,PA_Phocaeicola massiliensis,Phocaeicola massiliensis,CRC,Control,prevalence_difference,0.005281184349918311,0.8636972150672824,0.8943975549687218,False
+CRC_vs_Adenoma,rCLR,rCLR_Firmicutes bacterium CAG:145,Firmicutes bacterium CAG:145,CRC,Adenoma,mean_rCLR_difference,0.03262044673895503,0.8111455442434363,0.8947687962272958,False
+CRC_vs_Adenoma,rCLR,rCLR_Eubacterium sp. CAG:38,Eubacterium sp. CAG:38,CRC,Adenoma,mean_rCLR_difference,0.07709370558137191,0.8209100803458829,0.8962997816021374,False
+CRC_vs_Adenoma,rCLR,rCLR_Phascolarctobacterium succinatutens,Phascolarctobacterium succinatutens,CRC,Adenoma,mean_rCLR_difference,0.010203713009627635,0.8314340951632774,0.8986206887118251,False
+Adenoma_vs_Control,PA,PA_Alistipes shahii,Alistipes shahii,Adenoma,Control,prevalence_difference,-0.011053784516054654,0.8064156211405238,0.9082786469688005,False
+CRC_vs_Adenoma,rCLR,rCLR_Bacteroides xylanisolvens,Bacteroides xylanisolvens,CRC,Adenoma,mean_rCLR_difference,0.05031660840412522,0.863266623815283,0.9086194460791583,False
+CRC_vs_Adenoma,rCLR,rCLR_Firmicutes bacterium CAG:110,Firmicutes bacterium CAG:110,CRC,Adenoma,mean_rCLR_difference,-0.03119853517685514,0.8661605934586369,0.9086194460791583,False
+CRC_vs_Adenoma,rCLR,rCLR_Alistipes inops,Alistipes inops,CRC,Adenoma,mean_rCLR_difference,-0.026269058186043186,0.8593080317716362,0.9086194460791583,False
+Adenoma_vs_Control,PA,PA_Parvimonas micra,Parvimonas micra,Adenoma,Control,prevalence_difference,0.0062258603793163,0.8164100147206359,0.9099569955740421,False
+CRC_vs_Control,rCLR,rCLR_Dialister invisus,Dialister invisus,CRC,Control,mean_rCLR_difference,0.040593679186088444,0.7664825302141973,0.9112625636991013,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides cellulosilyticus,Bacteroides cellulosilyticus,Adenoma,Control,mean_rCLR_difference,0.12511020767328312,0.7707618819199559,0.9163502373937253,False
+CRC_vs_Adenoma,rCLR,rCLR_Roseburia inulinivorans,Roseburia inulinivorans,CRC,Adenoma,mean_rCLR_difference,-0.039788969047181544,0.8827122470933942,0.9169923343591572,False
+CRC_vs_Control,PA,PA_Bacteroides uniformis,Bacteroides uniformis,CRC,Control,prevalence_difference,0.0021344693228951828,0.9090021709877132,0.9263164980541458,False
+CRC_vs_Adenoma,rCLR,rCLR_[Ruminococcus] lactaris,[Ruminococcus] lactaris,CRC,Adenoma,mean_rCLR_difference,0.004546747557269554,0.9121221140064252,0.9283028255846899,False
+CRC_vs_Adenoma,rCLR,rCLR_Ruminococcus bromii,Ruminococcus bromii,CRC,Adenoma,mean_rCLR_difference,0.03240715208011702,0.9135648992289563,0.9283028255846899,False
+CRC_vs_Adenoma,rCLR,rCLR_Lachnospira pectinoschiza,Lachnospira pectinoschiza,CRC,Adenoma,mean_rCLR_difference,0.015791389968137587,0.9196270982427769,0.9283028255846899,False
+CRC_vs_Adenoma,PA,PA_Agathobaculum butyriciproducens,Agathobaculum butyriciproducens,CRC,Adenoma,prevalence_difference,-0.005569064240332655,0.9045617305924196,0.9306548574364317,False
+Adenoma_vs_Control,rCLR,rCLR_Phocaeicola dorei,Phocaeicola dorei,Adenoma,Control,mean_rCLR_difference,0.03537319967500774,0.8123449602477775,0.9314195784864652,False
+Adenoma_vs_Control,rCLR,rCLR_Bifidobacterium bifidum,Bifidobacterium bifidum,Adenoma,Control,mean_rCLR_difference,0.05199878616904163,0.8153865107385799,0.9314195784864652,False
+Adenoma_vs_Control,rCLR,rCLR_Parasutterella excrementihominis,Parasutterella excrementihominis,Adenoma,Control,mean_rCLR_difference,0.019511554663752595,0.805086475146707,0.9314195784864652,False
+Adenoma_vs_Control,rCLR,rCLR_Proteobacteria bacterium CAG:139,Proteobacteria bacterium CAG:139,Adenoma,Control,mean_rCLR_difference,0.039330689312268186,0.8266643883470014,0.9314195784864652,False
+Adenoma_vs_Control,rCLR,rCLR_Parvimonas micra,Parvimonas micra,Adenoma,Control,mean_rCLR_difference,0.0029257245233566542,0.8269613080020017,0.9314195784864652,False
+CRC_vs_Adenoma,PA,PA_Eubacterium sp. CAG:251,Eubacterium sp. CAG:251,CRC,Adenoma,prevalence_difference,-0.005098439093262214,0.9191826565146619,0.9354265120332914,False
+CRC_vs_Adenoma,PA,PA_Coprococcus catus,Coprococcus catus,CRC,Adenoma,prevalence_difference,0.00509843909326213,0.9346201226243795,0.9354265120332914,False
+CRC_vs_Adenoma,PA,PA_Firmicutes bacterium CAG:145,Firmicutes bacterium CAG:145,CRC,Adenoma,prevalence_difference,-0.003372813554004206,0.9354265120332914,0.9354265120332914,False
+CRC_vs_Control,rCLR,rCLR_Streptococcus parasanguinis,Streptococcus parasanguinis,CRC,Control,mean_rCLR_difference,-0.03166176969363277,0.7964591395949779,0.9364959113918971,False
+CRC_vs_Adenoma,rCLR,rCLR_Butyricimonas virosa,Butyricimonas virosa,CRC,Adenoma,mean_rCLR_difference,0.06531640639028946,0.9365291868861819,0.9365291868861819,False
+Adenoma_vs_Control,rCLR,rCLR_Eubacterium sp. CAG:180,Eubacterium sp. CAG:180,Adenoma,Control,mean_rCLR_difference,0.04053739129284584,0.8495217037412977,0.9371012608280294,False
+Adenoma_vs_Control,rCLR,rCLR_Firmicutes bacterium CAG:145,Firmicutes bacterium CAG:145,Adenoma,Control,mean_rCLR_difference,-0.03527111197384181,0.84591572631397,0.9371012608280294,False
+Adenoma_vs_Control,rCLR,rCLR_Firmicutes bacterium CAG:110,Firmicutes bacterium CAG:110,Adenoma,Control,mean_rCLR_difference,0.018674939696203846,0.8824052743844071,0.9626221225097799,False
+Adenoma_vs_Control,rCLR,rCLR_Alistipes inops,Alistipes inops,Adenoma,Control,mean_rCLR_difference,0.03367761553320205,0.8906503750324132,0.9626221225097799,False
+CRC_vs_Control,PA,PA_Intestinibacter bartlettii,Intestinibacter bartlettii,CRC,Control,prevalence_difference,-0.0027045589212288945,0.955466988463451,0.9644808279772572,False
+Adenoma_vs_Control,rCLR,rCLR_Flavonifractor plautii,Flavonifractor plautii,Adenoma,Control,mean_rCLR_difference,-0.0016888718447957696,0.9338179399550708,0.970082714322258,False
+Adenoma_vs_Control,rCLR,rCLR_Ruminococcus bromii,Ruminococcus bromii,Adenoma,Control,mean_rCLR_difference,0.060809926494315714,0.9130904979022942,0.970082714322258,False
+Adenoma_vs_Control,rCLR,rCLR_Firmicutes bacterium CAG:83,Firmicutes bacterium CAG:83,Adenoma,Control,mean_rCLR_difference,-0.11430141843040836,0.9316710397049018,0.970082714322258,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides caccae,Bacteroides caccae,Adenoma,Control,mean_rCLR_difference,-0.014933063798683477,0.9256612058268822,0.970082714322258,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides stercoris,Bacteroides stercoris,CRC,Control,mean_rCLR_difference,-0.08091388608857775,0.89316446712603,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Holdemanella biformis,Holdemanella biformis,CRC,Control,mean_rCLR_difference,-0.0343431246840251,0.8481299537407527,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Eubacterium ramulus,Eubacterium ramulus,CRC,Control,mean_rCLR_difference,0.00353470409232709,0.897030192008842,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides eggerthii,Bacteroides eggerthii,CRC,Control,mean_rCLR_difference,-0.0347018712594789,0.9139799256824528,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Firmicutes bacterium CAG:145,Firmicutes bacterium CAG:145,CRC,Control,mean_rCLR_difference,-0.002650665234886773,0.9215522054966214,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Eggerthella lenta,Eggerthella lenta,CRC,Control,mean_rCLR_difference,-0.04336518826903302,0.8883264854675714,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides intestinalis,Bacteroides intestinalis,CRC,Control,mean_rCLR_difference,0.002237221988519139,0.877583194672441,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Coprobacter fastidiosus,Coprobacter fastidiosus,CRC,Control,mean_rCLR_difference,0.06598346597749022,0.8896854261293496,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Phocaeicola massiliensis,Phocaeicola massiliensis,CRC,Control,mean_rCLR_difference,-0.025366048581175776,0.9274984306664745,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Megamonas funiformis,Megamonas funiformis,CRC,Control,mean_rCLR_difference,-0.006340719390763545,0.882634528801164,0.9729640400128703,False
+CRC_vs_Control,rCLR,rCLR_Klebsiella pneumoniae,Klebsiella pneumoniae,CRC,Control,mean_rCLR_difference,0.033603690944495376,0.9003582574099873,0.9729640400128703,False
+Adenoma_vs_Control,rCLR,rCLR_Fusicatenibacter saccharivorans,Fusicatenibacter saccharivorans,Adenoma,Control,mean_rCLR_difference,-0.013433528491106128,0.9550555830036096,0.973247117917964,False
+Adenoma_vs_Control,rCLR,rCLR_Veillonella atypica,Veillonella atypica,Adenoma,Control,mean_rCLR_difference,0.06163773050372656,0.9541930280899897,0.973247117917964,False
+CRC_vs_Control,rCLR,rCLR_Bacteroides uniformis,Bacteroides uniformis,CRC,Control,mean_rCLR_difference,0.006132926633142244,0.9460536243796303,0.9762813625143224,False
+CRC_vs_Control,rCLR,rCLR_Alistipes inops,Alistipes inops,CRC,Control,mean_rCLR_difference,0.007408557347158867,0.9580331127476995,0.9762813625143224,False
+CRC_vs_Control,rCLR,rCLR_Acidaminococcus intestini,Acidaminococcus intestini,CRC,Control,mean_rCLR_difference,0.009583549674094749,0.9564008791005496,0.9762813625143224,False
+Adenoma_vs_Control,rCLR,rCLR_Anaerostipes hadrus,Anaerostipes hadrus,Adenoma,Control,mean_rCLR_difference,-0.0014104000191694777,0.985048870698806,0.985048870698806,False
+Adenoma_vs_Control,rCLR,rCLR_Bacteroides salyersiae,Bacteroides salyersiae,Adenoma,Control,mean_rCLR_difference,0.006392319067051528,0.9790577067679741,0.985048870698806,False
+CRC_vs_Control,rCLR,rCLR_Ruminococcus bromii,Ruminococcus bromii,CRC,Control,mean_rCLR_difference,0.09321707857443273,0.9873830228412304,0.9962165354442319,False
+CRC_vs_Control,rCLR,rCLR_Firmicutes bacterium CAG:110,Firmicutes bacterium CAG:110,CRC,Control,mean_rCLR_difference,-0.012523595480651295,0.9962165354442319,0.9962165354442319,False
+Adenoma_vs_Control,PA,PA_Fusicatenibacter saccharivorans,Fusicatenibacter saccharivorans,Adenoma,Control,prevalence_difference,-0.004186602870813405,0.9049304519105845,0.9982222510766242,False
+Adenoma_vs_Control,PA,PA_Phocaeicola coprocola,Phocaeicola coprocola,Adenoma,Control,prevalence_difference,0.004813512422897348,0.9146819059440783,0.9986833054695549,False
+Adenoma_vs_Control,PA,PA_Roseburia intestinalis,Roseburia intestinalis,Adenoma,Control,prevalence_difference,-0.0011241136795987483,1.0,1.0,False
+Adenoma_vs_Control,PA,PA_Agathobaculum butyriciproducens,Agathobaculum butyriciproducens,Adenoma,Control,prevalence_difference,0.002370726926846145,1.0,1.0,False
+Adenoma_vs_Control,PA,PA_Eubacterium ramulus,Eubacterium ramulus,Adenoma,Control,prevalence_difference,-0.005202628696604594,0.9341654423666993,1.0,False
+Adenoma_vs_Control,PA,PA_Veillonella atypica,Veillonella atypica,Adenoma,Control,prevalence_difference,-0.004806306565976803,0.9348713041051464,1.0,False
+Adenoma_vs_Control,PA,PA_Barnesiella intestinihominis,Barnesiella intestinihominis,Adenoma,Control,prevalence_difference,-0.0030048423358505216,1.0,1.0,False
+Adenoma_vs_Control,PA,PA_Bacteroides sp. CAG:144,Bacteroides sp. CAG:144,Adenoma,Control,prevalence_difference,-0.002449991352971692,1.0,1.0,False
+Adenoma_vs_Control,PA,PA_Clostridium sp. CAG:58,Clostridium sp. CAG:58,Adenoma,Control,prevalence_difference,0.000778232547414548,1.0,1.0,False
+Adenoma_vs_Control,PA,PA_Bacteroides caccae,Bacteroides caccae,Adenoma,Control,prevalence_difference,-0.002377932783766634,1.0,1.0,False
+Adenoma_vs_Control,PA,PA_Anaerotignum lactatifermentans,Anaerotignum lactatifermentans,Adenoma,Control,prevalence_difference,0.001095290251916764,1.0,1.0,False
+CRC_vs_Control,PA,PA_Streptococcus parasanguinis,Streptococcus parasanguinis,CRC,Control,prevalence_difference,0.0005835562817589901,1.0,1.0,False

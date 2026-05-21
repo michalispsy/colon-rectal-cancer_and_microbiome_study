@@ -1,0 +1,21 @@
+Arrangement,Model,Species_clean,Species_key,Species_MaxSelectionFrequency,Species_MaxTopKSelectionFrequency,Species_SumMeanAbsNonZeroCoef,Species_BestConsensusRank,N_Selected_FeatureTypes,Any_CRC_Associated,Any_Control_Associated,PA_MeanAbsNonZeroCoef,rCLR_MeanAbsNonZeroCoef,PA_SelectionFrequency,rCLR_SelectionFrequency,Dominant_Signal,SpeciesRank,In_RF_SHAP_TopK,In_RF_SHAP_Any,RF_SHAP_SpeciesRank
+OnlyFemale,LASSO_LogisticRegression,Parvimonas micra,parvimonas micra,1.0,1.0,0.25614635541969966,1,2,True,False,0.25614635541969966,0.0,1.0,0.0,PA,1,True,True,2
+OnlyFemale,LASSO_LogisticRegression,Ruthenibacterium lactatiformans,ruthenibacterium lactatiformans,0.9,0.9,0.0329678610827997,2,2,True,False,0.0,0.0329678610827997,0.0,0.9,rCLR,2,True,True,1
+OnlyFemale,LASSO_LogisticRegression,Dorea formicigenerans,dorea formicigenerans,0.8,0.8,0.05735992033452664,3,2,True,False,0.0,0.05735992033452664,0.0,0.8,rCLR,3,True,True,5
+OnlyFemale,LASSO_LogisticRegression,Anaerostipes hadrus,anaerostipes hadrus,0.8,0.8,0.05356727522992074,4,2,False,True,0.0,0.05356727522992074,0.0,0.8,rCLR,4,True,True,3
+OnlyFemale,LASSO_LogisticRegression,Flavonifractor plautii,flavonifractor plautii,0.8,0.8,0.04806765900338902,5,2,True,False,0.04806765900338902,0.0,0.8,0.0,PA,5,True,True,7
+OnlyFemale,LASSO_LogisticRegression,Bacteroides fragilis,bacteroides fragilis,0.6,0.6,0.02123466990003166,6,2,True,False,0.0,0.02123466990003166,0.0,0.6,rCLR,6,True,True,4
+OnlyFemale,LASSO_LogisticRegression,Anaerobutyricum hallii,anaerobutyricum hallii,0.3,0.3,0.016695776638179286,7,2,False,True,0.0,0.016695776638179286,0.0,0.3,rCLR,7,True,True,8
+OnlyFemale,LASSO_LogisticRegression,Phocaeicola plebeius,phocaeicola plebeius,0.2,0.2,0.008839943616426368,8,2,True,False,0.008839943616426368,0.0,0.2,0.0,PA,8,True,True,12
+OnlyFemale,LASSO_LogisticRegression,[Ruminococcus] gnavus,[ruminococcus] gnavus,0.1,0.1,0.028814216193520124,9,2,True,False,0.028814216193520124,0.0,0.1,0.0,PA,9,True,True,15
+OnlyFemale,LASSO_LogisticRegression,Bacteroides thetaiotaomicron,bacteroides thetaiotaomicron,0.1,0.1,0.016305724385108664,10,2,True,False,0.0,0.016305724385108664,0.0,0.1,rCLR,10,True,True,6
+OnlyFemale,LASSO_LogisticRegression,Acidaminococcus intestini,acidaminococcus intestini,0.0,0.0,0.0,12,2,False,False,0.0,0.0,0.0,0.0,PA,11,False,True,107
+OnlyFemale,LASSO_LogisticRegression,Adlercreutzia equolifaciens,adlercreutzia equolifaciens,0.0,0.0,0.0,13,2,False,False,0.0,0.0,0.0,0.0,PA,12,True,True,16
+OnlyFemale,LASSO_LogisticRegression,Adlercreutzia equolifaciens 1,adlercreutzia equolifaciens 1,0.0,0.0,0.0,14,2,False,False,0.0,0.0,0.0,0.0,PA,13,False,True,80
+OnlyFemale,LASSO_LogisticRegression,Agathobaculum butyriciproducens,agathobaculum butyriciproducens,0.0,0.0,0.0,15,2,False,False,0.0,0.0,0.0,0.0,PA,14,False,True,93
+OnlyFemale,LASSO_LogisticRegression,Akkermansia muciniphila,akkermansia muciniphila,0.0,0.0,0.0,16,2,False,False,0.0,0.0,0.0,0.0,PA,15,False,True,37
+OnlyFemale,LASSO_LogisticRegression,Alistipes finegoldii,alistipes finegoldii,0.0,0.0,0.0,17,2,False,False,0.0,0.0,0.0,0.0,PA,16,True,True,14
+OnlyFemale,LASSO_LogisticRegression,Alistipes inops,alistipes inops,0.0,0.0,0.0,18,2,False,False,0.0,0.0,0.0,0.0,PA,17,False,True,103
+OnlyFemale,LASSO_LogisticRegression,Alistipes putredinis,alistipes putredinis,0.0,0.0,0.0,19,2,False,False,0.0,0.0,0.0,0.0,PA,18,False,True,75
+OnlyFemale,LASSO_LogisticRegression,Alistipes shahii,alistipes shahii,0.0,0.0,0.0,20,2,False,False,0.0,0.0,0.0,0.0,PA,19,False,True,92
+OnlyFemale,LASSO_LogisticRegression,Anaerotignum lactatifermentans,anaerotignum lactatifermentans,0.0,0.0,0.0,23,2,False,False,0.0,0.0,0.0,0.0,PA,20,False,True,70
