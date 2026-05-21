@@ -1,9 +1,8 @@
-# 🦠 CRC Microbiome Study — Sex-Stratified Machine Learning for Colorectal Cancer Detection
+# CRC Microbiome Study — Sex-Stratified Machine Learning for Colorectal Cancer Detection
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-4.x-276DC3?logo=r&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn&logoColor=white)
 ![SHAP](https://img.shields.io/badge/SHAP-Explainability-ff6b6b)
 ![License](https://img.shields.io/badge/License-Academic-green)
@@ -17,7 +16,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [Key Results](#-key-results)
@@ -31,7 +30,7 @@
 
 ---
 
-## 🔬 Overview
+## Overview
 
 This project presents a rigorous, multi-cohort machine learning pipeline to detect **Colorectal Cancer (CRC)** from fecal metagenomics data, with a primary focus on uncovering **sex-specific microbial signatures**. The analysis spans **10 independent international cohorts** (1,544 samples, 8 countries, 3 continents) and employs **Leave-One-Dataset-Out (LODO) cross-validation** — the gold standard for evaluating cross-study generalizability in microbiome research.
 
@@ -43,7 +42,7 @@ This project presents a rigorous, multi-cohort machine learning pipeline to dete
 
 ---
 
-## 🏆 Key Results
+## Key Results
 
 | Model | Target | Median LODO AUC | IQR |
 |:---|:---|:---:|:---|
@@ -60,7 +59,7 @@ This project presents a rigorous, multi-cohort machine learning pipeline to dete
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Property | Value |
 |:---|:---|
@@ -81,22 +80,22 @@ This project presents a rigorous, multi-cohort machine learning pipeline to dete
 
 | Study | n | Country | Continent | Has Adenoma |
 |:---|:---:|:---|:---|:---:|
-| YachidaS_2019 | 576 | 🇯🇵 Japan | Asia | ✅ |
-| ZellerG_2014 | 156 | 🇫🇷 France | Europe | ✅ |
-| FengQ_2015 | 154 | 🇦🇹 Austria | Europe | ✅ |
-| YuJ_2015 | 128 | 🇨🇳 China | Asia | ❌ |
-| WirbelJ_2018 | 125 | 🇩🇪 Germany | Europe | ❌ |
-| VogtmannE_2016 | 104 | 🇺🇸 USA | N. America | ❌ |
-| HanniganGD_2017 | 81 | 🇺🇸 USA / 🇨🇦 Canada | N. America | ✅ |
-| ThomasAM_2018a | 80 | 🇮🇹 Italy | Europe | ✅ |
-| ThomasAM_2019_c | 80 | 🇮🇹 Italy | Europe | ❌ |
-| ThomasAM_2018b | 60 | 🇮🇹 Italy | Europe | ❌ |
+| YachidaS_2019 | 576 | Japan | Asia | Yes |
+| ZellerG_2014 | 156 | France | Europe | Yes |
+| FengQ_2015 | 154 | Austria | Europe | Yes |
+| YuJ_2015 | 128 | China | Asia | No |
+| WirbelJ_2018 | 125 | Germany | Europe | No |
+| VogtmannE_2016 | 104 | USA | N. America | No |
+| HanniganGD_2017 | 81 | USA / Canada | N. America | Yes |
+| ThomasAM_2018a | 80 | Italy | Europe | Yes |
+| ThomasAM_2019_c | 80 | Italy | Europe | No |
+| ThomasAM_2018b | 60 | Italy | Europe | No |
 
 </details>
 
 ---
 
-## 🧬 Methodology
+## Methodology
 
 ### Hurdle Encoding Strategy
 
@@ -135,7 +134,7 @@ These serve as ground truth for SHAP cross-validation in Phase 5.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 colon-rectal-cancer_and_microbiome_study/
@@ -162,8 +161,8 @@ colon-rectal-cancer_and_microbiome_study/
 │   │   ├── step4_2b_cross_model.py               # Cross-model comparison
 │   │   ├── step4_2c_fairness.py                  # Sex fairness metrics
 │   │   ├── step4_2de_aggregation.py              # Adenoma scoring
-│   │   ├── step4_3_advanced_training.py
-│   │   └── mmuphin_wrapper.R                     # Batch correction (R)
+│   │   └── step4_3_advanced_training.py
+│   │   
 │   └── phase_5/            # Interpretability & Validation
 │       ├── step5_1_shap_analysis.py              # SHAP per model (PA vs rCLR)
 │       ├── step5_2_cross_validate_shap_phase3.py # SHAP × Phase 3 overlap
@@ -184,7 +183,7 @@ colon-rectal-cancer_and_microbiome_study/
 
 ---
 
-## 🔄 Pipeline Phases
+## Pipeline Phases
 
 ```
 Phase 1: Data Preparation
@@ -216,7 +215,7 @@ Phase 5: Interpretability & Validation
 
 ---
 
-## ⚙️ Setup & Reproducibility
+## Setup & Reproducibility
 
 ### Requirements
 
@@ -224,11 +223,6 @@ Phase 5: Interpretability & Validation
 ```bash
 pip install numpy pandas scikit-learn shap matplotlib seaborn scipy statsmodels
 pip install umap-learn pycombat pingouin
-```
-
-**R (≥ 4.x)** — for batch correction only
-```r
-install.packages("MMUPHin")
 ```
 
 ### Data
@@ -269,7 +263,7 @@ python code/phase_5/step5_7_transferability_viz.py
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 ### 1. Two Fundamentally Different Dysbiosis Pathways
 
@@ -314,7 +308,7 @@ Cross-cohort generalizability is bounded by three domain shifts:
 
 ---
 
-## 👥 Authors
+## Authors
 
 - Παπακώστας Αχιλλέας
 - Τσάκαλος Θεόδωρος
