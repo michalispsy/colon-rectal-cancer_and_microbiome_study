@@ -1,4 +1,4 @@
-# CRC Microbiome Study — Sex-Stratified Machine Learning for Colorectal Cancer Detection
+<h1 align="center">CRC Microbiome Study - Sex-Stratified Machine Learning for Colorectal Cancer Detection</h1>
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 **A multi-cohort metagenomics study investigating sex-specific gut microbiome dysbiosis in Colorectal Cancer using LODO cross-validation, Hurdle encoding, and SHAP-based interpretability.**
 
-*NTUA — School of Electrical & Computer Engineering | Course: Mobile & Electronic Health Technologies*
+*NTUA - School of Electrical & Computer Engineering | Course: Mobile & Electronic Health Technologies*
 
 </div>
 
@@ -32,7 +32,7 @@
 
 ## Overview
 
-This project presents a rigorous, multi-cohort machine learning pipeline to detect **Colorectal Cancer (CRC)** from fecal metagenomics data, with a primary focus on uncovering **sex-specific microbial signatures**. The analysis spans **10 independent international cohorts** (1,544 samples, 8 countries, 3 continents) and employs **Leave-One-Dataset-Out (LODO) cross-validation** — the gold standard for evaluating cross-study generalizability in microbiome research.
+This project presents a rigorous, multi-cohort machine learning pipeline to detect **Colorectal Cancer (CRC)** from fecal metagenomics data, with a primary focus on uncovering **sex-specific microbial signatures**. The analysis spans **10 independent international cohorts** (1,544 samples, 8 countries, 3 continents) and employs **Leave-One-Dataset-Out (LODO) cross-validation** - the gold standard for evaluating cross-study generalizability in microbiome research.
 
 **Core Research Questions:**
 1. Can gut microbiome data non-invasively detect CRC with clinically useful accuracy?
@@ -46,12 +46,12 @@ This project presents a rigorous, multi-cohort machine learning pipeline to dete
 
 | Model | Target | Median LODO AUC | IQR |
 |:---|:---|:---:|:---|
-| **A — Universal** | CRC vs Control (all) | **0.748** | [0.691 – 0.824] |
-| **B — Male-Only** | CRC vs Control (♂) | **0.774** | [0.722 – 0.833] |
-| **C — Female-Only** | CRC vs Control (♀) | **0.686** | [0.614 – 0.771] |
-| **D — Early Detection** | Adenoma vs Control | TBD | — |
-| **E — Stage Discrimination** | CRC vs Adenoma | TBD | — |
-| **F — Pan-Neoplasia** | (CRC+Adenoma) vs Control | TBD | — |
+| **A - Universal** | CRC vs Control (all) | **0.748** | [0.691 – 0.824] |
+| **B - Male-Only** | CRC vs Control (♂) | **0.774** | [0.722 – 0.833] |
+| **C - Female-Only** | CRC vs Control (♀) | **0.686** | [0.614 – 0.771] |
+| **D - Early Detection** | Adenoma vs Control | TBD | - |
+| **E - Stage Discrimination** | CRC vs Adenoma | TBD | - |
+| **F - Pan-Neoplasia** | (CRC+Adenoma) vs Control | TBD | - |
 
 **Fairness (Model A):** AUC gap = 0.008 · Equal Opportunity gap = 9.5% · Demographic Parity gap = 9.7% → **Clinically fair model**
 
@@ -99,7 +99,7 @@ This project presents a rigorous, multi-cohort machine learning pipeline to dete
 
 ### Hurdle Encoding Strategy
 
-To handle the zero-inflated, compositional nature of metagenomic data, each species generates **two features** per sample — with **no pseudocount**:
+To handle the zero-inflated, compositional nature of metagenomic data, each species generates **two features** per sample - with **no pseudocount**:
 
 ```
 PA_i   = 1  if x_i > 0, else 0          (presence/absence)
@@ -126,9 +126,9 @@ For each of the 10 cohorts as held-out test set:
 ### Statistical Validation (Phase 3)
 
 Before ML, three complementary statistical tests establish biologically valid biomarkers:
-- **Blocked Wilcoxon** (rCLR features) — controls for study as a blocking factor
-- **Cochran-Mantel-Haenszel** (PA features) — stratified odds ratios across cohorts
-- **Random Effects Meta-Analysis** — pooled effect sizes with I² heterogeneity
+- **Blocked Wilcoxon** (rCLR features) - controls for study as a blocking factor
+- **Cochran-Mantel-Haenszel** (PA features) - stratified odds ratios across cohorts
+- **Random Effects Meta-Analysis** - pooled effect sizes with I² heterogeneity
 
 These serve as ground truth for SHAP cross-validation in Phase 5.
 
@@ -153,7 +153,7 @@ colon-rectal-cancer_and_microbiome_study/
 │   │   ├── step3_3_random_effects_meta_analysis.py
 │   │   ├── step3_4_visualization.py              # Volcano, forest, heatmap
 │   │   └── step3_5_adenoma_carcinoma_sequence.py # EARLY/LATE/PROGRESSION timeline
-│   ├── phase_4/            # ML Pipeline — LODO + Fairness
+│   ├── phase_4/            # ML Pipeline - LODO + Fairness
 │   │   ├── step4_0_prepare_data.py
 │   │   ├── step4_1_lodo_prep.py
 │   │   ├── step4_1_training.py
@@ -232,28 +232,28 @@ The processed `crc_study_final_data/` directory is tracked in git (raw downloads
 ### Running the Pipeline
 
 ```bash
-# Phase 1 — Regenerate figures
+# Phase 1 - Regenerate figures
 python code/phase_1/regen_phase1_figures.py
 
-# Phase 2 — EDA
+# Phase 2 - EDA
 python code/phase_2/step2_1_dimensionality_reduction.py
 python code/phase_2/step2_2_1_permanova.py
 python code/phase_2/step2_3_centroid_distances.py
 python code/phase_2/step2_4_unsupervised_clustering.py
 
-# Phase 3 — Differential Abundance
+# Phase 3 - Differential Abundance
 python code/phase_3/step3_1_blocked_wilcoxon_rclr.py
 python code/phase_3/step3_2_cmh_pa.py
 python code/phase_3/step3_3_random_effects_meta_analysis.py
 python code/phase_3/step3_5_adenoma_carcinoma_sequence.py
 
-# Phase 4 — ML (computationally intensive)
+# Phase 4 - ML (computationally intensive)
 python code/phase_4/step4_0_prepare_data.py
 python code/phase_4/step4_1_training.py      # runs LODO for all 6 models
 python code/phase_4/step4_2a_aggregation.py
 python code/phase_4/step4_2c_fairness.py
 
-# Phase 5 — Interpretability
+# Phase 5 - Interpretability
 python code/phase_5/step5_1_shap_analysis.py
 python code/phase_5/step5_2_cross_validate_shap_phase3.py
 python code/phase_5/step5_3b_shap_beeswarm_all_rf.py
@@ -267,7 +267,7 @@ python code/phase_5/step5_7_transferability_viz.py
 
 ### 1. Two Fundamentally Different Dysbiosis Pathways
 
-SHAP beeswarm analysis (Models B & C) reveals that men and women do not simply differ in *degree* of CRC-associated dysbiosis — they differ in *mechanism*:
+SHAP beeswarm analysis (Models B & C) reveals that men and women do not simply differ in *degree* of CRC-associated dysbiosis - they differ in *mechanism*:
 
 | | Men (Model B) | Women (Model C) |
 |:---|:---|:---|
@@ -276,7 +276,7 @@ SHAP beeswarm analysis (Models B & C) reveals that men and women do not simply d
 | **Key risk species** | *Akkermansia muciniphila* (SHAP +0.08) | *B. fragilis* ETBF strains (SHAP +0.05), *B. thetaiotaomicron* |
 | **Universal #1 biomarker** | *Parvimonas micra* (SHAP +0.13) | *Parvimonas micra* (SHAP +0.08, weaker) |
 
-> The male signal is characterised by Lachnospiraceae loss; the female signal by Bacteroides gain — pointing to different molecular oncogenesis pathways.
+> The male signal is characterised by Lachnospiraceae loss; the female signal by Bacteroides gain - pointing to different molecular oncogenesis pathways.
 
 ### 2. Biomarker Stability (Bump Charts)
 
@@ -288,16 +288,16 @@ Sex-specific biomarkers show dramatic rank shifts: *Roseburia intestinalis* drop
 
 The Universal model (Model A) achieves excellent demographic fairness (AUC gap: 0.008). Counterintuitively, the Female-only model (Model C, AUC=0.686) *underperforms* the Universal model on female patients (AUC=0.749), because it lacks the benefit of the stronger male signal. **Clinical recommendation: deploy the Universal model**, not sex-specific models.
 
-### 4. Local XAI — Interpretable Errors
+### 4. Local XAI - Interpretable Errors
 
 SHAP waterfall analysis on 4 archetype patients from WirbelJ_2018 (held-out):
 
 | Case | P(CRC) | Explanation |
 |:---|:---:|:---|
 | True Positive | 0.78 | *P. micra* PA + rCLR together contribute +0.11 |
-| False Negative | 0.30 | Absent *P. micra*; rich *Roseburia* — likely early-stage CRC |
+| False Negative | 0.30 | Absent *P. micra*; rich *Roseburia* - likely early-stage CRC |
 | True Negative | 0.23 | All 15 top features push toward Control |
-| False Positive | 0.65 | No dominant driver; diffuse microbial imbalance — possibly subclinical gut inflammation |
+| False Positive | 0.65 | No dominant driver; diffuse microbial imbalance - possibly subclinical gut inflammation |
 
 ### 5. Transferability Constraints
 
