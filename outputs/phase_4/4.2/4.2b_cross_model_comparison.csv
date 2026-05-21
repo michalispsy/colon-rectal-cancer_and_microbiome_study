@@ -1,0 +1,5 @@
+Model,Best Algorithm,Median AUC,IQR,N folds
+A: Universal (CRC vs Ctrl),LASSO,0.748,[0.665 – 0.771],10
+B: Male-Only (CRC vs Ctrl),RandomForest,0.774,[0.703 – 0.833],10
+C: Female-Only (CRC vs Ctrl),RandomForest,0.686,[0.638 – 0.785],10
+D: Adenoma vs Control,RandomForest,0.496,[0.489 – 0.515],5
